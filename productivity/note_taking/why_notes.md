@@ -8,6 +8,10 @@ Notes are small pieces of written information.
 
 ### Study
 
+To record key points for
+
+- structure construction
+- *later reference* 
 
 ### Problem Solving
 
@@ -34,5 +38,5 @@ To clarify thoughts.
 - specify goals
 - manage current state 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NjUyNjk2M119
+eyJoaXN0b3J5IjpbLTEyMTE0NDU5MjddfQ==
 -->
