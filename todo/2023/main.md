@@ -12,6 +12,7 @@
 - [ ] backup phones
 - [x] learn markdown & stackedit
 - [ ] understand note taking
+- [ ] manage anxiety of forgetting something
 - [ ] Mind Map
 - [ ] things to do late at night 
 - [ ] learn laptop battery use
@@ -29,5 +30,6 @@
 - [ ] economics
 - [ ] check the BOC credit card
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjg1Mzc1OTRdfQ==
+eyJoaXN0b3J5IjpbLTExNDkxNjI5OTgsLTIxMjg1Mzc1OTRdfQ
+==
 -->
