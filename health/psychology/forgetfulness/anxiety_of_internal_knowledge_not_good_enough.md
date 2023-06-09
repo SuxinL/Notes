@@ -25,9 +25,9 @@ As long as our knowledge has succeeded in solving our problems, we have met our 
 
 **Do not try to remember the text verbatim which is not only unrealistic but useless.** The final goal of learning is to use the knowledge as a tool to solve problems. Then it is desired for the knowledge in our mind to be generic to solve a group of problems. Always remember to test whether we have catch the main structure and internalize the knowledge immediately after learning something. 
 
-  The main structure remains stable as the format of target problems. When we encounter some materials related later on, compare the main structure in our mind and that of the materials. Update our knowledge if needed. It is fine that we do not remember some details like who, when, where and single steps. Search it when we really need it. Try to see materials like notes and books as backup when our memories fail rather than judgement of our abilities. 
+  The main structure remains stable over time as the format of target problems. It is the specific implementations of some components that will advance. When we encounter some materials related later on, compare the main structure in our mind and that of the materials. Update our knowledge if needed. It is fine that we do not remember some details like who, when, where and single steps. Search it when we really need it. Try to see materials like notes and books as backup when our memories fail rather than judgement of our abilities. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjkyNDMyMDldfQ==
+eyJoaXN0b3J5IjpbNjkzNDM2ODA5XX0=
 -->
