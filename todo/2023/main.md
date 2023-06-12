@@ -15,25 +15,25 @@
 - [ ] manage anxiety of forgetting something
 - [ ] Mind Map
 - [ ] repair my bike
+- [ ] chrome crashing down
 - [ ] **how to learn**
 - [ ] cancel orders of wrong screws and paper
 - [ ] things to do late at night 
 - [ ] learn laptop battery use
 - [ ] logging: dmesg VS journalctl
-- [ ] repair the outdoor light
-- [ ] repair the toilet hat
 - [ ] replace wechat account
 - [ ] rethink languages & English
 - [ ] motivation: operant conditioning
 - [ ] critical thinking
 - [ ] problem solving & trouble shooting
 - [ ] time management skills
-- [ ] chrome crashing down
+- [ ] repair the outdoor light
+- [ ] repair the toilet hat
 - [ ] anxiety management
 - [ ] economics
 - [ ] check the BOC credit card
 - [ ] arrange notes from school time
 - [ ] learn about going abroad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NDkwODQ4NCwtMjEyODUzNzU5NF19
+eyJoaXN0b3J5IjpbLTQ4MDc0NDk1NCwtMjEyODUzNzU5NF19
 -->
