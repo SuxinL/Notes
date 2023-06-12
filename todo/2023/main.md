@@ -14,7 +14,9 @@
 - [ ] understand note taking
 - [ ] manage anxiety of forgetting something
 - [ ] Mind Map
+- [ ] repair my bike
 - [ ] **how to learn**
+- [ ] cancel orders of wrong screws and paper
 - [ ] things to do late at night 
 - [ ] learn laptop battery use
 - [ ] logging: dmesg VS journalctl
@@ -30,7 +32,8 @@
 - [ ] anxiety management
 - [ ] economics
 - [ ] check the BOC credit card
+- [ ] arrange notes from school time
+- [ ] learn about going abroad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTcwODU3OTEsLTIxMjg1Mzc1OTRdfQ
-==
+eyJoaXN0b3J5IjpbLTM1NDkwODQ4NCwtMjEyODUzNzU5NF19
 -->
