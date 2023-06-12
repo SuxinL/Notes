@@ -6,16 +6,24 @@ Notes are small pieces of written information.
 
 ## The Purposes Of Notes
 
+### General
+
+- keep focused
+- catch ideas
+
 ### Study
 
 To record key points for
 
 - catch the main structure
+	- better understanding
+	- better memory 
 - *a solid backup* 
+	- objective 
 
 ### Problem Solving
 
-To clarify thoughts.
+To clarify thoughts and **make room for thinking not remembering**.
 
 #### Examination
 
@@ -40,5 +48,5 @@ To clarify thoughts.
 - make priorities
 - manage progress
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAxOTU1NTU5LC0xMjExNDQ1OTI3XX0=
+eyJoaXN0b3J5IjpbMTE2MzEwNzI3MSwtMTIxMTQ0NTkyN119
 -->
