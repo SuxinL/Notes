@@ -18,7 +18,8 @@
 - [ ] learn laptop battery use
 - [ ] logging: dmesg VS journalctl
 - [ ] repair the outdoor light
-- [ ] repair the toilet light
+- [ ] repair the toilet hat
+- [ ] replace wechat account
 - [ ] rethink languages & English
 - [ ] how to learn
 - [ ] motivation: operant conditioning
@@ -30,6 +31,5 @@
 - [ ] economics
 - [ ] check the BOC credit card
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDkxNjI5OTgsLTIxMjg1Mzc1OTRdfQ
-==
+eyJoaXN0b3J5IjpbMTg2NTcxNDk2OSwtMjEyODUzNzU5NF19
 -->
