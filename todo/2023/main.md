@@ -29,11 +29,13 @@
 - [ ] time management skills
 - [ ] repair the outdoor light
 - [ ] repair the toilet hat
+- [ ] repair the ceiling of the restroom
 - [ ] anxiety management
 - [ ] economics
 - [ ] check the BOC credit card
 - [ ] arrange notes from school time
 - [ ] learn about going abroad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MDc0NDk1NCwtMjEyODUzNzU5NF19
+eyJoaXN0b3J5IjpbLTE1MDg5NTc1NzcsLTQ4MDc0NDk1NCwtMj
+EyODUzNzU5NF19
 -->
