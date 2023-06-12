@@ -14,6 +14,7 @@
 - [ ] understand note taking
 - [ ] manage anxiety of forgetting something
 - [ ] Mind Map
+- [ ] **how to learn**
 - [ ] things to do late at night 
 - [ ] learn laptop battery use
 - [ ] logging: dmesg VS journalctl
@@ -21,7 +22,6 @@
 - [ ] repair the toilet hat
 - [ ] replace wechat account
 - [ ] rethink languages & English
-- [ ] how to learn
 - [ ] motivation: operant conditioning
 - [ ] critical thinking
 - [ ] problem solving & trouble shooting
@@ -31,5 +31,6 @@
 - [ ] economics
 - [ ] check the BOC credit card
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NTcxNDk2OSwtMjEyODUzNzU5NF19
+eyJoaXN0b3J5IjpbLTEwOTcwODU3OTEsLTIxMjg1Mzc1OTRdfQ
+==
 -->
