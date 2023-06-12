@@ -28,9 +28,13 @@ Nothing is perfect including our memories even books which might be outdated yea
 
 ### Goal Orientation 
 
-As long as our knowledge has succeeded in solving our problems, we have met our stage goal. The "flawed" tool helped us build our current platform where we can refine our tool. 
+meaning:
+
+As long as our knowledge has succeeded in solving our problems, we have met our stage goal. The "flawed" tool helped us build our current platform where we can refine our tool and works. 
 
 ### Catching the main structure
+
+differences:
 
 **Do not try to remember the text verbatim which is not only unrealistic but useless.** The final goal of learning is to use the knowledge as a tool to solve problems. Then it is desired for the knowledge in our mind to be generic to solve a group of problems. 
 
@@ -44,5 +48,5 @@ The main structure remains stable over time as the format of target problems. It
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NjkxOTc3Nl19
+eyJoaXN0b3J5IjpbLTEzMzU1MjE5NjhdfQ==
 -->
