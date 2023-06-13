@@ -1,7 +1,8 @@
 # Understand Note Taking
 
 - [x] Why write down things
-- [ ] causal graph 
+- [ ] ~~causal graph~~ 
+- [ ] flowchart
 - [ ] **how to organize thoughts**
   - [ ] UML v.s mind mapping
   - [ ] to visualize root cause analysis
@@ -12,6 +13,6 @@
 - [ ] Why highlights
 - [ ] electronic notes VS paper notes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzUwMzM1MTYsLTEzMjY5ODA0MjcsLT
-EyMDUxMzE4MzBdfQ==
+eyJoaXN0b3J5IjpbMTU5OTEzNjUwOSwtMTMyNjk4MDQyNywtMT
+IwNTEzMTgzMF19
 -->
