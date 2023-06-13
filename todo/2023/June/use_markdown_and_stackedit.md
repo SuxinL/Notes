@@ -7,8 +7,8 @@
 
 - [ ] handle strange activities when adding a Github workspace to StackEdit 
 - [ ] **how to make templates** for
-      - problem solving
+  - [ ] problem solving
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNTcxNDU3NiwtMjA1NjM5MzYwNl19
+eyJoaXN0b3J5IjpbOTM2MzQ1Njg4LC0yMDU2MzkzNjA2XX0=
 -->
