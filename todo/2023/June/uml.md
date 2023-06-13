@@ -2,7 +2,7 @@
 - [ ] flowchart
   - [ ] focusing on states or processes?
   - [ ] can I use it for cause-effect relationships?
-- [ ] whi 
+- [ ] which diagrams to represent components and connections in a system? 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2OTg3MTQyNV19
+eyJoaXN0b3J5IjpbLTk1MTAzNjgzNV19
 -->
