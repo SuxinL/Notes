@@ -30,12 +30,13 @@
 - [ ] repair the outdoor light
 - [ ] repair the toilet hat
 - [ ] repair the ceiling of the restroom
+- [ ] repair wire fasteners
 - [ ] anxiety management
 - [ ] economics
 - [ ] check the BOC credit card
 - [ ] arrange notes from school time
 - [ ] learn about going abroad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDg5NTc1NzcsLTQ4MDc0NDk1NCwtMj
-EyODUzNzU5NF19
+eyJoaXN0b3J5IjpbNTc1NzE3NTgxLC0xNTA4OTU3NTc3LC00OD
+A3NDQ5NTQsLTIxMjg1Mzc1OTRdfQ==
 -->
