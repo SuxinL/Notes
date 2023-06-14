@@ -9,7 +9,12 @@
     - [ ] package
   - [ ] Behavioral diagrams
     - [ ] activity
-    - [ ] comm   
+    - [ ] communication
+    - [ ] interaction overview
+    - [ ] sequence
+    - [ ] state
+    - [ ] timing
+    - [ ] use case   
 - to represent flows of
 	- mental process
 	- mechanism
@@ -27,6 +32,6 @@
 - [ ] which diagrams to represent components and connections in a system? 
 - [ ] plantUML V.S mermaid
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3OTMxNzYzMiwxMDAwOTIyOTY2LC0xNT
-c5Njg3NTcwLC0xNDUyNDI1NjY3LC05NTEwMzY4MzVdfQ==
+eyJoaXN0b3J5IjpbMjQxMDc0NzY1LDEwMDA5MjI5NjYsLTE1Nz
+k2ODc1NzAsLTE0NTI0MjU2NjcsLTk1MTAzNjgzNV19
 -->
