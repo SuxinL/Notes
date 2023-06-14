@@ -1,5 +1,5 @@
 # Goals
-- to catch the purposes and basic layouts of 
+- to catch the purpose and basic layout of each type of diagrams 
 - to represent flows of
 	- mental process
 	- mechanism
@@ -17,6 +17,6 @@
 - [ ] which diagrams to represent components and connections in a system? 
 - [ ] plantUML V.S mermaid
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MTA1NjAwOCwtMTU3OTY4NzU3MCwtMT
+eyJoaXN0b3J5IjpbMTAwMDkyMjk2NiwtMTU3OTY4NzU3MCwtMT
 Q1MjQyNTY2NywtOTUxMDM2ODM1XX0=
 -->
