@@ -13,6 +13,8 @@
   - [ ] focusing on states or processes?
   - [ ] can I use it for cause-effect relationships?
 - [ ] which diagrams to represent components and connections in a system? 
+- [ ] plantUML V.S mermaid
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTI0MjU2NjcsLTk1MTAzNjgzNV19
+eyJoaXN0b3J5IjpbMjAzMTE4MDgzNSwtMTQ1MjQyNTY2NywtOT
+UxMDM2ODM1XX0=
 -->
