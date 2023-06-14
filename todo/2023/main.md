@@ -1,6 +1,6 @@
 - [x] repair the water pot.
 - [x] debind all accounts related to my old phone number
-- [ ] delete the number.
+- [ ] delete the 1number.
 - [x] repair shower taps
 - [x] wash shoes
 - [ ] handle VPN issues.
@@ -37,6 +37,7 @@
 - [ ] arrange notes from school time
 - [ ] learn about going abroad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE5OTA1ODI5LDU3NTcxNzU4MSwtMTUwOD
-k1NzU3NywtNDgwNzQ0OTU0LC0yMTI4NTM3NTk0XX0=
+eyJoaXN0b3J5IjpbLTE0MjEyMzQ1NzYsNDE5OTA1ODI5LDU3NT
+cxNzU4MSwtMTUwODk1NzU3NywtNDgwNzQ0OTU0LC0yMTI4NTM3
+NTk0XX0=
 -->
