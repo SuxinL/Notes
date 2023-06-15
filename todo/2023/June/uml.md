@@ -25,7 +25,7 @@
 
 # Questions
 - [ ] UML V.S mind map
-- [ ] lucidchat V.S tutorialspoint in learning UML
+- [ ] lucidchat V.S tutorialspoint in learning UML (**critical thinking**)
 - [ ] flowchart V.S plantUML
 - [ ] flowchart
   - [ ] focusing on states or processes?
@@ -33,6 +33,7 @@
 - [ ] which diagrams to represent components and connections in a system? 
 - [ ] plantUML V.S mermaid
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MDczODQzMCwxMDAwOTIyOTY2LC0xNT
-c5Njg3NTcwLC0xNDUyNDI1NjY3LC05NTEwMzY4MzVdfQ==
+eyJoaXN0b3J5IjpbMjEyMjgzNDA1MCwtOTcwNzM4NDMwLDEwMD
+A5MjI5NjYsLTE1Nzk2ODc1NzAsLTE0NTI0MjU2NjcsLTk1MTAz
+NjgzNV19
 -->
