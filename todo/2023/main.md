@@ -16,28 +16,28 @@
 - [ ] Mind Map
 - [ ] repair my bike
 - [ ] chrome crashing down
-- [ ] **how to learn**
+- [ ] repair the ceiling of the restroom
+- [ ] repair the toilet hat
+- [ ] repair wire fasteners
 - [ ] cancel orders of wrong screws and paper
 - [ ] things to do late at night 
 - [ ] learn laptop battery use
 - [ ] logging: dmesg VS journalctl
 - [ ] replace wechat account
+- [ ] **how to learn**
 - [ ] rethink languages & English
 - [ ] motivation: operant conditioning
 - [ ] critical thinking
 - [ ] problem solving & trouble shooting
 - [ ] time management skills
 - [ ] repair the outdoor light
-- [ ] repair the toilet hat
-- [ ] repair the ceiling of the restroom
-- [ ] repair wire fasteners
 - [ ] anxiety management
 - [ ] economics
 - [ ] check the BOC credit card
 - [ ] arrange notes from school time
 - [ ] learn about going abroad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzMxMzQxMjUsNDE5OTA1ODI5LDU3NT
-cxNzU4MSwtMTUwODk1NzU3NywtNDgwNzQ0OTU0LC0yMTI4NTM3
-NTk0XX0=
+eyJoaXN0b3J5IjpbMjM2MTAzNTczLC0xMzMzMTM0MTI1LDQxOT
+kwNTgyOSw1NzU3MTc1ODEsLTE1MDg5NTc1NzcsLTQ4MDc0NDk1
+NCwtMjEyODUzNzU5NF19
 -->
