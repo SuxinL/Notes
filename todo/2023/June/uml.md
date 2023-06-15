@@ -1,7 +1,7 @@
 # Goals
 - [ ] to catch the purpose and basic layout of each type of diagrams
   - [ ] Structural diagrams
-    - [ ] class
+    - [x] class
     - [ ] component
     - [ ] composite structure
     - [ ] deployment
@@ -25,6 +25,7 @@
 
 # Questions
 - [ ] UML V.S mind map
+- [ ] lucidchat V.S tutorialspoint in learning UML
 - [ ] flowchart V.S plantUML
 - [ ] flowchart
   - [ ] focusing on states or processes?
@@ -32,6 +33,6 @@
 - [ ] which diagrams to represent components and connections in a system? 
 - [ ] plantUML V.S mermaid
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQxMDc0NzY1LDEwMDA5MjI5NjYsLTE1Nz
-k2ODc1NzAsLTE0NTI0MjU2NjcsLTk1MTAzNjgzNV19
+eyJoaXN0b3J5IjpbLTk3MDczODQzMCwxMDAwOTIyOTY2LC0xNT
+c5Njg3NTcwLC0xNDUyNDI1NjY3LC05NTEwMzY4MzVdfQ==
 -->
