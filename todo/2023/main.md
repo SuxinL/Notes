@@ -19,6 +19,8 @@
 - [ ] repair the ceiling of the restroom
 - [ ] repair the toilet hat
 - [ ] repair wire fasteners
+- [ ] repair soap box
+- [ ] repair shoes
 - [ ] cancel orders of wrong screws and paper
 - [ ] things to do late at night 
 - [ ] learn laptop battery use
@@ -37,7 +39,7 @@
 - [ ] arrange notes from school time
 - [ ] learn about going abroad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM2MTAzNTczLC0xMzMzMTM0MTI1LDQxOT
+eyJoaXN0b3J5IjpbNjAzMjkxNjcxLC0xMzMzMTM0MTI1LDQxOT
 kwNTgyOSw1NzU3MTc1ODEsLTE1MDg5NTc1NzcsLTQ4MDc0NDk1
 NCwtMjEyODUzNzU5NF19
 -->
