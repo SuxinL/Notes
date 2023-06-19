@@ -43,7 +43,7 @@
     |TOC| yes | no | yes|
     |Context| yes | yes | yes |
     |Syntax| partial | no | yes |
-    |Thought steps| no | no | yes |
+    |Thought steps| no | no | partial |
     |Examples| yes | partial | yes|
     
   - [ ] combination 
@@ -54,7 +54,7 @@
 - [ ] which diagrams to represent components and connections in a system? 
 - [ ] plantUML V.S mermaid
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MzMzODI5OCwyMTIyODM0MDUwLDEwMD
+eyJoaXN0b3J5IjpbMTE1NTgxMTA1MiwyMTIyODM0MDUwLDEwMD
 A5MjI5NjYsLTE1Nzk2ODc1NzAsLTE0NTI0MjU2NjcsLTk1MTAz
 NjgzNV19
 -->
