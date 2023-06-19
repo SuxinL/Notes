@@ -1,5 +1,5 @@
 - [x] repair the water pot.
-- [x] debind all accounts related to my old phone number
+- [] debind all accounts related to my old phone number
 - [ ] delete the 130 number.
 - [x] repair shower taps
 - [x] wash shoes
@@ -27,7 +27,7 @@
 - [ ] learn laptop battery use
 - [ ] logging: dmesg VS journalctl
 - [ ] replace wechat account
-- [ ] **how to learn**
+- [ ] ho to learn
 - [ ] rethink languages & English
 - [ ] motivation: operant conditioning
 - [ ] critical thinking
@@ -40,7 +40,7 @@
 - [ ] arrange notes from school time
 - [ ] learn about going abroad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MDU5MjQzMSwtMTMzMzEzNDEyNSw0MT
-k5MDU4MjksNTc1NzE3NTgxLC0xNTA4OTU3NTc3LC00ODA3NDQ5
-NTQsLTIxMjg1Mzc1OTRdfQ==
+eyJoaXN0b3J5IjpbLTg2OTkwNjY5MiwxNzUwNTkyNDMxLC0xMz
+MzMTM0MTI1LDQxOTkwNTgyOSw1NzU3MTc1ODEsLTE1MDg5NTc1
+NzcsLTQ4MDc0NDk1NCwtMjEyODUzNzU5NF19
 -->
