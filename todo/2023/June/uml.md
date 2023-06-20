@@ -2,7 +2,7 @@
 - [ ] to catch the purpose and basic layout of each type of diagrams
   - [ ] Structural diagrams
     - [x] class
-    - [ ] component
+    - [x] component
     - [ ] composite structure
     - [ ] deployment
     - [ ] object
@@ -14,7 +14,8 @@
     - [ ] sequence
     - [ ] state
     - [ ] timing
-    - [ ] use case   
+    - [ ] use case 
+- [ ] **UML relationships**  
 - to represent flows of
 	- mental process
 	- mechanism
@@ -37,16 +38,17 @@
   
 - [ ] **different materials of learning UML (**critical thinking**)**
   - [ ] **comparison**
-    | Content | lucidchat | tutorialspoint | Visual Paradigm |
-    | --- | --- | --- | --- |
-    | Purposes | yes | yes| yes |
-    |TOC| yes | no | yes|
-    |Context| yes | yes | yes |
-    |Syntax| partial | no | yes |
-    |Thought steps| no | no | partial |
-    |Examples| yes | partial | yes|
+    | Content | lucidchat | tutorialspoint | Visual Paradigm | http://www.cs.sjsu.edu/ | uml-diagrams.org |
+    | --- | --- | --- | --- | --- | --- |
+    | Purposes | yes | yes| yes |||
+    |TOC| yes | no | yes|||
+    |Context| yes | yes | yes |||
+    |Syntax| partial | no | yes |||
+    |Thought steps| no | no | partial |||
+    |Examples| yes | partial | yes |||
     
   - [ ] combination 
+- [x] **association V.S dependency in class diagrams** 
 - [ ] flowchart V.S activity diagram
 - [ ] flowchart
   - [ ] focusing on states or processes?
@@ -54,7 +56,7 @@
 - [ ] which diagrams to represent components and connections in a system? 
 - [ ] plantUML V.S mermaid
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NTgxMTA1MiwyMTIyODM0MDUwLDEwMD
+eyJoaXN0b3J5IjpbLTE5MjY4MjU0NywyMTIyODM0MDUwLDEwMD
 A5MjI5NjYsLTE1Nzk2ODc1NzAsLTE0NTI0MjU2NjcsLTk1MTAz
 NjgzNV19
 -->
