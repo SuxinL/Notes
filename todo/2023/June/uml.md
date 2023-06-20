@@ -56,8 +56,14 @@
   - [ ] can I use it for cause-effect relationships?
 - [ ] which diagrams to represent components and connections in a system? 
 - [ ] plantUML V.S mermaid
+
+# Test plantUML
+@startuml
+Class01 <|-- Class02
+@enduml
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3ODU1NzM3MSwyMTIyODM0MDUwLDEwMD
-A5MjI5NjYsLTE1Nzk2ODc1NzAsLTE0NTI0MjU2NjcsLTk1MTAz
-NjgzNV19
+eyJoaXN0b3J5IjpbLTE5MzYxMTczMTUsMjEyMjgzNDA1MCwxMD
+AwOTIyOTY2LC0xNTc5Njg3NTcwLC0xNDUyNDI1NjY3LC05NTEw
+MzY4MzVdfQ==
 -->
