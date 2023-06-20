@@ -50,13 +50,14 @@
   - [ ] combination 
 - [x] **association V.S dependency in class diagrams** 
 - [ ] flowchart V.S activity diagram
+- [ ] activity diagram V.S state diagram
 - [ ] flowchart
   - [ ] focusing on states or processes?
   - [ ] can I use it for cause-effect relationships?
 - [ ] which diagrams to represent components and connections in a system? 
 - [ ] plantUML V.S mermaid
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjY4MjU0NywyMTIyODM0MDUwLDEwMD
+eyJoaXN0b3J5IjpbMTI3ODU1NzM3MSwyMTIyODM0MDUwLDEwMD
 A5MjI5NjYsLTE1Nzk2ODc1NzAsLTE0NTI0MjU2NjcsLTk1MTAz
 NjgzNV19
 -->
