@@ -48,7 +48,8 @@
     |Examples| yes | partial | yes |||
     
   - [ ] combination 
-- [x] **association V.S dependency in class diagrams** 
+- [x] **association V.S dependency**
+- [ ] aggregation V.S composition
 - [ ] flowchart V.S activity diagram
 - [ ] activity diagram V.S state diagram
 - [ ] flowchart
@@ -75,7 +76,7 @@ C --> D
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NjEzNDI3OCwyMTIyODM0MDUwLDEwMD
-A5MjI5NjYsLTE1Nzk2ODc1NzAsLTE0NTI0MjU2NjcsLTk1MTAz
-NjgzNV19
+eyJoaXN0b3J5IjpbOTY4NDMyODAzLDE1NzYxMzQyNzgsMjEyMj
+gzNDA1MCwxMDAwOTIyOTY2LC0xNTc5Njg3NTcwLC0xNDUyNDI1
+NjY3LC05NTEwMzY4MzVdfQ==
 -->
