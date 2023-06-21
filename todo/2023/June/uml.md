@@ -67,6 +67,34 @@ Class01 <|-- Class02
 @enduml
 
 ![uml](http://www.plantuml.com/plantuml/proxy?src=https://github.com/SuxinL/Notes/blob/master/todo/2023/June/test_plantuml.iuml)
+
+@startuml
+class Customer {
+ name: String
+ phone: String
+ address: String
+}
+class Product {
+ name: String
+ price: float
+}
+class Order {
+ time: DateTime
+ price: float
+ items: Collection<OrderItem>
+}
+class OrderItem {
+ product: Product
+ num: int
+ discount: float
+ price: float
+}
+
+Customer "1" -- "*" Order
+Order *-- "1..*" OrderItem
+OrderItem "*" --> "1" Product
+@enduml
+
 ## mermaid
 ```mermaid
 graph LR
@@ -77,7 +105,8 @@ C --> D
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzgzNTMxMzMsOTY4NDMyODAzLDE1Nz
-YxMzQyNzgsMjEyMjgzNDA1MCwxMDAwOTIyOTY2LC0xNTc5Njg3
-NTcwLC0xNDUyNDI1NjY3LC05NTEwMzY4MzVdfQ==
+eyJoaXN0b3J5IjpbMTA4MDk5NDczNiwtMTE3ODM1MzEzMyw5Nj
+g0MzI4MDMsMTU3NjEzNDI3OCwyMTIyODM0MDUwLDEwMDA5MjI5
+NjYsLTE1Nzk2ODc1NzAsLTE0NTI0MjU2NjcsLTk1MTAzNjgzNV
+19
 -->
