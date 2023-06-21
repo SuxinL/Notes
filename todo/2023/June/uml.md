@@ -66,6 +66,7 @@
 Class01 <|-- Class02
 @enduml
 
+![uml](http://www.plantuml.com/plantuml/proxy?src=https://github.com/SuxinL/Notes/blob/master/todo/2023/June/test_plantuml.iuml)
 ## mermaid
 ```mermaid
 graph LR
@@ -76,7 +77,7 @@ C --> D
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY4NDMyODAzLDE1NzYxMzQyNzgsMjEyMj
-gzNDA1MCwxMDAwOTIyOTY2LC0xNTc5Njg3NTcwLC0xNDUyNDI1
-NjY3LC05NTEwMzY4MzVdfQ==
+eyJoaXN0b3J5IjpbLTExNzgzNTMxMzMsOTY4NDMyODAzLDE1Nz
+YxMzQyNzgsMjEyMjgzNDA1MCwxMDAwOTIyOTY2LC0xNTc5Njg3
+NTcwLC0xNDUyNDI1NjY3LC05NTEwMzY4MzVdfQ==
 -->
