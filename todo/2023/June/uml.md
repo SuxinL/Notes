@@ -66,7 +66,7 @@
 Class01 <|-- Class02
 @enduml
 
-![uml](http://www.plantuml.com/plantuml/proxy?src=https://github.com/SuxinL/Notes/blob/master/todo/2023/June/test_plantuml.iuml)
+![uml](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SuxinL/Notes/master/todo/2023/June/test_plantuml.iuml)
 
 @startuml
 class Customer {
@@ -105,8 +105,8 @@ C --> D
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MDk5NDczNiwtMTE3ODM1MzEzMyw5Nj
-g0MzI4MDMsMTU3NjEzNDI3OCwyMTIyODM0MDUwLDEwMDA5MjI5
-NjYsLTE1Nzk2ODc1NzAsLTE0NTI0MjU2NjcsLTk1MTAzNjgzNV
-19
+eyJoaXN0b3J5IjpbLTQ0MzEwNDQ3NCwxMDgwOTk0NzM2LC0xMT
+c4MzUzMTMzLDk2ODQzMjgwMywxNTc2MTM0Mjc4LDIxMjI4MzQw
+NTAsMTAwMDkyMjk2NiwtMTU3OTY4NzU3MCwtMTQ1MjQyNTY2Ny
+wtOTUxMDM2ODM1XX0=
 -->
