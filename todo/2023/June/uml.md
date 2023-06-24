@@ -103,11 +103,39 @@ A --> C(Round Rect)
 B --> D{Rhombus}
 C --> D
 ```
+```mermaid
+classDiagram
+class Customer {
+ -id: String
+ -name: String
+ -phone: String
+ -address: String
+}
+class Product {
+ -id: String
+ -name: String
+ -price: float
+}
+class Order {
+ -id: String
+ -time: DateTime
+ -price: float
+}
+class OrderItem {
+ -id: String
+ -num: int
+ -discount: float
+ -price: float
+}
+
+Customer "1" -- "*" Order : have 
+Order *-- "1..*" OrderItem : contain 
+OrderItem "*" --> "1" Product : contain
+```
 
 <!--stackedit_data:
-eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstNjcxMjAyNjMzLC00NDMxMDQ0
-NzQsMTA4MDk5NDczNiwtMTE3ODM1MzEzMyw5Njg0MzI4MDMsMT
-U3NjEzNDI3OCwyMTIyODM0MDUwLDEwMDA5MjI5NjYsLTE1Nzk2
-ODc1NzAsLTE0NTI0MjU2NjcsLTk1MTAzNjgzNV19
+eyJoaXN0b3J5IjpbLTE3MzU4MzI2MjksLTQ0MzEwNDQ3NCwxMD
+gwOTk0NzM2LC0xMTc4MzUzMTMzLDk2ODQzMjgwMywxNTc2MTM0
+Mjc4LDIxMjI4MzQwNTAsMTAwMDkyMjk2NiwtMTU3OTY4NzU3MC
+wtMTQ1MjQyNTY2NywtOTUxMDM2ODM1XX0=
 -->
