@@ -21,6 +21,32 @@ worry <-
 
 differences <- I forget or what I have learned is conflicting with the current information.
   
+```mermaid
+flowchart BT
+	SYM(Sweaty & anxious)
+    WORRY(I worry the differences.)
+    DIFF(Differences between my knowledge and<br/> those materials.)
+	MEM(Memory loss)
+	CONFLICT(What I have learned is<br/> conflicting with the current information)
+	subgraph PREDICTION["BAD PREDICTIONS"]
+	    RELEARN(I have spent much effort<br/> to learn. The differences might make me <br/>feel that my hard working <br/>does not pay back. Or<br/> I need to relearn. )
+	    LEGANCY(Maybe I have applied my <br/>flawed knowledge to some projects<br/> in which bad things <br/>might happen in the future.)
+	end    
+	COMPULSION(Compulsion of remembering text verbatim.)
+	GENE(My mother has serious compulsion.)
+	ENV(To get full scores in history<br/> exams in middle school, I tried <br/>to recite the textbooks verbatim.)
+	
+	WORRY --> SYM
+	DIFF -->|differences| WORRY
+    PREDICTION --> WORRY
+    COMPULSION -->|compulsion| WORRY
+    MEM --> DIFF
+    CONFLICT --> DIFF
+    GENE --> COMPULSION
+    ENV --> COMPULSION
+	
+```
+
 
 ## Possible Solutions
 
@@ -48,5 +74,5 @@ The main structure remains stable over time as the format of target problems. It
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzU1MjE5NjhdfQ==
+eyJoaXN0b3J5IjpbMTIyMTc0Mjg0MiwtMTMzNTUyMTk2OF19
 -->
