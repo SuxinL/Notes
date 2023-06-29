@@ -8,7 +8,7 @@ I am impatient and my brain is hot. As a result, I waste a lot of time, getting 
 
 #### When
 
-Doing handwork 
+Doing some types of handwork the first time. 
 	
 #### Where
 
@@ -45,17 +45,37 @@ In unfamiliar fields
 ```mermaid
 flowchart BT
 	IMPATIENCE
-	TRIVAL
+	TRIVIAL
+	HABIT
+	FEAR_NEW
 	ORDER
 	SURVIVAL
 	
-	SURVIVAL --> ORDER --> TRIVAL --> IMPATIENCE
+	SURVIVAL --> ORDER --> TRIVIAL --> IMPATIENCE
+	HABIT --x IMPATIENCE
+	FEAR_NEW --x IMPATIENCE
 ```
 IMPATIENCE
 : Skip of preparation and planning
 
-TRIVAL
-: These things are not that important to my life. I should finish them quickly to spare time for more crucial ones.
+TRIVIAL
+: These things are not that important to my life. I should finish them quickly to spare time for more crucial ones. **My intent is to gain the small value by small effort.**
+  
+  Evidence
+  : POS
+    : - **[LEARNING]** When learning new but important knowledge like markdown or UML, I did a comprehensive research on background information and purposes before devoting myself.
+	  - **[GOMOKU]** I only play with low-ranked players. To beat a high-ranked opponent I need to learn 
+ 
+~~HABIT~~
+: This hot brain and shortcuts taking are my habit for all things.
+  
+  Evidence
+  : NEG
+    : - **[LEARNING]**
+    
+~~FEAR_NEW~~
+: The fear of new things and uncertainty. 
+ 
 
 ORDER
 : To me, things like learning 
@@ -64,17 +84,37 @@ ORDER
 	- time management
 	- personal finance
 
-  are much more important than these.
+  are top important.
 
-SURVIVAL:
-Human
+SURVIVAL
+: Human's root goal to survive.
 
 ## Brainstorming
-[replacement V.S fixation. Localize the problem to an atomic level where fixing it components is more expensive than replacing it as a whole]: #
+[replacement V.S repair. Localize the problem to an atomic level where fixing it components is more expensive than replacing it as a whole]: #
+
+IMPATIENCE
+: **(replacement of skip)** Before and during action, frequently ask myself:
+	- What am I doing?
+	- What is my goal?
+	- Can my action lead to my goal?
+	
+  If I am not clear about the answers of these questions, pause and think it.
+  
+TRIVIAL
+: **(repair of the trivial thought)** Notice that maybe repairing furniture or bikes itself is not relevant to my life goal, but **it is a great chance to practice and improve problem solving skills**. And it is an experience to learn something useful. 
+
+~~ORDER~~
+: This order makes sense.
+
+~~SURVIVAL~~
+: Natural rule.
+	
 ## Thinking
 [Lessons learned from this experience]: #
 
+From my past experience, the temptation to shortcuts often results in more time wasted, especially in unfamiliar fields.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNTgwMTg2Ml19
+eyJoaXN0b3J5IjpbMTk2NTE4MTc4OV19
 -->
