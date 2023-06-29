@@ -1,7 +1,9 @@
 - check the brake system
-  - discs
-  - cables
-  - levels 
+  - [ ] discs
+    - [ ] smooth riding
+    - [ ] quick response 
+  - [x] cables
+  - [ ] levels 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjQ4MTY0NThdfQ==
+eyJoaXN0b3J5IjpbNDE3MzkwNjddfQ==
 -->
