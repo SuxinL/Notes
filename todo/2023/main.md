@@ -1,5 +1,5 @@
 - [x] repair the water pot.
-- [] debind all accounts related to my old phone number
+- [x] debind all accounts related to my old phone number
 - [ ] delete the 130 number.
 - [x] repair shower taps
 - [x] wash shoes
@@ -11,9 +11,9 @@
 - [x] backup laptops
 - [ ] backup phones
 - [x] learn markdown & stackedit
-- [ ] understand note taking
-- [ ] manage anxiety of forgetting something
-- [ ] Mind Map
+- [x] understand note taking
+- [x] manage anxiety of forgetting knowledge
+- [x] Mind Map
 - [ ] repair my bike
 - [ ] repair gloves
 - [ ] chrome crashing down
@@ -27,7 +27,8 @@
 - [ ] learn laptop battery use
 - [ ] logging: dmesg VS journalctl
 - [ ] replace wechat account
-- [ ] ho to learn
+___
+- [ ] how to learn
 - [ ] rethink languages & English
 - [ ] motivation: operant conditioning
 - [ ] critical thinking
@@ -40,7 +41,8 @@
 - [ ] arrange notes from school time
 - [ ] learn about going abroad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2OTkwNjY5MiwxNzUwNTkyNDMxLC0xMz
-MzMTM0MTI1LDQxOTkwNTgyOSw1NzU3MTc1ODEsLTE1MDg5NTc1
-NzcsLTQ4MDc0NDk1NCwtMjEyODUzNzU5NF19
+eyJoaXN0b3J5IjpbLTE1NTE2MjAxNjgsLTg2OTkwNjY5MiwxNz
+UwNTkyNDMxLC0xMzMzMTM0MTI1LDQxOTkwNTgyOSw1NzU3MTc1
+ODEsLTE1MDg5NTc1NzcsLTQ4MDc0NDk1NCwtMjEyODUzNzU5NF
+19
 -->
