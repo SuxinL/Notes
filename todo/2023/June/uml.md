@@ -1,21 +1,21 @@
 # Goals
-- [ ] to catch the purpose and basic layout of each type of diagrams
-  - [ ] Structural diagrams
+- [x] to catch the purpose and basic layout of each type of diagrams
+  - [x] Structural diagrams
     - [x] class
     - [x] component
-    - [ ] composite structure
-    - [ ] deployment
-    - [ ] object
-    - [ ] package
-  - [ ] Behavioral diagrams
-    - [ ] activity
-    - [ ] communication
-    - [ ] interaction overview
-    - [ ] sequence
-    - [ ] state
-    - [ ] timing
-    - [ ] use case 
-- [ ] **UML relationships**  
+    - [x] composite structure
+    - [x] deployment
+    - [x] object
+    - [x] package
+  - [x] Behavioral diagrams
+    - [x] activity
+    - [x] communication
+    - [x] interaction overview
+    - [x] sequence
+    - [x] state
+    - [x] timing
+    - [x] use case 
+- [x] **UML relationships**  
 - to represent flows of
 	- mental process
 	- mechanism
@@ -32,7 +32,7 @@
   | Power | Containing many types of diagrams for different usages | Using tree structures to explain a center concept |
   | Easy to use | Hard. Needing to follow strict standards | Easy. The format is relatively flexible |
   | Learning curve | steep | slow |
-  | Flow diagrams supported | yes | no |
+  | Flow diagrams supported | yes(activity diagrams) | no |
   | Component diagrams supported | yes | yes |
   
   
@@ -40,23 +40,23 @@
   - [ ] **comparison**
     | Content | lucidchat | tutorialspoint | Visual Paradigm | http://www.cs.sjsu.edu/ | uml-diagrams.org |
     | --- | --- | --- | --- | --- | --- |
-    | Purposes | yes | yes| yes |||
-    |TOC| yes | no | yes|||
-    |Context| yes | yes | yes |||
-    |Syntax| partial | no | yes |||
-    |Thought steps| no | no | partial |||
-    |Examples| yes | partial | yes |||
+    | Purposes | yes | yes| yes ||yes|
+    |TOC| yes | no | yes|| no |
+    |Context| yes | yes | yes || no |
+    |Syntax| partial | no | yes || yes |
+    |Thought steps| no | no | partial || yes |
+    |Examples| yes | partial | yes || yes |
     
-  - [ ] combination 
+  - [x] combination 
 - [x] **association V.S dependency**
-- [ ] aggregation V.S composition
-- [ ] flowchart V.S activity diagram
+- [x] aggregation V.S composition
+- [x] flowchart V.S activity diagram
 - [ ] activity diagram V.S state diagram
 - [ ] flowchart
-  - [ ] focusing on states or processes?
-  - [ ] can I use it for cause-effect relationships?
-- [ ] which diagrams to represent components and connections in a system? 
-- [ ] plantUML V.S mermaid
+  - [x] focusing on states or processes? processes 
+  - [x] can I use it for cause-effect relationships? yes
+- [x] which diagrams to represent components and connections in a system? Component diagrams or C4
+- [x] plantUML V.S mermaid
 
 # Test
  
@@ -134,8 +134,9 @@ OrderItem "*" --> "1" Product : contain
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzU4MzI2MjksLTQ0MzEwNDQ3NCwxMD
-gwOTk0NzM2LC0xMTc4MzUzMTMzLDk2ODQzMjgwMywxNTc2MTM0
-Mjc4LDIxMjI4MzQwNTAsMTAwMDkyMjk2NiwtMTU3OTY4NzU3MC
-wtMTQ1MjQyNTY2NywtOTUxMDM2ODM1XX0=
+eyJoaXN0b3J5IjpbMTA4MjkwMjM1NiwtMTczNTgzMjYyOSwtND
+QzMTA0NDc0LDEwODA5OTQ3MzYsLTExNzgzNTMxMzMsOTY4NDMy
+ODAzLDE1NzYxMzQyNzgsMjEyMjgzNDA1MCwxMDAwOTIyOTY2LC
+0xNTc5Njg3NTcwLC0xNDUyNDI1NjY3LC05NTEwMzY4MzVdfQ==
+
 -->
