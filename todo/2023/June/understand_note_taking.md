@@ -2,17 +2,17 @@
 
 - [x] Why write down things
 - [x ] ~~causal graph~~ 
-- [ ] flowchart 
+- [x] flowchart 
 - [ ] **how to organize thoughts**
-  - [ ] UML v.s mind mapping
-  - [ ] to visualize root cause analysis
+  - [x] UML v.s mind mapping
+  - [x] to visualize root cause analysis
   - [ ] to better format to-do lists
 	- [ ] multiple states
 	- [ ] time bounds
-- [ ] Why note taking
+- [x] Why note taking
 - [ ] Why highlights
-- [ ] electronic notes VS paper notes
+- [x] electronic notes VS paper notes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNDM2OTk3LC0zMjUwNjIyMzUsLTEzMj
-Y5ODA0MjcsLTEyMDUxMzE4MzBdfQ==
+eyJoaXN0b3J5IjpbMTk0ODQwODQzNSwtMzA0MzY5OTcsLTMyNT
+A2MjIzNSwtMTMyNjk4MDQyNywtMTIwNTEzMTgzMF19
 -->
