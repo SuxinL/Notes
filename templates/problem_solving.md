@@ -3,6 +3,7 @@
 ### Context
 ### Symptoms
 [collect evidence used by hypothesis built in the root cause analysis phrase]: #
+[comparison between actuation and expectation]: #
 #### Vision
 #### Hearing
 #### Smell
@@ -17,5 +18,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMjQ4Nzg3MV19
+eyJoaXN0b3J5IjpbMTE2Njc1NTIyLDExMTI0ODc4NzFdfQ==
 -->
