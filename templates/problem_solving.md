@@ -2,7 +2,9 @@
 ## Examination
 ### Context
 #### When
+[Specification: year, season, daytime, after some events]: #
 #### Where
+[Localization]: #
 ### Symptoms
 [collect evidence used by hypothesis built in the root cause analysis phrase]: #
 [comparison between actuation and expectation]: #
@@ -22,5 +24,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc4NTI3NjAxLDExMTI0ODc4NzFdfQ==
+eyJoaXN0b3J5IjpbMTEyNjQ5MzIxMywxMTEyNDg3ODcxXX0=
 -->
