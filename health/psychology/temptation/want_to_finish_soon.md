@@ -64,7 +64,7 @@ TRIVIAL
   Evidence
   : POS
     : - **[LEARNING]** When learning new but important knowledge like markdown or UML, I did a comprehensive research on background information and purposes before devoting myself.
-	  - **[GOMOKU]** I only play with low-ranked players. To beat a high-ranked opponent I need to learn 
+	  - **[GOMOKU]** I only play with low-ranked players. To beat a high-ranked opponent I need to learn GOMOKU systematically, which I think is not worth.
  
 ~~HABIT~~
 : This hot brain and shortcuts taking are my habit for all things.
@@ -75,6 +75,10 @@ TRIVIAL
     
 ~~FEAR_NEW~~
 : The fear of new things and uncertainty. 
+
+  Evidence
+  : NEG
+    : - **[PERSONALITY]** I generally like to touch new things. Specifically, I am very interested in mechanics and engineering.
  
 
 ORDER
@@ -116,5 +120,5 @@ From my past experience, the temptation to shortcuts often results in more time 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NTE4MTc4OV19
+eyJoaXN0b3J5IjpbNDY5NDM5MjQ2XX0=
 -->
