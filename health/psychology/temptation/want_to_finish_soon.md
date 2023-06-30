@@ -30,7 +30,7 @@ In unfamiliar fields
 - fixing loosen the bed frame
 	- **without analyzing different types of fasteners**, I jumped to a conclusion and waited for unnecessary screw drivers and delayed the process.
 - adjusting my bike
-	- **without learning bike structure knowledge before repairing**, I took a risk of disassembling some components, which cost me much time and effort to reassemble them.
+	- **without learning bike structure knowledge before repairing**, I took a risk of disassembling some components like the brake levels and brake catcher, which cost me much time and effort to reassemble them that might be damaged.
 	- **As to adjusting the brake component, without organizing possible solutions and reasoning the validity of each one before acting**, I tried a method when it comes through my mind even multiple times for luck. I spent over 2 hours but the problem is still not solved.
 
 #### Hearing
@@ -120,5 +120,5 @@ From my past experience, the temptation to shortcuts often results in more time 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY5NDM5MjQ2XX0=
+eyJoaXN0b3J5IjpbLTE1OTEyNzE5MTBdfQ==
 -->
