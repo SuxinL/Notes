@@ -46,13 +46,13 @@ In unfamiliar fields
 flowchart BT
 	IMPATIENCE
 	TRIVIAL
-	HABIT
+	SHORTCUTS_SAVE_TIME
 	FEAR_NEW
 	ORDER
 	SURVIVAL
 	
 	SURVIVAL --> ORDER --> TRIVIAL --> IMPATIENCE
-	HABIT --x IMPATIENCE
+	SHORTCUTS_SAVE_TIME --> IMPATIENCE
 	FEAR_NEW --x IMPATIENCE
 ```
 IMPATIENCE
@@ -66,12 +66,12 @@ TRIVIAL
     : - **[LEARNING]** When learning new but important knowledge like markdown or UML, I did a comprehensive research on background information and purposes before devoting myself.
 	  - **[GOMOKU]** I only play with low-ranked players. To beat a high-ranked opponent I need to learn GOMOKU systematically, which I think is not worth.
  
-~~HABIT~~
-: This hot brain and shortcuts taking are my habit for all things.
+SHORTCUTS_SAVE_TIME
+: I think that shortcuts can save time.
   
   Evidence
-  : NEG
-    : - **[LEARNING]**
+  : POS
+    : - **[STUDY_BEFORE_EXAMS]** I studied hard just before exams, which helped me get high scores.  
     
 ~~FEAR_NEW~~
 : The fear of new things and uncertainty. 
@@ -97,7 +97,7 @@ SURVIVAL
 [replacement V.S repair. Localize the problem to an atomic level where fixing it components is more expensive than replacing it as a whole]: #
 
 IMPATIENCE
-: **(replacement of skip)** Before and during action, frequently ask myself:
+: **(replacement of skip)** Before and during action, frequently ask myself (per 10 mins):
 	- What am I doing?
 	- What is my goal?
 	- Can my action lead to my goal?
@@ -105,8 +105,22 @@ IMPATIENCE
   If I am not clear about the answers of these questions, pause and think it.
   
 TRIVIAL
-: **(repair of the trivial thought)** Notice that maybe repairing furniture or bikes itself is not relevant to my life goal, but **it is a great chance to practice and improve problem solving skills**. And it is an experience to learn something useful. 
+: **(repair of the trivial thought)** Notice that maybe repairing furniture or bikes itself is not relevant to my life goal, but 
+  - **It is a great chance to practice and improve problem solving skills**.
+  - It is an experience to learn something useful. 
+  - The long-term benefits of repairing the bike and bed are promising
+    - a good bike promotes exercise which has many benefits
+    - a stable bed promotes good sleep.
+    
+SHORTCUTS_SAVE_TIME
+: **(repair of the thought)** Shortcuts usually tell us how to use something in syntax level, not the proof or context info. They save time when we already have a good understanding of the subject. The purpose of shortcut is mainly to
+  - fetch some detail operations
+  - refer to it when memory fails
+  
+  It will be messy and cost us much time in failed trials to rely on shortcuts before we have a clear overall picture.
 
+    
+  
 ~~ORDER~~
 : This order makes sense.
 
@@ -120,5 +134,5 @@ From my past experience, the temptation to shortcuts often results in more time 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTEyNzE5MTBdfQ==
+eyJoaXN0b3J5IjpbMTAyMTQ4ODExMV19
 -->
