@@ -13,6 +13,24 @@
     - [ ] quick response 
   - [x] cables
   - [ ] levels 
+
+
+  ```mermaid
+  flowchart BT
+	FRICTION
+	TOUCH --> FRICTION
+	NO_EVEN --> TOUCH
+	TILTE --x TOUCH
+	SIDEWAY --x TOUCH
+  ```
+
+- fix the speed switch system
+  - the strange feel about the handle
+  - the risk of disassembling the handle
+  - problem solving
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4Nzg3NzU4XX0=
+eyJoaXN0b3J5IjpbLTE3OTM1ODE3NTJdfQ==
 -->
