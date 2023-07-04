@@ -14,9 +14,9 @@
 - [x] understand note taking
 - [x] manage anxiety of forgetting knowledge
 - [x] Mind Map
-- [ ] repair my bike
-- [ ] repair gloves
+- [x] repair my bike
 - [ ] chrome crashing down
+- [ ] repair gloves
 - [ ] repair the ceiling of the restroom
 - [ ] repair the toilet hat
 - [ ] repair wire fasteners
@@ -41,8 +41,8 @@ ___
 - [ ] arrange notes from school time
 - [ ] learn about going abroad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTE2MjAxNjgsLTg2OTkwNjY5MiwxNz
-UwNTkyNDMxLC0xMzMzMTM0MTI1LDQxOTkwNTgyOSw1NzU3MTc1
-ODEsLTE1MDg5NTc1NzcsLTQ4MDc0NDk1NCwtMjEyODUzNzU5NF
-19
+eyJoaXN0b3J5IjpbMTc4ODI0MjkyNCwtODY5OTA2NjkyLDE3NT
+A1OTI0MzEsLTEzMzMxMzQxMjUsNDE5OTA1ODI5LDU3NTcxNzU4
+MSwtMTUwODk1NzU3NywtNDgwNzQ0OTU0LC0yMTI4NTM3NTk0XX
+0=
 -->
