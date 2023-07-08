@@ -101,7 +101,9 @@ IO
         
         
         CHROME
-        : Evidence
+        : Chrome takes too much memory.
+          
+          Evidence
           : Pos
             : - **[CHROME_CRASH]** Chrome often crashes and closes overnight.
 
@@ -143,5 +145,5 @@ IO
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0ODE1ODk5MV19
+eyJoaXN0b3J5IjpbLTE1MDY4OTU0NDVdfQ==
 -->
