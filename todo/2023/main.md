@@ -23,6 +23,7 @@
 - [ ] repair soap box
 - [ ] repair shoes
 - [ ] cancel orders of wrong screws and paper
+- [ ] get money reward from the bike order
 - [ ] things to do late at night 
 - [ ] learn laptop battery use
 - [ ] logging: dmesg VS journalctl
@@ -37,11 +38,12 @@ ___
 - [ ] repair the outdoor light
 - [ ] anxiety management
 - [ ] economics
+- [ ] social skills
 - [ ] check the BOC credit card
 - [ ] arrange notes from school time
 - [ ] learn about going abroad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4ODI0MjkyNCwtODY5OTA2NjkyLDE3NT
+eyJoaXN0b3J5IjpbLTMwNzU5ODU4MCwtODY5OTA2NjkyLDE3NT
 A1OTI0MzEsLTEzMzMxMzQxMjUsNDE5OTA1ODI5LDU3NTcxNzU4
 MSwtMTUwODk1NzU3NywtNDgwNzQ0OTU0LC0yMTI4NTM3NTk0XX
 0=
