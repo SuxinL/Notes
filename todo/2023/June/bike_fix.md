@@ -1,6 +1,6 @@
 - check the brake system
-  - [x] discs
-    - [x] smooth riding
+  - [x ] discs
+    - [x ] smooth riding
       - vision
 	    - touch
 		  - the outside
@@ -10,9 +10,9 @@
 	    - plates assignment
 	  - hearing
 		- a low friction sound   
-    - [x] quick response 
+    - [x ] quick response 
   - [x] cables
-  - [x] levels 
+  - [x ] levels 
 
 
   ```mermaid
@@ -32,5 +32,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMjAxMzM2OF19
+eyJoaXN0b3J5IjpbODc5Nzg2MTA2LC01MjIwMTMzNjhdfQ==
 -->
