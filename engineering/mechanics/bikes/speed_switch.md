@@ -1,7 +1,7 @@
-# Fix the speed switch system
+# [Fix the speed switch system]
 ## Examination
 
-rear gear shifter cannot shift the chain to the inner part of the cogset.
+rear gear shifterThe handle cannot shiftwitch the chain to the inner part[teeth wheels] of the cogrear set.
  
 ### Context
 #### When
@@ -11,7 +11,8 @@ From purchase of the bike.
 #### Where
 [Localization]: #
 - Rear gear shifter
-- Rear derailleur
+- Rear derailleurHandle
+- Inner teeth wheels of the rear set.
 
 ### Symptoms
 [specification: location, time, degree]: #
@@ -105,9 +106,42 @@ UNORGANIZED_COMPONENTS
 [Lessons learned from this experience]: #
 For problems that different components are tightly bound and unit tests are hard to implement to like medical problems or those with limited resources, try to gather as many symptoms as possible. **Many factors can cause the same symptom, but if a factor has more matching symptoms, it is more possible. (hypothetical deduction)**
 
-Try from the most possible factor.   
+Try from the most possible factor.   The rear switcher moves only in the outer part not the inner part.
+  
+#### Hearing
+- The freq of sound of turning the rear handler increases from + side to - side, while at the + side the sound is very low.
+- The freq of sound of turning the front handler is relatively stable. The sound remains crisp.
+
+#### Smell
+#### Taste
+#### Touch
+- The force needed to turn the rear handler increases from + to -. The + side is totally free, but the - side is so tight that I can only turn the pointer to the middle.
+- The front handler can be turned smoothly with even force. Both sides are reachable.  
+  
+## Root Cause Analysis
+[backward cause reasoning for general problems]: #
+[recursive trouble shooting for engineering problems to an atomic level (build hypothesis, use evidence (examination  + unit tests))]: #
+
+
+## Brainstorming
+[removal of touchable physical objects is applicable]: #
+Human Behavior
+```mermaid
+flowchart
+	STATE --> THOUGHT --> ACTION --> STATE
+	note> Interfere the state ]
+	STATE -.- note
+```
+
+Natural Events
+STATE MACHINE
+
+[replacement V.S repair. Localize the problem to an atomic level where fixing it components is more expensive than replacing it as a whole]: #
+ 
+## Thinking
+[Lessons learned from this experience]: #
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NjQ5OTYwMV19
+eyJoaXN0b3J5IjpbMTc3MjYyOTc2LDE0NDY0OTk2MDFdfQ==
 -->
