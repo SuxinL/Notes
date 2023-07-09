@@ -1,5 +1,9 @@
 # Methodologies in Cause Analysis
-1. backward root cause reasoning starting from the final symptoms **to find causes of different depths.**
+
+## Backward Reasoning
+
+backward root cause reasoning starts from the final symptoms **to find the chain of causes.**
+
 ```mermaid
 	flowchart BT
 		OUTPUT
@@ -7,9 +11,34 @@
 		INTERACTION_1 -->|produce a component| INTERACTION
 		INTERACTION_2 -->|produce another component| INTERACTION
 ```
-  - physiological problems
-	- [x] mold smell
-		```mermaid
+
+### THE GRAIN SIZE OF BACKWARD REASONING
+When there is a clear cause-effect relation between an action A and a result B, we mark A as the cause of B.
+     
+For example, *the rotten smell in the kitchen* is caused by the action that *gems consume foods*.
+
+```mermaid
+flowchart BT
+   GEMS_CONSUME_FOODS --> ODORS
+``` 
+
+**However, if a process consists of multiple steps or components and we can not make sure which step or component causes the problem, we make the whole process as the cause firstly then use trouble shooting to find the problematic components.**
+
+For example, a failed write to the disk is caused by a failed write process which consists of many components including the CPU, PCI, SATA controller and SATA device.
+
+```mermaid
+flowchart BT
+	WRITE_FAILED
+	subgraph failed_WRITE_PROCESS
+		CPU --> PCI --> SATA_CONTROLLER --> SATA_DEV
+	end
+	failed_WRITE_PROCESS --> WRITE_FAILED 
+``` 
+### Problem Categories
+
+#### physiological problems
+- [x] mold smell
+	```mermaid
 		flowchart BT
 			SMELL
 			MOLDS_CONSUME_FOODS --> SMELL
@@ -22,9 +51,9 @@
 			MOLDS_ENV -->|molds| MOLDS_CONSUME_FOODS
 			STORAGE -->|foods| MOLDS_CONSUME_FOODS
 		    
-		```
-	- [x] rotten smell in the kitchen
-		```mermaid
+	```
+- [x] rotten smell in the kitchen
+	```mermaid
 		flowchart BT
 				SMELL
 				BACTERIAS_EAT_FOODS --> SMELL
@@ -36,77 +65,83 @@
 				end
 				BAC_ENV -->|bacterias| BACTERIAS_EAT_FOODS
 				NOT_CLEAN -->|foods| BACTERIAS_EAT_FOODS
-		```
-	- [x] bad sleep
-		```mermaid
+	```
+- [x] bad sleep
+	```mermaid
 			flowchart BT
 				SLEEP_INTERRUPTED
 				failed_GOOD_SLEEP_ENV --> SLEEP_INTERRUPTED
-		```
-		A good sleep env:
-		- external
-			- temperature: cool
-			- light: dark
-			- sound: quite 
-		- internal
-			- short-term
-				- breath: fluent
-				- stomach: not empty
-				- posture: comfortable
-				- bladder: empty
-			- long-term
-				- biological clock
-				- related diseases  
+	```
+	A good sleep env:
+	- external
+		- temperature: cool
+		- light: dark
+		- sound: quite 
+	- internal
+		- short-term
+			- breath: fluent
+			- stomach: not empty
+			- posture: comfortable
+			- bladder: empty
+		- long-term
+			- biological clock
+			- related diseases  
 					
-  - engineering problems 
-	- Mechanics
-		- Bike
-			- [x] brake disc adjustment to avoid friction
-				```mermaid
+#### engineering problems 
+- Mechanics
+	- Bike
+		- [x] brake disc adjustment to avoid friction
+			```mermaid
 				flowchart BT
 					FRICTION
 					failed_DISC_PARALLEL_CATCHERS --> FRICTION
-				```
-				DISC:
-				- disc: well-formed
-				- fastener: tight
+			```
+			DISC
+			: - disc: well-formed
+				- flat
+				- perpendicular to the hub axis
+			  - fastener: tight 
 				
-				CATCHERS: stable
-				INTERFACE: parallel
-             - [ ] speed switch system 
-		- Chair
-             - [x] rubber strip fastener
-				```mermaid
+			CATCHERS
+			: stable
+			
+			INTERFACE
+			: parallel
+        - [x] speed shift system 
+          
+	- Chair
+        - [x] rubber strip fastener
+			```mermaid
 				flowchart BT
 					failed_GAP_CATCH_STRIP --> STRIP_OUT
-				```
-				GAP: 
-				- hard
-				- not broken
+			```
+			GAP: 
+			- strong
+			- not broken
 			    
-				STRIP:
-				- elastic
-				- not broken
+			STRIP:
+			- elastic
+			- not broken
 				
-				CATCH:
-				- match
-				- tight
-				- no pull
-	- Eletronic
-		- Laptop
-			- Cannot write to the disk. Find the broken component.
-			    ```mermaid
+			CATCH:
+			- match
+			- tight
+			
+- Electronics
+	- Laptop
+		- Cannot write to the disk. Find the broken component.
+			```mermaid
 				flowchart BT
 					failed_WRITE_PROCESS --> DISK_WRITE_ERRORS
-				```
-				CPU:
-				PCI:
-				Sata Controller:
-				Sata Device: well functional
-				Interfaces: not loose
+			```
+			CPU:
+			PCI:
+			Sata Controller:
+			Sata Device: well functional
+			Interfaces: not loose
 				
-  - psychological & behavioral problems
-	```mermaid
+#### psychological & behavioral problems
+```mermaid
 	flowchart BT
 		RESULT_ENV --> RESULT_THOUGHT
 		ACTION --> RESULT_ENV
@@ -114,9 +149,9 @@
 			CURRENT_THOUGHT --> ACTION
 			CURRENT_ENV --> ACTION
 		end
-	```
-	- forget the phone
-		```mermaid
+```
+- forget the phone
+	```mermaid
 			flowchart BT
 				PHONE_LEFT
 				subgraph forgot
@@ -137,9 +172,9 @@
 				USAGES --> ZHOU_BRING_PHONE
 				PHONE_AT_HOME --> ZHOU_BRING_PHONE
 				end
-		```
-	- anxiety of differencies
-		```mermaid
+	```
+- anxiety of differencies
+	```mermaid
 			flowchart BT
 				ANXIETY
 				I_WORRY_DIFFERENCES --> ANXIETY
@@ -147,43 +182,68 @@
 				DIFFERENCES --> I_WORRY_DIFFERENCES
 				MEMORY_LOSS --> DIFFERENCES
 				KNOW_OUTDATED --> DIFFERENCES
-		```	
-2. For each interaction, forward analysis of the process flow **to organize involved components** 
-     - **Principle: Any component broken will make the whole path broken.**
-     - ==supports Why we learn from materials systematically.==
-	 1. if the output is from an interaction that should not exist (its components should not exist) at all like the mold, smell and mental health problems, apply forward analysis on the interaction and remove components.
-	 2. else if output is from an interaction that should exist but failed (**its components and interfaces** are required but problematic) like the laptop write failures, frictions in brake system, bad speed switch system and chair stripe come-out, apply forward analysis on the expected good interaction, then replace problematic components or adjust interfaces.
-		```mermaid
+	```	
+## Trouble Shooting
+
+For each interaction, if we need to find from multiple components which contribute to the result the most,
+1. **organize involved components** by forward analysis of the process flow 
+2. **find the contributing ones** by unit tests. 
+
+### Principles
+- Any component broken will make the whole path broken.
+
+- It is rarely possible that two independent things break at the same time.
+  
+  For example, for a broken path P, if the problem is still here after replacing a component A with an alternate A', then the probability that the problem is inside the part P - A is much higher than the probability that both A and A' are problematic.
+   
+- ==supports Why we learn from materials systematically.==
+
+### Forward Analysis
+
+#### Bad Interaction
+
+When the output is from an interaction that should not exist (its components should not exist) at all like the mold, smell and mental health problems, apply forward analysis on the interaction and remove components to break the interaction.
+
+#### Failed Good Interaction
+
+When the output is from an interaction that should exist but failed (**its components and interfaces** are required but problematic) like the laptop write failures, frictions in brake system, bad speed switch system and chair stripe come-out, apply forward analysis on the expected good interaction, then replace problematic components or adjust interfaces.
+```mermaid
 		flowchart 
 			subgraph system
 				component1 ---|interface| component2 ---|interface| component3
 			end
-		```
-		- problems
-		  - composite
-		    - any component or interface
-		  - leaf
-		    - missed
-		    - weak strength
-		    - deformed
-		    - wrong function
-		  - interface
-		    - mismatched form factors
-		    - loosen or separated or disposition
-		      - natural aging
-		      - external interruption       
-3. Use **unit tests** to find contributing factors to the output. recursively apply this step if a contributing factor is composite.
+```
+
+##### Possible Problems
+- composite
+	- any component or interface
+- leaf
+	- missed
+	- weak strength
+	- deformed
+	- wrong function (for units whose problems cannot be seen from out appearance likes electronic devices.)
+- interface (mainly for engineering problems)
+	- mismatched form factors
+	- loosen or separated or disposition
+		- natural aging
+		- external interruption
+		       
+### Unit Tests
+
+Use **unit tests** to find contributing factors to the output. recursively apply this step if a contributing factor is composite.
      
-	 When direct tests are unavailable, use deduction from observation about components or **hypothetical deduction**. 
-4. **By changing touchable physical objects** to remove causes.
+When direct tests are hard, use **hypothetical deduction** and try to remove from the causes with the most evidence. 
+
+## Removal of Causes
+**By changing touchable physical objects** to remove causes.
  
-	 For actions, change the person's 
-	 - thought by change the person's environement by
-		 - know more examples to get an objective view.    
-	 - or its environment by
-		 - change the object's state
-		 - import external constraints
-5. For interactions in which multiple components mix up like those in biology, focus on components not interfaces.
+For actions, change the person's 
+- thought by change the person's environement by
+	- know more examples to get an objective view.    
+- its environment by
+	- change the object's state
+	- import external constraints
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMjI4MDcxNV19
+eyJoaXN0b3J5IjpbMTc3NjU0ODkzN119
 -->
