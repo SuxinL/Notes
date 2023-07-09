@@ -17,6 +17,7 @@
 - [x ] repair my bike
 - [ ] make meals easy
 - [ ] chrome crashing down
+- [ ] stackedit typing latency
 - [ ] repair gloves
 - [ ] repair the ceiling of the restroom
 - [ ] repair the toilet hat
@@ -44,7 +45,7 @@ ___
 - [ ] arrange notes from school time
 - [ ] learn about going abroad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNTI0Mjc1MCwtMTQ2ODczMjIyNSwtOD
+eyJoaXN0b3J5IjpbMTE5NzMyNzc2MiwtMTQ2ODczMjIyNSwtOD
 Y5OTA2NjkyLDE3NTA1OTI0MzEsLTEzMzMxMzQxMjUsNDE5OTA1
 ODI5LDU3NTcxNzU4MSwtMTUwODk1NzU3NywtNDgwNzQ0OTU0LC
 0yMTI4NTM3NTk0XX0=
