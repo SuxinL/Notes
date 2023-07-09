@@ -39,12 +39,12 @@ ___
 - [ ] repair the outdoor light
 - [ ] anxiety management
 - [ ] economics
-- [ ] social skills
+- [ ] social skillsk
 - [ ] check the BOC credit card
 - [ ] arrange notes from school time
 - [ ] learn about going abroad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Njg3MzIyMjUsLTMwNzU5ODU4MCwtOD
+eyJoaXN0b3J5IjpbLTcyNTI0Mjc1MCwtMTQ2ODczMjIyNSwtOD
 Y5OTA2NjkyLDE3NTA1OTI0MzEsLTEzMzMxMzQxMjUsNDE5OTA1
 ODI5LDU3NTcxNzU4MSwtMTUwODk1NzU3NywtNDgwNzQ0OTU0LC
 0yMTI4NTM3NTk0XX0=
