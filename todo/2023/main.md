@@ -15,7 +15,7 @@
 - [x] manage anxiety of forgetting knowledge
 - [x] Mind Map
 - [x ] repair my bike
-- [ ] repair gloves
+- [ ] make meals easy
 - [ ] chrome crashing down
 - [ ] repair gloves
 - [ ] repair the ceiling of the restroom
@@ -44,7 +44,7 @@ ___
 - [ ] arrange notes from school time
 - [ ] learn about going abroad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTQ1MzU2OTAsLTMwNzU5ODU4MCwtOD
+eyJoaXN0b3J5IjpbLTE0Njg3MzIyMjUsLTMwNzU5ODU4MCwtOD
 Y5OTA2NjkyLDE3NTA1OTI0MzEsLTEzMzMxMzQxMjUsNDE5OTA1
 ODI5LDU3NTcxNzU4MSwtMTUwODk1NzU3NywtNDgwNzQ0OTU0LC
 0yMTI4NTM3NTk0XX0=
