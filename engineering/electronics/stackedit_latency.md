@@ -57,6 +57,7 @@ Software
 flowchart BT
 	LATENCY
 	failed_IO --> LATENCY
+	
 ```
 IO
 : ~~KEYBOARD_SYS~~
@@ -93,27 +94,28 @@ IO
         : Neg
           : - **[OTHER_JOBS]**
           
-      SOFTWARE
-      : OS
-        : Evidence
-          : Pos
-            : - **[BOOSTNOTES]** I encountered this typing latency when using Boostnotes desktop app in Ubuntu 18.
-        
-        
-        CHROME
-        : Chrome takes too much memory.
-          
-          Evidence
-          : Pos
-            : - **[CHROME_CRASH]** Chrome often crashes and closes overnight.
 
-        STACKEDIT
-        : Evidence
-          : Pos
-            : - **[INIT_SYNC_SLOW]** Without VPN, the initialization and synchronization of StackEdit work stations are slow. 
+  SOFTWARE
+  : OS      
+    : Evidence
+      : Pos
+        : - **[BOOSTNOTES]** I encountered this typing latency when using Boostnotes desktop app in Ubuntu 18.
+        
+        
+    CHROME
+    : Chrome takes too much memory.
+          
+      Evidence
+      : Pos
+        : - **[CHROME_CRASH]** Chrome often crashes and closes overnight.
+
+    STACKEDIT
+    : Evidence
+      : Pos
+        : - **[INIT_SYNC_SLOW]** Without VPN, the initialization and synchronization of StackEdit work stations are slow. 
             
-            Neg
-            : - **[JS]** Editing is at client side, and no network is needed.    
+        Neg
+        : - **[JS]** Editing is at client side, and no network is needed.    
       
   ~~OUTPUT_PCI~~
   : Evidence
@@ -139,11 +141,14 @@ IO
 [Lessons learned from this experience]: #
 - use process flow of a specific use case for unfamiliar fields.
 - when the problem happens sometimes but now is not present, how to gather evidence. --> **LOG**
+  - tip: if possible record the time the problem happens for later checking. 
 - for electronic devices, there are many different use cases each of which involves different components. --> unit tests.
 - unit test skills!
+  
+  if there are unidirectional dependencies among components, firstly test low-level components. 
 - **trouble shooting: top-down V.S down-top**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDY4OTU0NDVdfQ==
+eyJoaXN0b3J5IjpbLTI4NjIxMTU2Nl19
 -->
