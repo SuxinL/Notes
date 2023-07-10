@@ -95,27 +95,29 @@ IO
           : - **[OTHER_JOBS]**
           
 
-  SOFTWARE
-  : OS      
+      SOFTWARE
+      : OS
+      
     : Evidence
-      : Pos
-        : - **[BOOSTNOTES]** I encountered this typing latency when using Boostnotes desktop app in Ubuntu 18.
+          : Pos
+            : - **[BOOSTNOTES]** I encountered this typing latency when using Boostnotes desktop app in Ubuntu 18.
         
         
-    CHROME
-    : Chrome takes too much memory.
+        CHROME
+        : Chrome takes too much memory.
           
-      Evidence
-      : Pos
-        : - **[CHROME_CRASH]** Chrome often crashes and closes overnight.
+          Evidence
+          : Pos
+            : - **[CHROME_CRASH]** Chrome often crashes and closes overnight.
 
-    STACKEDIT
-    : Evidence
-      : Pos
-        : - **[INIT_SYNC_SLOW]** Without VPN, the initialization and synchronization of StackEdit work stations are slow. 
+        STACKEDIT
+        : Evidence
+          : Pos
+            : - **[INIT_SYNC_SLOW]** Without VPN, the initialization and synchronization of StackEdit work stations are slow. 
             
         Neg
-        : - **[JS]** Editing is at client side, and no network is needed.    
+    Neg
+            : - **[JS]** Editing is at client side, and no network is needed.    
       
   ~~OUTPUT_PCI~~
   : Evidence
@@ -150,9 +152,9 @@ IO
   - when testing a component, usually we need to include alternatives to all higher-level components, because it is common that we do not know the specific interfaces. For instance, when testing the OS, we need to use another browser and online editor rather than randomly testing some functionalities of the OS, otherwise it is possible that we just miss the problematic interfaces of the OS involved in the process.   
 - generally, hardware problems are persistent, and software ones are temporary or periodic especially those related to data not code, in which case some specific data triggers the problem.
 
-      
+      - **trouble shooting: top-down V.S down-top**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNzc0ODQxMV19
+eyJoaXN0b3J5IjpbMTExNDU0NTI1NSwxMjM3NzQ4NDExXX0=
 -->
