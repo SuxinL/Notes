@@ -186,8 +186,10 @@ flowchart BT
 ## Trouble Shooting
 
 For each interaction, if we need to find from multiple components which contribute to the result the most,
-1. **organize involved components** by forward analysis of the process flow 
-2. **find the contributing ones** by unit tests. 
+1. **organize involved components** by forward analysis of the process flow. To know what happened,
+   - ==know of involved components by hints from error messages if existing==
+   - ==study the structure systematically==
+   3. **find the contributing ones** by unit tests. 
 
 ### Principles
 - Any component broken will make the whole path broken.
@@ -195,8 +197,6 @@ For each interaction, if we need to find from multiple components which contribu
 - It is rarely possible that two independent things break at the same time.
   
   For example, for a broken path P, if the problem is still here after replacing a component A with an alternate A', then the probability that the problem is inside the part P - A is much higher than the probability that both A and A' are problematic.
-   
-- ==supports Why we learn from materials systematically.==
 
 ### Forward Analysis
 
@@ -245,5 +245,5 @@ For actions, change the person's
 	- import external constraints
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NjU0ODkzN119
+eyJoaXN0b3J5IjpbMjkwOTQwNTE5XX0=
 -->
