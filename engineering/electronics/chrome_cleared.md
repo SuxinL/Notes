@@ -34,7 +34,7 @@ Software
 
 #### Vision
 
-- When I relogin to my locked laptop at the beginning of a day, previous opened Chrome web pages are all closed.
+- **[NIGHT_CLEAR]** When I relogin to my locked laptop at the beginning of a day, previous opened Chrome web pages are all closed.
 - Sometimes when using the browser, it suddenly has no response and then closes.
 - **[FORCE_DOWN_ERR]** After reopening Chrome, it shows the error message of an unexpected close.
 - **[OOMK_LOG]** From systemd journal, there is a message that **oomk clears chrome processes because their memory usage exceeds the threshold**.
@@ -70,7 +70,8 @@ POLICY
       
   Evidence
   : Pos
-    : - **[OOMK_LOG]**     
+    : - **[OOMK_LOG]**
+      - **[NIGHT_CLEAR]**     
 
 CHROME_ENV
 : Chrome takes up too much memory.
@@ -102,6 +103,7 @@ I_MISS_STEP
 MISCONCEPT
 : - no idea that changes in software systems often need to be written to config files to be lasting, and running commands from a terminal only makes it valid at the current session.
   - the thought that things at last are less important, which triggers my temptation to skip them.
+  - I did not specify the goal of lasting config enough.
 
 
 ## Brainstorming
@@ -127,21 +129,28 @@ CHROME_ENV
 	   
   MEMORY
   : - replacement: use a chip with a larger memory size.
-    - repair:    
+    - repair: repair the swap area.   
 
 SWAP_OFF
 : turn on it by command `swapon`
 
+~~I_MISS_STEP~~
+
 MISCONCEPT
 : After this experience,
   - I understand the importance of lasting config files.
-  - To overcome the temptation of skipping the last step, keep **checking TOC**.
+  - To overcome the temptation of skipping the last step, keep **checking and understanding TOC**.
+  - To avoid missing an important step, check whether I have met my goals one by one. **Never jump to conclusions!**
 
+~~STEP_AT_LAST~~
+: out of my control 
 		    
 ## Thinking
 [Lessons learned from this experience]: #
+- Logs are very important and powerful in catching the problem.
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MzE1Nzk2N119
+eyJoaXN0b3J5IjpbMTcwMTE0ODYyNV19
 -->
