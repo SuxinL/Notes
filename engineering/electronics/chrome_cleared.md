@@ -148,9 +148,13 @@ MISCONCEPT
 ## Thinking
 [Lessons learned from this experience]: #
 - Logs are very important and powerful in catching the problem.
+TOC**.
 
+		    
+## Thinking
+[Lessons learned from this experience]: #
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMTE0ODYyNV19
+eyJoaXN0b3J5IjpbMTk4NTQ4NjI4LDE3MDExNDg2MjVdfQ==
 -->
