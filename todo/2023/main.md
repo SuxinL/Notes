@@ -14,9 +14,9 @@
 - [x] understand note taking
 - [x] manage anxiety of forgetting knowledge
 - [x] Mind Map
-- [x ] repair my bike
+- [x] repair my bike
 - [ ] make meals easy
-- [ ] chrome crashing down
+- [x] chrome crashing down
 - [ ] stackedit typing latency
 - [ ] repair gloves
 - [ ] repair the ceiling of the restroom
@@ -45,8 +45,8 @@ ___
 - [ ] arrange notes from school time
 - [ ] learn about going abroad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NzMyNzc2MiwtMTQ2ODczMjIyNSwtOD
-Y5OTA2NjkyLDE3NTA1OTI0MzEsLTEzMzMxMzQxMjUsNDE5OTA1
-ODI5LDU3NTcxNzU4MSwtMTUwODk1NzU3NywtNDgwNzQ0OTU0LC
-0yMTI4NTM3NTk0XX0=
+eyJoaXN0b3J5IjpbLTEyOTc2MDU3ODgsLTE0Njg3MzIyMjUsLT
+g2OTkwNjY5MiwxNzUwNTkyNDMxLC0xMzMzMTM0MTI1LDQxOTkw
+NTgyOSw1NzU3MTc1ODEsLTE1MDg5NTc1NzcsLTQ4MDc0NDk1NC
+wtMjEyODUzNzU5NF19
 -->
