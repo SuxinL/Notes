@@ -108,7 +108,7 @@ MISCONCEPT
 
 ## Brainstorming
 [removal of touchable physical objects is applicable]: #
-[replacement V.S repair. Localize the problem to an atomic level where fixing it components is more expensive than replacingmany  it as a whole]: #
+[replacement V.S repair. Localize the problem to an atomic level where fixing it components is more expensive than replacing it as a whole]: #
 
 CHROME_CLEARED
 : reopen it.
@@ -152,6 +152,6 @@ MISCONCEPT
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMTE0ODYyNSwxOTg1NDg2MjgsMTcwMT
-E0ODYyNV19
+eyJoaXN0b3J5IjpbLTQ0OTMzMDEyNiwxNzAxMTQ4NjI1LDE5OD
+U0ODYyOF19
 -->
