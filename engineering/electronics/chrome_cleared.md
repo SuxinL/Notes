@@ -80,6 +80,9 @@ CHROME_ENV
   : Evidence
     : Pos 
       : - **[CHROME_MULTI_PROCESSES]** Through examining active processes, I find that Chrome creates many processes.
+   
+      Neg
+      : - from cgroups data, Firefox costs more memory than Chrome when opening the same tabs.
 
   MEMORY
   : The memory is not enough.
@@ -152,6 +155,6 @@ MISCONCEPT
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0OTMzMDEyNiwxNzAxMTQ4NjI1LDE5OD
-U0ODYyOF19
+eyJoaXN0b3J5IjpbLTE1OTMwOTAxMzcsLTQ0OTMzMDEyNiwxNz
+AxMTQ4NjI1LDE5ODU0ODYyOF19
 -->
