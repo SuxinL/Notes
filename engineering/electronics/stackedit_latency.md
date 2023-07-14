@@ -109,14 +109,14 @@ IO
           Evidence
           : Pos
             : - **[CHROME_CRASH]** Chrome often crashes and closes overnight.
+              - **[SWAP]** After repairing the swap file, the problem vanishes. 
 
         STACKEDIT
         : Evidence
           : Pos
             : - **[INIT_SYNC_SLOW]** Without VPN, the initialization and synchronization of StackEdit work stations are slow. 
             
-        Neg
-    Neg
+            Neg
             : - **[JS]** Editing is at client side, and no network is needed.    
       
   ~~OUTPUT_PCI~~
@@ -156,5 +156,6 @@ IO
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNDU0NTI1NSwxMjM3NzQ4NDExXX0=
+eyJoaXN0b3J5IjpbLTkyMjE0ODU5MSwxMTE0NTQ1MjU1LDEyMz
+c3NDg0MTFdfQ==
 -->
