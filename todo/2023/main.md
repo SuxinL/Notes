@@ -1,12 +1,12 @@
 - [x] repair the water pot.
 - [x] debind all accounts related to my old phone number
-- [ ] delete the 130 number.
+- [x] delete the 130 number.
 - [x] repair shower taps
 - [x] wash shoes
 - [ ] handle VPN issues.
 - [x] repair the loosen bed
 - [x] repair broken closet doors
-- [ ] learn typing
+- [ ] *learn typing*
 - [x] password management
 - [x] backup laptops
 - [ ] backup phones
@@ -17,7 +17,7 @@
 - [x] repair my bike
 - [ ] make meals easy
 - [x] chrome crashing down
-- [ ] stackedit typing latency
+- [ ] *stackedit typing latency*
 - [ ] repair gloves
 - [ ] repair the ceiling of the restroom
 - [ ] repair the toilet hat
@@ -45,8 +45,8 @@ ___
 - [ ] arrange notes from school time
 - [ ] learn about going abroad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTc2MDU3ODgsLTE0Njg3MzIyMjUsLT
-g2OTkwNjY5MiwxNzUwNTkyNDMxLC0xMzMzMTM0MTI1LDQxOTkw
-NTgyOSw1NzU3MTc1ODEsLTE1MDg5NTc1NzcsLTQ4MDc0NDk1NC
-wtMjEyODUzNzU5NF19
+eyJoaXN0b3J5IjpbNDc1NDI0Mjg0LC0xNDY4NzMyMjI1LC04Nj
+k5MDY2OTIsMTc1MDU5MjQzMSwtMTMzMzEzNDEyNSw0MTk5MDU4
+MjksNTc1NzE3NTgxLC0xNTA4OTU3NTc3LC00ODA3NDQ5NTQsLT
+IxMjg1Mzc1OTRdfQ==
 -->
