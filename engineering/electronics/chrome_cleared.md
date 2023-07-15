@@ -114,39 +114,50 @@ MISCONCEPT
 [replacement V.S repair. Localize the problem to an atomic level where fixing it components is more expensive than replacing it as a whole]: #
 
 CHROME_CLEARED
-: reopen it.
+: reopen it. **<1>**
 
 UBUNTU
 : - ~~replacement~~: There is only one OS in my laptop. The Ubuntu is needed to run Chrome. 
-  - repair: disable `oomk`
+  - repair: disable `oomd` **<2>**
  
 POLICY
-: loose the policy by increasing threshold. 
+: loose the policy by increasing threshold. **<3>** 
 
 CHROME_ENV
 : CHROME
-  : - replacement: use another browser ~~like Firefox~~.
+  : - replacement: use another browser ~~like Firefox~~. **<4>**
     - repair: 
-	    - change chrome's behaviors
-	    - close unused tabs
+	    - change chrome's behaviors **<5>**
+	    - close unused tabs **<6>**
 	   
   MEMORY
-  : - replacement: use a chip with a larger memory size.
-    - repair: repair the swap area.   
+  : - replacement: use a chip with a larger memory size. **<7>**
+    - repair: repair the swap area. **<8>**   
 
 SWAP_OFF
-: turn on it by command `swapon`
+: turn on it by command `swapon` **<9>**
 
 ~~I_MISS_STEP~~
 
 MISCONCEPT
-: After this experience,
+: After this experience, **<10>**
   - I understand the importance of lasting config files.
   - To overcome the temptation of skipping the last step, keep **checking and understanding TOC**.
   - To avoid missing an important step, check whether I have met my goals one by one. **Never jump to conclusions!**
 
 ~~STEP_AT_LAST~~
 : out of my control 
+
+## Analysis of Solutions
+
+### Comparison
+
+| Solution | Cost | Effective Duration | Side Effects |
+| --- | --- | --- | --- |
+| 1 | LOW: just reopen Chrome. | SHORT: till the 2nd day. | LITTLE |
+| 2 | LOW: just a command. | LONG: forever | SERIOUS: might cause OOM. |
+
+### Priority
 		    
 ## Thinking
 [Lessons learned from this experience]: #
@@ -155,6 +166,6 @@ MISCONCEPT
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY3MDMwNTY3LC0xNTkzMDkwMTM3LC00ND
-kzMzAxMjYsMTcwMTE0ODYyNSwxOTg1NDg2MjhdfQ==
+eyJoaXN0b3J5IjpbMTkwODQ0NTUyNiwtMTU5MzA5MDEzNywtND
+Q5MzMwMTI2LDE3MDExNDg2MjUsMTk4NTQ4NjI4XX0=
 -->
