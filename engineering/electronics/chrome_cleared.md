@@ -125,7 +125,7 @@ POLICY
 
 CHROME_ENV
 : CHROME
-  : - replacement: use another browser like Firefox.
+  : - replacement: use another browser ~~like Firefox~~.
     - repair: 
 	    - change chrome's behaviors
 	    - close unused tabs
@@ -155,6 +155,6 @@ MISCONCEPT
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTMwOTAxMzcsLTQ0OTMzMDEyNiwxNz
-AxMTQ4NjI1LDE5ODU0ODYyOF19
+eyJoaXN0b3J5IjpbNDY3MDMwNTY3LC0xNTkzMDkwMTM3LC00ND
+kzMzAxMjYsMTcwMTE0ODYyNSwxOTg1NDg2MjhdfQ==
 -->
