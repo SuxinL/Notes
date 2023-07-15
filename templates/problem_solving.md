@@ -11,8 +11,9 @@
 #### Where
 [Localization]: #
 
-### Symptomsication cation de]: #
-[t #
+### Symptoms
+[avoid biases]: #
+[comparison between actuation and expectation]: #
 [collect evidence used by hypothesis built in the root cause analysis phrase]: #
 [specification: location, degree]: #
 
@@ -36,14 +37,21 @@ flowchart BT
 ```
 ## Brainstorming
 [removal of touchable physical objects is applicable]: #
-
-[re. Localize the problem to an atomic level where fixing it components is more expensive than replacing it as a whole]: #
+[replacement V.S repair. Localize the problem to an atomic level where fixing it components is more expensive than replacing it as a whole]: #
  
+## Analysis of Solutions
+
+### Comparison
+
+ 
+### Priority
+
 ## Thinking
 [Lessons learned from this experience]: #
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzExOTY5NzUxLDIwMzk1NzAzMCwxMDM0Mj
-I4ODIxLC0xMTM2MDI4MTkzLDExMTI0ODc4NzFdfQ==
+eyJoaXN0b3J5IjpbODkyOTMxMjQ4LDcxMTk2OTc1MSwyMDM5NT
+cwMzAsMTAzNDIyODgyMSwtMTEzNjAyODE5MywxMTEyNDg3ODcx
+XX0=
 -->
