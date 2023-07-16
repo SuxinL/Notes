@@ -151,11 +151,10 @@ IO
     - if it is in a good condition, we use it when testing chrome. 
   - when testing a component, usually we need to include alternatives to all higher-level components, because it is common that we do not know the specific interfaces. For instance, when testing the OS, we need to use another browser and online editor rather than randomly testing some functionalities of the OS, otherwise it is possible that we just miss the problematic interfaces of the OS involved in the process.   
 - generally, hardware problems are persistent, and software ones are temporary or periodic especially those related to data not code, in which case some specific data triggers the problem.
-
-      - **trouble shooting: top-down V.S down-top**
+- **trouble shooting: top-down V.S down-top**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMjE0ODU5MSwxMTE0NTQ1MjU1LDEyMz
-c3NDg0MTFdfQ==
+eyJoaXN0b3J5IjpbLTIxMDU1MDg0ODEsMTExNDU0NTI1NSwxMj
+M3NzQ4NDExXX0=
 -->
