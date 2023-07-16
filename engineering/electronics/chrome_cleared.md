@@ -143,7 +143,7 @@ MISCONCEPT
 : After this experience, **<10>**
   - I understand the importance of lasting config files.
   - To overcome the temptation of skipping the last step, keep **checking and understanding TOC**.
-  - To avoid missing an important step, check whether I have met my goals one by one. **Never jump to conclusions!**
+  - To rescue, check whether I have met my goals one by one. **Never jump to conclusions!**
 
 ~~STEP_AT_LAST~~
 : out of my control 
@@ -154,11 +154,21 @@ MISCONCEPT
 
 | Solution | Cost | Effective Duration | Side Effects |
 | --- | --- | --- | --- |
-| 1 | LOW: just reopen Chrome. | SHORT: till the 2nd day. | LITTLE |
+| 1 | LOW: just reopen Chrome. | SHORT: till the 2nd day. | LITTLE: Chrome can record pages closed unexpectedly |
 | 2 | LOW: just a command. | LONG: forever | SERIOUS: might cause OOM. |
+| 3 | MIDDLE: need to learn `oomd` and fine turning. | LONG: forever | RISK: inappropriate config might cause OOM. |
+| 4 | MIDDLE: need to find a broswer using less memory than Chrome. And bookmarks transfer is needed. | LONG | WRONG_BROWSER: some browsers like Firefox cost more memory than Chrome.|
+| 5 | MIDDLE: need to learn how to configure Chrome. | LONG | LESS_EFFECTIVE: might not save enough memory. |
+| 6 | LOW: just close a tab when finishing it. | SHORT: only for current session. | FORGET: easy to forget this step. |
+| 7 | HIGH: this method is expensive and time-consuming, so it should be the last resort. | LONG | LITTLE |
+| 8 | LOW: I already know know to do it which is just adding a line in a config line. | LONG | LITTLE |
+| 9 | LOW | SHORT: current session. | FORGET |
+| 10 | MIDDLE: need to practice this habit | LONG | LITTLE |
 
 ### Priority
-		    
+1. 8
+2. 10
+3. 3   
 ## Thinking
 [Lessons learned from this experience]: #
 - Logs are very important and powerful in catching the problem.
@@ -166,6 +176,6 @@ MISCONCEPT
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwODQ0NTUyNiwtMTU5MzA5MDEzNywtND
+eyJoaXN0b3J5IjpbLTQyMjM2Mjk5OSwtMTU5MzA5MDEzNywtND
 Q5MzMwMTI2LDE3MDExNDg2MjUsMTk4NTQ4NjI4XX0=
 -->
