@@ -18,6 +18,7 @@
 - [ ] make meals easy
 - [x] chrome crashing down
 - [ ] *stackedit typing latency*
+- [ ] learn to use Chrome
 - [ ] repair gloves
 - [ ] repair the ceiling of the restroom
 - [ ] repair the toilet hat
@@ -45,8 +46,8 @@ ___
 - [ ] arrange notes from school time
 - [ ] learn about going abroad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1NDI0Mjg0LC0xNDY4NzMyMjI1LC04Nj
-k5MDY2OTIsMTc1MDU5MjQzMSwtMTMzMzEzNDEyNSw0MTk5MDU4
-MjksNTc1NzE3NTgxLC0xNTA4OTU3NTc3LC00ODA3NDQ5NTQsLT
-IxMjg1Mzc1OTRdfQ==
+eyJoaXN0b3J5IjpbMTE5NzI3NjcyMSwtMTQ2ODczMjIyNSwtOD
+Y5OTA2NjkyLDE3NTA1OTI0MzEsLTEzMzMxMzQxMjUsNDE5OTA1
+ODI5LDU3NTcxNzU4MSwtMTUwODk1NzU3NywtNDgwNzQ0OTU0LC
+0yMTI4NTM3NTk0XX0=
 -->
