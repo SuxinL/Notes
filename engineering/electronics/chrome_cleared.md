@@ -166,9 +166,18 @@ MISCONCEPT
 | 10 | MIDDLE: need to practice this habit | LONG | LITTLE |
 
 ### Priority
-1. 8
-2. 10
-3. 3   
+1.	8
+	
+	[Sun Jul 16 05:42:30 PM CST 2023] After repairing the swap file, Chrome has been killed only once in a week.
+
+2.	10
+
+	practicing
+	
+3.	3   
+	
+	NOT applied
+	
 ## Thinking
 [Lessons learned from this experience]: #
 - Logs are very important and powerful in catching the problem.
@@ -176,6 +185,6 @@ MISCONCEPT
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMjM2Mjk5OSwtMTU5MzA5MDEzNywtND
+eyJoaXN0b3J5IjpbLTQ5MDU0NjIyMCwtMTU5MzA5MDEzNywtND
 Q5MzMwMTI2LDE3MDExNDg2MjUsMTk4NTQ4NjI4XX0=
 -->
