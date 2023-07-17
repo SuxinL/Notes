@@ -42,16 +42,17 @@ flowchart BT
 ## Analysis of Solutions
 
 ### Comparison
-
+| Solution | Cost | Effective Duration | Side Effects |
+| --- | --- | --- | --- |
  
-### Priority
+### Priority & Trace
 
 ## Thinking
 [Lessons learned from this experience]: #
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkyOTMxMjQ4LDcxMTk2OTc1MSwyMDM5NT
-cwMzAsMTAzNDIyODgyMSwtMTEzNjAyODE5MywxMTEyNDg3ODcx
-XX0=
+eyJoaXN0b3J5IjpbLTEyMzg0Njc5Myw3MTE5Njk3NTEsMjAzOT
+U3MDMwLDEwMzQyMjg4MjEsLTExMzYwMjgxOTMsMTExMjQ4Nzg3
+MV19
 -->
