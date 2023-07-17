@@ -18,7 +18,7 @@
 - [ ] make meals easy
 - [x] chrome crashing down
 - [ ] *stackedit typing latency*
-- [ ] learn to use Chrome
+- [ ] *learn to use Chrome*
 - [ ] repair gloves
 - [ ] repair the ceiling of the restroom
 - [ ] repair the toilet hat
@@ -29,7 +29,7 @@
 - [ ] get money reward from the bike order
 - [ ] things to do late at night 
 - [ ] learn laptop battery use
-- [ ] logging: dmesg VS journalctl
+- [x] logging: dmesg VS journalctl
 - [ ] replace wechat account
 ___
 - [ ] how to learn
@@ -41,12 +41,15 @@ ___
 - [ ] repair the outdoor light
 - [ ] anxiety management
 - [ ] economics
-- [ ] social skillsk
+- [ ] social skills
 - [ ] check the BOC credit card
+---
+-	[ ] hunchback
+---
 - [ ] arrange notes from school time
 - [ ] learn about going abroad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NzI3NjcyMSwtMTQ2ODczMjIyNSwtOD
+eyJoaXN0b3J5IjpbLTM2MDQ0NDIxMCwtMTQ2ODczMjIyNSwtOD
 Y5OTA2NjkyLDE3NTA1OTI0MzEsLTEzMzMxMzQxMjUsNDE5OTA1
 ODI5LDU3NTcxNzU4MSwtMTUwODk1NzU3NywtNDgwNzQ0OTU0LC
 0yMTI4NTM3NTk0XX0=
