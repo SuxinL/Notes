@@ -204,7 +204,9 @@ For each interaction, if we need to find from multiple components which contribu
 
 #### Bad Interaction
 
-If the output is from an interaction that should not exist (its components should not exist) at all like the mold, smell and mental health problems, apply forward analysis on the interaction and remove components to break the interaction.
+When the output is from an interaction that should not exist at all,
+-	if components can be removed easily like cases of the mold, smell and mental health problems, apply forward analysis on the interaction and remove components to break the interaction.
+-	if components can be hardly replaced like case of legacy systems or body flows, focus on the interfaces. Change interfaces to reduce bad effects.
 
 #### Failed Good Interaction
 
@@ -239,6 +241,15 @@ When direct tests are hard, use **hypothetical deduction** and try to remove the
 
 ## Removal of Causes
 
+- removal
+	-	replacement
+		- hard: replace the physical object
+		- soft: turn on / off it	
+	-	repair
+		-	remove a component / interface
+		-	change an attribute
+		-	change the action	
+
 **By changing touchable physical objects** to remove causes. 
 - ==This removal means that the object is present here.== 
 - ==To avoid its presentation is prevention.==
@@ -254,6 +265,6 @@ For actions, change the person's
 
 For interactions in which multiple components mix up like those in biology, focus on components not interfaces.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM4MDcyMTQ5LC04NjU1MjY2NDAsLTEzMj
+eyJoaXN0b3J5IjpbMzY3NTE2OTMyLC04NjU1MjY2NDAsLTEzMj
 c3MjgyNzQsMjkwOTQwNTE5XX0=
 -->
