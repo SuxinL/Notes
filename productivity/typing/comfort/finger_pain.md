@@ -78,6 +78,7 @@ FINGER_MOVEMENT
 				
 				Neg
 				:	-	**[RIGHT_HAND]** Right hand middle and ring fingers do not have pain.
+				    -	**[LEFT_OTHER_FINGERS]** Left thumb, index and little fingers do NOT feel this pain.
 					-	==In the case that I lift my left wrist which is pressed by my right hand, my left middle and ring fingers do NOT feel pain when typing.==
 		
 		FINGERS_NERVE
@@ -86,6 +87,7 @@ FINGER_MOVEMENT
 			Evidence
 			:	Pos
 				:	-	The nerve of the middle finger and that of the ring finger are connected.
+					-	**[LEFT_OTHER_FINGERS]**
 					-	**[ONE_FINGER]** If moving the two finger together, the pain disappears.
 					-	**[RIGHT_HAND]** Right hand pattern of using the middle finger for key `,` and ring finger for key `.` is natural.
 					-	**[C] [X]** Left hand pattern involved an unnatural inward and side-way movement.  
@@ -155,5 +157,5 @@ ENV
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3Mzc5Mzg4MV19
+eyJoaXN0b3J5IjpbLTEzNTkyOTUyOTddfQ==
 -->
