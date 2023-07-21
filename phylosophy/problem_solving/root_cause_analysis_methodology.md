@@ -253,18 +253,23 @@ When direct tests are hard, use **hypothetical deduction** and try to remove the
 **By changing touchable physical objects** to remove causes. 
 - ==This removal means that the object is present here.== 
 - ==To avoid its presentation is prevention.==
- 
-For actions, change the person's 
-- thought 
-  - when the thought is here, alter it by external reminders.
-  - to prevent the thought, change the person's environment to help the person be more informed.    
 
-- its environment by external forces
-	- change the object's state
-	- import external constraints
+### Action 
+For actions, there are 3 cases in terms of the subject.
+- if the subject is a human, remove
+	- thought by external reminders.
+	> Notice: 
+	> - to prevent the thought, change the person's environment to help the person be more informed.    
+	> - not try to change the subject brutally.
+	- its environment by external forces
+		- change the object's state
+		- import external constraints
+
+-	if the subject is a nonhuman but organism, remove thought, **itself** or its env. 
+-	if the subject is a nonliving physical object, then the thought is actually physical rules which cannot be altered. In this case, remove itself or env.
 
 For interactions in which multiple components mix up like those in biology, focus on components not interfaces.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY3NTE2OTMyLC04NjU1MjY2NDAsLTEzMj
-c3MjgyNzQsMjkwOTQwNTE5XX0=
+eyJoaXN0b3J5IjpbLTE0MTczNzYxOTUsLTg2NTUyNjY0MCwtMT
+MyNzcyODI3NCwyOTA5NDA1MTldfQ==
 -->
