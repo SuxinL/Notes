@@ -10,10 +10,12 @@ My arms feel painful and sour.
 #### When
 [Specification: year, season, daytime, during & after some events]: #
 
-When typing for ? minutes.
+When typing for 30 seconds.
 
 #### Where
 [Localization]: #
+
+My wrists and shoulders.
 
 ### Symptoms
 [avoid biases]: #
@@ -23,7 +25,8 @@ When typing for ? minutes.
 
 #### Vision
 
-?
+-	My wrists get close to the table gradually.
+-	When in a hurry or serious, I tend to get my arms off my body and hang in the air.
 
 #### Hearing
 
@@ -33,12 +36,21 @@ When typing for ? minutes.
 
 #### Touch & Feel
 
-?
+-	Lifting my wrists up relieves pain in wrists.
+-	Putting shoulders down relieves pain in shoulders.
 
 ## Root Cause Analysis
 [backward cause reasoning for general problems]: #
 [recursive trouble shooting for engineering problems to an atomic level (build hypothesis, use evidence (examination  + unit tests))]: #
 
+### Wrist Pain
+```mermaid
+flowchart BT
+	WRIST_PAIN 
+	TYPING
+```
+
+### Up Arm Pain
 ```mermaid
 flowchart BT
 	
@@ -57,8 +69,14 @@ flowchart BT
 
 ## Thinking
 [Lessons learned from this experience]: #
+-	For senses
+	-	avoid removal of neural pathways: sensor --> pathway --> brain
+	-	start reasoning from the stimuli.
 
+-	Typing is an good interaction, and arm pain is a side effect.
+
+	**To analyse what I am doing.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0ODk4NzY4OF19
+eyJoaXN0b3J5IjpbLTIwOTk1NDU5NTJdfQ==
 -->
