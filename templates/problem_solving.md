@@ -6,7 +6,7 @@
 ### Context
 
 #### When
-[Specification: year, season, daytime, after some events]: #
+[Specification: year, season, daytime, during & after some events]: #
 
 #### Where
 [Localization]: #
@@ -25,7 +25,7 @@
 
 #### Taste
 
-#### Touch
+#### Touch & Feel
 
 ## Root Cause Analysis
 [backward cause reasoning for general problems]: #
@@ -52,7 +52,7 @@ flowchart BT
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzg0Njc5Myw3MTE5Njk3NTEsMjAzOT
-U3MDMwLDEwMzQyMjg4MjEsLTExMzYwMjgxOTMsMTExMjQ4Nzg3
-MV19
+eyJoaXN0b3J5IjpbLTE0ODM1ODkxNzQsNzExOTY5NzUxLDIwMz
+k1NzAzMCwxMDM0MjI4ODIxLC0xMTM2MDI4MTkzLDExMTI0ODc4
+NzFdfQ==
 -->
