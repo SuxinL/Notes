@@ -10,12 +10,14 @@ My arms feel painful and sour.
 #### When
 [Specification: year, season, daytime, during & after some events]: #
 
-When typing for 30 seconds.
+-	**[DURING_TYPING]** When typing for 30 seconds.
 
 #### Where
 [Localization]: #
 
-My wrists and shoulders.
+-	My wrists 
+-	Upper arms.
+-	shoulders.
 
 ### Symptoms
 [avoid biases]: #
@@ -27,6 +29,7 @@ My wrists and shoulders.
 
 -	My wrists get close to the table gradually.
 -	When in a hurry or serious, I tend to get my arms off my body and hang in the air.
+-	My shoulders rise up gradually.
 
 #### Hearing
 
@@ -36,8 +39,10 @@ My wrists and shoulders.
 
 #### Touch & Feel
 
--	Lifting my wrists up relieves pain in wrists.
+-	**[WRISTS_LIFT]** Lifting my wrists up relieves pain in wrists.
 -	Putting shoulders down relieves pain in shoulders.
+-	**[MORE_HAND_TILT]** The feeling gets more intensive when hand tilt degree increases.
+-	**[ARM_OUTWARD]** the extremely sour feeling when moving arms outward further.
 
 ## Root Cause Analysis
 [backward cause reasoning for general problems]: #
@@ -46,15 +51,42 @@ My wrists and shoulders.
 ### Wrist Pain
 ```mermaid
 flowchart BT
-	WRIST_PAIN 
-	TYPING
+	TYPING --> WRIST_PAIN
 ```
 
-### Up Arm Pain
+TYPING
+:	Typing causes my wrist pain.
+	
+	Evidence
+	:	Pos
+		:	-	**[DURING_TYPING]**
+	
+	HAND_TILT_BACK
+	:	The hand position of being tilt backward causes the sour feeling.
+		
+		Evidence
+		:	Pos
+			:	-	**[WRISTS_LIFT]**
+				-	**[MORE_HAND_TILT]**
+				-	(rationalism: knowledge)
+				
+	~~OTHERS~~
+	:	Evidence
+		:	Neg
+			:	-	**[WRISTS_LIFT]**
+			
+### Upper Arm Pain
 ```mermaid
 flowchart BT
-	
+	ARM_STRERCH_OUTWARD --> UPPPER_ARM_PAIN
 ```
+
+ARM_STRETCH_OUT
+:	The action that arms stretch outward causes the arm pain.
+	Evidence
+	:	Pos
+		:	-	**[ARM_OUTWARD]**
+		
 ## Brainstorming
 [removal of touchable physical objects is applicable]: #
 [replacement V.S repair. Localize the problem to an atomic level where fixing it components is more expensive than replacing it as a whole]: #
@@ -78,5 +110,5 @@ flowchart BT
 	**To analyse what I am doing.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTk1NDU5NTJdfQ==
+eyJoaXN0b3J5IjpbMzUzMDAyNjMyXX0=
 -->
