@@ -27,8 +27,8 @@ My arms feel painful and sour.
 
 #### Vision
 
--	When in a hurry or serious, I tend to get my arms off my body and hang in the air.
-
+-	I bend my arms when typing.
+-	**[ARMS_HUNG]** I tend to get my arms off my body and hung in the air.
 
 #### Hearing
 
@@ -46,14 +46,31 @@ My arms feel painful and sour.
 
 ```mermaid
 flowchart BT
-	ARM_STRERCH_OUTWARD --> ARM_PAIN
+	TYPING --> ARM_PAIN
 ```
 
+TYPING
+:	I_BEND_ARMS
+	:	The action that I bend arms causes the feeling.
+		
+		Evidence
+		:	Pos
+			:	-	Bending down for a while causes a sour feeling.
+				-	Bending legs when sleeping causes uncomfortable feeling.
+				-	When the pain appears, stretching arms forward relieves it instantly.
+				-	**[ARMS_HUNG]** This change decreases the level of bending.
 
+```mermaid
+flowchart BT
+	I_BEND_ARMS
+	THOUGHT --> I_BEND_ARMS
+	ENV --> I_BEND_ARMS
+```			
 ## Brainstorming
 [removal of touchable physical objects is applicable]: #
 [replacement V.S repair. Localize the problem to an atomic level where fixing it components is more expensive than replacing it as a whole]: #
- 
+
+
 ## Analysis of Solutions
 
 ### Comparison
@@ -64,14 +81,11 @@ flowchart BT
 
 ## Thinking
 [Lessons learned from this experience]: #
--	For senses
-	-	avoid removal of neural pathways: sensor --> pathway --> brain
-	-	start reasoning from the stimuli.
-
--	Typing is an good interaction, and arm pain is a side effect.
-
-	**To analyse what I am doing.**
-
+-	When reasoning in an unfamiliar field, the whole process is just repeating a step, we can find clues from
+	-	systematic learning 
+	-	examine the posture, and think about which actions cause similar results.
+-	**How to handle the trade-off between different approaches?**
+-	refinement of solutions: When a solution solves a problem, it might brings new problems.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjAzODc1OTddfQ==
+eyJoaXN0b3J5IjpbLTEwOTczNzkyNzFdfQ==
 -->
