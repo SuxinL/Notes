@@ -48,32 +48,38 @@ My arms feel painful and sour.
 [backward cause reasoning for general problems]: #
 [recursive trouble shooting for engineering problems to an atomic level (build hypothesis, use evidence (examination  + unit tests))]: #
 
-### Wrist Pain
 ```mermaid
 flowchart BT
-	TYPING --> WRIST_PAIN
+	TYPING --> PAIN
 ```
-
 TYPING
 :	Typing causes my wrist pain.
 	
 	Evidence
 	:	Pos
 		:	-	**[DURING_TYPING]**
-	
-	HAND_TILT_BACK
+
+
+### Wrist Pain
+
+```mermaid
+flowchart BT
+	HAND_TILT_BACK --> WRIST_PAIN
+```
+
+HAND_TILT_BACK
 	:	The hand position of being tilt backward causes the sour feeling.
 		
-		Evidence
-		:	Pos
-			:	-	**[WRISTS_LIFT]**
-				-	**[MORE_HAND_TILT]**
-				-	(rationalism: knowledge)
+	Evidence
+	:	Pos
+		:	-	**[WRISTS_LIFT]**
+			-	**[MORE_HAND_TILT]**
+			-	(rationalism: knowledge)
 				
-	~~OTHERS~~
-	:	Evidence
-		:	Neg
-			:	-	**[WRISTS_LIFT]**
+~~OTHERS~~
+:	Evidence
+	:	Neg
+		:	-	**[WRISTS_LIFT]**
 			
 ### Upper Arm Pain
 ```mermaid
@@ -83,9 +89,12 @@ flowchart BT
 
 ARM_STRETCH_OUT
 :	The action that arms stretch outward causes the arm pain.
+
 	Evidence
 	:	Pos
 		:	-	**[ARM_OUTWARD]**
+
+### Shoulder Pain
 		
 ## Brainstorming
 [removal of touchable physical objects is applicable]: #
@@ -110,5 +119,5 @@ ARM_STRETCH_OUT
 	**To analyse what I am doing.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUzMDAyNjMyXX0=
+eyJoaXN0b3J5IjpbLTkzODc3OTkzM119
 -->
