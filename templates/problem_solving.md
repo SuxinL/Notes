@@ -29,6 +29,7 @@
 
 ## Root Cause Analysis
 [backward cause reasoning for general problems]: #
+[interactions: failed good OR bad OR side effects]: #
 [recursive trouble shooting for engineering problems to an atomic level (build hypothesis, use evidence (examination  + unit tests))]: #
 
 ```mermaid
@@ -52,7 +53,7 @@ flowchart BT
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODM1ODkxNzQsNzExOTY5NzUxLDIwMz
-k1NzAzMCwxMDM0MjI4ODIxLC0xMTM2MDI4MTkzLDExMTI0ODc4
-NzFdfQ==
+eyJoaXN0b3J5IjpbLTUwMDY3MTY3OCw3MTE5Njk3NTEsMjAzOT
+U3MDMwLDEwMzQyMjg4MjEsLTExMzYwMjgxOTMsMTExMjQ4Nzg3
+MV19
 -->
