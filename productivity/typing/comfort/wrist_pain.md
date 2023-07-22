@@ -132,8 +132,8 @@ TOUCH_ANGLE
 
 	**To analyse what I am doing.**
 
--	When I know of the good action and bad action but still give in to the bad one, there must be some triggers in the environment.   
+-	**When I know of the good action and bad action but still give in to the bad one, there must be some triggers in the environment. Examine the env to find the key factors and adjust the good one to be more acceptable.**  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzgzNzA2MDZdfQ==
+eyJoaXN0b3J5IjpbMTA2MjY1OTA3Nl19
 -->
