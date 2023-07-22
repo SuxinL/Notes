@@ -70,26 +70,57 @@ THOUGHT
 HAND_ENV
 :	triggers.
 
-	DESK
+	~~DESK~~
 	:	It saves energy to put wrists on the desk, which causes hands tilt back.
 
 		Evidence
 		:	Neg
-			:	-	**[STAND_TYPY]** I still tend to tilt hands back when typing in standing position
+			:	-	**[HUNG_ARM_TYPE]** I still tend to tilt hands back when typing in an above standing position hanging arms freely to touch the keyboard, in which case my arms and wrists are free and do not need a desk to support.
 	
+	LOW_KEYBOARD
+	:	The keyboard is at a low place in terms of my body. To type using fingerprint center, I have to tilt hands backward to make palms horizontal.
+	
+		Evidence
+		:	Pos
+			:	-	If I lift the keyboard up, I can maintain wrists up and hands not tilt backward naturally for long time.
+			
+	TOUCH_ANGLE
+	:	Currently I use fingerprint center to type, which combined with the keyboard position causes the problem.
+
+		Evidence
+		:	Pos
+			:	 -	When use finger tips near nails to type, I can make my arm, wrist and hand in a straight line.
 
 ## Brainstorming
 [removal of touchable physical objects is applicable]: #
 [replacement V.S repair. Localize the problem to an atomic level where fixing it components is more expensive than replacing it as a whole]: #
 
+THOUGHT
+:	-	treatment:	put external reminders in obvious area of my workspace. **<1>**
+	-	prevention:	after this analysis I have a better understanding of how to adjust the keyboard position and finger touch angles. **<2>**
+
+LOW_KEYBOARD
+:	-	repair:	lift the keyboard up, like moving it from the desk drawer to the top or even lifting further if the height is not enough. **<3>**
+
+TOUCH_ANGLE
+:	-	repair:	use finger tips to type. **<4>**
 
 ## Analysis of Solutions
 
 ### Comparison
 | Solution | Cost | Effective Duration | Side Effects |
 | --- | --- | --- | --- |
+| 1 | LOW | LONG | MISS-OUT: Maybe I ignore the hints. WORKSPACE-SWITCH: Every workspace of mine needs this reminders. |
+| 2 | MIDDLE: practice it. | LONG | LITTLE |
+| 3 | LOW | LONG | ARM_ENERGY: When the keyboard is at a high position, maybe additional energy is needed to lift my down arms. |
+| 4 | MIDDLE: practice | LONG | LESS_SENSITIVE: Finger tips are less sensitive and more error-prone. |
  
 ### Priority & Trace
+
+1.	3
+2.	1
+3.	2
+4.	4
 
 ## Thinking
 [Lessons learned from this experience]: #
@@ -101,6 +132,8 @@ HAND_ENV
 
 	**To analyse what I am doing.**
 
+-	When I know of the good action and bad action but still give in to the bad one, there must be some triggers in the environment.   
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjY4Mzc1NzldfQ==
+eyJoaXN0b3J5IjpbLTEwMzgzNzA2MDZdfQ==
 -->
