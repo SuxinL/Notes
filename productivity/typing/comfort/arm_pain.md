@@ -15,9 +15,9 @@ My arms feel painful and sour.
 #### Where
 [Localization]: #
 
--	My wrists 
--	Upper arms.
--	shoulders.
+
+- arms.
+
 
 ### Symptoms
 [avoid biases]: #
@@ -27,9 +27,8 @@ My arms feel painful and sour.
 
 #### Vision
 
--	My wrists get close to the table gradually.
 -	When in a hurry or serious, I tend to get my arms off my body and hang in the air.
--	My shoulders rise up gradually.
+
 
 #### Hearing
 
@@ -39,9 +38,6 @@ My arms feel painful and sour.
 
 #### Touch & Feel
 
--	**[WRISTS_LIFT]** Lifting my wrists up relieves pain in wrists.
--	Putting shoulders down relieves pain in shoulders.
--	**[MORE_HAND_TILT]** The feeling gets more intensive when hand tilt degree increases.
 -	**[ARM_OUTWARD]** the extremely sour feeling when moving arms outward further.
 
 ## Root Cause Analysis
@@ -50,52 +46,10 @@ My arms feel painful and sour.
 
 ```mermaid
 flowchart BT
-	TYPING --> PAIN
-```
-TYPING
-:	Typing causes my wrist pain.
-	
-	Evidence
-	:	Pos
-		:	-	**[DURING_TYPING]**
-
-
-### Wrist Pain
-
-```mermaid
-flowchart BT
-	HAND_TILT_BACK --> WRIST_PAIN
+	ARM_STRERCH_OUTWARD --> ARM_PAIN
 ```
 
-HAND_TILT_BACK
-	:	The hand position of being tilt backward causes the sour feeling.
-		
-	Evidence
-	:	Pos
-		:	-	**[WRISTS_LIFT]**
-			-	**[MORE_HAND_TILT]**
-			-	(rationalism: knowledge)
-				
-~~OTHERS~~
-:	Evidence
-	:	Neg
-		:	-	**[WRISTS_LIFT]**
-			
-### Upper Arm Pain
-```mermaid
-flowchart BT
-	ARM_STRERCH_OUTWARD --> UPPPER_ARM_PAIN
-```
 
-ARM_STRETCH_OUT
-:	The action that arms stretch outward causes the arm pain.
-
-	Evidence
-	:	Pos
-		:	-	**[ARM_OUTWARD]**
-
-### Shoulder Pain
-		
 ## Brainstorming
 [removal of touchable physical objects is applicable]: #
 [replacement V.S repair. Localize the problem to an atomic level where fixing it components is more expensive than replacing it as a whole]: #
@@ -119,5 +73,5 @@ ARM_STRETCH_OUT
 	**To analyse what I am doing.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzODc3OTkzM119
+eyJoaXN0b3J5IjpbLTE3NjAzODc1OTddfQ==
 -->
