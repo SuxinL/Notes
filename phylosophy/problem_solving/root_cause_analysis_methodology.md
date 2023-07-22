@@ -264,12 +264,13 @@ For actions, there are 3 cases in terms of the subject.
 	- its environment by external forces
 		- change the object's state
 		- import external constraints
-
+	- **When I know of the good action and bad action but still give in to the bad one, there must be some triggers in the environment. Examine the env to find the key factors and adjust the good one to be more acceptable.**
+		
 -	if the subject is a nonhuman but organism, remove thought, **itself** or its env. 
 -	if the subject is a nonliving physical object, then the thought is actually physical rules which cannot be altered. In this case, remove itself or env.
 
 For interactions in which multiple components mix up like those in biology, focus on components not interfaces.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTczNzYxOTUsLTg2NTUyNjY0MCwtMT
-MyNzcyODI3NCwyOTA5NDA1MTldfQ==
+eyJoaXN0b3J5IjpbNzIwMDY3ODM5LC04NjU1MjY2NDAsLTEzMj
+c3MjgyNzQsMjkwOTQwNTE5XX0=
 -->
