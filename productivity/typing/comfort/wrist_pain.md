@@ -120,7 +120,7 @@ TOUCH_ANGLE
 | --- | --- | --- | --- |
 | 1 | LOW | LONG | MISS-OUT: Maybe I ignore the hints. WORKSPACE-SWITCH: Every workspace of mine needs this reminders. |
 | 2 | MIDDLE: practice it. | LONG | LITTLE |
-| 3 | LOW | LONG | ARM_ENERGY: When the keyboard is at a high position, maybe additional energy is needed to lift my down arms. |
+| 3 | LOW | LONG | ARM_ENERGY: When the keyboard is at a high position, maybe additional energy is needed to raise my forearms. |
 | 4 | MIDDLE: practice | LONG | LESS_SENSITIVE: Finger tips may be less sensitive and more error-prone.|
 | 5 | LOW | LONG | HEALTH:	pressure on my spine. |
 | 6 | LOW | LONG | NOT_ENOUGH: Chairs might not be able to adjust low enough. |
@@ -129,13 +129,16 @@ TOUCH_ANGLE
 
 -	*3*
 	
-	[Sun Jul 23 10:13:55 PM CST 2023] UNPRACTICAL:	To avoid the pain from hands tilt backward, the keyboard needs to be lift up to the height of my chest.
+	~~[Sun Jul 23 10:13:55 PM CST 2023] UNPRACTICAL:	To avoid the pain from hands tilt backward, the keyboard needs to be lift up to the height of my chest.~~
 
 -	*1*
 -	*2*
 -	*6*
 
-	[Sun Jul 23 10:41:58 PM CST 2023] UNPRACTICAL:	The chair cannot be adjust low enough to avoid the pain from hands tilt backward.
+	~~[Sun Jul 23 10:41:58 PM CST 2023] UNPRACTICAL:	The chair cannot be adjust low enough to avoid the pain from hands tilt backward.~~
+
+	[Mon Jul 24 12:33:39 AM CST 2023] When combining method 3 and 6, the height of the keyboard is enough to relax wrists.
+	
 -	*4*
 -	5
 
@@ -153,5 +156,5 @@ TOUCH_ANGLE
 -	**When I know of the good action and bad action but still give in to the bad one, there must be some triggers in the environment. Examine the env to find the key factors and adjust the good one to be more acceptable.**  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDU2MzE4OTldfQ==
+eyJoaXN0b3J5IjpbLTE3ODc2MDY3NTRdfQ==
 -->
