@@ -70,6 +70,9 @@ THOUGHT
 HAND_ENV
 :	triggers.
 
+	> Precondition: Curving fingers when resting them in the home row promotes flexibility to reach upper rows in which palms almost do not move.
+
+	
 	~~DESK~~
 	:	It saves energy to put wrists on the desk, which causes hands tilt back.
 
@@ -78,11 +81,11 @@ HAND_ENV
 			:	-	**[HUNG_ARM_TYPE]** I still tend to tilt hands back when typing in an above standing position hanging arms freely to touch the keyboard, in which case my arms and wrists are free and do not need a desk to support.
 	
 	LOW_KEYBOARD
-	:	The keyboard is at a low place in terms of my body. To type using fingerprint center, I have to tilt hands backward to make palms horizontal.
+	:	The keyboard is at a low place in terms of my body. To type using fingerprint center with curved fingers, I have to tilt hands backward to make fingerprints horizontal.
 	
 		Evidence
 		:	Pos
-			:	-	If I lift the keyboard up, I can maintain wrists up and hands not tilt backward naturally for long time.
+			:	-	If I lift the keyboard up **enough**, I can maintain wrists hung and hands not tilt backward naturally for long time.
 			
 	TOUCH_ANGLE
 	:	Currently I use fingerprint center to type, which combined with the keyboard position causes the problem.
@@ -100,7 +103,12 @@ THOUGHT
 	-	prevention:	after this analysis I have a better understanding of how to adjust the keyboard position and finger touch angles. **<2>**
 
 LOW_KEYBOARD
-:	-	repair:	lift the keyboard up, like moving it from the desk drawer to the top or even lifting further if the height is not enough. **<3>**
+:	> Precondition:	Most desks are of the similar height of 70 cm.
+	-	repair:	
+		-	lift the keyboard up, like moving it from the desk drawer to the top or even lifting further if the height is not enough. **<3>**
+		-	lower my body by
+			-	stooping. **<5>**
+			-	lowering the chair. **<6>**
 
 TOUCH_ANGLE
 :	-	repair:	use finger tips to type. **<4>**
@@ -108,19 +116,29 @@ TOUCH_ANGLE
 ## Analysis of Solutions
 
 ### Comparison
-| Solution | Cost | Effective Duration | Side Effects |
+| Solution | Cost | Effective Duration | Side Effects  |
 | --- | --- | --- | --- |
 | 1 | LOW | LONG | MISS-OUT: Maybe I ignore the hints. WORKSPACE-SWITCH: Every workspace of mine needs this reminders. |
 | 2 | MIDDLE: practice it. | LONG | LITTLE |
 | 3 | LOW | LONG | ARM_ENERGY: When the keyboard is at a high position, maybe additional energy is needed to lift my down arms. |
-| 4 | MIDDLE: practice | LONG | LESS_SENSITIVE: Finger tips are less sensitive and more error-prone. |
+| 4 | MIDDLE: practice | LONG | LESS_SENSITIVE: Finger tips may be less sensitive and more error-prone.|
+| 5 | LOW | LONG | HEALTH:	pressure on my spine. |
+| 6 | LOW | LONG | NOT_ENOUGH: Chairs might not be able to adjust low enough. |
  
 ### Priority & Trace
 
-1.	3
-2.	1
-3.	2
-4.	4
+-	*3*
+	
+	[Sun Jul 23 10:13:55 PM CST 2023] UNPRACTICAL:	To avoid the pain from hands tilt backward, the keyboard needs to be lift up to the height of my chest.
+
+-	*1*
+-	*2*
+-	*6*
+
+	[Sun Jul 23 10:41:58 PM CST 2023] UNPRACTICAL:	The chair cannot be adjust low enough to avoid the pain from hands tilt backward.
+-	*4*
+-	5
+
 
 ## Thinking
 [Lessons learned from this experience]: #
@@ -135,5 +153,5 @@ TOUCH_ANGLE
 -	**When I know of the good action and bad action but still give in to the bad one, there must be some triggers in the environment. Examine the env to find the key factors and adjust the good one to be more acceptable.**  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MjY1OTA3Nl19
+eyJoaXN0b3J5IjpbLTEwMDU2MzE4OTldfQ==
 -->
