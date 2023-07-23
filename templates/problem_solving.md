@@ -43,9 +43,10 @@ flowchart BT
 ## Analysis of Solutions
 
 ### Comparison
-| Solution | Cost | Effective Duration | Side Effects |
+| Solution | Cost | Effective Duration | Side Effects & Risks |
 | --- | --- | --- | --- |
- 
+|||||
+
 ### Priority & Trace
 
 ## Thinking
@@ -53,7 +54,7 @@ flowchart BT
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMDY3MTY3OCw3MTE5Njk3NTEsMjAzOT
+eyJoaXN0b3J5IjpbLTY1NTg0MTU5MCw3MTE5Njk3NTEsMjAzOT
 U3MDMwLDEwMzQyMjg4MjEsLTExMzYwMjgxOTMsMTExMjQ4Nzg3
 MV19
 -->
