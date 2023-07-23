@@ -65,19 +65,53 @@ flowchart BT
 	I_BEND_ARMS
 	THOUGHT --> I_BEND_ARMS
 	ENV --> I_BEND_ARMS
-```			
+```		
+
+THOUGHT
+:	I have no idea of how to use muscles correctly.
+
+ENV
+:	KEYBOARD_POSITION
+	:	The keyboard is near my body.
+
+	WRISTS_HUNG
+	:	Arms bent to lift wrists.
+	
 ## Brainstorming
 [removal of touchable physical objects is applicable]: #
 [replacement V.S repair. Localize the problem to an atomic level where fixing it components is more expensive than replacing it as a whole]: #
 
+THOUGHT
+:	learn systematic knowledge. **<1>**
+
+KEYBOARD_POSITION
+:	move it to a far position. **<2>**
+
+WRISTS_HUNG
+:	 rest wrists on somethings. **<3>**
 
 ## Analysis of Solutions
 
 ### Comparison
+
 | Solution | Cost | Effective Duration | Side Effects |
 | --- | --- | --- | --- |
- 
+| 1 | MIDDLE | LONG | LITTLE |
+| 2 | LOW | LONG | **<HOLDING_ARMS>**|
+| 3 | LOW | LONG | HINDER:	It hinders the movement of hands. |
+
+**<HOLDING_ARMS>**
+:	This method enables the whole arm and hand in a straight line, which however needs supports.
+	-	If letting muscles to support the posture, it takes energy and brings pain.
+	-	external supports
+		- supporting wrists:	hindering movements.
+		- supporting arms:	additional equipment with considerable heights needed.
+		 
 ### Priority & Trace
+
+-	*1*
+-	2
+-	3
 
 ## Thinking
 [Lessons learned from this experience]: #
@@ -87,5 +121,5 @@ flowchart BT
 -	**How to handle the trade-off between different approaches?**
 -	refinement of solutions: When a solution solves a problem, it might brings new problems.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTczNzkyNzFdfQ==
+eyJoaXN0b3J5IjpbLTkyNTM5MjE3MF19
 -->
