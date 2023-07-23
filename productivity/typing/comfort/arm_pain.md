@@ -110,7 +110,10 @@ WRISTS_HUNG
 ### Priority & Trace
 
 -	*1*
--	2
+-	*2*
+
+	It makes arms relaxed to put them on soft tissue paper packages. But they hinder hands' movement.
+	
 -	3
 
 ## Thinking
@@ -121,5 +124,5 @@ WRISTS_HUNG
 -	**How to handle the trade-off between different approaches?**
 -	refinement of solutions: When a solution solves a problem, it might brings new problems.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNTM5MjE3MF19
+eyJoaXN0b3J5IjpbLTQzMzczNjMyXX0=
 -->
