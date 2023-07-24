@@ -107,7 +107,7 @@ LOW_KEYBOARD
 	-	repair:	
 		-	lift the keyboard up, like moving it from the desk drawer to the top or even lifting further if the height is not enough. **<3>**
 		-	lower my body by
-			-	stooping. **<5>**
+			-	hunching. **<5>**
 			-	lowering the chair. **<6>**
 
 TOUCH_ANGLE
@@ -129,15 +129,17 @@ TOUCH_ANGLE
 
 -	*3*
 	
-	~~[Sun Jul 23 10:13:55 PM CST 2023] UNPRACTICAL:	To avoid the pain from hands tilt backward, the keyboard needs to be lift up to the height of my chest.~~
+	[Sun Jul 23 10:13:55 PM CST 2023] To avoid the pain from hands tilt backward, the keyboard needs to be lift up near to the height of my chest.
 
 -	*1*
 -	*2*
 -	*6*
 
-	~~[Sun Jul 23 10:41:58 PM CST 2023] UNPRACTICAL:	The chair cannot be adjust low enough to avoid the pain from hands tilt backward.~~
+	~~[Sun Jul 23 10:41:58 PM CST 2023] UNPRACTICAL:	Most chairs cannot be adjust low enough to avoid the pain from hands tilt backward.~~
 
 	[Mon Jul 24 12:33:39 AM CST 2023] When combining method 3 and 6, the height of the keyboard is enough to relax wrists.
+
+	But if the chair is too low, I have to bend my legs when sitting and feel pain in my legs when standing up.
 	
 -	*4*
 -	5
@@ -156,5 +158,5 @@ TOUCH_ANGLE
 -	**When I know of the good action and bad action but still give in to the bad one, there must be some triggers in the environment. Examine the env to find the key factors and adjust the good one to be more acceptable.**  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODc2MDY3NTRdfQ==
+eyJoaXN0b3J5IjpbMTAzNjM1NTIzNl19
 -->
