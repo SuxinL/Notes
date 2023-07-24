@@ -109,14 +109,26 @@ RAISE_ENV
 [removal of touchable physical objects is applicable]: #
 [replacement V.S repair. Localize the problem to an atomic level where fixing it components is more expensive than replacing it as a whole]: #
 
+BEND_SIDEWAYS
+:	move arms back. **<1>**
+
 SIDEWAYS_THOUGHT
-:	remember and practice to hang arms near the body. **<1>**
+:	remember and practice to hang arms near the body. **<2>**
 
 FAR_KEYBOARD
-:	move it to near the body. **<2>**
+:	move it to near the body. **<3>**
 
 SHOULDERS_RAISED
-:	lower shoulders when noticing them.
+:	lower shoulders when noticing them. **<4>**
+
+RAISE_THOUGHT
+:	remember and practice to relax shoulders **<5>**
+
+HUNCHBACK
+:	Keep upper body straight. **<6>**
+
+HURRY
+:	relax. **<7>**
 
 ## Analysis of Solutions
 
@@ -124,25 +136,21 @@ SHOULDERS_RAISED
 
 | Solution | Cost | Effective Duration | Side Effects |
 | --- | --- | --- | --- |
-| 1 | MIDDLE | LONG | LITTLE |
-| 2 | LOW | LONG | **<HOLDING_ARMS>**|
-| 3 | LOW | LONG | HINDER:	It hinders the movement of hands. |
-
-**<HOLDING_ARMS>**
-:	This method enables the whole arm and hand in a straight line, which however needs supports.
-	-	If letting muscles to support the posture, it takes energy and brings pain.
-	-	external supports: hindering movements.
-		- supporting wrists	
-		- supporting arms:	additional equipment with considerable heights needed.
-		 
+| 1 | LOW | SHORT | LITTLE |
+| 2 | MIDDLE | LONG | FORGET |
+| 3 | LOW | MIDDLE | BEND_BACKWARDS_INCREASED |
+| 4 | LOW | SHORT | LITTLE |
+| 5 | MIDDLE | LONG | FORGET |
+| 6 | MIDDLE | LONG | FORGET |
+| 7 | MIDDLE | LONG | FORGET |
+	 
 ### Priority & Trace
 
--	*1*
--	*2*
-
-	It makes arms relaxed to put them on soft tissue paper packages. But they hinder hands' movement.
-	
 -	3
+-	6
+-	5
+-	2
+-	7
 
 ## Thinking
 [Lessons learned from this experience]: #
@@ -155,5 +163,5 @@ SHOULDERS_RAISED
 	-	intensity
 	-	direction	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODYwMjM4MDksLTQzMzczNjMyXX0=
+eyJoaXN0b3J5IjpbNzAzNTAwNzk2LC00MzM3MzYzMl19
 -->
