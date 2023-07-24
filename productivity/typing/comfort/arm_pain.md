@@ -38,7 +38,7 @@ My arms feel painful and sour.
 
 #### Touch & Feel
 
--	**[ARM_OUTWARD]** the extremely sour feeling when moving arms outward further.
+-	**[ARM_OUTWARD]** the extremely sour feeling when moving arms sideways further.
 
 ## Root Cause Analysis
 [backward cause reasoning for general problems]: #
@@ -59,36 +59,64 @@ TYPING
 				-	Bending legs when sleeping causes uncomfortable feeling.
 				-	When the pain appears, stretching arms forward relieves it instantly.
 				-	**[ARMS_HUNG]** This change decreases the level of bending.
+		
+		>	Notice:	To main a typing position for a long time, I need to bend arms.
+		>
+		>	If I switch to stretch my upper arm and forearm to a straight line, 
+		>	-	without external supports, it is painful.
+		>	-	with external supports, hand movements are hindered.
+			 
+		BEND_SIDEWAYS
+		:	Evidence
+			:	Pos
+				:	-	**[ARM_SIDEWAYS]**
+						
+		BEND_BACKWARDS
+		
+```mermaid
+flowchart BT
+	BEND_SIDEWAYS
+	SIDEWAYS_THOUGHT --> BEND_SIDEWAYS
+	SIDEWAYS_ENV --> BEND_SIDEWAYS
+```		
+
+SIDEWAYS_THOUGHT
+:	Unconsciousness.
+
+SIDEWAYS_ENV
+:	FAR_KEYBOARD
+	:	When the keyboard is far away, my arms stretch sideways. 	 
+
+	SHOULDERS_RAISED
+	:	When shoulders are raising, my arms stretch sideways.
 
 ```mermaid
 flowchart BT
-	I_BEND_ARMS
-	THOUGHT --> I_BEND_ARMS
-	ENV --> I_BEND_ARMS
-```		
+	I_RAISE_SHOULDERS --> SHOULDERS_RAISED
+	RAISE_THOUGHT --> I_RAISE_SHOULDERS
+	RAISE_ENV --> I_RAISE_SHOULDERS
+```	
 
-THOUGHT
-:	I have no idea of how to use muscles correctly.
+RAISE_THOUGHT
+:	unconsciousness
 
-ENV
-:	KEYBOARD_POSITION
-	:	The keyboard is near my body.
+RAISE_ENV
+:	HUNCHBACK
 
-	WRISTS_HUNG
-	:	Arms bent to lift wrists.
+	HURRY
 	
 ## Brainstorming
 [removal of touchable physical objects is applicable]: #
 [replacement V.S repair. Localize the problem to an atomic level where fixing it components is more expensive than replacing it as a whole]: #
 
-THOUGHT
-:	learn systematic knowledge. **<1>**
+SIDEWAYS_THOUGHT
+:	remember and practice to hang arms near the body. **<1>**
 
-KEYBOARD_POSITION
-:	move it to a far position. **<2>**
+FAR_KEYBOARD
+:	move it to near the body. **<2>**
 
-WRISTS_HUNG
-:	 rest wrists on somethings. **<3>**
+SHOULDERS_RAISED
+:	lower shoulders when noticing them.
 
 ## Analysis of Solutions
 
@@ -103,8 +131,8 @@ WRISTS_HUNG
 **<HOLDING_ARMS>**
 :	This method enables the whole arm and hand in a straight line, which however needs supports.
 	-	If letting muscles to support the posture, it takes energy and brings pain.
-	-	external supports
-		- supporting wrists:	hindering movements.
+	-	external supports: hindering movements.
+		- supporting wrists	
 		- supporting arms:	additional equipment with considerable heights needed.
 		 
 ### Priority & Trace
@@ -123,6 +151,9 @@ WRISTS_HUNG
 	-	examine the posture, and think about which actions cause similar results.
 -	**How to handle the trade-off between different approaches?**
 -	refinement of solutions: When a solution solves a problem, it might brings new problems.
+-	When an action has side effects, specify the motions to find which one cause the side effects.
+	-	intensity
+	-	direction	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMzczNjMyXX0=
+eyJoaXN0b3J5IjpbLTExODYwMjM4MDksLTQzMzczNjMyXX0=
 -->
