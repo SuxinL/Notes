@@ -73,7 +73,9 @@ TYPING
 						
 		BEND_BACKWARDS
 		:	This bending to hang arms and wrists is necessary to maintain flexibility of hands. But it causes **fatigue**.
-		
+
+			**This fatigue is a side effect to the subject.**
+					
 			Evidence
 			:	Pos
 				:	-	After minutes, my arms feel tired and painful even if only bent backwards.
@@ -110,7 +112,29 @@ RAISE_ENV
 :	HUNCHBACK
 
 	HURRY
+
+
+```mermaid
+flowchart BT
+	BEND_BACKWARDS --> ARM_PAIN
+	subgraph BEND_BACKWARDS
+		BAD_MANNER
+		ARM_WEAKNESS 
+	end
+```
+BAD_MANNER
+:	Arms bent too much.
 	
+	Evidence
+	:	Pos
+		:	- The angle between my upper arm and forearm is near 45 degrees.
+
+ARM_WEAKNESS
+:	My arms are weak.
+	Evidence
+	:	Pos
+		: 	-  
+
 ## Brainstorming
 [removal of touchable physical objects is applicable]: #
 [replacement V.S repair. Localize the problem to an atomic level where fixing it components is more expensive than replacing it as a whole]: #
@@ -135,6 +159,9 @@ HUNCHBACK
 
 HURRY
 :	relax. **<7>**
+
+BEND_BACKWARDS
+: 
 
 ## Analysis of Solutions
 
@@ -171,5 +198,5 @@ HURRY
 -	If an intent action leads to a problem, it is possible that 
 	-	some of prerequisites of this action are not meet. -> we need to analyse the whole process not just a single step triggering the problem. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTk4MjI4MTYsLTQzMzczNjMyXX0=
+eyJoaXN0b3J5IjpbLTE3NDU4NzQ5MjYsLTQzMzczNjMyXX0=
 -->
