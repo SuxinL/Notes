@@ -139,7 +139,7 @@ TOUCH_ANGLE
 
 	[Mon Jul 24 12:33:39 AM CST 2023] When combining method 3 and 6, the height of the keyboard is enough to relax wrists.
 
-	But if the chair is too low, I have to bend my legs when sitting and feel pain in my legs when standing up.
+	But if the chair is too low, I have to bend my legs when sitting and I feel pain in my legs when standing up.
 	
 -	*4*
 -	5
@@ -149,14 +149,16 @@ TOUCH_ANGLE
 [Lessons learned from this experience]: #
 -	For senses
 	-	avoid removal of neural pathways: sensor --> pathway --> brain
-	-	start reasoning from the stimuli.
+	-	**start reasoning from the stimuli.**
 
 -	Typing is an good interaction, and arm pain is a side effect.
 
 	**To analyse what I am doing.**
 
--	**When I know of the good action and bad action but still give in to the bad one, there must be some triggers in the environment. Examine the env to find the key factors and adjust the good one to be more acceptable.**  
+-	**When I know of the good action and bad action but still give in to the bad one, there must be some triggers in the environment. Examine the env to find the key triggers. Stick to the good manner by**
+	-	removing key triggers
+	-	practicing the new way  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNjM1NTIzNl19
+eyJoaXN0b3J5IjpbLTI2MzY4MDQxN119
 -->
