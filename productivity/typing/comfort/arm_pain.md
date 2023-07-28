@@ -72,6 +72,12 @@ TYPING
 				:	-	**[ARM_SIDEWAYS]**
 						
 		BEND_BACKWARDS
+		:	This bending to hang arms and wrists is necessary to maintain flexibility of hands. But it causes **fatigue**.
+		
+			Evidence
+			:	Pos
+				:	-	After minutes, my arms feel tired and painful even if only bent backwards.
+					-	**Arms contain mainly type II B muscle fibers.**
 		
 ```mermaid
 flowchart BT
@@ -162,6 +168,8 @@ HURRY
 -	When an action has side effects, specify the motions to find which one cause the side effects.
 	-	intensity
 	-	direction	
+-	If an intent action leads to a problem, it is possible that 
+	-	some of prerequisites of this action are not meet. -> we need to analyse the whole process not just a single step triggering the problem. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAzNTAwNzk2LC00MzM3MzYzMl19
+eyJoaXN0b3J5IjpbLTExMDYyOTE1MTAsLTQzMzczNjMyXX0=
 -->
