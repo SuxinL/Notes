@@ -245,6 +245,7 @@ The side effect can be caused by
 	- intensity
 	- angle
 	- pace 
+- weakness of the subject or object. 
 - not enough clean-up steps	
 
 **Analyse the current process to find out which step causes the side effect.**
@@ -287,6 +288,6 @@ For actions, there are 3 cases in terms of the subject.
 
 For interactions in which multiple components mix up like those in biology, focus on components not interfaces.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MTIwMDk5NSwtODY1NTI2NjQwLC0xMz
+eyJoaXN0b3J5IjpbMTcxOTk4NTc4MywtODY1NTI2NjQwLC0xMz
 I3NzI4Mjc0LDI5MDk0MDUxOV19
 -->
