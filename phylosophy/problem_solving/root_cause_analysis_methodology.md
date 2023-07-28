@@ -229,9 +229,25 @@ If output is from an interaction that should exist but failed (**its components 
 	- wrong function (for units whose problems cannot be seen from out appearance likes electronic devices.)
 - interface (mainly for engineering problems)
 	- mismatched form factors
-	- loosen or separated or disposition
+	- loosen or separated or disposition 
 		- natural aging
 		- external interruption
+
+#### Side Effects
+
+If the result is a side effect of a good interaction in which we meet our main goals, it can be
+-	damage to the object
+-	exhaustion of the subject
+-	something bad in the env
+
+The side effect can be caused by
+- inappropriate manners
+	- intensity
+	- angle
+	- pace 
+- not enough clean-up steps	
+
+**Analyse the current process to find out which step causes the side effect.**
 		       
 ### Unit Tests
 
@@ -271,6 +287,6 @@ For actions, there are 3 cases in terms of the subject.
 
 For interactions in which multiple components mix up like those in biology, focus on components not interfaces.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIwMDY3ODM5LC04NjU1MjY2NDAsLTEzMj
-c3MjgyNzQsMjkwOTQwNTE5XX0=
+eyJoaXN0b3J5IjpbMTE3MTIwMDk5NSwtODY1NTI2NjQwLC0xMz
+I3NzI4Mjc0LDI5MDk0MDUxOV19
 -->
