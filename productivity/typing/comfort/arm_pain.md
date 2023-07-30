@@ -79,7 +79,7 @@ TYPING
 			Evidence
 			:	Pos
 				:	-	After minutes, my arms feel tired and painful even if only bent backwards.
-					-	==Arms contain mainly type II B muscle fibers.==
+					-	**[MUSCLE_TYPE]** ==Arms contain mainly type II B muscle fibers.==
 		
 ```mermaid
 flowchart BT
@@ -131,9 +131,11 @@ BAD_MANNER
 
 ARM_WEAKNESS
 :	My arms are weak.
+
 	Evidence
 	:	Pos
-		: 	-  
+		: 	- **[MUSCLE_TYPE]**
+			- I lack exercises.
 
 ## Brainstorming
 [removal of touchable physical objects is applicable]: #
@@ -160,8 +162,11 @@ HUNCHBACK
 HURRY
 :	relax. **<7>**
 
-BEND_BACKWARDS
-: 
+BAD_MANNER
+:	repair: keep the forearm horizontal, and the upper arm and forearm forming 90 degrees. **<8>**
+
+ARM_WEAKNESS
+:	repair: do exercises to strengthen arms regularly. **<9>**
 
 ## Analysis of Solutions
 
@@ -176,14 +181,21 @@ BEND_BACKWARDS
 | 5 | MIDDLE | LONG | FORGET |
 | 6 | MIDDLE | LONG | FORGET |
 | 7 | MIDDLE | LONG | FORGET |
+| 8 | LOW | LONG | LESS_SENSITIVE |
+| 9	| MIDDLE | LONG | LITTLE |
 	 
 ### Priority & Trace
 
--	3
+- *3*
+	
+	[Sun Jul 30 06:23:16 PM CST 2023] Do not move it too close to the body which causes arms to be bent backwards further.
+	 
 -	6
 -	5
 -	2
 -	7
+- *8*
+- 9
 
 ## Thinking
 [Lessons learned from this experience]: #
@@ -191,6 +203,13 @@ BEND_BACKWARDS
 	-	systematic learning 
 	-	examine the posture, and think about which actions cause similar results.
 -	**How to handle the trade-off between different approaches?**
+	```mermaid
+	flowchart
+		SENSITIVITY
+		WRIST_COMFORT
+		UPPER_ARM_COMFORT ...> f
+		ELBOW_COMFORT
+	```
 -	refinement of solutions: When a solution solves a problem, it might brings new problems.
 -	When an interaction has side effects, specify the steps to find which one causes the side effects.
 	-	intensity
@@ -198,5 +217,6 @@ BEND_BACKWARDS
 -	If an intent action leads to a problem, it is possible that 
 	-	some of prerequisites of this action are not meet. -> we need to analyse the whole process not just a single step triggering the problem. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDU4NzQ5MjYsLTQzMzczNjMyXX0=
+eyJoaXN0b3J5IjpbLTEwNzc3NDQ2NDIsLTE3NDU4NzQ5MjYsLT
+QzMzczNjMyXX0=
 -->
