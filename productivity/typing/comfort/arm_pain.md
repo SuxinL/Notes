@@ -202,14 +202,32 @@ ARM_WEAKNESS
 -	When reasoning in an unfamiliar field, the whole process is just repeating a step, we can find clues from
 	-	systematic learning 
 	-	examine the posture, and think about which actions cause similar results.
--	**How to handle the trade-off between different approaches?**
+- **How to handle the trade-off between different approaches?**
+
 	```mermaid
 	flowchart
-		SENSITIVITY
-		WRIST_COMFORT
-		UPPER_ARM_COMFORT ...> f
-		ELBOW_COMFORT
+		SENSITIVITY -.-> FINGERTIP_TOUCH -.-> PALM_HORIZONTAL
+		UPPER_ARM_COMFORT -.-> HANG_VERTICALLY --> FOREARM_TILL_DOWN
+		ELBOW_COMFORT -.-> BEND_LIGHTLY --> FOREARM_TILL_DOWN
+		PALM_HORIZONTAL --> WRIST_BENT_BACK
+		FOREARM_TILL_DOWN --> WRIST_BENT_BACK
+		WRIST_BENT_BACK --x WRIST_COMFORT 
 	```
+
+	**Do not let perfect be the enemy of good**
+
+	Make
+	- FINGERTIP_TOUCH: middle
+	- BEND_LIGHTLY: 90 degrees
+	to make
+	- WRIST_BENT_BACK: forearm, wrist, palm in a straight line.
+
+	As a result, the goals
+	- SENSITIVITY: middle
+	- UPPER_ARM_COMFORT: high
+	- ELBOW_COMFORT: middle
+	- WRIST_COMFORT: middle
+	
 -	refinement of solutions: When a solution solves a problem, it might brings new problems.
 -	When an interaction has side effects, specify the steps to find which one causes the side effects.
 	-	intensity
@@ -217,6 +235,6 @@ ARM_WEAKNESS
 -	If an intent action leads to a problem, it is possible that 
 	-	some of prerequisites of this action are not meet. -> we need to analyse the whole process not just a single step triggering the problem. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzc3NDQ2NDIsLTE3NDU4NzQ5MjYsLT
-QzMzczNjMyXX0=
+eyJoaXN0b3J5IjpbLTExNjEwNDI5MjgsLTEwNzc3NDQ2NDIsLT
+E3NDU4NzQ5MjYsLTQzMzczNjMyXX0=
 -->
