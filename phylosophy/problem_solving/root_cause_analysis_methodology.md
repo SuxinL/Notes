@@ -287,7 +287,18 @@ For actions, there are 3 cases in terms of the subject.
 -	if the subject is a nonliving physical object, then the thought is actually physical rules which cannot be altered. In this case, remove itself or env.
 
 For interactions in which multiple components mix up like those in biology, focus on components not interfaces.
+
+### Conflict
+
+When the goal consists of multiple sub goals which conflict, reason from sub goals to find   where the conflict is.
+
+**Remember**
+- Everything in reality is at a spectrum and not in a binary situation.
+- Do not let perfect be the enemy of good.
+
+Our current problem is that some of these sub goals are little met. Try to adjust situations to make all sub goals are at least middle met if not highly met.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxOTk4NTc4MywtODY1NTI2NjQwLC0xMz
-I3NzI4Mjc0LDI5MDk0MDUxOV19
+eyJoaXN0b3J5IjpbNjAwMTk1MTgyLC04NjU1MjY2NDAsLTEzMj
+c3MjgyNzQsMjkwOTQwNTE5XX0=
 -->
