@@ -2,11 +2,12 @@
 
 ## Examination
 [problem overview]: #
+[a problem can be the output or input of a process. For output, it can be a bad output. For input, it can be a waste of resources]: #
 
 ### Context
 
 #### When
-[Specification: year, season, daytime, during & after some events]: #
+[Specification: year, season, daytime, during & after some events, duration]: #
 
 #### Where
 [Localization]: #
@@ -54,7 +55,7 @@ flowchart BT
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NTg0MTU5MCw3MTE5Njk3NTEsMjAzOT
-U3MDMwLDEwMzQyMjg4MjEsLTExMzYwMjgxOTMsMTExMjQ4Nzg3
-MV19
+eyJoaXN0b3J5IjpbLTE5NzE4MjAzMjMsNzExOTY5NzUxLDIwMz
+k1NzAzMCwxMDM0MjI4ODIxLC0xMTM2MDI4MTkzLDExMTI0ODc4
+NzFdfQ==
 -->
