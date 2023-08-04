@@ -172,10 +172,10 @@ BROWSER
 	- I need a browser to access StackEdit.
 
 BAIDU_WEIBO
-:	ban baidu & weibo on the whole phone **<2>**
+:	block baidu & weibo on the whole phone **<2>**
 
 BLUED
-:	ban blued app **<3>**
+:	block blued app **<3>**
 
 BEDROOM_ALONE
 :	Do not use the phone on the bed. **<4>**
@@ -210,6 +210,18 @@ TAKE_THOUGHT
 - *6*
 - *4*
 - 2
+
+	scope
+	- browser
+	- phone
+		- website blocker
+			- Blocksite
+			
+				problem: Accessibility is turned off.
+				 
+		- firewall 
+	- router
+	- DNS
 - 3
 - 5
 
@@ -222,5 +234,5 @@ TAKE_THOUGHT
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MzEzMzE4NV19
+eyJoaXN0b3J5IjpbLTEyNjMyMTk3MV19
 -->
