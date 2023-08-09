@@ -209,20 +209,14 @@ TAKE_THOUGHT
 - *1*
 - *6*
 - *4*
-- 2
-
-	scope
-	- browser
-	- phone
-		- website blocker
-			- Blocksite
-			
-				problem: Accessibility is turned off.
-				 
-		- firewall 
-	- router
-	- DNS
-- 3
+- *2*
+	
+	Blocksite app
+	
+- *3*
+	
+	NoRoot firewall to block all Blued servers.
+	
 - 5
 
 ## Thinking
@@ -234,5 +228,5 @@ TAKE_THOUGHT
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjMyMTk3MV19
+eyJoaXN0b3J5IjpbNDAwOTkyNjIwXX0=
 -->
