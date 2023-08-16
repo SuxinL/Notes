@@ -11,7 +11,7 @@ Wifi becomes unavailable suddenly.
 #### When
 [Specification: year, season, daytime, during & after some events, duration]: #
 
-- After disconnecting ExpressVPN.
+- **[VPN]** **After disconnecting ExpressVPN.**
 
 #### Where
 [Localization]: #
@@ -30,7 +30,7 @@ Wifi becomes unavailable suddenly.
 - The wifi icon: blank.
 - The wifi page in settings: displays `No Wi-Fi Adapter Found`.
 - `lshw`
-	- wifi is `DISABLED`
+	- **[WIFI_DISABLED]** wifi is `DISABLED`
 	- **[LSHW_DRIVER]** the driver info is there.
 - `nmcli d`: shows `wlp4s0 wifi unmanaged`
 
@@ -56,7 +56,27 @@ flowchart BT
 ```
 
 OS_NOT_FIND_WIFI_ADAPTER
-:	DRIVER
+:	NETWORK_MANAGER
+	:	MANAGER_PROBLEMATIC
+		:	ExpressVPN makes the network manager problematic.
+			
+			Evidence
+			:	Pos
+				:	- **[VPN]**
+					- **[SET_DEVICE_NOT_WORKING]** `nmcli device set wlp4s0 yes` not working.
+					- ==After restarting the network manager, wifi becomes available.==
+		
+		MANAGER_CONFIG
+		: 	The manage disables wifi.
+			
+			Evidence
+			:	Pos
+				:	- **[WIFI_DISABLED]**
+
+				Neg
+				:	- **[SET_DEVICE_NOT_WORKING]**
+		
+	DRIVER
 	:	~~MISSED~~
 		:	Evidence
 			:	Neg
@@ -76,32 +96,51 @@ OS_NOT_FIND_WIFI_ADAPTER
 			:	Neg
 				:	- The communication between other devices like the keyboard and the monitor and the CPU    is fine, which needs PCI.
 				
-		PCI_BRIDGE
+		~~PCI_BRIDGE~~
 
 	WIFI_ADAPTER
-	:	HW
+	:	~~HW~~
 		
-		SW
+		~~SW~~
+		:	The firmware is problematic.
+			
+			Evidence
+			:	Neg
+				:	- An matched firmware is here.
+				
 
-	WIFI_CHIP
+	~~WIFI_CHIP~~
+	:	BROKEN
+	
+		LOOSEN
 	
 ## Brainstorming
 [removal of touchable physical objects is applicable]: #
 [replacement V.S repair. Localize the problem to an atomic level where fixing it components is more expensive than replacing it as a whole]: #
  
+NETWORK_MANAGER
+:	restarting it. <1>
+
 ## Analysis of Solutions
+
+> Notice:
+> -	The root cause has not been found.
 
 ### Comparison
 | Solution | Cost | Effective Duration | Side Effects & Risks |
 | --- | --- | --- | --- |
-|||||
+| 1 | LOW | UNKNOWN | NO |
 
 ### Priority & Trace
+- 1
+	- [Wed Aug 16 11:28:04 AM CST 2023] wifi available 
 
 ## Thinking
 [Lessons learned from this experience]: #
 
+- What ExpressVPN did to the network manager.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1OTc4Mzg4XX0=
+eyJoaXN0b3J5IjpbNzc2NjYxNTJdfQ==
 -->
