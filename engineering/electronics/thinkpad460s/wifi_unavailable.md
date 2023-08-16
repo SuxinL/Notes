@@ -1,0 +1,107 @@
+# WIFI Unavailable
+
+## Examination
+[problem overview]: #
+[a problem can be the output or input of a process. For output, it can be a bad output. For input, it can be a waste of resources]: #
+
+Wifi becomes unavailable suddenly.
+
+### Context
+
+#### When
+[Specification: year, season, daytime, during & after some events, duration]: #
+
+- After disconnecting ExpressVPN.
+
+#### Where
+[Localization]: #
+
+- Hardware: My Thinkpad T460s
+- OS: GNU/Linux 5.19.0-42-generic #43~22.04.1-Ubuntu
+
+### Symptoms
+[avoid biases]: #
+[comparison between actuation and expectation]: #
+[collect evidence used by hypothesis built in the root cause analysis phrase]: #
+[specification: location, degree]: #
+
+#### Vision
+
+- The wifi icon: blank.
+- The wifi page in settings: displays `No Wi-Fi Adapter Found`.
+- `lshw`
+	- wifi is `DISABLED`
+	- **[LSHW_DRIVER]** the driver info is there.
+- `nmcli d`: shows `wlp4s0 wifi unmanaged`
+
+#### Hearing
+
+#### Smell
+
+#### Taste
+
+#### Touch & Feel
+
+## Root Cause Analysis
+[backward cause reasoning for general problems]: #
+[interactions: failed good OR bad OR side effects]: #
+[recursive trouble shooting for engineering problems to an atomic level (build hypothesis, use evidence (examination  + unit tests))]: #
+
+```mermaid
+flowchart BT
+	WIFI_UNAVAILABLE
+	OS_NOT_FIND_WIFI_ADAPTER --> WIFI_UNAVAILABLE
+	
+	
+```
+
+OS_NOT_FIND_WIFI_ADAPTER
+:	DRIVER
+	:	~~MISSED~~
+		:	Evidence
+			:	Neg
+				:	- **[LSHW_DRIVER]**
+					- `lsmod` displays `iwlwifi`
+
+		~~NOT_MATCHED~~
+		:	Evidence
+			:	Neg
+				:	- `modinfo iwlwifi` contains the compatible firmware currently used. 
+
+		CONFIG_WRONG
+
+	BUS
+	:	~~PCI~~
+		:	Evidence
+			:	Neg
+				:	- The communication between other devices like the keyboard and the monitor and the CPU    is fine, which needs PCI.
+				
+		PCI_BRIDGE
+
+	WIFI_ADAPTER
+	:	HW
+		
+		SW
+
+	WIFI_CHIP
+	
+## Brainstorming
+[removal of touchable physical objects is applicable]: #
+[replacement V.S repair. Localize the problem to an atomic level where fixing it components is more expensive than replacing it as a whole]: #
+ 
+## Analysis of Solutions
+
+### Comparison
+| Solution | Cost | Effective Duration | Side Effects & Risks |
+| --- | --- | --- | --- |
+|||||
+
+### Priority & Trace
+
+## Thinking
+[Lessons learned from this experience]: #
+
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTk1OTc4Mzg4XX0=
+-->
