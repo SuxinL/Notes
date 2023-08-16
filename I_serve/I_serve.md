@@ -11,6 +11,14 @@
 #### 06
 
 - test Zhou in theories and basics of MarkDown
+
+#### 07
+
+- repair the power bank for Zhou Bo
+
+#### 08
+
+- set up phone backup for Zhou Bo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMzQ2NzQ2M119
+eyJoaXN0b3J5IjpbMTE4MzM5MzQ0NF19
 -->
