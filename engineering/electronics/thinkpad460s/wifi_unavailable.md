@@ -129,7 +129,7 @@ NETWORK_MANAGER
 ### Comparison
 | Solution | Cost | Effective Duration | Side Effects & Risks |
 | --- | --- | --- | --- |
-| 1 | LOW | UNKNOWN | NO |
+| 1 | LOW | UNKNOWN | UNKNOWN |
 
 ### Priority & Trace
 - 1
@@ -138,9 +138,13 @@ NETWORK_MANAGER
 ## Thinking
 [Lessons learned from this experience]: #
 
+- Recursive Localization: To localize the problem to the level that I can handle. 
+	- In the past I would restart my laptop to try to solve the problem.
+	- currently, I use logs and unit tests to localize it to the network manager as I do not know what happened inside. I replace it.
+	- Maybe in the future after I learn and know more about it, I can localize the problem further like some arguments disables wifi or some component is problematic. 
 - What ExpressVPN did to the network manager.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc2NjYxNTJdfQ==
+eyJoaXN0b3J5IjpbMTA4ODc1Mzg4N119
 -->
