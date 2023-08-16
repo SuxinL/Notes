@@ -256,6 +256,11 @@ Use **unit tests** to find contributing factors to the output. recursively apply
      
 When direct tests are hard, use **hypothetical deduction** and try to remove the causes starting from ones with the most evidence. 
 
+### Grain Size
+
+To localize the problem to a level where the cost of replacement is less than that of repair.
+- monopoly 
+- repair is out of my current knowledge
 ## Removal of Causes
 
 - removal
@@ -270,6 +275,7 @@ When direct tests are hard, use **hypothetical deduction** and try to remove the
 **By changing touchable physical objects** to remove causes. 
 - ==This removal means that the object is present here.== 
 - ==To avoid its presentation is prevention.==
+
 
 ### Action 
 For actions, there are 3 cases in terms of the subject.
@@ -299,6 +305,6 @@ When the goal consists of multiple sub goals which conflict, reason from sub goa
 Our current problem is that some of these sub goals are little met. Try to adjust situations to make all sub goals are at least middle met if not highly met.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAwMTk1MTgyLC04NjU1MjY2NDAsLTEzMj
-c3MjgyNzQsMjkwOTQwNTE5XX0=
+eyJoaXN0b3J5IjpbMTUzNjkxNjc1MCwtODY1NTI2NjQwLC0xMz
+I3NzI4Mjc0LDI5MDk0MDUxOV19
 -->
