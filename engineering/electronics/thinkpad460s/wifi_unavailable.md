@@ -64,10 +64,10 @@ OS_NOT_FIND_WIFI_ADAPTER
 			:	Pos
 				:	- **[VPN]**
 					- **[SET_DEVICE_NOT_WORKING]** `nmcli device set wlp4s0 yes` not working.
-					- ==After restarting the network manager, wifi becomes available.==
+					- **[RESTARTING_NM]** ==After restarting the network manager, wifi becomes available.==
 		
 		MANAGER_CONFIG
-		: 	The manage disables wifi.
+		: 	The manager disables wifi.
 			
 			Evidence
 			:	Pos
@@ -90,17 +90,22 @@ OS_NOT_FIND_WIFI_ADAPTER
 
 		CONFIG_WRONG
 
-	BUS
+	~~BUS~~
 	:	~~PCI~~
 		:	Evidence
 			:	Neg
 				:	- The communication between other devices like the keyboard and the monitor and the CPU    is fine, which needs PCI.
 				
 		~~PCI_BRIDGE~~
+		:	Evidence
+			:	Neg
+				:	- **[RESTARTING_NM]**
 
-	WIFI_ADAPTER
+	~~WIFI_ADAPTER~~
 	:	~~HW~~
-		
+		:	Evidence
+			:	Neg
+				:	- **[RESTARTING_NM]**
 		~~SW~~
 		:	The firmware is problematic.
 			
@@ -124,7 +129,7 @@ NETWORK_MANAGER
 ## Analysis of Solutions
 
 > Notice:
-> -	The root cause has not been found.
+> -	The root cause has not been found for problem prevention.
 
 ### Comparison
 | Solution | Cost | Effective Duration | Side Effects & Risks |
@@ -142,9 +147,18 @@ NETWORK_MANAGER
 	- In the past I would restart my laptop to try to solve the problem.
 	- currently, I use logs and unit tests to localize it to the network manager as I do not know what happened inside. I replace it.
 	- Maybe in the future after I learn and know more about it, I can localize the problem further like some arguments disables wifi or some component is problematic. 
-- What ExpressVPN did to the network manager.
+- **TODO** What ExpressVPN did to the network manager.
+	- DNS
+- First-hand materials like GNU manual pages give **details and rationale** about a topic, which is more convincing and reliable than second-hand materials like those from discussion in online communities.
+- Further learning
+	- networks
+		- vpn
+		- dns
+	- linux
+		- network manager
+	
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4ODc1Mzg4N119
+eyJoaXN0b3J5IjpbLTE0NTQ5OTE4MThdfQ==
 -->
