@@ -29,6 +29,7 @@
 - [x] *get money reward from the bike order*
 - [ ] things to do late at night 
 - [ ] learn laptop battery use
+- [ ] sell the older washing machine
 - [x] logging: dmesg VS journalctl
 - [ ] replace wechat account
 ___
@@ -49,8 +50,8 @@ ___
 - [ ] arrange notes from school time
 - [ ] learn about going abroad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjA5Mzg4MjQsLTE0Njg3MzIyMjUsLT
-g2OTkwNjY5MiwxNzUwNTkyNDMxLC0xMzMzMTM0MTI1LDQxOTkw
-NTgyOSw1NzU3MTc1ODEsLTE1MDg5NTc1NzcsLTQ4MDc0NDk1NC
-wtMjEyODUzNzU5NF19
+eyJoaXN0b3J5IjpbMzAxNzQ3NTk0LC0xNDY4NzMyMjI1LC04Nj
+k5MDY2OTIsMTc1MDU5MjQzMSwtMTMzMzEzNDEyNSw0MTk5MDU4
+MjksNTc1NzE3NTgxLC0xNTA4OTU3NTc3LC00ODA3NDQ5NTQsLT
+IxMjg1Mzc1OTRdfQ==
 -->
