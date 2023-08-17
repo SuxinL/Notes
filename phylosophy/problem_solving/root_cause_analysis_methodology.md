@@ -256,11 +256,11 @@ Use **unit tests** to find contributing factors to the output. recursively apply
      
 When direct tests are hard, use **hypothetical deduction** and try to remove the causes starting from ones with the most evidence. 
 
-### Grain Size
+### Localization Level
 
-To localize the problem to a level where the cost of replacement is less than that of repair.
-- whole: electronic units
-- repair is out of my current knowledge
+To localize the problem to a level where the cost of replacement is less than that of repair like:
+- an atomic level: electronic/mechanical units like chips and screws
+- repair is far out of my current knowledge or control like close-source apps
 
 ## Removal of Causes
 
@@ -306,6 +306,6 @@ When the goal consists of multiple sub goals which conflict, reason from sub goa
 Our current problem is that some of these sub goals are little met. Try to adjust situations to make all sub goals are at least middle met if not highly met.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk3NzY2NDgzLC04NjU1MjY2NDAsLTEzMj
-c3MjgyNzQsMjkwOTQwNTE5XX0=
+eyJoaXN0b3J5IjpbLTIxMzQxNzExMDQsLTg2NTUyNjY0MCwtMT
+MyNzcyODI3NCwyOTA5NDA1MTldfQ==
 -->
