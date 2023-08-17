@@ -211,13 +211,13 @@ TAKE_THOUGHT
 - *4*
 - *2*
 	
-	Blocksite app
+	Blocksite app to block sites including Baidu, weibo and playok.
 	
 - *3*
 	
 	NoRoot firewall to block all Blued servers.
 	
-- 5
+- *5*
 
 ## Thinking
 [Lessons learned from this experience]: #
@@ -228,5 +228,5 @@ TAKE_THOUGHT
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAwOTkyNjIwXX0=
+eyJoaXN0b3J5IjpbLTM1Mjk3ODQ5NV19
 -->
