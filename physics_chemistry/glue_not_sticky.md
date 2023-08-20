@@ -27,7 +27,7 @@ After applied for days or weeks.
 - Post-it notes
 	- Corners are lifting.
 	- detached and fallen.
-	- For good ones, they can stick for months.
+	- **[GOOD_NOTES]** For good ones, they can stick for months.
 	- For bad ones, they might fall in a day.
 - Shoe adhesive
 	- My sneakers still crack at front-left corner after using 502 glue.
@@ -70,7 +70,7 @@ failed_GLUE_PROVIDE_ENOUGH_LIFTING
 :	GRIP_failed
 	:	adhesive forces are not enough.	
 	
-		MATERIAL_WRONG
+		INTERFACE_MISMATCH
 	
 		LOOSEN
 		
@@ -82,11 +82,15 @@ failed_GLUE_PROVIDE_ENOUGH_LIFTING
 		WEAK
 		:	IMPURITY
 	
+			MOLECULE_MESS
+			
 			ENV
 			:	HEAT
 			
 				WATER
 	
+
+### Sticky Notes
 
 ```mermaid
 flowchart BT
@@ -113,7 +117,7 @@ failed_ADHESIVE_MATCH_HOLES
 		
 		Evidence
 		:	Neg
-			:	- Some sticky notes on the same column work well for long.
+			:	- **[GOOD_NOTES]**
 			 
 	COLUMN_HOLES
 	:	Holes are covered by dirt.
@@ -121,7 +125,27 @@ failed_ADHESIVE_MATCH_HOLES
 		Evidence
 		:	Pos
 			:	- I have never clean the surface for years.
-			
+	
+### Sneaker Glue
+
+```mermaid
+flowchart BT
+	EDGES_CRACK
+	failed_FABRIC_ATTACH_BASE --> EDGES_CRACK 
+```
+
+failed_FABRIC_ATTACH_BASE
+:	After testing, Adhesion(fabric, glue) > Adhesion(glue, base) > Cohesion(glue)
+
+```mermaid
+flowchart BT
+WERK_COHESION
+IMPURITY --> WERK_COHESION
+MOLECULES_MISALIGNED --> WERK_COHESION
+AMOUNT_FEW --> WERK_COHESION
+WEAK_BOND --> WERK_COHESION
+```
+		
 ## Brainstorming
 [removal of touchable physical objects is applicable]: #
 [replacement V.S repair. Localize the problem to an atomic level where fixing it components is more expensive than replacing it as a whole]: #
@@ -132,6 +156,10 @@ NOTE_ADHESIVE_NOT_ENOUGH
 COLUMN_HOLES
 :	To clean columns regularly and before applying notes on them. <2>
  
+
+
+
+
 ## Analysis of Solutions
 
 
@@ -152,5 +180,5 @@ COLUMN_HOLES
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5OTY3NzkyNF19
+eyJoaXN0b3J5IjpbMTU4Mjk2MDI0MV19
 -->
