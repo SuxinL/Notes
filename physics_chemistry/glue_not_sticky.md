@@ -135,17 +135,24 @@ flowchart BT
 ```
 
 failed_FABRIC_ATTACH_BASE
-:	After testing, Adhesion(fabric, glue) > Adhesion(glue, base) > Cohesion(glue)
-
+:	According to tests
+	$$
+	Adhesion(fabric, glue) > Adhesion(glue, base) > Cohesion(glue)
+	$$
+	
 ```mermaid
 flowchart BT
 WERK_COHESION
-IMPURITY --> WERK_COHESION
-MOLECULES_MISALIGNED --> WERK_COHESION
-AMOUNT_FEW --> WERK_COHESION
-WEAK_BOND --> WERK_COHESION
+HUMAN_INTRODUCED --> WERK_COHESION
+INTRISIC --> WERK_COHESION
 ```
 		
+HUMAN_INTRODUCED
+:	DIRT
+	AIR_POCKETS
+	ALIGNMENT_MESS
+	AMOUNT
+	
 ## Brainstorming
 [removal of touchable physical objects is applicable]: #
 [replacement V.S repair. Localize the problem to an atomic level where fixing it components is more expensive than replacing it as a whole]: #
@@ -180,5 +187,5 @@ COLUMN_HOLES
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4Mjk2MDI0MV19
+eyJoaXN0b3J5IjpbMTY5NTYwODk0MF19
 -->
