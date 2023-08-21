@@ -34,6 +34,11 @@ flowchart BT
 	end
 	failed_WRITE_PROCESS --> WRITE_FAILED 
 ``` 
+
+> NOTICE: 
+> For unfamiliar areas, we should be extremely cautious of the step size of backward reasoning. For some physical problems, the source is far away from the symptom in distance like that of light and sound.
+>
+> If the step size is too large, we might jump into a branch ignoring other branches. 
 ### Problem Categories
 
 #### physiological problems
@@ -306,6 +311,6 @@ When the goal consists of multiple sub goals which conflict, reason from sub goa
 Our current problem is that some of these sub goals are little met. Try to adjust situations to make all sub goals are at least middle met if not highly met.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzQxNzExMDQsLTg2NTUyNjY0MCwtMT
-MyNzcyODI3NCwyOTA5NDA1MTldfQ==
+eyJoaXN0b3J5IjpbMTEwODk4NjM1NSwtODY1NTI2NjQwLC0xMz
+I3NzI4Mjc0LDI5MDk0MDUxOV19
 -->
