@@ -1,8 +1,26 @@
 # Methodologies in Cause Analysis
 
+## Principle
+
+### Rationalism
+
+Rationalism is used to reason the cause node of current node along a path. A path is a conditional rule in science or math. For example, in computer science, if my laptop is problematic, then write operations in it will fail. 
+
+### Empiricism
+
+A general cause can be divided to smaller ones. For example, write ops failed can be caused by failure in the CPU, BUS, SSD Adapter or SSD device. To prove the cause is the SSD device, Empiricism is used. Evidence used to support a cause is usually of hypothetical deduction or positive instances. 
+
+About hypothetical deduction, evidence is the symptoms or result of the cause. An error message that "the SATA controller tried to contact the device but failed" belongs to this type. That means that if the SSD failed then the controller could not contact it. The more matched symptoms, more possible the cause is.
+
+About positive instances, evidence is the result of unit tests in the filed of problem-solving. If write ops are fine after replacing the SDD then this result of testing strongly proves that the SSD is problematic.
+
+### Combination
+
+From the current node we use rationalism to find its general cause. We then use empiricism to localize the problem. After reach an atomic cause, we reason backwards from it iteratively.
+
 ## Backward Reasoning
 
-backward root cause reasoning startsing from the final symptoms **to find the chain of causecauses of different depths.**
+backward root cause reasoning starts from the final symptoms **to find the chain of causes of different depths.**
 
 ```mermaid
 	flowchart BT
@@ -11,6 +29,12 @@ backward root cause reasoning startsing from the final symptoms **to find the ch
 		INTERACTION_1 -->|produce a component| INTERACTION
 		INTERACTION_2 -->|produce another component| INTERACTION
 ```
+
+
+
+### Starting Points
+
+Start the whole cause analysis process from the effects of the problem on us. For instance, An effect is the itchy feeling not the existence of mosquitoes.
 
 ### THE GRAIN SIZE OF BACKWARD REASONING
 When there is a clear cause-effect relation between an action A and a result B, we mark A as the cause of B.
@@ -22,7 +46,7 @@ flowchart BT
    GEMS_CONSUME_FOODS --> ODORS
 ``` 
 
-**However, if a process consists of multiple steps or components and we can not make sure which step or component causes the problem, we make the whole process as the cause firstly then use trouble shooting to find the problematic components.**
+**However, if a process consists of multiple steps or components and we can not make sure which step or component causes the problem, we mark the whole process as the cause firstly then use trouble shooting to find the problematic components.**
 
 For example, a failed write to the disk is caused by a failed write process which consists of many components including the CPU, PCI, SATA controller and SATA device.
 
@@ -311,6 +335,6 @@ When the goal consists of multiple sub goals which conflict, reason from sub goa
 Our current problem is that some of these sub goals are little met. Try to adjust situations to make all sub goals are at least middle met if not highly met.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwODk4NjM1NSwtODY1NTI2NjQwLC0xMz
+eyJoaXN0b3J5IjpbMTAyMzE3MTMzNCwtODY1NTI2NjQwLC0xMz
 I3NzI4Mjc0LDI5MDk0MDUxOV19
 -->
