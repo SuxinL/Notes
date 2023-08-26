@@ -24,7 +24,7 @@ After applied for days or weeks.
 
 #### Vision
 
-- Post-it notes
+- Sticky notes
 	- Corners are lifting.
 	- detached and fallen.
 	- **[GOOD_NOTES]** For good ones, they can stick for months.
@@ -80,9 +80,9 @@ failed_GLUE_PROVIDE_ENOUGH_LIFTING
 		FORCE
 	
 		WEAK
-		:	IMPURITY
-	
-			MOLECULE_MESS
+		:	CHEMICAL_PROPERTY
+			
+			IMPURITY
 			
 			ENV
 			:	HEAT
@@ -131,10 +131,10 @@ failed_ADHESIVE_MATCH_HOLES
 ```mermaid
 flowchart BT
 	EDGES_CRACK
-	failed_FABRIC_ATTACH_BASE --> EDGES_CRACK 
+	failed_FABRIC_ATTACH_SOLE --> EDGES_CRACK 
 ```
 
-failed_FABRIC_ATTACH_BASE
+failed_FABRIC_ATTACH_SOLE
 :	According to tests
 	$$
 	Adhesion(fabric, glue) > Adhesion(glue, base) > Cohesion(glue)
@@ -142,30 +142,35 @@ failed_FABRIC_ATTACH_BASE
 	
 ```mermaid
 flowchart BT
-WERK_COHESION
-HUMAN_INTRODUCED --> WERK_COHESION
-INTRISIC --> WERK_COHESION
+WEAK_COHESION
+HUMAN_INTRODUCED --x WEAK_COHESION
+CA_INTRISIC --> WERK_COHESION
 ```
 		
-HUMAN_INTRODUCED
-:	DIRT
-	AIR_POCKETS
-	ALIGNMENT_MESS
+~~HUMAN_INTRODUCED~~
+:	IMPURITY
 	AMOUNT
+	CURING_TIME_NOT_ENOUGH
+	
+CA_INTRISIC
+:	CA glue is not good to repair shoes.
+
+	Evidence
+	:	Pos
+		:	- CA has low shear strength and elasticity.
 	
 ## Brainstorming
 [removal of touchable physical objects is applicable]: #
 [replacement V.S repair. Localize the problem to an atomic level where fixing it components is more expensive than replacing it as a whole]: #
 
 NOTE_ADHESIVE_NOT_ENOUGH
-:	To tear a note by pulling it **at the edge of the sticky area**. <1>
+:	To tear a note by pulling it **at the edge of the sticky area** smoothly. <1>
 
 COLUMN_HOLES
-:	To clean columns regularly and before applying notes on them. <2>
- 
+:	To clean columns regularly and **before applying notes on them.** <2>
 
-
-
+CA_INTRISIC
+:	Use PU glues.
 
 ## Analysis of Solutions
 
@@ -175,17 +180,19 @@ COLUMN_HOLES
 | --- | --- | --- | --- |
 | 1 | LOW | ? | NOT_WORKING |
 | 2 | LOW | ? | NOT_WORKING |
-
+| 3 | MIDDLE | ? | NOT_WORKING |
 ### Priority & Trace
 
-- 1, 2
+- *1, 2*
 	[Fri Aug 18 01:18:19 PM CST 2023] applied this method the first time.
+	[Fri Aug 25 06:00:45 PM CST 2023] still attaching firmly.
 	
 ## Thinking
 [Lessons learned from this experience]: #
 - What standards are used to determine the validation duration of a product?
+- An action which might cause a situation can be used as evidence: highly related.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NTYwODk0MF19
+eyJoaXN0b3J5IjpbLTE1NDk4ODM0MjVdfQ==
 -->
