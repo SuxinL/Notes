@@ -221,7 +221,10 @@ For each interaction, if we need to find from multiple components which contribu
    - ==study the structure systematically==
 2. **find the contributing ones** by unit tests. 
 
-### Forward Analysis 
+### Forward Analysis
+
+Forward Analysis of the process of the interaction is used to find components and build structure of the system.
+
 #### Principles
 -	Any component broken will make the whole path broken.
 
@@ -229,17 +232,19 @@ For each interaction, if we need to find from multiple components which contribu
   
 	For example, for a broken path P, if the problem is still here after replacing a component A with an alternate A', then the probability that the problem is inside the part P - A is much higher than the probability that both A and A' are problematic.
 
-
-
 #### Bad Interaction
 
-When the output is from an interaction that should not exist at all,
+A bad interaction is one in which components and interfaces should not exist. For instance, the interaction that *Germs consume food remains* in the problem of bad smell.
+ 
+To handle this type, 
 -	if components can be removed easily like cases of the mold, smell and mental health problems, apply forward analysis on the interaction and remove components to break the interaction.
 -	if components can be hardly replaced like case of legacy systems or body flows, focus on the interfaces. Change interfaces to reduce bad effects.
 
 #### Failed Good Interaction
 
-If output is from an interaction that should exist but failed (**its components and interfaces** are required but problematic) like the laptop write failures, frictions in brake system, bad speed switch system and chair stripe come-out, apply forward analysis on the expected good interaction, then replace problematic components or adjust interfaces.
+If output is from an interaction that should exist but failed (**its components and interfaces** are required but problematic), it is a failed good interaction. This type includes problems like the laptop write failures, frictions in brake system, bad speed switch system and chair stripe come-out.
+
+For this type, apply forward analysis on the expected good interaction, then replace problematic components or adjust interfaces.
 
 ```mermaid
 		flowchart 
@@ -264,7 +269,7 @@ If output is from an interaction that should exist but failed (**its components 
 
 #### Side Effects
 
-If the result is a side effect of a good interaction in which we meet our main goals, it can be
+If an interaction is good and successful, but there is something bad **not related to our goals**, then the problem is a side effect. Based on the behavior model, it can be
 -	damage to the object
 -	exhaustion of the subject
 -	something bad in the env
@@ -275,15 +280,72 @@ The side effect can be caused by
 	- angle
 	- pace 
 - weakness of the subject or object. 
-- not enough clean-up steps	
+- not enough clean-up procedure.	
 
 **Analyse the current process to find out which step causes the side effect.**
 		       
 ### Unit Tests
 
-Use **unit tests** to find contributing factors to the output. recursively apply this step if a contributing factor is composite.
-     
-When direct tests are hard, use **hypothetical deduction** and try to remove the causes starting from ones with the most evidence. 
+Use **unit tests** to find contributing factors to the output. **recursively** apply this step to localize the cause.
+
+#### Ability
+
+There are 2 challenges in finding contributors of a problem. 
+
+Firstly, whether a part is problematic.
+- Macro ones can be caught easily with five senses, like a loosen screw, a deformed gadget and cracks in mechanics.
+- Micro ones not, like electronic units and chemicals.
+
+Secondly, even if a part is problematic, it is NOT 100 percent that this part really causes the final problem. For instance, a machine might still work well when a screw is loosen or rusted. It is the degree of being problematic and combination with other factors that decide the effect.
+
+Unit tests can decide both **the existence of a factor** and **the causation relationship between the factor and the outcome**. When replacing a component with one already verified good,
+- if the problem disappears, then this component is both problematic and causing the bad result.
+- **otherwise, we can only make sure that there is at least one other factor.**
+
+#### Types
+
+##### Positive
+
+A positive unit test is one where we test a suspected part *A* in a new env in which all other parts are good.
+- if the system works well, then A is good or bad, but not causing the problem.
+- else A is bad, and causing the problem.
+
+**For software systems, positive unit tests are easy to conduct.** We can mock all its dependencies and the caller.
+
+For Hardware systems, they are hard.
+- for engineering, we need to replace all other parts, which is expensive.
+- for medical problems, it is inapplicable. We can not unit test an organ.
+
+##### Negative
+
+A negative unit test to a part is one test where we replace it with a verified good part. This test essentially positively tests the whole rest.
+
+It is easier to conduct than the positive type. When we highly suspect a component, we can replace it only, then test the system.
+
+##### Finding a working path
+
+A system contains multiple components. To narrow down test scope, we can utilize the current system to do pseudo unit test. If a component can handle multiple case like an electronic unit can handle different data, we try to find a working case. For instance, the path of a failed write involves CPU, PCI BUS and SATA. If keyboard typing works which involves the Keyboard, USB BUS, PCI BUS and CPU, then we know that CPU and PCI work, and the problem is inside SATA. 
+
+#### Combination
+
+1. collect evidence of five senses for different components.
+
+2. start from the least possible ones, use pseudo unit tests to rule out most.
+
+3. If there are more than 1 candidates left, use negative unit tests from the cheapest one. For instance of the write failure problem, if both the SATA adapter and SATA device are still possible, try to replace the SATA device firstly as replacing the SATA adapter needs to replace the whole mother board.
+
+#### Multiple Factors
+
+If there are multiple factors contributing to the problem, we need to handle them all.
+
+Fortunately, for engineering problems, there will be usually only one factor. If a system suddenly stops working, it is the most possible that only one component is broken according to possibility. Exceptions are when the machine has not been used for long or is physically damaged seriously.
+
+However, biological problems are caused by many factors. 
+
+In cases where there might be many factors, pseudo unit tests are less effective as maybe the accumulated effect causes the outcome. To handle this situation, we handle all factors by repairing them.
+
+Even if a problematic component is not related to this problem, it is better to repair it if we notice it like the case of a loosen screw. One of reasons that it has not caused a problem might be its minor degree. As time goes by, the component gets worn more. Repairing it now could prevent problems.  
+
 
 ### Localization Level
 
@@ -335,6 +397,6 @@ When the goal consists of multiple sub goals which conflict, reason from sub goa
 Our current problem is that some of these sub goals are little met. Try to adjust situations to make all sub goals are at least middle met if not highly met.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMzE3MTMzNCwtODY1NTI2NjQwLC0xMz
-I3NzI4Mjc0LDI5MDk0MDUxOV19
+eyJoaXN0b3J5IjpbLTE5ODcyNDU2LC04NjU1MjY2NDAsLTEzMj
+c3MjgyNzQsMjkwOTQwNTE5XX0=
 -->
