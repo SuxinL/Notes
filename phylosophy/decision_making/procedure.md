@@ -2,7 +2,7 @@
 2. search which things meet my requirements
 	- from others suggestion/remarks : positive instances
 	- rule of 3 to get an objective view
-3. For each candidate, deduce the validity from evidence IF POSSIBLE.
+3. For each candidate, deduce the validity from structure IF POSSIBLE.
 	- physical / chemical
 	- composition: CPU, MEM, SSD
 	> Notice
@@ -13,5 +13,5 @@
 	
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxODU1NzUyXX0=
+eyJoaXN0b3J5IjpbMzI0MDk4NjUwXX0=
 -->
