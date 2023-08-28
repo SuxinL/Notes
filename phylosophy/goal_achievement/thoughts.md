@@ -42,15 +42,16 @@ Abstraction degrees mean how abstract or specific the description of a procedure
 
 In goal achievement, a goal is a state, and a path is a procedure. 
 
-
 To make the final goal achievable and manageable, a top-down approach is applied. If we dive to specific steps too soon, the whole path will contain many steps, which is not flexible then not robust. Even we might be detoured and lost. 
 
-For a vague path,
-- reason backwards from the goal to find its dependency recursively till the starting point is reached.
-- no more than 5 dependencies (sub goals) along the path.
-- for each sub path, the above steps are applied recursively till a sub path (sub procedure) is obvious. 
+If a path is unclear,
+- For a composite goal, arrange the order of sub goals along the path based on priority. 
+- For a leaf goal (a quantitative/physical standard), reason backwards from the goal to find its dependency recursively till the starting point is reached.
+- take steps of middle sizes when reasoning so that no more than 3 intermediate goals along the path.
+
+For each path, the above steps are applied recursively till the path is obvious. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMzI2NTA3N119
+eyJoaXN0b3J5IjpbODgyMzU0MjddfQ==
 -->
