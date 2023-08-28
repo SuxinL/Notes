@@ -2,6 +2,8 @@
 
 ## Principle
 
+Causation
+
 ### Rationalism
 
 Rationalism is used to reason the cause node of current node along a path. A path is a conditional rule in science or math. For example, in computer science, if my laptop is problematic, then write operations in it will fail. 
@@ -397,6 +399,6 @@ When the goal consists of multiple sub goals which conflict, reason from sub goa
 Our current problem is that some of these sub goals are little met. Try to adjust situations to make all sub goals are at least middle met if not highly met.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODcyNDU2LC04NjU1MjY2NDAsLTEzMj
-c3MjgyNzQsMjkwOTQwNTE5XX0=
+eyJoaXN0b3J5IjpbLTIxNDQ1MjY5MDcsLTg2NTUyNjY0MCwtMT
+MyNzcyODI3NCwyOTA5NDA1MTldfQ==
 -->
