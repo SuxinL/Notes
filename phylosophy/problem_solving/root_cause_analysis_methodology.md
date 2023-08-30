@@ -190,7 +190,7 @@ For a human process, trouble shooting is used to find problematic steps in the p
 2. prove the problematic steps
 3. recursively do above procedure till a step is a single action.
 
-If eventually we find that the process is correct and the problem is from the previous state, continue backwards reasoning.
+If eventually we find that the process is correct and the problem is from the previous state, which means that environment makes the process hard to achieve the required effect, suck as tools used are too weak or not flexible, then continue backwards reasoning.
 
 ##### Localization Level
 
@@ -482,6 +482,6 @@ When the goal consists of multiple sub goals which conflict, reason from sub goa
 Our current problem is that some of these sub goals are little met. Try to adjust situations to make all sub goals are at least middle met if not highly met.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTczOTU0OCwtODY1NTI2NjQwLC0xMz
-I3NzI4Mjc0LDI5MDk0MDUxOV19
+eyJoaXN0b3J5IjpbMjYyNzc3ODQ0LC04NjU1MjY2NDAsLTEzMj
+c3MjgyNzQsMjkwOTQwNTE5XX0=
 -->
