@@ -9,7 +9,7 @@
 - [ ] *learn typing*
 - [x] password management
 - [x] backup laptops
-- [ ] *backup phones*
+- [x] *backup phones*
 - [x] learn markdown & stackedit
 - [x] understand note taking
 - [x] manage anxiety of forgetting knowledge
@@ -21,14 +21,16 @@
 - [x] *learn to use Chrome*
 - [ ] repair gloves
 - [ ] repair the ceiling of the restroom
-- [ ] repair the toilet hat
+- [ ] repair the toilet lid
 - [ ] repair wire fasteners
 - [ ] repair soap box
 - [ ] repair shoes
+- [ ] repair gate light
 - [x] *cancel orders of wrong screws and paper*
 - [x] *get money reward from the bike order*
 - [ ] things to do late at night 
 - [ ] learn laptop battery use
+- [ ] fix phone StackEdit issue
 - [ ] sell the older washing machine
 - [x] logging: dmesg VS journalctl
 - [ ] replace wechat account
@@ -50,7 +52,7 @@ ___
 - [ ] arrange notes from school time
 - [ ] learn about going abroad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAxNzQ3NTk0LC0xNDY4NzMyMjI1LC04Nj
+eyJoaXN0b3J5IjpbMjc0NjM3MzQ0LC0xNDY4NzMyMjI1LC04Nj
 k5MDY2OTIsMTc1MDU5MjQzMSwtMTMzMzEzNDEyNSw0MTk5MDU4
 MjksNTc1NzE3NTgxLC0xNTA4OTU3NTc3LC00ODA3NDQ5NTQsLT
 IxMjg1Mzc1OTRdfQ==
