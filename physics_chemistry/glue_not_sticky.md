@@ -31,13 +31,17 @@ After applied for days or weeks.
 	- For bad ones, they might fall in a day.
 - Shoe adhesive
 	- My sneakers still crack at front-left corner after using 502 glue.
-- Wall stickers
+- Wire hooks
 	- At kitchen
-		- One unloaded sticker still sticks firmly to the wall.
+		- One unloaded sticker still sticks firmly to the tile wall.
 		- 3 loaded stickers fell from wall to the table with the wire.
+			- **[PAD_ON_HOOK]** the sticky pads still sticks to the plastic hooks.
+			- **[NO_GLUE_ON_TILE]** no adhesive on walls.
 	- At work space
 		- 4 unloaded sticker still stick firmly to the wall.
 		- 3 loaded stickers fell from wall to the table with the wire.
+			- **[PAD_ON_WOOD]** the sticky pad of 1 of them still attaches to the wood wall. 
+			- **[NO_GLUE_ON_HOOK]** no adhesive on hooks. 
 		- 2 stickers initially sticking on the table are still fixed at the locations.
 - Glove patches
 	- The outer patch is missed.
@@ -130,34 +134,116 @@ failed_ADHESIVE_MATCH_HOLES
 
 ```mermaid
 flowchart BT
-	EDGES_CRACK
-	failed_FABRIC_ATTACH_SOLE --> EDGES_CRACK 
+	FABRIC_SOLE_SEPARATED
+	COHESION_GLUE -->|FABRIC_SEPARATE_SOLE| FABRIC_SOLE_SEPARATED
+	subgraph TENSION_OVER_STRENGTH
+		TENSION
+		subgraph STRENGTH
+			ADHESION_FABRIC_GLUE
+			COHESION_GLUE
+			ADHESION_GLUE_SOLE
+		end
+	end
+	CA_GLUE --> |I_APPLY_GLUE| COHESION_GLUE	
+	
 ```
 
-failed_FABRIC_ATTACH_SOLE
-:	According to tests
-	$$
-	Adhesion(fabric, glue) > Adhesion(glue, base) > Cohesion(glue)
-	$$
-	
-```mermaid
-flowchart BT
-WEAK_COHESION
-HUMAN_INTRODUCED --x WEAK_COHESION
-CA_INTRISIC --> WERK_COHESION
-```
+TENSION_OVER_STRENGTH
+:	~~TENSION~~
+	:	Tension is too strong.
+
+		Evidence
+		:	Neg
+			:	- no wearing or pull.
+
+	STRENGTH
+	:	Strengths are too weak.
 		
-~~HUMAN_INTRODUCED~~
-:	IMPURITY
-	AMOUNT
-	CURING_TIME_NOT_ENOUGH
+		~~ADHESION_FABRIC_GLUE~~ COHESION_GLUE ~~ADHESION_GLUE_SOLE~~
+		:	The weakest is cohesion.
+			
+			Evidence
+			:	Pos
+				:	- After test by pulling apart a bond, the glue layer is damaged the most.
+
+I_APPLY_GLUE
+:	~~CLEAR~~
+	~~APPLY~~
 	
-CA_INTRISIC
-:	CA glue is not good to repair shoes.
+	CURE
+	:	no enough time to cure.
+	
+		Evidence
+		:	Pos
+			:	- The needed is 24 hours, but I handle the sneakers after 1 hour.	
+
+CA_GLUE
+:	CA glues are not suitable for repairing sneakers.
 
 	Evidence
 	:	Pos
-		:	- CA has low shear strength and elasticity.
+		:	- CA glues are brittle and have weak shear strength.
+
+### Wire hooks
+
+```mermaid
+flowchart BT
+	MATERIALS -->|BIND| BOND -->|failed_BOND_TRANSFER_FORCE| HOOK_FALLEN	
+```
+
+BOND
+:	HOOK
+	HOOK_ADHESIVE
+	ADHESIVE
+	ADHESIVE_PAD
+	PAD
+	ADHESIVE_WALL
+	WALL
+
+BIND
+:	CLEAR
+	PRESS
+	CURE
+	
+#### Wood Walls
+BOND	
+:	HOOK_ADHESIVE
+	:	Adhesive force between the hook and adhesive is the weakest.
+		
+		Evidence
+		:	Pos
+			:	- **[PAD_ON_WOOD]**
+				- **[NO_GLUE_ON_HOOK]**
+
+BIND
+:	steps are missed.
+
+	CLEAR
+	CURE
+	
+#### Tile Walls
+BOND	
+:	HOOK_ADHESIVE
+	:	Adhesive force between the tile wall and adhesive is the weakest.
+		
+		Evidence
+		:	Pos
+			:	- **[PAD_ON_HOOK]**
+				- **[NO_GLUE_ON_TILE]**
+
+BIND
+:	some step is missed.
+
+	CURE
+	
+#### Observation
+
+From above analysis, we know 
+$$
+ADHESIVE\_TILE < ADHESIVE\_HOOK < ADHESIVE\_WOOD
+$$
+
+The adhesive works well on porous surfaces.
 	
 ## Brainstorming
 [removal of touchable physical objects is applicable]: #
@@ -169,8 +255,33 @@ NOTE_ADHESIVE_NOT_ENOUGH
 COLUMN_HOLES
 :	To clean columns regularly and **before applying notes on them.** <2>
 
-CA_INTRISIC
-:	Use PU glues.
+STRENGTH
+:	Use other ways of fastening to improve strength like sewing. **<3>**
+
+CURE
+:	handle the rules
+	-	treatment: external reminders like notes **<4>**
+	-	prevention: update the rules by practicing to check cure time. **<5>**
+
+CA_GLUE
+:	use PU. **<6>**
+
+WOOD_BIND
+:	remember to add 2 steps in bind hooks to wood walls. **<7>**
+	- clear surfaces of hooks
+	- wait enough curing time
+
+TILE_BIND
+:	remember to wait enough curing time. **<8>**
+ 
+WOOD_MATERIAL
+:	HOOK
+	:	add a layer of dried CA glue on the surface of hooks to make it porous. **<9>**
+
+	ADHESIVE
+	:	use a stronger one. **<10>**
+TILE_MATERIAL
+:	
 
 ## Analysis of Solutions
 
@@ -180,12 +291,23 @@ CA_INTRISIC
 | --- | --- | --- | --- |
 | 1 | LOW | ? | NOT_WORKING |
 | 2 | LOW | ? | NOT_WORKING |
-| 3 | MIDDLE | ? | NOT_WORKING |
+| 3 | LOW | LONG | SOLE_LEAKING_WATER |
+| 4 | LOW | LONG | LOCAL |
+| 5 | LOW | LONG | FORGET |
+| 6 | MIDDLE | ? | ? |
+| 7 | LOW | ? | NOT_WORKING |
+| 8 | LOW | ? | NOT_WORKING |
+| 9 | LOW | ? | NOT_WORKING |
+| 10| MIDDLE | ? | HARD_REMOVE|
+
 ### Priority & Trace
 
 - *1, 2*
 	[Fri Aug 18 01:18:19 PM CST 2023] applied this method the first time.
 	[Fri Aug 25 06:00:45 PM CST 2023] still attaching firmly.
+
+- *5*
+- *6*
 	
 ## Thinking
 [Lessons learned from this experience]: #
@@ -194,5 +316,5 @@ CA_INTRISIC
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDk4ODM0MjVdfQ==
+eyJoaXN0b3J5IjpbLTU4ODk3MTE1N119
 -->
