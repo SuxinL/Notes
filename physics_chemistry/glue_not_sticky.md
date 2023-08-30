@@ -219,6 +219,17 @@ BIND
 :	steps are missed.
 
 	CLEAR
+	
+	PRESS
+	:	PAD_ONTO_HOOK
+		:	air bubbles are introduced.
+	
+			Evidence
+			:	Pos
+				:	- I did not follow the rule of pressing from side to side.
+				
+		HOOK_ONTO_WALL
+	
 	CURE
 	
 #### Tile Walls
@@ -232,9 +243,46 @@ BOND
 				- **[NO_GLUE_ON_TILE]**
 
 BIND
-:	some step is missed.
-
+:	some steps not good.
+	
+	PRESS
+	:	PAD_ONTO_HOOK
+		
+		HOOK_ONTO_TILE_WALL
+		:	air bubbles are introduced.
+		
+			Evidence
+			:	Pos
+				:	- I see them.
+					- I did not press from end to end.
+			
 	CURE
+
+```mermaid
+flowchart BT
+	MATERIALS -->|PRESS| AIR_IN_TILE_BOND
+```
+
+PRESS
+:	I do not press from end to end.
+
+MATERIALS
+:	~~PAD~~
+	:	Evidence
+		:	Neg
+			:	- pads are elastic.
+	
+	HOOK
+	:	Hooks are too hard.
+	
+		Evidence
+		:	Pos
+			:	- hooks are hard to curl.
+	
+	~~TILE~~
+	:	Evidence
+		:	Neg
+			:	- tiles are flat and smooth.
 	
 #### Observation
 
@@ -266,22 +314,30 @@ CURE
 CA_GLUE
 :	use PU. **<6>**
 
-WOOD_BIND
-:	remember to add 2 steps in bind hooks to wood walls. **<7>**
-	- clear surfaces of hooks
-	- wait enough curing time
-
-TILE_BIND
-:	remember to wait enough curing time. **<8>**
+BOND
+:	replace it by creating a new one. **<13>**
  
-WOOD_MATERIAL
+CLEAR
+:	clear surfaces and dry them. **<7>**
+
+PRESS
+:	==DO NOT PRESS AS A WHOLE==
+	press from an end to other end. **<11>**
+	
+TILE_PRESS
+:	firstly press pads onto tiles, then press hooks onto pads. **<12>**
+
+PAD_CURE
+:	wait **<8>**
+	
+MATERIAL
 :	HOOK
-	:	add a layer of dried CA glue on the surface of hooks to make it porous. **<9>**
+	:	add a layer of dried CA glue on the surface to make it porous. **<9>**
 
 	ADHESIVE
 	:	use a stronger one. **<10>**
-TILE_MATERIAL
-:	
+	
+	
 
 ## Analysis of Solutions
 
@@ -303,11 +359,24 @@ TILE_MATERIAL
 ### Priority & Trace
 
 - *1, 2*
+
 	[Fri Aug 18 01:18:19 PM CST 2023] applied this method the first time.
 	[Fri Aug 25 06:00:45 PM CST 2023] still attaching firmly.
 
 - *5*
 - *6*
+	
+- *7, 8*
+
+	[Aug 29] applied sticky hooks onto wood walls
+	[Wed Aug 30 04:59:34 PM CST 2023] started testing with the power wire of the monitor.
+
+- *7*
+	[Aug 29] applied to tiles.
+
+- *11, 12*
+	[Wed Aug 30 05:58:59 PM CST 2023] to tiles.
+	
 	
 ## Thinking
 [Lessons learned from this experience]: #
@@ -316,5 +385,5 @@ TILE_MATERIAL
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4ODk3MTE1N119
+eyJoaXN0b3J5IjpbMTk5OTcyMzQyMV19
 -->
