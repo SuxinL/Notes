@@ -49,13 +49,14 @@ flowchart BT
 |||||
 
 ### Priority & Trace
+[try from treatments to prevention based on time bound]: #
 
 ## Thinking
 [Lessons learned from this experience]: #
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzE4MjAzMjMsNzExOTY5NzUxLDIwMz
-k1NzAzMCwxMDM0MjI4ODIxLC0xMTM2MDI4MTkzLDExMTI0ODc4
-NzFdfQ==
+eyJoaXN0b3J5IjpbLTc5MzgxMzExNCwtMTk3MTgyMDMyMyw3MT
+E5Njk3NTEsMjAzOTU3MDMwLDEwMzQyMjg4MjEsLTExMzYwMjgx
+OTMsMTExMjQ4Nzg3MV19
 -->
