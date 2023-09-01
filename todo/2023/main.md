@@ -23,8 +23,8 @@
 - [ ] repair the ceiling of the restroom
 - [ ] repair the toilet lid
 - [ ] repair wire fasteners
-- [ ] repair soap box
-- [ ] repair shoes
+- [x] repair soap box
+- [x] repair shoes
 - [ ] repair gate light
 - [x] *cancel orders of wrong screws and paper*
 - [x] *get money reward from the bike order*
@@ -32,6 +32,8 @@
 - [ ] learn laptop battery use
 - [ ] fix phone StackEdit issue
 - [ ] sell the older washing machine
+- [ ] use new laptop batteries
+- [ ] resume Facebook, USC email account
 - [x] logging: dmesg VS journalctl
 - [ ] replace wechat account
 ___
@@ -52,8 +54,8 @@ ___
 - [ ] arrange notes from school time
 - [ ] learn about going abroad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc0NjM3MzQ0LC0xNDY4NzMyMjI1LC04Nj
-k5MDY2OTIsMTc1MDU5MjQzMSwtMTMzMzEzNDEyNSw0MTk5MDU4
-MjksNTc1NzE3NTgxLC0xNTA4OTU3NTc3LC00ODA3NDQ5NTQsLT
-IxMjg1Mzc1OTRdfQ==
+eyJoaXN0b3J5IjpbMTI0NTQzMDExOSwtMTQ2ODczMjIyNSwtOD
+Y5OTA2NjkyLDE3NTA1OTI0MzEsLTEzMzMxMzQxMjUsNDE5OTA1
+ODI5LDU3NTcxNzU4MSwtMTUwODk1NzU3NywtNDgwNzQ0OTU0LC
+0yMTI4NTM3NTk0XX0=
 -->
