@@ -133,6 +133,7 @@ Stable Process
 Human Process
 :	A process controlled by human rules.
 
+
 ### Backward Reasoning
 
 backward root cause reasoning starts from the final symptoms **to find the chain of causes.**
@@ -152,8 +153,10 @@ Start the whole cause analysis process from the effects of the problem on us. Fo
 
 Find the process resulting in a problematic state. 
 
-- For human processes and unexpected processes, analyse the process itself.
-- For expected processes, analyse the good process, and check which component is problematic.
+- For human processes, focus on the process itself.
+- For stable processes, focus on the before state.
+
+==A macroscopic human action will trigger an underlying microscopic stable process, so until the problem is the presence or absence of the whole object due to human processes like the case of keys lost or garbage introduced, always start from stable process and find problematic components.==
 
 
 #### Trouble Shooting
@@ -164,15 +167,19 @@ Trouble shooting is a process in which we localize the problem in order to minim
 
 For a stable process, trouble shooting is used to find problematic components of a system. Because stable rules are correct, if a state is problematic, then the previous state before the process is **possibly** problematic. 
 
-> Notice: natural aging during the process is also taken into consideration. 
+> Notice: natural aging is taken into consideration. 
 
 The procedure is
 1. **organize involved components**
 	- structure	
-		- study from materials
+		- study from materials **if**
+			- the location of a system is hard to reach
+			- a system is encapsulated & disassembling it is risky
 		- examine the structure
 	- trigger
-		- check requirements of energy or judgement from rules	
+		- check requirements of energy or judgement from rules
+	- *environment*
+		- if the system operates in harsh environment like outside, the env is considered. 
 2. **prove the contributing ones**. 
 3. for a problematic component, repeat above steps till the current component is atomic, which means that the cost of repairing its components is greater than that of replacement of whole one.
  
@@ -207,19 +214,39 @@ To localize to a level where the cost of replacement is less than that of repair
 
 ## Proof
 
-### High Relation
+To prove a possible cause Y, there are 3 types of pathes.
 
-from cause
+### Cause
+
+A path from Y's cause X to Y.
+
+#### Process
+
+Evidence of a process X which can cause Y. 
+
+#### Related Objects
+
+Evidence of other objects which can be produced along with Y by X.
 
 ### Hypothetical Deduction
 		  
-from effect
-     
-### Unit Tests
+A path from Y to another possible symptom Z besides the current problem.
 
-Unit tests are to directly test it.
+### Test
 
-#### Principles
+We can directly test Y. There are 2 types of tests.
+- date from others.
+- unit tests by ourselves.
+
+#### Reference
+
+We can refer to others' test results, which needs extremely caution about fake evidence.
+
+#### Unit Tests
+
+Unit tests are to test Y by ourselves.
+
+##### Principles
 -	Any component broken will make the whole path broken.
 
 -	It is rarely possible that two independent things break at the same time.
@@ -238,9 +265,9 @@ Unit tests can decide both **the existence of a factor** and **the causation rel
 - if the problem disappears, then this component is both problematic and causing the bad result.
 - **otherwise, we can only make sure that there is at least one other factor.**
 
-#### Types
+##### Types
 
-##### Positive
+###### Positive
 
 A positive unit test is one where we test a suspected part *A* in a new env in which all other parts are good.
 - if the system works well, then A is good or bad, but not causing the problem.
@@ -252,13 +279,13 @@ For Hardware systems, they are hard.
 - for engineering, we need to replace all other parts, which is expensive.
 - for medical problems, it is inapplicable. We can not unit test an organ.
 
-##### Negative
+###### Negative
 
 A negative unit test to a part is one test where we replace it with a verified good part. This test essentially positively tests the whole rest.
 
 It is easier to conduct than the positive type. When we highly suspect a component, we can replace it only, then test the system.
 
-##### Finding a working path
+###### Finding a working path
 
 A system contains multiple components. To narrow down test scope, we can utilize the current system to do pseudo unit test. If a component can handle multiple case like an electronic unit can handle different data, we try to find a working case. For instance, the path of a failed write involves CPU, PCI BUS and SATA. If keyboard typing works which involves the Keyboard, USB BUS, PCI BUS and CPU, then we know that CPU and PCI work, and the problem is inside SATA. 
 
@@ -482,6 +509,6 @@ When the goal consists of multiple sub goals which conflict, reason from sub goa
 Our current problem is that some of these sub goals are little met. Try to adjust situations to make all sub goals are at least middle met if not highly met.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYyNzc3ODQ0LC04NjU1MjY2NDAsLTEzMj
+eyJoaXN0b3J5IjpbNTc4OTk5NzQxLC04NjU1MjY2NDAsLTEzMj
 c3MjgyNzQsMjkwOTQwNTE5XX0=
 -->
