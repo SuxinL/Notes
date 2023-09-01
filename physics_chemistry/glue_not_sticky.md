@@ -48,7 +48,9 @@ After applied for days or weeks.
 	- The inner one is shifted.
 - Seat patches
 	- The patch is missing.
-	
+	- The adhesive lay is separated.
+	- After the process (clean, press, cure), it is still fallen.
+
 #### Hearing
 
 #### Smell
@@ -292,6 +294,77 @@ ADHESIVE\_TILE < ADHESIVE\_HOOK < ADHESIVE\_WOOD
 $$
 
 The adhesive works well on porous surfaces.
+
+### Seat Patch
+
+```mermaid
+flowchart BT
+	ADHESIVE_STATE -->|FORCE_TRANSFER| ADHESIVE_BROKEN
+```
+
+ADHESIVE_STATE
+:	~~SHEAR_FORCE~~
+	:	too much shear force.
+
+		Evidence
+		:	Neg
+			:	- no violent rubbing.
+	
+	ADHESIVE_STATIC
+	:	The adhesive layer is weak.
+	
+		~~TENSILE_STRENGTH~~
+	
+		SHEAR_STRENGTH
+		:	Shear strength of the adhesive layer is weak.
+	
+	
+```mermaid
+flowchart BT
+	SEAT_CHEMISTRY -->|APPLY| SHEAR_STRENGTH
+```
+
+APPLY
+:	~~CLEAR~~
+
+	USE_PATCH
+	:	ROUND_CORNERS
+		:	I did not  round corners of the patch. 
+			
+			> NOTICE: The lifting from a corner is strong without distribution of the force.
+			
+			Evidence
+			: 	Pos
+				:	- I see it.
+					- corners lift later.
+					
+		~~PRESS~~
+		
+		~~REMOVE_AIR~~
+		
+		~~HOLD~~
+	
+	~~CURE~~
+
+SEAT_CHEMISTRY
+:	The chemical components determine weak shear strength.
+
+	LEATHER
+	:	The leather seat is water-repelling.
+		
+		Evidence
+		:	Pos
+			:	- incentive of seat leather.
+			
+	TAPE_ADHESIVE_CHEMISTRY
+	:	 The adhesive itself has poor shear strength.
+
+		Evidence
+		:	Pos
+			:	- I test the tape on papers. The adhesive layer is broken when peeling the bond.
+
+	
+	
 	
 ## Brainstorming
 [removal of touchable physical objects is applicable]: #
@@ -318,7 +391,7 @@ BOND
 :	replace it by creating a new one. **<13>**
  
 CLEAR
-:	clear surfaces and dry them. **<7>**
+:	clear surfaces and dry them. **<7>**TAPE_ADHESIVE_CHEMISTRY
 
 PRESS
 :	==DO NOT PRESS AS A WHOLE==
@@ -337,7 +410,14 @@ MATERIAL
 	ADHESIVE
 	:	use a stronger one. **<10>**
 	
-	
+ROUND_CORNERS
+:	remember to round corners of patches **<14>**
+
+LEATHER
+:	replace the leather cover of the seat. **<15>**
+
+TAPE_ADHESIVE_CHEMISTRY
+:	use other types of glues between the tape and leather. **<16>**
 
 ## Analysis of Solutions
 
@@ -355,6 +435,9 @@ MATERIAL
 | 8 | LOW | ? | NOT_WORKING |
 | 9 | LOW | ? | NOT_WORKING |
 | 10| MIDDLE | ? | HARD_REMOVE|
+| 14 | LOW | ? | |
+| 15 | HIGH | LONG | |
+| 16 | LOW | ? | |
 
 ### Priority & Trace
 
@@ -376,7 +459,10 @@ MATERIAL
 
 - *11, 12*
 	[Wed Aug 30 05:58:59 PM CST 2023] to tiles.
+	[Fri Sep  1 12:19:48 AM CST 2023] retry for 3 pads
+- *16*
 	
+	[Wed Aug 30 09:30:00 PM CST 2023] try CA glue.	
 	
 ## Thinking
 [Lessons learned from this experience]: #
@@ -385,5 +471,5 @@ MATERIAL
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5OTcyMzQyMV19
+eyJoaXN0b3J5IjpbOTY1MzA3MjU4XX0=
 -->
