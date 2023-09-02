@@ -26,6 +26,7 @@
 - [x] repair soap box
 - [x] repair shoes
 - [ ] repair gate light
+- [ ] repair chair back
 - [x] *cancel orders of wrong screws and paper*
 - [x] *get money reward from the bike order*
 - [ ] things to do late at night 
@@ -54,8 +55,8 @@ ___
 - [ ] arrange notes from school time
 - [ ] learn about going abroad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NTQzMDExOSwtMTQ2ODczMjIyNSwtOD
-Y5OTA2NjkyLDE3NTA1OTI0MzEsLTEzMzMxMzQxMjUsNDE5OTA1
-ODI5LDU3NTcxNzU4MSwtMTUwODk1NzU3NywtNDgwNzQ0OTU0LC
-0yMTI4NTM3NTk0XX0=
+eyJoaXN0b3J5IjpbLTE1NTcxNjk2NjMsLTE0Njg3MzIyMjUsLT
+g2OTkwNjY5MiwxNzUwNTkyNDMxLC0xMzMzMTM0MTI1LDQxOTkw
+NTgyOSw1NzU3MTc1ODEsLTE1MDg5NTc1NzcsLTQ4MDc0NDk1NC
+wtMjEyODUzNzU5NF19
 -->
