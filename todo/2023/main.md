@@ -39,6 +39,7 @@
 - [ ] replace wechat account
 ___
 - [ ] how to learn
+- [ ] how to find a command based on goals in Ubuntu
 - [ ] rethink languages & English
 - [ ] motivation: operant conditioning
 - [ ] critical thinking
@@ -55,8 +56,8 @@ ___
 - [ ] arrange notes from school time
 - [ ] learn about going abroad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwOTA1NzA5MSwtMTQ2ODczMjIyNSwtOD
-Y5OTA2NjkyLDE3NTA1OTI0MzEsLTEzMzMxMzQxMjUsNDE5OTA1
-ODI5LDU3NTcxNzU4MSwtMTUwODk1NzU3NywtNDgwNzQ0OTU0LC
-0yMTI4NTM3NTk0XX0=
+eyJoaXN0b3J5IjpbMTAzMDEwMTc0LC0xNDY4NzMyMjI1LC04Nj
+k5MDY2OTIsMTc1MDU5MjQzMSwtMTMzMzEzNDEyNSw0MTk5MDU4
+MjksNTc1NzE3NTgxLC0xNTA4OTU3NTc3LC00ODA3NDQ5NTQsLT
+IxMjg1Mzc1OTRdfQ==
 -->
