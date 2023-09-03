@@ -3,7 +3,7 @@
 - [x] delete the 130 number.
 - [x] repair shower taps
 - [x] wash shoes
-- [ ] handle VPN issues.
+- [ ] *handle VPN issues.*
 - [x] repair the loosen bed
 - [x] repair broken closet doors
 - [ ] *learn typing*
@@ -20,12 +20,12 @@
 - [x] *stackedit typing latency*
 - [x] *learn to use Chrome*
 - [ ] repair gloves
-- [ ] repair the ceiling of the restroom
-- [ ] repair the toilet lid
-- [ ] repair wire fasteners
+- [ ] *repair the ceiling of the restroom*
+- [x] repair the toilet lid
+- [x] repair wire fasteners
 - [x] repair soap box
 - [x] repair shoes
-- [ ] repair gate light
+- [x] repair gate light
 - [ ] repair chair back
 - [x] *cancel orders of wrong screws and paper*
 - [x] *get money reward from the bike order*
@@ -55,8 +55,8 @@ ___
 - [ ] arrange notes from school time
 - [ ] learn about going abroad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTcxNjk2NjMsLTE0Njg3MzIyMjUsLT
-g2OTkwNjY5MiwxNzUwNTkyNDMxLC0xMzMzMTM0MTI1LDQxOTkw
-NTgyOSw1NzU3MTc1ODEsLTE1MDg5NTc1NzcsLTQ4MDc0NDk1NC
-wtMjEyODUzNzU5NF19
+eyJoaXN0b3J5IjpbLTUwOTA1NzA5MSwtMTQ2ODczMjIyNSwtOD
+Y5OTA2NjkyLDE3NTA1OTI0MzEsLTEzMzMxMzQxMjUsNDE5OTA1
+ODI5LDU3NTcxNzU4MSwtMTUwODk1NzU3NywtNDgwNzQ0OTU0LC
+0yMTI4NTM3NTk0XX0=
 -->
