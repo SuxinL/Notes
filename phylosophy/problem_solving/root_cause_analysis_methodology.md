@@ -107,18 +107,22 @@ For the causation that a state triggers a process, the needed triggering state c
 
 ###### Process Types
 
-Stable processes can be divided into 2 types.
+Stable processes can be divided into 2 types. Based on the type, different methodologies of analysis are used to extend the path. 
 
 Expected
 :	both the structure and triggers should exist.
 
 	For instance, in the process of powering a machine, both the structure (the machine) and trigger (electricity) should exist.
 
+	Because components of a system should be here, we localize the problematic component to an atomic level, from which we reason its causing process.
+	
 Unexpected
-:	either the structure or trigger should not exist. 
+:	Some components of the system should not exist. 
 
 	In the process of germs consuming foods, the structure (germs and foods) should not exist. In another process of oomd killing chrome, the structure (oomd and chrome) should be there, but the condition to kill chrome in oomd's policies (when chrome's memory usage exceeds 60% of all memory) should not be met. 
 
+	For this type, we find all components that should not exist, and then reason back from each of these components individually.
+	
 ##### Human Rules
 
 Human rules means human thoughts controlling behaviors. For instance, "If my laptop has no response, then I restart it." and "If I want to compare two things, then I put them side by side." are human rules.
@@ -173,9 +177,9 @@ The procedure is
 1. **organize involved components**
 	- structure	
 		- study from materials **if**
-			- the location of a system is hard to reach
-			- a system is encapsulated & disassembling it is risky
-		- examine the structure
+			- the location of a system is hard to reach. For instance, a bulb attached to the ceiling.
+			- a system is encapsulated & disassembling it is risky like electronic devices.
+		- examine the structure with goal orientation in which we firstly think what the system needs and then find the component implementing the functionality.
 	- trigger
 		- check requirements of energy or judgement from rules
 	- *environment*
@@ -509,6 +513,6 @@ When the goal consists of multiple sub goals which conflict, reason from sub goa
 Our current problem is that some of these sub goals are little met. Try to adjust situations to make all sub goals are at least middle met if not highly met.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc4OTk5NzQxLC04NjU1MjY2NDAsLTEzMj
-c3MjgyNzQsMjkwOTQwNTE5XX0=
+eyJoaXN0b3J5IjpbMTgxMzA4MTA5MiwtODY1NTI2NjQwLC0xMz
+I3NzI4Mjc0LDI5MDk0MDUxOV19
 -->
