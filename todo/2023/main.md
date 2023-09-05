@@ -19,7 +19,7 @@
 - [x] chrome crashing down
 - [x] *stackedit typing latency*
 - [x] *learn to use Chrome*
-- [ ] repair gloves
+- [ ] *repair gloves*
 - [ ] *repair the ceiling of the restroom*
 - [x] repair the toilet lid
 - [x] repair wire fasteners
@@ -31,11 +31,13 @@
 - [x] *get money reward from the bike order*
 - [ ] things to do late at night 
 - [ ] learn laptop battery use
+- [ ] *skype push notifications*
 - [ ] fix phone StackEdit issue
 - [ ] sell the older washing machine
 - [ ] use new laptop batteries
 - [ ] resume Facebook, USC email account
 - [x] logging: dmesg VS journalctl
+- [ ] Zhou Bo's phones
 - [ ] replace wechat account
 ___
 - [ ] how to learn
@@ -56,8 +58,8 @@ ___
 - [ ] arrange notes from school time
 - [ ] learn about going abroad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMDEwMTc0LC0xNDY4NzMyMjI1LC04Nj
-k5MDY2OTIsMTc1MDU5MjQzMSwtMTMzMzEzNDEyNSw0MTk5MDU4
-MjksNTc1NzE3NTgxLC0xNTA4OTU3NTc3LC00ODA3NDQ5NTQsLT
-IxMjg1Mzc1OTRdfQ==
+eyJoaXN0b3J5IjpbLTk2NDIxMzIyNCwtMTQ2ODczMjIyNSwtOD
+Y5OTA2NjkyLDE3NTA1OTI0MzEsLTEzMzMxMzQxMjUsNDE5OTA1
+ODI5LDU3NTcxNzU4MSwtMTUwODk1NzU3NywtNDgwNzQ0OTU0LC
+0yMTI4NTM3NTk0XX0=
 -->
