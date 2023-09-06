@@ -34,10 +34,12 @@ There is no push notifications of Skype.
 - When a text message is sent to a contact
 	- Skype on phone has no push notifications.
 	- **[UBUNTU_WORKING]** Skype on Ubuntu has push notifications.
-- When Skype is not at foreground and open it on phone
+- **[BACKGROUND_LATENCY]** When Skype is not at foreground and open it on phone
 	- if in the main page, a pop-up showing "loading" is displayed before the new message.
 	- if in the conversation page, a pop-up showing "updating conversation" appears before the new message.
-- 
+- **[FOREGROUND_REALTIME]** When Skype is at foreground, a sent message is immediately received and displayed.
+- **[CHINA_VERSION_WORKING]** China version of Skype can send push notifications.
+
 #### Hearing
 
 #### Smell
@@ -71,24 +73,38 @@ SKYPE_SYSTEM
 	:	PHONE
 		:	HW
 		
-			ANDROID
-			:	
-			
-				Evidence
+			~~ANDROID~~
+			:	Evidence
 				:	Neg
 					:	- Many other apps shows.
 			
 			ANDROID_SKYPE
 			:	Evidence
-				:	Neg
+				:	Pos
+					:	- **[CHINA_VERSION_WORKING]**
+					
+					Neg
 					:	- battery optimization for Skype is off.
 						- notification permission is grant.
 			
-			SKYPE
+			~~SKYPE~~
 			:	Evidence
 				:	Neg
 					:	- The setting of push notifications is on.
 	
+			
+			RECEIVING_MESSAGES
+			:	Skype does not pull messages when at background.
+			
+				Evidence
+				:	Pos
+					:	- **[BACKGROUND_LATENCY]**
+						- **[FOREGROUND_REALTIME]**
+
+			GENERATING_NOTIFICATIONS
+			:	Evidence
+				:	Pos
+					: - when Skype is open and a message is received but not read, there is still no notifications on Android home.
 			
 		~~INTERNET~~
 		:	Evidence
@@ -121,5 +137,5 @@ SKYPE_SYSTEM
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzgxNzUwMTNdfQ==
+eyJoaXN0b3J5IjpbLTE3NTk2NjI1OTVdfQ==
 -->
