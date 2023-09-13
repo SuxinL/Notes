@@ -98,12 +98,18 @@ For Stable rules, backwards reasoning focuses on states.
 
 ###### Triggers
 
-For the causation that a state triggers a process, the needed triggering state can be of one of two types in terms of diffrent types of stable rules.
+For the causation that a state triggers a process, the needed triggering state can be of one of two types in terms of the type of the stable rules.
 
 - For natural rules, the state usually only needs to include the static structure. The process will spontaneously happen. For instance, if there are two objects with opposite electrical charges, they will attract each other. 
 - For engineering rules, besides the static machine,
-	- to start a general process, some forms of additional energy are needed as input. Force is needed to turn a bike. Electricity is needed to light a bulb. Water is needed for transferring water through a pipe. Two numbers are needed for a computer to start an add operation.
-	- to start a specific process, besides energy, some semantic conditions in the rules of the subject are needed to met, which are usually mathematical judgement. For instance, if the temperature is below 25 degrees, the air conditioning hibernates. 
+	- to start a general process, some forms of energy are needed as input. Force is needed to turn a bike. Electricity is needed to light a bulb. Water is needed for transferring water through a pipe. Two numbers are needed for a computer to start an add operation.
+	- to start a specific process, besides energy, additional triggers are required which might be human-conducted or not.
+	
+		Human-conducted triggers are human operations like pressing a button.
+		
+		Not human-conducted ones mean that met conditions of the rules of the subject, which are usually mathematical judgement. For instance, if the temperature is below 25 degrees, the air conditioning hibernates.
+		
+		In addition, specific 
 
 ###### Process Types
 
@@ -114,20 +120,22 @@ Expected
 
 	For instance, in the process of powering a machine, both the structure (the machine) and trigger (electricity) should exist.
 
-	Because components of a system should be here, we localize the problematic component to an atomic level, from which we reason its causing process.
+	Because components of a system should be here, we localize **the** problematic component to an atomic level, from which we reason its causing process.
 	
 Unexpected
 :	Some components of the system should not exist. 
 
 	In the process of germs consuming foods, the structure (germs and foods) should not exist. In another process of oomd killing chrome, the structure (oomd and chrome) should be there, but the condition to kill chrome in oomd's policies (when chrome's memory usage exceeds 60% of all memory) should not be met. 
 
-	For this type, we find all components that should not exist, and then reason back from each of these components individually.
+	For this type, we find **all** components that should not exist, and then reason back from each of these components individually.
 	
 ##### Human Rules
 
 Human rules means human thoughts controlling behaviors. For instance, "If my laptop has no response, then I restart it." and "If I want to compare two things, then I put them side by side." are human rules.
 
-For this type, backwards reasoning focuses on behaviors. Human thoughts contain many misconceptions, and humans might miss out some steps. As a result, in a human-conducted process, it is highly possible that human behaviors introduce problems. **But previous states are also considered for cases in which the handled objects are problematic inside.**
+For this type, backwards reasoning focuses on behaviors. Human thoughts contain many misconceptions, and humans might miss out some steps. As a result, in a human-conducted process, it is highly possible that human behaviors introduce problems. 
+
+**But previous states are also considered for cases in which the handled objects are problematic inside.**
 
 ##### Processes
 
@@ -513,6 +521,6 @@ When the goal consists of multiple sub goals which conflict, reason from sub goa
 Our current problem is that some of these sub goals are little met. Try to adjust situations to make all sub goals are at least middle met if not highly met.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMzA4MTA5MiwtODY1NTI2NjQwLC0xMz
-I3NzI4Mjc0LDI5MDk0MDUxOV19
+eyJoaXN0b3J5IjpbLTE1NTk0MDU2MjcsLTg2NTUyNjY0MCwtMT
+MyNzcyODI3NCwyOTA5NDA1MTldfQ==
 -->
