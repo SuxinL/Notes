@@ -121,21 +121,36 @@ SKYPE_SYSTEM
 [removal of touchable physical objects is applicable]: #
 [replacement V.S repair. Localize the problem to an atomic level where fixing it components is more expensive than replacing it as a whole]: #
  
+ANDROID_SKYPE
+:	use China version of Skype. **<1>**
+
+RECEIVING_MESSAGES
+:	- disable battery optimization for Skype. **<2>**
+
 ## Analysis of Solutions
 
 
 ### Comparison
 | Solution | Cost | Effective Duration | Side Effects & Risks |
 | --- | --- | --- | --- |
-|||||
+| 1 | LOW | ? | CENSORSHIP |
+| 2 | LOW | ? | NOT_WORKING |
 
 ### Priority & Trace
 [try from treatments to prevention based on time bound]: #
 
+- *1* 
+
+	[Wed Sep 13 01:37:13 AM CST 2023] applied
+	
+- *2*
+
+	[Wed Sep 13 01:37:13 AM CST 2023] applied
+	
 ## Thinking
 [Lessons learned from this experience]: #
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUyNjEyOTUzXX0=
+eyJoaXN0b3J5IjpbNzUxMTIxMzM1XX0=
 -->
