@@ -14,8 +14,8 @@
 
 ### Symptoms
 [avoid biases]: #
-[comparison between actuation and expectation]: #
 [collect evidence used by hypothesis built in the root cause analysis phrase]: #
+[comparison between actuation and expectation]: #
 [specification: location, degree]: #
 
 #### Vision
@@ -62,7 +62,7 @@ flowchart BT
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNTQ1NjkxNSwtMTk3MTgyMDMyMyw3MT
+eyJoaXN0b3J5IjpbLTkzNzAxMzg3NywtMTk3MTgyMDMyMyw3MT
 E5Njk3NTEsMjAzOTU3MDMwLDEwMzQyMjg4MjEsLTExMzYwMjgx
 OTMsMTExMjQ4Nzg3MV19
 -->
