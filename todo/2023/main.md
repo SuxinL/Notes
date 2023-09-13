@@ -26,12 +26,12 @@
 - [x] repair soap box
 - [x] repair shoes
 - [x] repair gate light
-- [ ] repair chair back
+- [x] repair chair back
 - [x] *cancel orders of wrong screws and paper*
 - [x] *get money reward from the bike order*
 - [ ] things to do late at night 
 - [ ] learn laptop battery use
-- [ ] *skype push notifications*
+- [x] *skype push notifications*
 - [ ] fix phone StackEdit issue
 - [ ] sell the older washing machine
 - [ ] use new laptop batteries
@@ -58,8 +58,8 @@ ___
 - [ ] arrange notes from school time
 - [ ] learn about going abroad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NDIxMzIyNCwtMTQ2ODczMjIyNSwtOD
-Y5OTA2NjkyLDE3NTA1OTI0MzEsLTEzMzMxMzQxMjUsNDE5OTA1
-ODI5LDU3NTcxNzU4MSwtMTUwODk1NzU3NywtNDgwNzQ0OTU0LC
-0yMTI4NTM3NTk0XX0=
+eyJoaXN0b3J5IjpbODA5ODU2NzkyLC0xNDY4NzMyMjI1LC04Nj
+k5MDY2OTIsMTc1MDU5MjQzMSwtMTMzMzEzNDEyNSw0MTk5MDU4
+MjksNTc1NzE3NTgxLC0xNTA4OTU3NTc3LC00ODA3NDQ5NTQsLT
+IxMjg1Mzc1OTRdfQ==
 -->
