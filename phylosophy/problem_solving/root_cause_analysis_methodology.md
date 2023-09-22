@@ -193,6 +193,9 @@ The procedure is
 	- *environment*
 		- if the system operates in harsh environment like outside, the env is considered. 
 2. **prove the contributing ones**. 
+	
+	Sometimes components with symptoms are NOT where the problem is. For mechanical problems, a broken component can be caused by its weakness or that the force acting on it is too large. Notice that the amount of force will change during transmission by devices like levers even if the initial human force is suitable. 
+	  
 3. for a problematic component, repeat above steps till the current component is atomic, which means that the cost of repairing its components is greater than that of replacement of whole one.
  
 Trouble shooting has many benefits.
@@ -521,6 +524,6 @@ When the goal consists of multiple sub goals which conflict, reason from sub goa
 Our current problem is that some of these sub goals are little met. Try to adjust situations to make all sub goals are at least middle met if not highly met.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTk0MDU2MjcsLTg2NTUyNjY0MCwtMT
-MyNzcyODI3NCwyOTA5NDA1MTldfQ==
+eyJoaXN0b3J5IjpbLTEyNTM4NDA1NSwtODY1NTI2NjQwLC0xMz
+I3NzI4Mjc0LDI5MDk0MDUxOV19
 -->
