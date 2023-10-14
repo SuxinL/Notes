@@ -6,20 +6,20 @@
 
 #### Causation
 
-Every object is at some state each instant. When action is done to it, it is changed to another state. An action is a series of states which has a meaning.
+Every object is at some state each instant. When an action happens to it, it is changed to another state. An action is a series of states which has a meaning.
 
 ```mermaid
 flowchart LR
 	A((A)) --> |a| B((B))
 ```
 
-Two types of causation are involved.
-- A -> a : a state triggers an action
-- (A, a) -> B : an action results in another state. 
-
+When a system is at state A, 
 #### Rules
 
-The universe is controlled by rules of math and physics. Accumulated from these basic rules, there are rules of high levels including engineering rules, policies and human thoughts. In terms of stability, rules can be divided to stable rules and human rules.
+The universe is controlled by rules of math and physics. Accumulated from these basic rules, there are rules of high levels including engineering rules, policies and human thoughts. 
+
+```In terms of stability, rules can be divided to stable rules and human rules.
+
 
 ~~For different types of rules, backwards reasoning focuses on states or actions.~~
 ##### Stable Rules
@@ -35,30 +35,33 @@ Human rules means human thoughts controlling behaviors. For instance, "If my lap
 Human thoughts contain many misconceptions, and humans might miss out some steps. As a result, in a human-conducted process, it is highly possible that human behaviors introduce problems. 
 
 **But previous states are also considered for cases in which the handled objects are problematic inside.**
+```
+#### States
 
-#### Processes
-
-==A macroscopic human action will trigger a physical process, visible or microscopic.== Processes can be categorized into single processes and composite ones based on the number of human actions.
+```==A macroscopic human action will trigger a physical process, visible or microscopic.== Processes can be categorized into single processes and composite ones based on the number of human actions.
 
 ##### Single Process
 
 A single process is one involving a single simple human action like pressing a button or no at all like physical or chemical reactions. 
+```
 
-There are components of different types involved in this process.
+##### Components
 
-###### Structural Component
+There are components of different types involved in a system.
+
+###### Structural Components
 
 The structure of a system is a static view of it. A structural component is one part of the structure like a wheel of a car.
 
-###### Trigger
+###### Triggers
 
-Besides the static structure, there might be triggers initializing the process.
+Besides the static structure, there might be triggers initializing a process.
 
 - For natural rules, the state usually only needs to include the static structure. The process will spontaneously happen. For instance, if there are two objects with opposite electrical charges, they will attract each other. 
 - For engineering rules, besides the static machine,
 	- to start a general process, some forms of energy are needed as input. Force is needed to turn a bike. Electricity is needed to light a bulb. Water is needed for transferring water through a pipe. Two numbers are needed for a computer to start an add operation.
 	- to start a specific process, besides energy, additional triggers are required which might be human-conducted or not.
-		- Human-conducted triggers are human operations like pressing a button.
+		- Human-conducted triggers are human operations like pressing a button or fastening a screw. ==A macroscopic human action will trigger a physical process, visible or microscopic.==
 		- Not human-conducted ones mean met conditions of the rules of the subject, which are usually mathematical judgement. For instance, if the temperature is below 25 degrees, the air conditioning hibernates.
 		
 ###### Environment
@@ -68,13 +71,13 @@ The context of the system.
 - temptations for human behaviors
 - natural factors
 
-##### Composite Process
+```##### Composite Process
 
 A composite process is one containing multiple human actions.
 
 #### Problem Types
 
-Problems can be divided into 2 types.
+Problems are final symptoms of systems. Problems can be divided into 2 types.
 
 ##### Failure
 
@@ -89,7 +92,7 @@ In this case, all components should exist but some are broken. For instance, in 
 A problem of this type is an path that should not exist.
 
 In this case, some components of the system should not exist. For instance, in the process of germs consuming foods, the structure (germs and foods) should not exist. In another process of oomd killing chrome, the structure (oomd and chrome) should be there, but the condition to kill chrome in oomd's policies (when chrome's memory usage exceeds 60% of all memory) should not be met.
-
+```
 ### Backward Reasoning
 
 backward root cause reasoning starts from the final symptoms **to find the chain of causes.**
@@ -105,17 +108,21 @@ Backward reasoning is used to find a meaningful process resulting in the current
 
 Start the whole cause analysis process from the effects of the problem on us. For instance, An effect is the itchy feeling not the existence of mosquitoes.
 
-#### Find the process
+#### Find the path
 
-1. Find the overall process resulting in a problematic state. 
-2. Distinguish it 
-3. between a single process or a composite one. 
+1. start from the symptoms to find the final state of the system, and localize to problematic components. Because symptoms are a human's perception, we need to firstly check whether or not the person's receptors like five senses works well.
+2. from each factor repeat the procedure.
+3. ==the end point is a human action or natural aging.== 
+
+
 
 #### Trouble Shooting
 
 Trouble shooting is a process in which we localize the problem in order to minimize the cost of repair.
 
-##### Problematic Steps
+After localizing the problem from a whole system to a component, we narrow the problematic previous state. For instance, we might narrow the checking range from a group of human actions to a single one.
+ 
+```##### Problematic Steps
 
 For a composite process, trouble shooting is used to find problematic steps in the process. To do it,
 
@@ -133,7 +140,7 @@ However, there are some challenges to this procedure.
 To handle these challenges, guild lines are desirable to help us to spot all possible problematic steps caused by behaviors at once.
    
 If eventually we find that the process is correct and the problem is from the previous state, which means that environment makes the process hard to achieve the required effect, suck as tools used are too weak or not flexible, then continue backwards reasoning.
-
+```
 ##### Problematic Components
 
 For a single process, trouble shooting is used to find problematic components of a system recursively. Because stable rules are correct, if a state is problematic, then the previous state before the process is **possibly** problematic. 
@@ -154,6 +161,7 @@ For a single process, trouble shooting is used to find problematic components of
 		- loosen or separated or disposition 
 			- natural aging
 			- external interruption
+		- impurity
 - trigger
 	- human action
 		- missed
@@ -512,6 +520,6 @@ When the goal consists of multiple sub goals which conflict, reason from sub goa
 Our current problem is that some of these sub goals are little met. Try to adjust situations to make all sub goals are at least middle met if not highly met.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMjI1NDA0OSwtODY1NTI2NjQwLC0xMz
+eyJoaXN0b3J5IjpbMTA3NTA2OTM3NSwtODY1NTI2NjQwLC0xMz
 I3NzI4Mjc0LDI5MDk0MDUxOV19
 -->
