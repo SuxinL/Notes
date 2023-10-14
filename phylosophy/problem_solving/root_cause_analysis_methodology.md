@@ -13,10 +13,19 @@ flowchart LR
 	A((A)) --> |a| B((B))
 ```
 
-When a system is at state A, 
+The world can be divided into any system and its environment. For an action of a to happen at a system at state A, triggers are needed. Triggers can be internal or external. 
+
+Internal triggers are conditions met and detected inside the system. In this case, the system starts the action by itself. For instance, in a system of computer, if the OS has detected that some app is using too much resource, it will kill the app. 
+
+External triggers are conditions in its environment and detected by the system. For instance, if an air-conditioning system detects that the temperature of its environment is below some threshold, it hibernates. For a microwave, if it receives power and a starting instruction, it starts to work.
+
+The boundary between a system and its env is relative. Take the example of the microwave again, if we define a system containing all of the microwave, power supply and the operator, then triggers of power and instructions are internal.
+
 #### Rules
 
-The universe is controlled by rules of math and physics. Accumulated from these basic rules, there are rules of high levels including engineering rules, policies and human thoughts. 
+The universe is controlled by rules of math and physics. Rules are in a conditional form that **if a condition C, then an action A**.
+
+Accumulated from these basic rules, there are rules of high levels including engineering rules, policies and human thoughts. 
 
 ```In terms of stability, rules can be divided to stable rules and human rules.
 
@@ -38,6 +47,8 @@ Human thoughts contain many misconceptions, and humans might miss out some steps
 ```
 #### States
 
+For problem analysis, we consider a system at some state and its env.
+
 ```==A macroscopic human action will trigger a physical process, visible or microscopic.== Processes can be categorized into single processes and composite ones based on the number of human actions.
 
 ##### Single Process
@@ -45,31 +56,41 @@ Human thoughts contain many misconceptions, and humans might miss out some steps
 A single process is one involving a single simple human action like pressing a button or no at all like physical or chemical reactions. 
 ```
 
-##### Components
+##### System
 
-There are components of different types involved in a system.
+A system has a composite structure. Any component in a system including the system itself follows some rules to conduct actions. Then Any component can be divided into 2 parts - the mind and the body.
 
-###### Structural Components
+###### Body
 
-The structure of a system is a static view of it. A structural component is one part of the structure like a wheel of a car.
+This means the physical hardware like human bodies, laptops and screws.
+ 
+###### Mind
 
-###### Triggers
+We need to consider factors guiding a component's behaviors.
 
-Besides the static structure, there might be triggers initializing a process.
+In general, the mind contains different types of rules for different types of bodies. 
+- For humans, the rules are human thoughts.
+- For devices, the rules are engineering rules.
+- For organizations, the rules are management policies.
+- For natural things, the rules are natural rules of math, physics, chemistry and biology. 
 
-- For natural rules, the state usually only needs to include the static structure. The process will spontaneously happen. For instance, if there are two objects with opposite electrical charges, they will attract each other. 
-- For engineering rules, besides the static machine,
-	- to start a general process, some forms of energy are needed as input. Force is needed to turn a bike. Electricity is needed to light a bulb. Water is needed for transferring water through a pipe. Two numbers are needed for a computer to start an add operation.
-	- to start a specific process, besides energy, additional triggers are required which might be human-conducted or not.
-		- Human-conducted triggers are human operations like pressing a button or fastening a screw. ==A macroscopic human action will trigger a physical process, visible or microscopic.==
-		- Not human-conducted ones mean met conditions of the rules of the subject, which are usually mathematical judgement. For instance, if the temperature is below 25 degrees, the air conditioning hibernates.
-		
-###### Environment
+For a human, we also consider its mental state including
+- emotions
+- mental disorders including additions.
 
-The context of the system.
+##### Environment
 
-- temptations for human behaviors
-- natural factors
+A system is always inside its environment which might affects the system's behaviors.
+
+For a system to start and maintain working in general, some forms of energy are needed as input. Force is needed to turn a bike. Electricity is needed to light a bulb. Water is needed for transferring water through a pipe. ~~Two numbers are needed for a computer to start an add operation.~~
+
+To start a specific process, besides energy, additional transient triggers are required which might be active or passive.
+- active triggers
+	- instructions like pressing a button ~~ or fastening a screw . ==A macroscopic human action will trigger a physical process, visible or microscopic.==~~
+- passive triggers
+	- In general, natural factors including temperatures, moisture, pressure and so on.
+	- **for human actions, inspirations or temptations**.
+
 
 ```##### Composite Process
 
@@ -108,13 +129,29 @@ Backward reasoning is used to find a meaningful process resulting in the current
 
 Start the whole cause analysis process from the effects of the problem on us. For instance, An effect is the itchy feeling not the existence of mosquitoes.
 
-#### Find the path
+#### Find the paths
 
-1. start from the symptoms to find the final state of the system, and localize to problematic components. Because symptoms are a human's perception, we need to firstly check whether or not the person's receptors like five senses works well.
-2. from each factor repeat the procedure.
-3. ==the end point is a human action or natural aging.== 
+1. Because symptoms are a human's perception, we need to firstly check whether or not the person's receptors of five senses work well.
+
+1. ~~start from a find the final state of the system, and~~ From a state, find the process resulting in it, then the previous state. Localize to problematic components. 
+2. For each problematic component, repeat the tracing-back procedure recursively UNTIL it is a misconception in human thoughts or **natural aging**.== 
+
+##### Focus
+
+A process might involves both topics of engineering and human behaviors. At each process, we only focus on one topic.
+ 
+Put things that we want to focus on in a process into the system part.
 
 
+##### Step Size
+
+It is easy to summarize a complex process with a generalized phrase like a laptop boots. However, to localize the problem, we need to specify steps. Different step sizes are efficiency for different cases.
+
+In the case of analyzing problems in an unfamiliar field, steps of small sizes are better. One process then involves a subject acting on an object. The action is usually a simple physical / engineering action involving transfer of energy or information. Simple actions includes water overflowing, pressing a tape and so on. If we take a large step when we are not clear of the mechanisms, we might ignore some factors. 
+
+If we have already understanding the whole picture and mechanisms of a system, we can choose  steps of a lager size. In this case, one process involves multiple components interacting sequentially. For instance, we can group the communication from the CPU/MEM to PCI to SATA together after we know a write to the disk must go along this path.
+
+Notice if a system involves a large number of components, we might get lost when trying small steps. For this types of problems which are common in engineering, a top-down approach is better. We then need to learn the system structure firstly. 
 
 #### Trouble Shooting
 
@@ -140,30 +177,59 @@ However, there are some challenges to this procedure.
 To handle these challenges, guild lines are desirable to help us to spot all possible problematic steps caused by behaviors at once.
    
 If eventually we find that the process is correct and the problem is from the previous state, which means that environment makes the process hard to achieve the required effect, suck as tools used are too weak or not flexible, then continue backwards reasoning.
-```
+
 ##### Problematic Components
 
 For a single process, trouble shooting is used to find problematic components of a system recursively. Because stable rules are correct, if a state is problematic, then the previous state before the process is **possibly** problematic. 
 
 > Notice: natural aging is taken into consideration. 
+```
+##### Possible Factors
 
-###### Possible Factors
-- structure
+Notice that we cannot change natural rules.
+
+- System
 	- composite component
 		- any component or interface
 	- leaf component
-		- missed
-		- weak strength
-		- deformed
-		- wrong function (for units whose problems cannot be seen from out appearance likes electronic devices.)
+		- body
+			- missed
+			- weak strength
+			- deformed
+			- wrong function (for units whose problems cannot be seen from out appearance likes electronic devices.)
+		- mind
+			- misconceptions
+				- unconsciousness
+					- missed steps
+						- clean-up
+					- inappropriate manners
+						- intensity
+						- angle
+						- pace 
+			- wrong policies
+			- mental
+				- negative emotions 
+				- disorders
 	- interface (mainly for engineering problems)
 		- mismatched form factors
 		- loosen or separated or disposition 
 			- natural aging
 			- external interruption
 		- impurity
-- trigger
-	- human action
+- Env
+	- energy
+		- weak
+		- over
+		- unstable
+	- triggers
+		- active
+			- wrong instruction
+			- wrong data
+		- passive
+			- appropriate nature matrix
+			- temptations
+			
+  ~~- human action
 		- missed
 			- not enough clean-up procedure.
 		- additional
@@ -171,37 +237,32 @@ For a single process, trouble shooting is used to find problematic components of
 		- inappropriate manners
 			- intensity
 			- angle
-			- pace 
-
+			- pace~~
 			
 	
-###### Procedure
+##### Procedure
 
 1. **organize involved components**
-	- structure	
+	- system structure	
 		- study from materials **if**
 			- the location of a system is hard to reach. For instance, a bulb attached to the ceiling.
 			- a system is encapsulated & disassembling it is risky like electronic devices.
 		- examine the structure with goal orientation in which we firstly think what the system needs and then find the component implementing the functionality.
-	- trigger
-		- check 
-			- requirements of energy
-			- behavior guild lines
-			- policies
+	
 	- *environment*
 
 2. **find the contributing ones**. 
-	- For problems of failure, because components of a system should be here, we localize **ALL** problematic component to an atomic level, from which we reason its causing process.
+```	- For problems of failure, because components of a system should be here, we localize **ALL** problematic component to an atomic level, from which we reason its causing process.
 	- For unexpected problems, we find **ALL** components that should not exist, and then reason back from each of these components individually.
 	
 	Sometimes components with symptoms are NOT where the problem is. For mechanical problems, a broken component can be caused by its weakness or that the force acting on it is too large. Notice that the amount of force will change during transmission by devices like levers even if the initial human force is suitable. 
-	  
+```	  
 3. for a problematic component, repeat above steps till the current component is atomic, which means that the cost of repairing its components is greater than that of replacement of whole one.
  
 Trouble shooting has many benefits.
 - reduces the cost of repair the system
 - narrows down the range of causes from that of the whole system to that of a component, which simplifies further backwards reasoning.
-- simplifies the analysis of the system from a static view.
+- simplifies the analysis of the system in a static view.
  
 
 
@@ -520,6 +581,6 @@ When the goal consists of multiple sub goals which conflict, reason from sub goa
 Our current problem is that some of these sub goals are little met. Try to adjust situations to make all sub goals are at least middle met if not highly met.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NTA2OTM3NSwtODY1NTI2NjQwLC0xMz
-I3NzI4Mjc0LDI5MDk0MDUxOV19
+eyJoaXN0b3J5IjpbNDg3MDI3MDEwLC04NjU1MjY2NDAsLTEzMj
+c3MjgyNzQsMjkwOTQwNTE5XX0=
 -->
