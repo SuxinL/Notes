@@ -58,7 +58,9 @@ A single process is one involving a single simple human action like pressing a b
 
 ##### System
 
-A system has a composite structure. Any component in a system including the system itself follows some rules to conduct actions. Then Any component can be divided into 2 parts - the mind and the body.
+A system has a composite structure. 
+
+Any component in a system including the system itself follows some rules to conduct actions. Then Any component can be divided into 2 parts - the mind and the body.
 
 ###### Body
 
@@ -191,6 +193,8 @@ Notice that we cannot change natural rules.
 - System
 	- composite component
 		- any component or interface
+		- **wrong policies / configurations**
+			- the whole module is disabled
 	- leaf component
 		- body
 			- missed
@@ -581,6 +585,6 @@ When the goal consists of multiple sub goals which conflict, reason from sub goa
 Our current problem is that some of these sub goals are little met. Try to adjust situations to make all sub goals are at least middle met if not highly met.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg3MDI3MDEwLC04NjU1MjY2NDAsLTEzMj
-c3MjgyNzQsMjkwOTQwNTE5XX0=
+eyJoaXN0b3J5IjpbLTUyMzYzODY3MywtODY1NTI2NjQwLC0xMz
+I3NzI4Mjc0LDI5MDk0MDUxOV19
 -->
