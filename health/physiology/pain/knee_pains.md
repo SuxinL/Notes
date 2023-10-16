@@ -4,14 +4,23 @@
 [problem overview]: #
 [a problem can be the output or input of a process. For output, it can be a bad output. For input, it can be a waste of resources]: #
 
+There are pains at Zhou's knee.
+
 ### Context
 
 #### When
 [Specification: year, season, daytime, during & after some events, duration]: #
 
+- The first time
+	- started
+	- the worst
+	- ended
+- The second time
+
 #### Where
 [Localization]: #
 
+- At Zhou's right knee
 ### Symptoms
 [avoid biases]: #
 [collect evidence used by hypothesis built in the root cause analysis phrase]: #
@@ -62,5 +71,5 @@ flowchart BT
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMjE1NzMxOV19
+eyJoaXN0b3J5IjpbLTI1NTMwMDQxNV19
 -->
