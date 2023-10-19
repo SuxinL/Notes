@@ -2,7 +2,7 @@
 
 ## Examination
 [problem overview]: #
-[a problem can be the output or input of a process. For output, it can be a bad output. For input, it can be a waste of resources]: #
+[a problem can be of services or env of a system]: #
 
 ### Context
 
@@ -62,7 +62,7 @@ flowchart BT
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNzAxMzg3NywtMTk3MTgyMDMyMyw3MT
+eyJoaXN0b3J5IjpbMjEzNzQ0NjcxNiwtMTk3MTgyMDMyMyw3MT
 E5Njk3NTEsMjAzOTU3MDMwLDEwMzQyMjg4MjEsLTExMzYwMjgx
 OTMsMTExMjQ4Nzg3MV19
 -->
