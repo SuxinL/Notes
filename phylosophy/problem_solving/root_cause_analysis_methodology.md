@@ -77,19 +77,41 @@ In general, the mind contains different types of rules for different types of bo
 - For natural things, the rules are natural rules of math, physics, chemistry and biology. 
 
 For a human, we also consider its mental state including
+- ideas about something
+	- percepts
+	- ideas reasoned from other ideas
 - emotions
 - mental disorders including additions.
 
 ##### Environment
 
-A system is always inside its environment which might affects the system's behaviors.
+A system is always inside its environment which might affects the system's behaviors. The environment concerned of a system can be divided into 2 parts - dependencies and inputs.
 
-For a system to start and maintain working in general, some forms of energy are needed as input. Force is needed to turn a bike. Electricity is needed to light a bulb. Water is needed for transferring water through a pipe. ~~Two numbers are needed for a computer to start an add operation.~~
+```mermaid
+flowchart
+	subgraph ENV
+		DEPENDENCIES
+		INPUTS
+	end	
+	SYSTEM -.-> DEPENDENCIES
+	SYSTEM -.-> INPUTS
+```
+###### Dependencies
 
-To start a specific process, besides energy, additional transient triggers are required which might be active or passive.
-- active triggers
+- Energy
+
+	For a system to work in general, some forms of energy are needed. Force is needed to turn a bike. Electricity is needed to light a bulb. Water is needed for transferring water through a pipe. ~~Two numbers are needed for a computer to start an add operation.~~
+
+- Required Services
+
+	Most systems rely on services of other systems to fulfill its functionalities. A social network app needs network services. An online store needs payment services. Any professional needs tools to do it work.
+
+###### Inputs
+ 
+To start a specific process of a multi-mode system, besides energy and required services, additional inputs are required which might be active or passive.
+- active triggers, which ask for the process.
 	- instructions like pressing a button ~~ or fastening a screw . ==A macroscopic human action will trigger a physical process, visible or microscopic.==~~
-- passive triggers
+- passive triggers, which promote the process.
 	- In general, natural factors including temperatures, moisture, pressure and so on.
 	- **for human actions, inspirations or temptations**.
 
@@ -188,7 +210,7 @@ For a single process, trouble shooting is used to find problematic components of
 ```
 ##### Possible Factors
 
-Notice that we cannot change natural rules.
+Notice that we **cannot** change natural rules.
 
 - System
 	- composite component
@@ -209,13 +231,15 @@ Notice that we cannot change natural rules.
 					- inappropriate manners
 						- intensity
 						- angle
-						- pace 
+						- pace
+				- being less informed
 			- wrong policies
 			- mental
 				- negative emotions 
 				- disorders
-	- interface (mainly for engineering problems)
+	- interface ~~(mainly for engineering problems)~~
 		- mismatched form factors
+			- mental: no enough examination of the object
 		- loosen or separated or disposition 
 			- natural aging
 			- external interruption
@@ -585,6 +609,6 @@ When the goal consists of multiple sub goals which conflict, reason from sub goa
 Our current problem is that some of these sub goals are little met. Try to adjust situations to make all sub goals are at least middle met if not highly met.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMzYzODY3MywtODY1NTI2NjQwLC0xMz
+eyJoaXN0b3J5IjpbMTQzNzY5NTQ5OCwtODY1NTI2NjQwLC0xMz
 I3NzI4Mjc0LDI5MDk0MDUxOV19
 -->
