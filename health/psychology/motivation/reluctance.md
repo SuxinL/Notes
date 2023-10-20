@@ -12,7 +12,10 @@ I feel reluctant to do challenging things.
 [Specification: year, season, daytime, during & after some events, duration]: #
 
 - date: 2023, Oct
-- after: The trip to Guilin, then a cold.
+- after: 
+	- **[TRIP]** The trip to Guilin
+	- **[COLD]** A cold.
+- during: **[PEP]** Medicine of PEP
 - duration: 3 weeks
 
 #### Where
@@ -32,7 +35,9 @@ I feel reluctant to do challenging things.
 
 #### Vision
 
-- I tend to have a rest by playing phone or do easier things like house cleaning when facing these challenges.
+- when facing these challenges, I tend to 
+	- **[REST]** have a rest by playing phone
+	- or do easier things like house cleaning
 
 #### Hearing
 
@@ -42,9 +47,13 @@ I feel reluctant to do challenging things.
 
 #### Touch & Feel
 
-- I am not familiar of health issues
-- I worry that I can not solve these problems.
-- I have not tested the new model for new problems, and I worry that it will not fit these new cases.
+- **[FATIGUE]** I feel fatigue.
+- health problems
+	- I am not familiar of health issues
+	- I worry that I can not solve these problems.
+- problem solving model
+	- I have not tested the new model for new problems
+	- and I worry that it will not fit these new cases.
 
 ## Root Cause Analysis
 [backward cause reasoning for general problems]: #
@@ -58,8 +67,12 @@ flowchart BT
 
 PERSON_AND_ENV
 :	PERSON
-	:	BODY
-		:	My body can not reach its optimal performance.
+	:	WEAK_BODY
+		:	My body is weak and does not reach its optimal performance.
+		
+			Evidence
+			:	Pos
+				: 	- **[FATIGUE]**
 		
 		MIND
 		:	COSTS_GREATER_THAN_BENEFITS
@@ -67,9 +80,111 @@ PERSON_AND_ENV
 			
 			LAZINESS
 			:	Not willing to work.
+	
+				Evidence
+				:	Pos
+					:	- **[REST]**
+			
 	PHONE
-	:	Phones are tempting.
+	:	My phone is available and tempting.
+		
+		Evidence
+		:	Pos
+			:	- **[REST]**
 
+```mermaid
+flowchart BT
+	WEAK_BODY
+	BODY_AND_ENV --> WEAK_BODY
+```
+
+BODY_AND_ENV
+:	~~NORMAL_BODY~~
+
+	ENV
+	:	FOODS
+		:	ENERGY
+			:	no enough energy
+				
+				Evidence
+				:	Pos
+					:	- **[IRREGULAR_DIETS]** Breakfasts are usually skipped. Lunch time is not fixed.
+						- I usually feel hungry late at night.
+
+			NUTRIENTS
+			:	no enough nutrients
+	
+				Evidence
+				:	Pos
+					:	- *search symptoms of lack of nutrients*
+		SLEEP
+		:	no enough sleep
+			
+			Evidence
+			:	Pos
+				:	- hard to achieve 8 hours of sleep each night.	
+						
+		DISEASE
+		:	Evidence
+			:	Pos
+				:	- **[COLD]**
+					- *search symptoms*
+ 
+		MEDICINE
+		:	Evidence
+			:	Pos
+				:	- **[PEP]**
+					- *search symptoms*
+
+```mermaid
+flowchart BT
+	ENERGY
+	DIETS --> ENERGY
+```		
+
+DIETS
+:	~~QUALITY~~
+	:	Evidence
+		:	Neg
+			:	- **[HIGH_CALORIES]** I eat rice and noodles which contain high amounts of energy.
+			
+	FOOD_QUANTITY
+	
+```mermaid
+flowchart BT
+	I_AND_ENV -->|I skip breakfast| FOOD_QUANTITY 
+```
+
+I_AND_ENV
+:	I
+	:	~~BODY~~
+		:	Evidence
+			:	Neg
+				:	- I have appetites.
+					- I can eat much.
+		
+		MIND
+		:	BREAKFAST_UNCLEAR
+			:	I am unclear of the importance of breakfast.
+
+	TIME_PASSED
+	:	I often get up near lunch time.
+
+```mermaid
+flowchart BT
+	PHONE --> TIME_PASSED
+```
+ PHONE
+ :	playing phone late at night.
+
+```mermaid
+flowchart BT
+	FRUITS_UNCLEAR --> NUTRIENTS
+```
+
+FRUITS_UNCLEAR
+:	I am unclear of the importance of fruits.
+				
 ```mermaid
 flowchart BT
 	UNCERTAINTY -->|mental computations| COSTS_GREATER_THAN_BENEFITS
@@ -94,6 +209,20 @@ LESS_INFORMATION
 	:	**I have not examined the case enough.** 
 
 
+```mermaid
+flowchart BT
+	I --> LAZINESS 
+```
+
+I
+:	SHORTCUTS
+	:	I tend to take shortcuts.
+	
+	RELAXATION
+	:	Evidence
+		:	Pos
+			:	- **[TRIP]**
+			
 ## Brainstorming
 [removal of touchable physical objects is applicable]: #
 [replacement V.S repair. Localize the problem to an atomic level where fixing it components is more expensive than replacing it as a whole]: #
@@ -130,6 +259,9 @@ I_CHALLENGE
 	- Initial triggers:	By firstly handling other causes, the reluctance will be reduced, then I will start to touch it.
 	- Divide and conquer: specify the process recursively, and take a small step each time. **<5>**
  
+WEAK_BODY
+ENERGY
+NUTRIENTS
  ## Analysis of Solutions	
 
 ### Comparison
@@ -156,7 +288,12 @@ I_CHALLENGE
 - perceptions are the interface between a person and the object to determine behaviors.
 - perceptions -> ideas
 - **examination is very important for overcoming biases.**
+	- the root cause analysis model should consider factors which can explain symptoms.
+- Evidence to support some factor
+	- tests
+	- effects
+	- ~~**Do not use its possible causes** which is a part of backward reasoning.~~
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczODY2MTEwMF19
+eyJoaXN0b3J5IjpbMTAxNzUxMDcyMV19
 -->
