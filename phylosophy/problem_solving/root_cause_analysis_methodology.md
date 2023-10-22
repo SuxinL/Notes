@@ -77,9 +77,9 @@ In general, the mind contains different types of rules for different types of bo
 - For natural things, the rules are natural rules of math, physics, chemistry and biology. 
 
 For a human, we also consider its mental state including
-- ideas about something
+- views about something
 	- percepts
-	- ideas reasoned from other ideas
+	- induced views
 - emotions
 - mental disorders including additions.
 
@@ -112,8 +112,13 @@ To start a specific process of a multi-mode system, besides energy and required 
 - active triggers, which ask for the process.
 	- instructions like pressing a button ~~ or fastening a screw . ==A macroscopic human action will trigger a physical process, visible or microscopic.==~~
 - passive triggers, which promote the process.
-	- In general, natural factors including temperatures, moisture, pressure and so on.
-	- **for human actions, inspirations or temptations**.
+	- In general, natural factors including 
+		- temperatures, moisture, pressure and so on.
+		- diseases
+	- **for human actions
+		- inspirations or temptations.
+		- constraints to alternative processes
+			- cost
 
 
 ```##### Composite Process
@@ -244,12 +249,15 @@ Notice that we **cannot** change natural rules.
 			- natural aging
 			- external interruption
 		- impurity
-- Env
-	- energy
-		- weak
-		- over
-		- unstable
-	- triggers
+			- dust & dirt
+- Environment
+	- dependencies
+		- energy
+			- weak
+			- over
+			- unstable
+		- relied services
+	- inputs
 		- active
 			- wrong instruction
 			- wrong data
@@ -609,6 +617,6 @@ When the goal consists of multiple sub goals which conflict, reason from sub goa
 Our current problem is that some of these sub goals are little met. Try to adjust situations to make all sub goals are at least middle met if not highly met.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNzY5NTQ5OCwtODY1NTI2NjQwLC0xMz
+eyJoaXN0b3J5IjpbMTEzNTI4ODk0NSwtODY1NTI2NjQwLC0xMz
 I3NzI4Mjc0LDI5MDk0MDUxOV19
 -->
