@@ -49,11 +49,11 @@ I feel reluctant to do challenging things.
 
 - **[FATIGUE]** I feel fatigue.
 - health problems
-	- I am not familiar of health issues
-	- I worry that I can not solve these problems.
+	- **[UNFAMILIAR]** I am not familiar of health issues
+	- **[WORRY]** I worry that I can not solve these problems.
 - problem solving model
-	- I have not tested the new model for new problems
-	- and I worry that it will not fit these new cases.
+	- **[UNFAMILIAR]** I have not tested the new model for new problems
+	- **[WORRY]** and I worry that it will not fit these new cases.
 
 ## Root Cause Analysis
 [backward cause reasoning for general problems]: #
@@ -117,6 +117,7 @@ BODY_AND_ENV
 				Evidence
 				:	Pos
 					:	- *search symptoms of lack of nutrients*
+					
 		SLEEP
 		:	no enough sleep
 			
@@ -169,6 +170,10 @@ I_AND_ENV
 
 	TIME_PASSED
 	:	I often get up near lunch time.
+	
+		Evidence
+		:	Pos
+			:	- When I get up before 9 am, I usually eat breakfast.
 
 ```mermaid
 flowchart BT
@@ -179,29 +184,54 @@ flowchart BT
 
 ```mermaid
 flowchart BT
-	FRUITS_UNCLEAR --> NUTRIENTS
+	I_AND_FRUITS --> NUTRIENTS
 ```
 
-FRUITS_UNCLEAR
-:	I am unclear of the importance of fruits.
+I_AND_FRUITS
+:	FRUITS_UNCLEAR
+	:	I am unclear of the importance of fruits.
+	
+	FRUITS
+	:	Fruits cost.	
+
 				
 ```mermaid
 flowchart BT
-	UNCERTAINTY -->|mental computations| COSTS_GREATER_THAN_BENEFITS
-	LESS_INFORMATION --> UNCERTAINTY
+	MIND -->|mental computations| COSTS_GREATER_THAN_BENEFITS
 ```	
 
-UNCERTAINTY
+MIND
 :	UNCLEAR
-	:	I am unclear of these things.
+	:	I am unclear of these specific things.
 
 	CONSERVATION
 	:	If I am unclear of something, I tend to be conservative, focusing on the worst case.
-	 
+
+		Evidence
+		:	Pos
+			:	- **[WORRY]**
+	
+	COST_BENEFIT_TRADEOFF
+	:	I am not sure about the general logic.
+		
+		- effective duration: when will the problem relapse again for different solutions ?
+		- when the problem happens again, the cost of
+			- recheck the document
+			- react
+			
+```mermaid
+flowchart BT
+	LESS_INFORMATION --> UNCLEAR
+```	
+
 LESS_INFORMATION
 :	LITTLE_KNOWLEDGE
 	:	little previous knowledge about the case.
-	
+		
+		Evidence
+		:	Pos
+			:	- **[UNFAMILIAR]**
+			
 	CHALLENGE
 	:	Hard to figure out costs and benefits.
 
@@ -211,17 +241,17 @@ LESS_INFORMATION
 
 ```mermaid
 flowchart BT
-	I --> LAZINESS 
+	I_AND_ENV --> LAZINESS 
 ```
 
 I
 :	SHORTCUTS
 	:	I tend to take shortcuts.
 	
-	RELAXATION
-	:	Evidence
-		:	Pos
-			:	- **[TRIP]**
+RELAXATION
+:	Evidence
+	:	Pos
+		:	- **[TRIP]**
 			
 ## Brainstorming
 [removal of touchable physical objects is applicable]: #
@@ -230,19 +260,52 @@ I
 ~~RELUCTANCE~~
 :	an emotion.
 
-~~COSTS_GREATER_THAN_BENEFITS~~
-:	an idea.
+~~WEAK_BODY~~
+:	A weak body is not directly removable but reversible.
 
-PHONE
-:	refer to the problem solving of *health.psychology.temptation.entertainment* **<1>**
+ENERGY
+:	supplement with foods of high energy **<6>**
+	- rice
+	- noodles
+	- cookies
+	- candies
+
+FOOD_QUANTITY
+:	eat more. **<7>**
+
+BREAKFAST_UNCLEAR
+:	learn the importance of breakfast. **<8>**
+
+~~TIME_PASSED~~
+:	I can not change time.
+
+NUTRIENTS
+:	supplement with **<9>**
+	- foods
+	- medicines
+
+FRUITS_UNCLEAR
+:	learn the importance of fruits. **<10>**
+
+FRUITS
+:	buy cheap ones. **<11>**
+	- choose the cheapest but nutrient types.
+	- choose the cheapest selling platforms.
+
+SLEEP
+:	refer to the problem solving of *health.physiology.sleep* **<>**
+
+DISEASE
+:	refer to the problem solving of *health.physiology.diseases* **<>**
+
+~~MEDICINE~~
+:	I have to take PEP.
+
+~~COSTS_GREATER_THAN_BENEFITS~~
+:	a view.
 
 ~~UNCLEAR~~
-:	an idea.
-
-CONSERVATION
-:	practice an open mind by **<2>**
-	- doing 3 things that I am unwilling to do everyday.
-	- relaxation including deep breath.
+:	a view.
 
 LITTLE_KNOWLEDGE
 :	learn its basics online. **<3>**
@@ -258,29 +321,54 @@ I_CHALLENGE
 	**Incremental improvement**: 
 	- Initial triggers:	By firstly handling other causes, the reluctance will be reduced, then I will start to touch it.
 	- Divide and conquer: specify the process recursively, and take a small step each time. **<5>**
- 
-WEAK_BODY
-ENERGY
-NUTRIENTS
+
+CONSERVATION
+:	practice an open mind by **<2>**
+	- doing 3 things that I am unwilling to do everyday.
+	- relaxation including deep breath.
+
+COST_BENEFITS_TRADEOFF
+:	==analyse this problem carefully.== **<12>**
+
+~~LAZINESS~~
+:	an emotion.
+
+PHONE
+:	refer to the problem solving of *health.psychology.temptation.entertainment* **<1>**
+
+
  ## Analysis of Solutions	
 
 ### Comparison
 | Solution | Cost | Effective Duration | Side Effects & Risks |
 | --- | --- | --- | --- |
-| 1 | HIGH | ? | NOT_ENOUGH |
+| 1 | HIGH | LONG | NOT_ENOUGH |
 | 2 | LOW | ? | NOT_ENOUGH |
 | 3 | MIDDLE | LONG | NOT_ENOUGH |
 | 4 | MIDDLE | LONG | NOT_ENOUGH |
 | 5 | MIDDLE | LONG | LITTLE |
+| 6 | LOW | 1~2 HOURS | LITTLE |
+| 7 | MIDDLE | 4 HOURS | FATIGUE |
+| 8 | MIDDLE | LONG | NOT_ENOUGH |
+| 9 | MIDDLE | WEEKS | NOT_ENOUGH |
+| 10 | MIDDLE | LONG | |
+| 11 | LOW | LONG | |
+| 12 | MIDDLE | LONG ||
+
+
 
 ### Priority & Trace
 [try from treatments to prevention based on time bound]: #
 
-- 3 
-- 4
-- 5
-- 2
-- 1
+- *2*
+- *5*
+- *3* 
+- *4*
+- *1*
+- **12**
+- 8
+- 10
+- 11
 
 ## Thinking
 [Deduction: Lessons learned from this experience]: #
@@ -293,7 +381,19 @@ NUTRIENTS
 	- tests
 	- effects
 	- ~~**Do not use its possible causes** which is a part of backward reasoning.~~
+- passive triggers of mankind include constraints
+	- diseases.
+	- cost
+- human mind
+	- rules
+	- state
+		- view
+		- mood
+		- mental disorders
+- when we are handling a cause, it means that the problem has developed to the state of cause but not to its effects. We handle the cause in time to avoid further development. 
+ 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNzUxMDcyMV19
+eyJoaXN0b3J5IjpbMTk1NTg5MjQwN119
 -->
