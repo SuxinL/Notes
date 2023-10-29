@@ -21,18 +21,21 @@
 			3. plan what to learn
 		2. act
 			1. search materials
-				- rules of three
-			2. understanding
+				- first hand evidence
+				- the rule of three
+			3. understanding
 				- structural
 				- critical thinking
 		3. test
 			4. test the main structure of an article.
 			5. test whether I can answer set questions.
+		4. **final test**
+			- the main structure of the topic
 	- [ ] tools
 		- [ ] search
 		- [ ] handle
 		- [ ] store & retrieve
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjE2NzM3Ml19
+eyJoaXN0b3J5IjpbOTA5NDcwMDMzXX0=
 -->
