@@ -19,7 +19,7 @@
 - [x] chrome crashing down
 - [x] *stackedit typing latency*
 - [x] *learn to use Chrome*
-- [ ] *repair gloves*
+- [x] *repair gloves*
 - [ ] *repair the ceiling of the restroom*
 - [x] repair the toilet lid
 - [x] repair wire fasteners
@@ -38,7 +38,7 @@
 - [ ] resume Facebook, USC email account
 - [x] logging: dmesg VS journalctl
 - [ ] Zhou Bo's phones
-- [ ] replace wechat account
+- [x] replace wechat account
 ___
 - [ ] how to learn
 - [ ] how to find a command based on goals in Ubuntu
@@ -58,7 +58,7 @@ ___
 - [ ] arrange notes from school time
 - [ ] learn about going abroad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA5ODU2NzkyLC0xNDY4NzMyMjI1LC04Nj
+eyJoaXN0b3J5IjpbNDAyNTc2OTIwLC0xNDY4NzMyMjI1LC04Nj
 k5MDY2OTIsMTc1MDU5MjQzMSwtMTMzMzEzNDEyNSw0MTk5MDU4
 MjksNTc1NzE3NTgxLC0xNTA4OTU3NTc3LC00ODA3NDQ5NTQsLT
 IxMjg1Mzc1OTRdfQ==
