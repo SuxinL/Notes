@@ -1,41 +1,103 @@
-- [ ] learning
-	- [ ] goals
-		- to reduce the cost from design, statistics and others' experience
-			- to know the protocols of tools
-			- to know the inner structure of a system like an electronic device
-			- to get testing data of a theory
-		- to get new ideas
-			- of different methods
-			- about possible paths
-	- [ ] handle forget
-		- goal orientation
-		- catch the main structure
-			- what
-			- purposes
-			- context: when & where
-			- how: structure
-	- [ ] procedure
-		1. test
-			1. set goals & questions
-			2. test current knowledge
-			3. plan what to learn
-		2. act
-			1. search materials
-				- first hand evidence
-				- the rule of three
-			3. understanding
-				- structural
-				- critical thinking
-		3. test
-			4. test the main structure of an article.
-			5. test whether I can answer set questions.
-		4. **final test**
-			- the main structure of the topic
-	- [ ] tools
-		- [ ] search
-		- [ ] handle
-		- [ ] store & retrieve
+# Learn from Others
+
+To learn from others is to understand from materials provided by others, not from our experiences.
+
+## Goals
+
+Deduction is impratical or not enough for knowledge formation.
+
+### Reduction of Cost
+
+Learning from others helps us to establish and fasten a theory efficiently. Theories requires
+large amounts of evidence to support like those of nature science including physics, chemistry and biology. A single human has too limited resources of time and money to conduct enough experiments to deduct and support theories. Then we need accumulated wisdom of mankind to quickly get
 	
+- the theory itself like physics
+- evidence for our theory   
+
+For a single experiment, the cost might be too high to pay if without previous knowledge. Disassembling a machine like car engine without knowing its internal structure before can cause bad results like a mess of tiny units and even physical harm to the operator.
+
+### New Thoughts
+
+To get new ideas is another main benefit of referring to others. 
+
+It can help us to notice a more efficient method to finish some work, which we might be never ware of before like an elegant algorithm.
+
+It also reminds us of more factors in problem solving.
+
+## Handling of Mismatch
+
+To handle the difference between our memory and the current knowledge due to
+
+- memory failure
+- technology progress
+
+and related anxiety, there are 2 principles.
+
+### Goal Orientation
+
+Remember that
+- There are no perfect solutions.
+- As long as our knowledge has helped us solve problems, it has values. It at that time helped us to build our current platform.
+
+### The Main Structure
+
+It is the usual case that the main structure is stable and only the implementation of a specific component improves. And the main structure only takes a small portion of our mind load compared to the whole knowledge. 
+
+**Maintaining the main structure in memory enables us to reuse it quickly for later applications.** Catch and memorize the main structure, and backup it with documentation.
+
+#### Stereotype
+
+The main structure can be specified as
+
+- what
+- purposes
+- context: when & where
+- how: structure
+
+About the *how* part, 
+- if the system consists of multiple individual functionalities, divide it into modules based on functionalities recursively.
+- For a single-use module, divide it to components based on dependencies.  
+
+## Procedure
+
+Learning is a sub type of goal achievement, then the procedure follows the same framework.
+
+### The initial Test
+	
+1. set goals in the form of questions of the main structure.
+2. test current knowledge by answering these questions.
+3. plan what to learn based what questions we can not answer with confidence.
+
+### Acting
+
+1. search materials
+	- first-hand evidence
+	- the rule of three
+2. for each article, use
+	- structural understanding
+	- critical thinking
+	- for each paragraph, 
+		- if the contention is clear is clear, skip the path.
+		- else understand the **path** and combine it with our knowledge base.
+	- after each section, test
+		- the main idea
+		- **involved operations**
+	- after leaning the article, test current main structure
+		- if it is complete and meets our requirements.
+
+### The final Test
+	
+Retest the main structure of the knowledge.
+
+1. To test our memory, recall the whole main structure in mind
+2. Then write id down with details for confirmation and backup 
+
+### Post
+
+After the final test,
+
+- arrange the main structure written down in the final test for later reference when memory fails. 
+- apply the knowledge to real-world projects.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA5NDcwMDMzXX0=
+eyJoaXN0b3J5IjpbNjA4ODI3NjQ1XX0=
 -->
