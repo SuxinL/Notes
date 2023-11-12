@@ -1,8 +1,0 @@
-@startuml
-[plantuml] as p
-[java] as j
-[graphviz] as g
-
-p ..> j
-p ..> g
-@enduml
