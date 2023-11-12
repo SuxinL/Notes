@@ -37,13 +37,13 @@ and related anxiety, there are 2 principles.
 
 Remember that
 - There are no perfect solutions.
-- As long as our knowledge has helped us solve problems, it has values. It at that time helped us to build our current platform.
+- As long as our outdated knowledge has helped us solve problems, it has values. It at that time helped us to build our current platform where we improve technologies to continue the iterative progress.
 
 ### The Main Structure
 
 It is the usual case that the main structure is stable and only the implementation of a specific component improves. And the main structure only takes a small portion of our mind load compared to the whole knowledge. 
 
-**Maintaining the main structure in memory enables us to reuse it quickly for later applications.** Catch and memorize the main structure, and backup it with documentation.
+The main structure only takes a small portion of our mind load compared to the whole knowledge. **Maintaining the main structure in memory enables us to reuse it quickly for later applications.** Catch and memorize the main structure, and back up it with documentation.
 
 #### Stereotype
 
@@ -64,7 +64,7 @@ Learning is a sub type of goal achievement, then the procedure follows the same 
 
 ### The initial Test
 	
-1. set goals in the form of questions of the main structure.
+1. set goals in the form of questions about the main structure.
 2. test current knowledge by answering these questions.
 3. plan what to learn based what questions we can not answer with confidence.
 
@@ -77,7 +77,7 @@ Learning is a sub type of goal achievement, then the procedure follows the same 
 	- structural understanding
 	- critical thinking
 	- for each paragraph, 
-		- if the contention is clear is clear, skip the path.
+		- if the contention is clear, skip the path.
 		- else understand the **path** and combine it with our knowledge base.
 	- after each section, test
 		- the main idea
@@ -90,7 +90,7 @@ Learning is a sub type of goal achievement, then the procedure follows the same 
 Retest the main structure of the knowledge.
 
 1. To test our memory, recall the whole main structure in mind
-2. Then write id down with details for confirmation and backup 
+2. Then write it down with details for confirmation and backup 
 
 ### Post
 
@@ -99,5 +99,5 @@ After the final test,
 - arrange the main structure written down in the final test for later reference when memory fails. 
 - apply the knowledge to real-world projects.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA4ODI3NjQ1XX0=
+eyJoaXN0b3J5IjpbMjA4MTcyNjFdfQ==
 -->
