@@ -259,7 +259,7 @@ Notice that we **cannot** change natural rules.
 		- relied services
 	- inputs
 		- active
-			- wrong instruction
+			- wrong instruction / operation
 			- wrong data
 		- passive
 			- appropriate nature matrix
@@ -617,6 +617,6 @@ When the goal consists of multiple sub goals which conflict, reason from sub goa
 Our current problem is that some of these sub goals are little met. Try to adjust situations to make all sub goals are at least middle met if not highly met.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNTI4ODk0NSwtODY1NTI2NjQwLC0xMz
+eyJoaXN0b3J5IjpbMTk5MzI2NjIwMywtODY1NTI2NjQwLC0xMz
 I3NzI4Mjc0LDI5MDk0MDUxOV19
 -->
