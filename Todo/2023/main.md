@@ -45,6 +45,7 @@ ___
 - [ ] rethink languages & English
 - [ ] motivation: operant conditioning
 - [ ] critical thinking
+- [ ] Universal Modeling Language
 - [ ] problem solving & trouble shooting
 - [ ] time management skills
 - [ ] repair the outdoor light
