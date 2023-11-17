@@ -54,7 +54,7 @@ ___
 - [ ] social skills
 - [ ] check the BOC credit card
 ---
--	[ ] hunchback
+- [ ] hunchback
 ---
 - [ ] arrange notes from school time
 - [ ] learn about going abroad

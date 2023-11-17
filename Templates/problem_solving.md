@@ -30,13 +30,6 @@
 
 ## Root Cause Analysis
 [backward cause reasoning for general problems]: #
-[
-process
-	- stable
-		- expected
-		- unexpected
-	- human	
-]: #
 [recursive trouble shooting for engineering problems to an atomic level (build hypothesis, use evidence (examination  + unit tests))]: #
 
 ```mermaid
@@ -46,7 +39,7 @@ flowchart BT
 ## Brainstorming
 [removal of touchable physical objects is applicable]: #
 [replacement V.S repair. Localize the problem to an atomic level where fixing it components is more expensive than replacing it as a whole]: #
- 
+z
 ## Analysis of Solutions
 
 ### Comparison
