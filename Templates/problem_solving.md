@@ -39,7 +39,7 @@ flowchart BT
 ## Brainstorming
 [removal of touchable physical objects is applicable]: #
 [replacement V.S repair. Localize the problem to an atomic level where fixing it components is more expensive than replacing it as a whole]: #
-z
+
 ## Analysis of Solutions
 
 ### Comparison
