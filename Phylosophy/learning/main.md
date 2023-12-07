@@ -45,18 +45,43 @@ It is the usual case that the main structure is stable and only the implementati
 
 The main structure only takes a small portion of our mind load compared to the whole knowledge. **Maintaining the main structure in memory enables us to reuse it quickly for later applications.** Catch and memorize the main structure, and back up it with documentation.
 
-#### Stereotype
+#### Model
 
 The main structure can be specified as
 
 - what
+	- what is it?
+	- general behaviors
 - purposes
+	- efficiency
+	- security
 - context: when & where
-- how: structure
+- how
+	- structure
+		- if the system consists of multiple individual functionalities, divide it into modules **based on functionalities** recursively.
+		- For a single-use module, divide it to components **based on dependencies**.
+	- behavior
 
-About the *how* part, 
-- if the system consists of multiple individual functionalities, divide it into modules based on functionalities recursively.
-- For a single-use module, divide it to components based on dependencies.  
+##### category
+
+For different types of knowledge, we focus on different aspects about the "how" part in the main model.
+
+- [tools](../models/tool.md#tool)
+	- **interface**
+		- input
+			- format
+		- output
+			- get
+				- source
+					- data source
+					- what information is available
+				- presentation
+					- filters
+					- report format
+			- set 
+				- what the tool does specifically 
+
+  
 
 ## Procedure
 
