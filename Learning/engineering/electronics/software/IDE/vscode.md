@@ -97,8 +97,7 @@ flowchart
                     - default
                     - template
                     - existing 
-    - workspace
-    
+    - workspace 
     - user settings V.S profile
 		- At any instance, user settings are bound to a profile. By default, user settings are bound to the default profile. We can create and switch to other profiles.
 		- a profile contains not only settings, but keybindings, UI layouts and others.     

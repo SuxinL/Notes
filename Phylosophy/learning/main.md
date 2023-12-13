@@ -58,18 +58,19 @@ The main structure can be specified as
 - context: when & where
 - how
 	- structure
-		- if the system consists of multiple individual functionalities, divide it into modules **based on functionalities** recursively.
-		- For a single-use module, divide it to components **based on dependencies**.
+		- composite: if the system consists of multiple individual functionalities, divide it into modules **based on functionalities** recursively.
+		- internal: For a single-use module, divide it to components **based on dependencies**.
 	- behavior
 
 ##### category
 
-For different types of knowledge, we focus on different aspects about the "how" part in the main model.
+For different types of knowledge, we focus on different aspects about the "behavior" part in the main model.
 
 - [tools](../models/tool.md#tool)
 	- **interface**
 		- input
-			- format
+			- instruction
+			- object
 		- output
 			- get
 				- source
@@ -79,7 +80,11 @@ For different types of knowledge, we focus on different aspects about the "how" 
 					- filters
 					- report format
 			- set 
-				- what the tool does specifically 
+				- what the tool does specifically.
+				- diagrams to group related interfaces.
+					- component diagrams
+					- data flow diagrams 
+					- state diagrams
 
   
 
