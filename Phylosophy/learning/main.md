@@ -59,12 +59,15 @@ The main structure can be specified as
 - how
 	- structure
 		- composite: if the system consists of multiple individual functionalities, divide it into modules **based on functionalities** recursively.
-		- internal: For a single-use module, divide it to components **based on dependencies**.
-	- behavior
+		- leaf: For a single-use module, divide it to components **based on dependencies**.
+	- behaviors(rules)
+		- composite: manages it components
+		- leaf: provides services to end users
+ 
 
 ##### category
 
-For different types of knowledge, we focus on different aspects about the "behavior" part in the main model.
+For different types of knowledge, we focus on different aspects about the leaf behaviors in the main model.
 
 - [tools](../models/tool.md#tool)
 	- **interface**
