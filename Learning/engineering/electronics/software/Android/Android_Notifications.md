@@ -41,7 +41,10 @@
 					- emergency calls
 				- duration
 					- one-time
+						- default: forever until turned off manually
+						- duration: we can set a duration **to prevent forgetting to turn off**.
 					- schedule
+						
 
 					```mermaid
 					flowchart
