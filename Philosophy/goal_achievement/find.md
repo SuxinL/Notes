@@ -16,12 +16,21 @@ The search process itself is fluent because we have known the structure.
 
 ### from others' systems
 
-However, **we need to firstly check the actual structure if we tend to search from others' systems** as there are different ways to organize a system. Goal orientation is the most stable way because the purpose of an object usually does not change whereas its out appearance or compositions vary, but different systems might focus on different aspects even change its focus overtime. Making a wrong assumption might cause us lots of time in searching later. 
+However, **we need to firstly check the actual structure if we tend to search from others' systems** as there are different ways to organize a system. Goal orientation is the most stable way because the purpose of an object usually does not change whereas its out appearance or compositions vary, but different systems might focus on different aspects even change its focus overtime. Making a wrong assumption might waste us lots of time in searching later. 
+
+#### On devices with small screens
+
+Many responsive pages hide the menu for better display on small screens of portable devices. Then we can only see one tab each time.
+
+To access the menu and other related resources, search for links or icons representing menus.
+- ☰: menu
+- \>: expand 
 
 ## find via search boxes
 
 [This method](/Learning/engineering/electronics/software/browser/Search_Skills.md) works only for digital information. We want to use it when
-- We only do casual search and do not have to understand the structure.
-- A system is poorly organized.
-- A system is very large like the Internet.
-- Finding via structures fails.
+- Casual Search: We only do casual search and do not have to understand the structure.
+- The system is hard to organize
+    - poorly organized.
+    - very large like the Internet.
+- Last Resort: Finding via structures fails.

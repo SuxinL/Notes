@@ -44,10 +44,28 @@ In goal achievement, a goal is a state, and a path is a procedure.
 
 To make the final goal achievable and manageable, **a top-down approach** is applied to build the path. If we dive to specific steps too soon, the whole path will contain many steps, which is not flexible then not robust. Even we might be detoured and lost. 
 
-- If a path is clear, do it.
-- If a path is unclear,
-	- For a composite goal, divide it into no more than 3 independent sub goals, and arrange the order of sub goals along the path based on priority. Repeat this check process for each sub goal.
-	- For a leaf goal (there is a quantitative/physical standard), reason backwards from the goal to find its dependency chain consist of no more than 3 intermediate goals till the starting point is reached. Repeat this check process for each intermediate goal.
+### Terms
+
+Path
+: a path from its precondition to the goal.
+
+Composite Goal
+: a goal consisting of independent sub goals **in space**.
+
+Leaf Goal
+: a goal with a quantitative/physical standard.
+
+### Procedure
+
+- For a composite goal, divide it into no more than 3 independent sub goals, and arrange the order of sub goals along the path based on priority.
+- For a leaf goal
+	- If its path is clear, done.
+	- If its path is unclear,
+		1. specify the path with a specific verb or a series of more specific steps.
+		2. identify the set of needed timing, locations, tools and materials.
+		3. treat the meeting of these dependencies as its intermediate goal. 
+
+Repeat this produce recursively for each path segment till all path segments are clear.
 
 ### Get
 

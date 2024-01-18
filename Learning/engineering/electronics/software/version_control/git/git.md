@@ -41,10 +41,12 @@ Git is a distributed version control system.
 - behaviors
     - get
         - `git log`: displays commits history.
+        - `git show`: show various types of objects.
         - `git cat-file`: displays objects in the repository.
         - `git ls-tree`: displays the tree structure represented by an object in the repository
     - set 
-        - `git reset`: resets a branch to a commit.
+        - `git reset [--soft | --hard] <commit>`: resets a branch head to a commit.
+        - `git reset <tree-ish> -- <pathspec>`: reset **the index** entries for all paths matched to their state at `<tree-ish>`.
   
 #### 3-tree
 
@@ -60,7 +62,6 @@ Git is a distributed version control system.
         W -->|add| I --> |commit| C
         C -->|restore --cached| I -->|restore| W
         C -->|reset| I
-        C -->|reset --hard| W
         C -->|checkout| I 
         C -->|checkout| W
     ```
@@ -74,9 +75,10 @@ Git is a distributed version control system.
         - `git ls-files`: displays the content of the index and the working tree. 
     - set
         - `git add`: adds a path to the index, which overrides the version in the index with the one in the working tree.
-        - `git restore`: restore a path in the working tree, which overrides the version in the working tree with the one in the index, therefore undoing `git add`.
+        - `git restore`: restore a path in the working tree, which overrides the version in the working tree with the one in the index, therefore undo changes in the working tree.
+            - `git restore --cached`: restore a path in the index with the version in the HEAD, which undoes a previous `git add`.
         - `git commit`: snapshots the index and stores a commit in the repository
-        - `git remove`: removes a path from the index to untrack it.
+        - `git rm --cached`: removes a path from the index to untrack it.
 
 #### branches
 
@@ -103,7 +105,7 @@ Git is a distributed version control system.
             - `git merge`: replays changes since diverged on the top of another branch
                 - fast-forward
                 - three-way merge
-            - `git rebase`: replays commits one by one on the top of another commit.
+            - [`git rebase`](git_rebase.md): replays commits one by one on the top of another commit.
         - switch `git checkout`: sets HEAD referring to another branch, and updates the index and working tree.     
 
 ##### merge V.S rebase
@@ -151,3 +153,7 @@ Git is a distributed version control system.
         - `git merge`: merges a remote-tracking branch into the current branch
         - `git pull`: fetches, then merges
         - `git push`: pushes local updates to remote.
+
+### auxiliary
+
+- git [tags](./git_tag.md): to mark important points for later references.

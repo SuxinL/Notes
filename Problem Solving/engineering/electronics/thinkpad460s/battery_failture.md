@@ -103,7 +103,7 @@ BATTERIES_AND_ENV
                             [^full_charge]: https://www.digitaltrends.com/computing/how-to-care-for-your-laptops-battery/#dt-heading-keeping-your-battery-in-zone
 
                             Evidence
-                            :   - TODO: check the AC adapter.
+                            :   - **`charge_control_end_threshold` is set to 100%, which means the batteries will be charged to 100%.**
                         
                         HIGH_DISCHARGE_DEPTH
                         :   The batteries drains to emptiness.
@@ -135,7 +135,7 @@ BATTERIES_AND_ENV
                         :   Reports from `powertop`
                         
                             INTERNAL
-                            :   SCREEN
+                    :   ~~SCREEN~~
 
                                 GPU
                                 :   INTEL
@@ -172,20 +172,9 @@ BATTERIES_AND_ENV
                             :   - When I took the laptop from the bag, I found that it became very hot.
 
 
-```mermaid
-flowchart
-    I --> HIGH_DISCHARGE_DEPTH
-    I --> FAILED_SUSPEND
-```
-
-I
-:   MIND
-    :   RULES
-        :   LESS_INFORMED
-            :   I did not know the knowledge.
 
 ```mermaid
-flowchart
+flowchart BT
     ENV --> HIGH_TEMPERATURE
 ```
 
@@ -202,22 +191,59 @@ ENV
                 AIRFLOW_BLOCKED
                 :   The airflow for releasing heat is not enough.
 
-                    INTERNAL
+                    INTERNAL_AIRWAY
+                    :   Evidence
+                        :   Pos
+                            :   - Heavy dust is accumulated in the fan.
 
-                    EXTERNAL
+                    EXTERNAL_AIRWAY
+                    :   Evidence
+                        :   Pos
+                            :   - During traveling, I put a running laptop into a package.
+                                - Sometimes, I use it on bed.
+
+```mermaid
+flowchart BT
+    LINUX_CONFIG --> STATE_OF_CHARGE
+```
+```mermaid
+flowchart BT
+    I --> STATE_OF_CHARGE
+    I --> FAILED_SUSPEND
+    I --> ENV_TEMPERATURE
+    I --> EXTERNAL_AIRWAY
+
+```
+
+I
+:   MIND
+    :   RULES
+        :   LESS_INFORMED
+            :   I did not know the knowledge.
 
 ## Brainstorming
 [removal of touchable physical objects is applicable]: #
 [replacement V.S repair. Localize the problem to an atomic level where fixing it components is more expensive than replacing it as a whole]: #
 
 BROKEN_BATTERIES
-:   replace with new ones.
+:   replace with new ones. **<1>**
 
 ELECTROLYTE
-:   use better batteries.
+:   use better batteries.**<2>**
 
 ~~CYCLES~~
 :   any battery has an expected full cycles.   
+
+HIGH_CHARGE_DEPTH
+:   - discharge it to below 80%.**<3>**
+
+HIGH_DISCHARGE_DEPTH
+:   charge it immediately whenever I find the power is below 20%.**<4>**
+
+FAILED_SUSPEND
+:   unlock the laptop and suspend it with **<5>**
+    - GUI
+    - keyboard shortcut `Fn+4`
 
 ~~SCREEN~~
 :   I have already turned the brightness to the lowest level in which I can view the screen clearly.
@@ -226,59 +252,99 @@ ELECTROLYTE
 :   I use it as my main GPU.
 
 NVIDIA
-:   turn off it by `sudo prime-select intel`
+:   turn off it by `sudo prime-select intel`**<6>**
 
 AUDIO_CODEC
 :   TODO
 
 ETHERNET
-:   - turn on auto suspend.
-    - totally turn off the device.
+:   - turn on auto suspend.**<7>**
+    - totally turn off the device.**<8>**
 
 ~~USB_KEYBOARD~~
 :   This is my main keyboard. I need to keep it on to achieve high performance.
 
 EXTENSIONS
-:   disable unused extensions.
+:   disable unused extensions.**<9>**
 
 DAEMONS
 :   TODO
 
 LESS_INFORMED
-:   After this experience, I have learned
+:   After this experience, I have learned **<10>**
     - charge the laptop once the power drops to 20%.
     - use Gnome GUI to suspend.
+    - never use it in hot env.
 
 INTENSIVE_USAGE
 :   - apply other solutions.
-    - let the laptop rest for a while.
+    - close the laptop for a while.**<11>**
 
 ENV_TEMPERATURE
-:   move it to cool places from heat sources including 
+:   move it to cool places from heat sources including **<12>**
     - natural
         - sunshine
         - fire
     - man-made
         - hot air conditioners
 
-AIRWAY_BLOCKED
-:   - clear the fan.
-    - never use it on bed.
-    - **never put running laptops into bags.**
+INTERNAL_AIRWAY
+:   - clear the fan.**<13>**
+    
+EXTERNAL_AIRWAY **<14>**
+:   - move it away from bed.
+    - **take laptops out from bags.**
+
+LINUX_CONFIG **<15>**
+:   - change the battery configuration via sysfs.
 
 ## Analysis of Solutions
 
 ### Comparison
 | Solution | Cost | Effective Duration | Side Effects & Risks |
 | --- | --- | --- | --- |
-|||||
+| 1 | MIDDLE | 1 YEAR | |
+| 2 | HIGH | 2 YEARS | |
+| 3 | LOW | 3 HOURS ||
+| 4 | LOW | 3 HOURS ||
+| 5 | LOW | 1 DAY ||
+| 6 | LOW | YEARS ||
+| 7 | LOW | YEARS ||
+| 8 | MIDDLE | YEARS ||
+| 9 | MIDDLE | MONTHS ||
+| 10 | HIGH | LONG ||
+| 11 | LOW | HOURS ||
+| 12 | LOW | DAYS ||
+| 13 | MIDDLE | YEARS ||
+| 14 | LOW | DAYS ||
+| 15 | MIDDLE | YEARS ||
 
 ### Priority & Trace
 [try from treatments to prevention based on time bound]: #
 
+- *6*
+- *7*
+- 8
+    
+    how
+    
+- *1*
+- *15*
+- *13*
+- *10*
+- *9*
+- 12
+- 14
+- *5*
+- *3*
+- 4
+- 12
+- 2
+  
 ## Thinking
 [Lessons learned from this experience]: #
-
+- charge cycles: consider accumulated actions in active input.
+- power modes: remember to consider the rules of the entire system before diving into components.
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMjEzNzQ0NjcxNl19
