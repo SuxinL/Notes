@@ -94,7 +94,9 @@ For different types of knowledge, we focus on different aspects about the **leaf
 					- data flow diagrams 
 					- state diagrams
 
-  
+- practices of doing something
+	- use goal achievement model to specify the procedure
+	- manage avoidance tips  
 
 ## Procedure
 
@@ -109,8 +111,8 @@ Learning is a sub type of goal achievement, then the procedure follows the same 
 ### Acting
 
 1. search materials
-	- first-hand evidence
-	- the rule of three
+	- first-hand evidence: official documents
+	- the rule of three if the above one is unavailable.
 2. for each article, use
 	- catch the TOC, but [not memorize it](./thoughts/Handling_book_TOC.md).
 	- critical thinking
@@ -121,7 +123,7 @@ Learning is a sub type of goal achievement, then the procedure follows the same 
 		- the main idea
 		- **involved operations**
 	- after leaning the article, test current main structure
-		- if it is complete and meets our requirements.
+		- whether it is complete and meets our requirements.
 
 ### The final Test
 	

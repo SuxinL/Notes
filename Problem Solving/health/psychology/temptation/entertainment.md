@@ -2,16 +2,18 @@
 
 ## Examination
 [problem overview]: #
-Time and energy is wasted in entertainment of news, games, and sex.
+Time and energy is wasted in entertainment of news, videos, games, and sex.
 
 ### Context
 
 #### When
 [Specification: year, season, daytime, during & after some events, duration]: #
 
-- News
+- News & Videos
 	- Anytime.
-	- Especially during and after defecation.
+	- Especially during and after 
+		- defecation.
+		- eating
 	- lasting for 1 ~ 2 hours.
 - Games
 	- After 3:00 am and before sleep. 
@@ -27,7 +29,8 @@ Time and energy is wasted in entertainment of news, games, and sex.
 [Localization]: #
 
 - **[ALONE_AT_HOME]** At my house alone.
-- Not using dating apps when at ZhouBo's house.
+- **[ZHOU_SUPERVISION]** Not using dating apps when at ZhouBo's house.
+- Still watching videos and playing games at Zhou's house.
 
 ### Symptoms
 [avoid biases]: #
@@ -53,9 +56,12 @@ Time and energy is wasted in entertainment of news, games, and sex.
 
 #### Touch & Feel
 
-- **[TIME_UNCONSCIOUSNESS]** Before staring, I told myself that I would stop it in one hour. But I spent much more time gradually.
-- **[CRAVING]** Sometimes I know that I should stop, but the strong craving drives me to continue.
-- **[CHARGING]** Even when the battery is low and the phone is about to turn off, I rush to charge it to continue, especially when I am in a match of Gomoku. 
+- **[GIVE_IN]** I know that I should not do it, but eventually I still give in.
+- **[TIME_UNCONSCIOUSNESS]** Before starting, I told myself that I would stop it in one hour. But I spent much more time gradually.
+- **[LOSE_CONTROL]** Sometimes I know that I should stop, but the strong craving drives me to continue.
+- **[ANGER]** Even when the battery is low and the phone is about to turn off, I rush to charge it to continue, especially when I am in a match of Gomoku. 
+- **[CONQUER]** I want to conquer others especially the elderly in casual sex.
+- **[DEFEAT]** I only want to defeat other players in Gomoku, and I only play with low-rank players and avoid high-rank ones.
 
 ## Root Cause Analysis
 [backward cause reasoning for general problems]: #
@@ -64,160 +70,278 @@ Time and energy is wasted in entertainment of news, games, and sex.
 
 ```mermaid
 flowchart BT
-	GIVE_IN
-	I_PLAY_THESE --> GIVE_IN
-	PLAY_THOUGHT --> I_PLAY_THESE
-	PLAY_ENV --> I_PLAY_THESE
+	I_MISUSE_DEVICES --> IN_PLAY --> TIME_WASTED
 ```
 
-I_PLAY_THESE
-: a bad interaction.
+IN_PLAY
+:	I am playing these.
 
-PLAY_THOUGHT
-:	I understand what I should do and the bad effects of these temptations, but I still give in.
+I_MISUSE_DEVICES
+:	SYSTEM
+	:	I
+		:	MIND
+			:	RULES
+				:	~~EFFECTS_IGNORANCE~~
+					:	Evidence
+						:	Neg
+							:	- I understand the bad effects of these activities.
 
-	- I forget to remind myself that this give-in will worsen the addiction situation.
-	- I feel empty and think that I must do something before sleeping.
+					~~ADDICTION_IGNORANCE~~
+					:	Evidence
+						:	Neg
+							:	- I understand that each time of giving in will contribute to the accumulation of $\delta$fobs which contributes to addictions.
 
-PLAY_ENV
-:	PHONE_AVAILABLE
-	:	The phone is highly available.
+				STATES
+				:	~~VIEWS~~
 
-		Evidence
-		:	Pos
-			:	- **[ALONE_AT_HOME]** No others limits me.
-			
-				
-		BROWSER
-		:	BAIDU_WEIBO
-			: 	for news
-	
+					EMOTIONS
+					:	DEPRESSION
+						:	I feel unhappy with my life, and I seek for a feeling of self achievement.
+
+							Evidence
+							:	Pos
+								:	- **[CONQUER]**
+									- **[DEFEAT]**
+
+						LOW_SELF_CONTROL
+						:	Evidence
+							:	Pos
+								:	- **[GIVE_IN]**
+									- **[TIME_UNCONSCIOUSNESS]**
+
+
+					MENTAL_DISORDERS
+					:	ADDICTIONS
+						:	I have addictions to entertainment.
+
+							Evidence
+							:	Pos
+								:	- **[LOSE_CONTROL]**
+									- **[ANGER]**
+
+
+
+			~~BODY~~
+			:	My body can not support me to do what I should do.
+
 				Evidence
-				:	Pos
-					:	- **[BAIDU_WEIBO]**
+				:	Neg
+					:	- I can play gomoku for 8 hours, which takes more energy than some small task like repair the salt box.
+						- Sometimes I still give in to TV programs in the morning. 
 
-			PLAYOK
-			:	for Gomoku.
-			
-				Evidence
-				:	Pos
-					:	- **[GOMOKU]**
-			
-		BLUED
-		:	for sex.
+		I_DEVICES
+		:	I use electronic devices.
 
-			Evidence
-			:	Pos
-				:	- **[BLUED]**
-		
-	BEDROOM_ALONE
-	:	I am alone laying in the bedroom. It is relaxing to play phone on bed.
-		
-		Evidence
-		:	Pos
-			:	- **[ALONE_AT_HOME]**
-				- **[ON_BED]** 
-				- **[TIME_UNCONSCIOUSNESS]**
-	
-	ADDICTION
-	:	I have addictions of these for years.
+			TOO_MUCH_ENTERTAINMENT
+			:	time wasted
 
-		Evidence
-		:	Pos
-			:	- **[CRAVING]**
-				- **[CHARGING]**
+
+		DEVICES
+		:	BLUED_INSTALLED
+			:	Evidence
+				: 	Pos
+					:	- **[BLUED]**
+
+			VIDEO_APPS
+			:	Evidence
+				: 	Pos
+					:	- I use Youku and mangoTV apps.
+
+			BROWSER
+			:	BAIDU_WEIBO
+				:	Evidence
+					: 	Pos
+						:	- **[BAIDU_WEIBO]**
+
+				YOUTUBE
+				:	MALIANJIE
+
+					DARK_WEB_KID
+
+					ELEPHANT_DEE
+
+				PLAYOK
+				:	Evidence
+					: 	Pos
+						:	- **[GOMOKU]**
+						
+	ENV
+	:	DEP
+		:	POWER
+
+			OTHER_SERVICES
+			:	NETWORK
+				:	All these sites and apps need network.
+
+					BLUED_SERVER_IP
+
+		INPUTS
+		:	~~ACTIVE~~
+
+			PASSIVE
+			:	NATURAL
+				:	COMFORTABLE_BED
+					:	My bed is soft and provides a nice env for me to play my phone.
+
+						Evidence
+						: 	Pos
+							:	- **[ON_BED]**
+
+					NEARBY_OUTLETS
+					:	There are plugin outlets near my bed.
+
+
+				TEMPTATIONS
+				:	NO_SUPERVISION
+
+					ATTRACTIVE_GUYS
+
+					SEDUCING_PHOTOS
+					:	STORAGE
+
+						ONLINE_RECOMMENDATION
 
 ```mermaid
 flowchart BT
-	PHONE_AVAILABLE
-	I_TAKE_IT --> PHONE_AVAILABLE
-	TAKE_THOUGHT --> I_TAKE_IT
-	TAKE_ENV --> I_TAKE_IT
-```	
+	PHONE_WITHOUT_BLUED -->|download| BLUED_DOWNLOADED --> |install| BLUED_INSTALLED
+```
 
-I_TAKE_IT
-:	I take the phone from the balcony to the bedroom.
+PHONE_WITHOUT_BLUED
+:	PHONE
 
-TAKE_THOUGHT
-:	I overestimate my self-discipline.
-	
-	Evidence
-	:	Pos
-		:	- **[TIME_UNCONSCIOUSNESS]**
-			- **[CRAVING]**
+	PHONE_BLUED
+	:	There are ways to download blued apk.
 
-TAKE_ENV
-:	There are just a few steps between.
+		OFFICIAL_APP_STORE
+
+		SITES_FROM_BROWSERS
+		:	PATHS_TO_THE_APP
+
+	BLUED_IN_SITES
 
 ## Brainstorming
 [removal of touchable physical objects is applicable]: #
-[replacement V.S repair. Localize the problem to an atomic level where fixing it components is more expensive than replacing it as a whole]: #
+[replacement V.S repair. Localize the problem to an atomic level where fixing it components is more expensive than replacing it as a whole]: #	
 
-I_PLAY_THESE
-:	When alone, self control in the middle of playing is almost impossible.
+IN_PLAY
+:	try to interrupt the process and take a cold mind back by
+	- self **<1>**
+		- deep breath
+		- wash face with cold water
+	- external reminders **<2>**
+		- alarms
 
-PLAY_THOUGHT
-:	Remind myself **<1>**
-	- that this time of giving in will contributes to the accumulation of $\nabla Fobs$ which contributes to addiction.
-	- that it is useless to spend time in these.
-	- that pleasure is NOT happiness.
-	- that ==to live a full life, do meaningful things like working, exercising and being with friends==. 
+DEPRESSION
+:	find hope by 
+	- helping others **<3>**
+	- joining supporting groups **<17>**
 
-PHONE_AVAILABLE
-:	I cannot remove the phone from my house, as I need its wifi hot spot to work on my laptop.
- 
-BROWSER
-:	not applicable to remove browsers.
-	- the built-in browser cannot be deleted.
-	- I need a browser to access StackEdit.
+LOW_SELF_CONTROL
+:	TODO
 
-BAIDU_WEIBO
-:	block baidu & weibo on the whole phone **<2>**
+ADDICTIONS
+:	- avoid stimuli by other methods
+	- drink more water **<4>**
+	- do exercises **<5>**
 
-BLUED
-:	block blued app **<3>**
+BLUED_INSTALLED
+:	uninstalled it.	**<6>**
 
-BEDROOM_ALONE
-:	Do not use the phone on the bed. **<4>**
+BLUED_DOWNLOADED
+:	delete the package. **<7>**
 
-ADDICTION
-:	treat the addition by **<5>**
-	- cutting the contact with stimuli by alternatives.
-		- APNews 
-		- Music
-		- Facebook / Twitter / Reddit
-	- drinking more water
-	- having enough sleep
-	- doing exercises regularly.
+~~PHONE~~
+:	I need my phone for contacts and wifi.
 
-TAKE_THOUGHT
-:	reminders. **<6>**
-	
+OFFICIAL_APP_STORE
+:	block it with BlockSite. **<8>** I can download needed apps from other sites.
+
+PATHS_TO_THE_APP **<9>**
+:	1. block the "blued" keyword with BlockSite.
+	2. block special sites containing the package
+	3. clear browser history.
+
+~~BLUED_IN_SITES~~
+:	out of my control.
+
+VIDEO_APPS, BAIDU, WEIBO，YOUTUBE_CHANNELS
+:	set blocking schedules with BlockSite. **<10>**
+
+PLAYOK
+:	block the site with BlockSite. **<11>**
+
+~~POWER~~
+:	I need to use my phone.
+
+BLUED_SERVER_IP
+:	block all blued server IPs with firewall apps. **<19>**
+
+COMFORTABLE_BED
+:	I need it for a good sleep. However, there are still something that I can do
+	- practice not to use phone on bed. **<12>**
+	- alternatives
+		- reading **<18>**
+
+NEARBY_OUTLETS
+:	block them with sticky reminders. **<13>**
+
+NO_SUPERVISION
+:	- join supporting groups.
+	- use sticky reminders. **<14>**
+
+ATTRACTIVE_GUYS
+:	practice not to watch others when outside. **<15>**
+
+SEDUCING_PHOTOS
+:	delete them all from my phone. **<16>**
+
 ## Analysis of Solutions
 
 ### Comparison
 | Solution | Cost | Effective Duration | Side Effects & Risks |
 | --- | --- | --- | --- |
-| 1 | LOW | LONG | FORGET |
-| 2 | MIDDLE | LONG | NOT_APPLICABLE |
-| 3 | MIDDLE | LONG | NOT_APPLICABLE |
-| 4 | MIDDLE | LONG | FORGET |
-| 5 | HIGH | LONG | LITTLE |
-| 6 | LOW | LONG | FORGET |
+| 1 | MIDDLE: high willpower needed | m~h | NOT_WORKING |
+| 2 | LOW | m~h | NOT_WORKING |
+| 3 | MIDDLE | days | NO |
+| 4 | LOW | hours | NOT_ENOUGH |
+| 5 | MIDDLE | 1 day | NOT_WORKING |
+| 6 | LOW | hours | NO |
+| 7 | LOW | days~weeks | NO |
+| 8 | MIDDLE | LONG | more time to find needed apps |
+| 9 | MIDDLE | LONG | NO |
+| 10 | MIDDLE| LONG | NO |
+| 11 | MIDDLE | LONG | NO |
+| 12 | MIDDLE | ? | NO_ENOUGH_WILLPOWER |
+| 13 | LOW | LONG | NO |
+| 14 | LOW | LONG | NOT_WORKING |
+| 15 | MIDDLE | days | NO_ENOUGH_WILLPOWER |
+| 16 | LOW | days | NO |
+| 17 | HIGH | LONG | ? |
+| 18 | MIDDLE | 1 day | NO_ENOUGH_WILLPOWER|
+| 19 | MIDDLE | LONG | NO_SUITABLE_FIREWALL |
 
 ### Priority & Trace
+
 - *1*
-- *6*
+- 2
+- *13*
+- *10*
+- *11*
+- 19
+- 17
+- *16*
+- 3
 - *4*
-- *2*
-	
-	Blocksite app to block sites including Baidu, weibo and playok.
-	
-- *3*
-	
-	NoRoot firewall to block all Blued servers.
-	
-- *5*
+- 18
+- 5
+- *6*
+- 12
+- *14*
+- *15*
+- *7*
+- 8
+- *9*
+
 
 ## Thinking
 [Lessons learned from this experience]: #
@@ -225,8 +349,13 @@ TAKE_THOUGHT
 - We can interrupt an activity in the middle.
 - **Notice the importance of evidence in supporting causes.**
 - Flaws in thoughts
-
-
+- Examination helps us to 
+	- over confirmation biases
+	- find more factors in root cause analysis
+- apply solutions backwards
+	- for solutions at a same layer, apply them in descending order of
+		1. effective duration
+		2. cost
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTM1Mjk3ODQ5NV19
 -->

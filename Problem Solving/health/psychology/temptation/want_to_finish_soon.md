@@ -113,7 +113,7 @@ TRIVIAL
     - a stable bed promotes good sleep.
     
 SHORTCUTS_SAVE_TIME
-: **(repair of the thought)** Shortcuts usually tell us how to use something in syntax level, not the proof or context info. They save time when we already have a good understanding of the subject. The purpose of shortcut is mainly to
+: **(repair of the thought)** Shortcuts usually tell us how to use something step by step, but they do not include the proof or context info. They save time when we already have a good understanding of the subject. The purpose of shortcut is mainly to
   - fetch some detail operations
   - refer to it when memory fails
   
@@ -130,7 +130,7 @@ SHORTCUTS_SAVE_TIME
 ## Thinking
 [Lessons learned from this experience]: #
 
-From my past experience, the temptation to shortcuts often results in more time wasted, especially in unfamiliar fields.
+- From my past experience, the temptation to shortcuts often results in more time wasted, especially in unfamiliar fields.
 
 
 <!--stackedit_data:

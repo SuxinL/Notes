@@ -37,11 +37,11 @@ An input consists of two parts - an instruction and an object. To avoid ambiguit
 
 An instruction means the specific action that the user wants the tool to do like `git add`.
 
-##### Configuration
+##### Options
 
-An instruction can contain configuration for specific cases.  
+An instruction can contain specific options for this action.  
 - Some tools only have one mode of working like that a kettle can be only toggled on or off.
-- Many others enable users to configure how it works for a job like air conditioners provide options of temperature, timer, and the intensity of wind. 
+- Many others enable users to specify how it works for a job like air conditioners provide options of temperature, timer, and the intensity of wind. 
 
 #### Object
 
@@ -49,9 +49,13 @@ Objects mean to which the action should be done like in case of `git add foo.txt
 
 ### Output
 
-Output means a service that the tool provides which is configurable. There are two types of service - get & set.
+An Output can be a service to an object or a tuning to a tool.
 
-#### Get
+#### Service
+
+A service means what a tool does to an object. It can be a get service or a set service.
+
+##### Get
 
 The service is to extract some information from the object.
 - A description of the state of the object like the report of `git status`.
@@ -66,12 +70,26 @@ The service is to extract some information from the object.
 - output format 
     - structure
 
-#### Set
+##### Set
 
 The service can be a change to **the object** like `git add foo.txt` will copy file `foo.txt` from the working tree into the index.
 
 **Focus**
 - What does the tool do to the object specifically?
+
+#### Tool Tuning
+
+For advanced tools, we can usually tune them to use them more efficiently.
+
+##### Get: Status Signals
+
+Status signals help us to know about a tool's current status to adjust it if undesired. The most common forms of these signals include status lights and sounds.
+
+##### Set: Configuration
+
+We can configure a tool to maintain a commonly used mode across sessions. For instance, we can adjust a chair to our most comfortable mode.
+
+
 
 ### Service Management
 
@@ -113,7 +131,19 @@ flowchart
 We want to dive into the structure of the tool **for**
 - Functionality reasoning: 
     - to induce the behaviors of the tool when the manual is not clear enough.
-    - to verify whether the tool has a specific functionality which is hard to test directly like one about safety.
+    - to verify whether the tool has a specific functionality which is hard to test directly. Basic functionalities illustrated by the manual are easy to test by doing, but some are not, such as those safety features.
 - Problem solving: We need to solve a problem about the tool.
 - Inspiration & Deduction: We want some reference from the tool to develop new tools.
+
+Notice that [it is risky to disassemble a tool before understanding its internal structure](/Problem%20Solving/health/psychology/temptation/want_to_finish_soon.md#brainstorming). Based on this thinking flow
+
+```mermaid
+flowchart LR
+    cases -->|deduct| standard -->|induct| case
+```
+
+try to find the first resource in the following order.
+1. the official hardware maintenance manual
+2. the industry standard specification
+3. manuals of similar products
 

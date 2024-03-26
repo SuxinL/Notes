@@ -308,7 +308,7 @@ DISEASE
 :	a view.
 
 LITTLE_KNOWLEDGE
-:	learn its basics online. **<3>**
+:	[learn from others](/Philosophy/learning/main.md). **<3>**
 
 CHALLENGE
 :	learn whether the problem is solvable and deserves my effort online. **<4>**

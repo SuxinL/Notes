@@ -20,7 +20,7 @@
 - [x] *stackedit typing latency*
 - [x] *learn to use Chrome*
 - [x] *repair gloves*
-- [ ] *repair the ceiling of the restroom*
+- [x] *repair the ceiling of the restroom*
 - [x] repair the toilet lid
 - [x] repair wire fasteners
 - [x] repair soap box
@@ -30,11 +30,11 @@
 - [x] *cancel orders of wrong screws and paper*
 - [x] *get money reward from the bike order*
 - [ ] things to do late at night 
-- [ ] learn laptop battery use
+- [x] learn laptop battery use
 - [x] *skype push notifications*
-- [ ] fix phone StackEdit issue
+- [x] fix phone StackEdit issue
 - [ ] sell the older washing machine
-- [ ] use new laptop batteries
+- [x] use new laptop batteries
 - [ ] resume Facebook, USC email account
 - [x] logging: dmesg VS journalctl
 - [ ] Zhou Bo's phones

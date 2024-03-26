@@ -1,6 +1,8 @@
 # find
 
-This article describes how to find a target efficiently. There are 2 types of methods:
+This article describes how to find a target efficiently. 
+
+There are 2 types of methods:
 - find via structures
 - find via search boxes
 
@@ -26,11 +28,11 @@ To access the menu and other related resources, search for links or icons repres
 - ☰: menu
 - \>: expand 
 
-## find via search boxes
+## find via search engines
 
 [This method](/Learning/engineering/electronics/software/browser/Search_Skills.md) works only for digital information. We want to use it when
 - Casual Search: We only do casual search and do not have to understand the structure.
 - The system is hard to organize
     - poorly organized.
     - very large like the Internet.
-- Last Resort: Finding via structures fails.
+- Last Resort: When finding via structures fails.

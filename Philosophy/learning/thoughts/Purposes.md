@@ -1,5 +1,7 @@
 # Purpose
 
+Each tool exists to serve some purposes.
+
 ## Types
 
 - efficiency

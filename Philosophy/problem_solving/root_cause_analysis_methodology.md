@@ -266,18 +266,10 @@ Notice that we **cannot** change natural rules.
 			- wrong data
 		- passive
 			- appropriate nature matrix
-			- temptations
-			
-  ~~- human action
-		- missed
-			- not enough clean-up procedure.
-		- additional
-		- different		
-		- inappropriate manners
-			- intensity
-			- angle
-			- pace~~
-			
+				- temperature
+				- moisture
+				- daytime(mental hint)
+			- temptations		
 	
 ##### Procedure
 
@@ -287,16 +279,15 @@ Notice that we **cannot** change natural rules.
 			- the location of a system is hard to reach. For instance, a bulb attached to the ceiling.
 			- a system is encapsulated & disassembling it is risky like electronic devices.
 		- examine the structure with goal orientation in which we firstly think what the system needs and then find the component implementing the functionality.
-	
 	- *environment*
 
-2. **find the contributing ones**. 
+2. **find the contributing ones by unit tests**. 
 ```	- For problems of failure, because components of a system should be here, we localize **ALL** problematic component to an atomic level, from which we reason its causing process.
 	- For unexpected problems, we find **ALL** components that should not exist, and then reason back from each of these components individually.
 	
 	Sometimes components with symptoms are NOT where the problem is. For mechanical problems, a broken component can be caused by its weakness or that the force acting on it is too large. Notice that the amount of force will change during transmission by devices like levers even if the initial human force is suitable. 
 ```	  
-3. for a problematic component, repeat above steps till the current component is atomic, which means that the cost of repairing its components is greater than that of replacement of whole one.
+3. Recursive localization: for a problematic component, repeat above steps till the current component is atomic, which means that the cost of repairing its components is greater than that of replacement of whole one.
  
 Trouble shooting has many benefits.
 - reduces the cost of repair the system

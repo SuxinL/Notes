@@ -13,10 +13,11 @@
 [Localization]: #
 
 ### Symptoms
-[avoid biases]: #
+[avoid jumping to conclusions and confirmation biases]: #
 [collect evidence used by hypothesis built in the root cause analysis phrase]: #
 [comparison between actuation and expectation]: #
 [specification: location, degree]: #
+[when direct examination is hard, we can use tools like light and magnifiers to amplify the signals]: #
 
 #### Vision
 
@@ -54,6 +55,3 @@ flowchart BT
 [Lessons learned from this experience]: #
 
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNzQ0NjcxNl19
--->

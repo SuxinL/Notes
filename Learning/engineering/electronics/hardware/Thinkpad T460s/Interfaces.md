@@ -75,8 +75,10 @@ Always-on USB connectors are available for charging in any of the following 3 co
 | Light Status | Meaning |
 | --- | --- |
 | Off | not charging |
-| yellow | 0%~80% |
+| amber | 0%~80% |
 | green | 80%~100% |
+
+- Only when energy of **each** of batteries is above 80%, the light becomes green.
 
 ## Special Keys
 
