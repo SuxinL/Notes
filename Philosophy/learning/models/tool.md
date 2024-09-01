@@ -89,8 +89,6 @@ Status signals help us to know about a tool's current status to adjust it if und
 
 We can configure a tool to maintain a commonly used mode across sessions. For instance, we can adjust a chair to our most comfortable mode.
 
-
-
 ### Service Management
 
 To organize related services and have a clear picture of the overall mechanism of the tool, we model the tool with philosophy and the object with behavior diagrams.
@@ -99,9 +97,13 @@ To organize related services and have a clear picture of the overall mechanism o
 
 Philosophy describes how the tool views and acts on the object to achieve the goals of efficiency and security.
 
+##### Short Phrases & Abbreviation
+
+Short phrases and abbreviations helps us to memorize and recall a complex rule easily. For instance, The phrase *Trust On First Use* or abbreviation *TOFU* is used to describe the method to authenticate a SSH server by a SSH client. 
+
 #### Behavior Diagrams
 
-Behavior diagrams organizes related set operations and helps to depict the state transfer of the object, which helps us understand what the tool does.
+Behavior diagrams organize related set operations and helps to depict the state transfer of the object, which helps us understand what the tool does. Besides, human brains memorize graphs more easily than words.
 
 ##### Data flow Diagram
 

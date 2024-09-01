@@ -74,40 +74,82 @@ CARRIER
 
 ```mermaid
 flowchart BT
-    PERSON_FOR_SEX -->|frictions| WOULDS_ON_SEXUAL_ORGANS
+    I_HIM -->|frictions| WOULDS_ON_SEXUAL_ORGANS
 ```
-PERSON_FOR_SEX
-:   PERSON
-    :   MIND
-        :   RULES
-            :   ANAL_SEX_ONLY
-                :   Only anal sex can meet my desire.
+I_HIM
+:   SYSTEM
+    :   I
+        :   MIND
+            :   RULES
+                :   ANAL_SEX_ONLY
+                    :   Only anal sex can meet my desire.
 
-            STATE
-            :   EMOTION
-                :   SEX_DESIRE
-                    :   strong sex desire.
+                STATE
+                :   EMOTION
+                    :   SEX_DESIRE
+                        :   strong sex desire.
 
-        BODY
-        :   THIN_SEX_ORGAN_SKIN
-            :   The skin of the sex organ is thin.
-                
-                Evidence
-                :   Pos
-                    :   - From my experience, the skin of the penis is easy to break.
-                        - The rectum's lining is thin.[^anal_sex]
-
-                        [^anal_sex]: https://www.cdc.gov/hiv/basics/hiv-transmission/ways-people-get-hiv.html
-
-    ENV
-    :   INPUT
-        :   PASSIVE
-            :   TRIGGER
-                :   ATTRACTIVE_GUY
+            BODY
+            :   THIN_PENIS_SKIN
+                :   The skin of the sex organ is thin.
                     
-                    PORN
+                    Evidence
+                    :   Pos
+                        :   - From my experience, the skin of the penis is easy to break.
 
-                NO_LUBRICANT
+        I-HIM
+        :   MISMATCH
+            :   SIZE
+                :   His anus is too tight relative to my penis.
+
+                    Evidence
+                    :   Pos
+                        :   - I often feel restriction when inserting my penis at the beginning.
+
+                SEX_BEHAVIOR
+                :   ~~ANGLE~~
+                    :   My penis is not aligned to his rectum.
+
+                        Evidence
+                        :   Neg
+                            :   - I insert from his behind which is the most natural posture.
+
+                    ~~PACE~~
+                    :   Too fast.
+
+                        Evidence
+                        :   Neg
+                            :   - Compared to porns, my speed is normal.
+                                - I usually have breaks.
+                        
+                    INTENSITY
+                    :   I insert with strong force.
+                    
+                        Evidence
+                        :   Pos
+                            :   - I try hard to insert my penis fully into his anus even when feeling restriction and pain.
+
+        HIM
+        :   HIS_MIND
+
+            BODY
+            :   RECTUM_LINING
+                :   Evidence
+                    :   Pos
+                        :    - The rectum's lining is thin.[^anal_sex]
+    
+                            [^anal_sex]: https://www.cdc.gov/hiv/basics/hiv-transmission/ways-people-get-hiv.html
+
+
+```mermaid
+flowchart BT
+    I --> SEX_BEHAVIOR
+```
+
+I
+:   MIND
+    :   RULES
+        :   SEX_PREPARATION_IGNORANCE
 
 ```mermaid
 flowchart BT
@@ -147,8 +189,30 @@ ANAL_SEX_ONLY
 SEX_DESIRE
 :   TODO: how to control sex desire
 
-~~THIN_SEX_ORGAN_SKIN~~
+~~THIN_PENIS_SKIN~~
 :   human nature
+
+SIZE
+:   - use lubricants.
+    - anus relaxation
+        - deep breath
+        - use fingers
+
+INTENSITY
+:   use the feeling of restriction or pain as a signal reminder to pause for a while.
+
+~~HIS_MIND~~
+:   not touchable
+
+~~RECTUM_LINING~~
+:   human nature.
+
+SEX_PREPARATION_IGNORANCE
+:   practice 
+    - always to prepare and use lubricants
+    - first insertion
+        - slow
+        - hold for a while
 
 ATTRACTIVE_GUY
 :   practice not to steer at others

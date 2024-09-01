@@ -93,7 +93,6 @@ For different types of knowledge, we focus on different aspects about the **leaf
 					- component diagrams
 					- data flow diagrams 
 					- state diagrams
-
 - practices of doing something
 	- use goal achievement model to specify the procedure
 	- manage avoidance tips  

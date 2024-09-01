@@ -1,0 +1,3 @@
+# promotions
+
+- watch youtube videos

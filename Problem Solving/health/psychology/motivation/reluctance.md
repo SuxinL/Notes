@@ -4,19 +4,23 @@
 [problem overview]: #
 [a problem can be of services or env of a system]: #
 
-I feel reluctant to do challenging things.
+I feel reluctant.
 
 ### Context
 
 #### When
 [Specification: year, season, daytime, during & after some events, duration]: #
 
-- date: 2023, Oct
+- date: 
+	- 2023, Oct
+	- June, 2024
 - after: 
 	- **[TRIP]** The trip to Guilin
 	- **[COLD]** A cold.
 - during: **[PEP]** Medicine of PEP
-- duration: 3 weeks
+- duration: 
+	- 3 weeks
+- when facing challenges 
 
 #### Where
 [Localization]: #
@@ -26,6 +30,8 @@ I feel reluctant to do challenging things.
 	- my cold
 	- my grandmother's thirst
 - practicing the modified root cause analysis model
+- clear the washing machine bucket bottle plater
+- repair the bath sprinkler soon for Zhou
 
 ### Symptoms
 [avoid biases]: #
@@ -54,6 +60,10 @@ I feel reluctant to do challenging things.
 - problem solving model
 	- **[UNFAMILIAR]** I have not tested the new model for new problems
 	- **[WORRY]** and I worry that it will not fit these new cases.
+- clean washing machine
+	- **[CHALLENGE_MODEL]** I worry that my adjusted knowledge model does not fit this device well.
+- repair bath sprinkler
+	- **[MODEL_FIRST]** I want to firstly summarize the knowledge of adhesives and refine the problem solving model, then apply to this case. 
 
 ## Root Cause Analysis
 [backward cause reasoning for general problems]: #
@@ -61,139 +71,50 @@ I feel reluctant to do challenging things.
 
 ```mermaid
 flowchart BT
-	RELUCTANCE
 	PERSON_AND_ENV -->|reward system reaction| RELUCTANCE
 ```
 
 PERSON_AND_ENV
 :	PERSON
-	:	WEAK_BODY
-		:	My body is weak and does not reach its optimal performance.
+	:	MIND
+		:	RULE
+			:	BETTER_METHOD
+				:	I want to come up with a better method to solve the problem more efficiently.
+
+					Evidence
+					:	Pos
+						:	- **[MODEL_FIRST]**
+
+					IGNORANCE_EMERGENCY
+					:	Ignore that there are emergent cases in which I do not have enough time to think of a model.
+		
+			VIEW
+			:	COSTS_GREATER_THAN_BENEFITS
+				:	I think that the costs of doing a certain thing are greater than its benefits.
+
+
+			EMOTION	
+			:	LAZINESS
+				:	Not willing to work.
+		
+					Evidence
+					:	Pos
+						:	- **[REST]**
+				
+	
+		WEAK_BODY
+		:	My body is weak and can not support the cost.
 		
 			Evidence
 			:	Pos
 				: 	- **[FATIGUE]**
 		
-		MIND
-		:	COSTS_GREATER_THAN_BENEFITS
-			:	I think that the costs of doing a certain thing are greater than its benefits.
-			
-			LAZINESS
-			:	Not willing to work.
-	
-				Evidence
-				:	Pos
-					:	- **[REST]**
-			
-	PHONE
+	ENTERTAINMENT
 	:	My phone is available and tempting.
 		
 		Evidence
 		:	Pos
 			:	- **[REST]**
-
-```mermaid
-flowchart BT
-	WEAK_BODY
-	BODY_AND_ENV --> WEAK_BODY
-```
-
-BODY_AND_ENV
-:	~~NORMAL_BODY~~
-
-	ENV
-	:	FOODS
-		:	ENERGY
-			:	no enough energy
-				
-				Evidence
-				:	Pos
-					:	- **[IRREGULAR_DIETS]** Breakfasts are usually skipped. Lunch time is not fixed.
-						- I usually feel hungry late at night.
-
-			NUTRIENTS
-			:	no enough nutrients
-	
-				Evidence
-				:	Pos
-					:	- *search symptoms of lack of nutrients*
-					
-		SLEEP
-		:	no enough sleep
-			
-			Evidence
-			:	Pos
-				:	- hard to achieve 8 hours of sleep each night.	
-						
-		DISEASE
-		:	Evidence
-			:	Pos
-				:	- **[COLD]**
-					- *search symptoms*
- 
-		MEDICINE
-		:	Evidence
-			:	Pos
-				:	- **[PEP]**
-					- *search symptoms*
-
-```mermaid
-flowchart BT
-	ENERGY
-	DIETS --> ENERGY
-```		
-
-DIETS
-:	~~QUALITY~~
-	:	Evidence
-		:	Neg
-			:	- **[HIGH_CALORIES]** I eat rice and noodles which contain high amounts of energy.
-			
-	FOOD_QUANTITY
-	
-```mermaid
-flowchart BT
-	I_AND_ENV -->|I skip breakfast| FOOD_QUANTITY 
-```
-
-I_AND_ENV
-:	I
-	:	~~BODY~~
-		:	Evidence
-			:	Neg
-				:	- I have appetites.
-					- I can eat much.
-		
-		MIND
-		:	BREAKFAST_UNCLEAR
-			:	I am unclear of the importance of breakfast.
-
-	TIME_PASSED
-	:	I often get up near lunch time.
-	
-		Evidence
-		:	Pos
-			:	- When I get up before 9 am, I usually eat breakfast.
-
-```mermaid
-flowchart BT
-	PHONE --> TIME_PASSED
-```
- PHONE
- :	playing phone late at night.
-
-```mermaid
-flowchart BT
-	I_AND_FRUITS --> NUTRIENTS
-```
-
-I_AND_FRUITS
-:	FRUITS_UNCLEAR
-	:	I am unclear of the importance of fruits.
-	
-	FRUITS
-	:	Fruits cost.	
-
 				
 ```mermaid
 flowchart BT
@@ -201,43 +122,46 @@ flowchart BT
 ```	
 
 MIND
-:	UNCLEAR
-	:	I am unclear of these specific things.
+:	RULE
+	:	CONSERVATION
+		:	If I am unclear of something, I tend to be conservative, focusing on the worst case.
 
-	CONSERVATION
-	:	If I am unclear of something, I tend to be conservative, focusing on the worst case.
-
-		Evidence
-		:	Pos
-			:	- **[WORRY]**
+			Evidence
+			:	Pos
+				:	- **[WORRY]**
 	
-	COST_BENEFIT_TRADEOFF
-	:	I am not sure about the general logic.
-		
-		- effective duration: when will the problem relapse again for different solutions ?
-		- when the problem happens again, the cost of
-			- recheck the document
-			- react
+		IGNORANCE_TESTING
+
+	STATE
+	:	UNCLEAR
+		:	I am unclear of these specific cases.
+
+		COST
+		:	high cost
+
+			BASICS
+			
+			RISK
+
+		BENEFIT
+		:	low benefit
 			
 ```mermaid
 flowchart BT
-	LESS_INFORMATION --> UNCLEAR
-```	
+	MIND --> UNCLEAR
+```
 
-LESS_INFORMATION
-:	LITTLE_KNOWLEDGE
-	:	little previous knowledge about the case.
-		
-		Evidence
-		:	Pos
-			:	- **[UNFAMILIAR]**
-			
-	CHALLENGE
-	:	Hard to figure out costs and benefits.
+MIND
+:	RULE
+	:	LITTLE_KNOWLEDGE
+		:	I have little previous knowledge about it.
 
-	I_CHALLENGE
-	:	**I have not examined the case enough.** 
+		IGNORANCE_SPECIFICATION
+		:	I forget to handle complex topics by DIVIDE & CONQUER
 
+	STATE
+	:	EMOTION
+		:	IMPATIENT
 
 ```mermaid
 flowchart BT
@@ -247,7 +171,9 @@ flowchart BT
 I
 :	SHORTCUTS
 	:	I tend to take shortcuts.
-	
+
+	IGNORANCE_ONE_TIME_INVESTMENT
+
 RELAXATION
 :	Evidence
 	:	Pos
@@ -260,81 +186,64 @@ RELAXATION
 ~~RELUCTANCE~~
 :	an emotion.
 
-~~WEAK_BODY~~
-:	A weak body is not directly removable but reversible.
+~~BETTER_METHOD~~
+:	This belief is generally true. A reusable model is the key to improve efficiency.
 
-ENERGY
-:	supplement with foods of high energy **<6>**
-	- rice
-	- noodles
-	- cookies
-	- candies
-
-FOOD_QUANTITY
-:	eat more. **<7>**
-
-BREAKFAST_UNCLEAR
-:	learn the importance of breakfast. **<8>**
-
-~~TIME_PASSED~~
-:	I can not change time.
-
-NUTRIENTS
-:	supplement with **<9>**
-	- foods
-	- medicines
-
-FRUITS_UNCLEAR
-:	learn the importance of fruits. **<10>**
-
-FRUITS
-:	buy cheap ones. **<11>**
-	- choose the cheapest but nutrient types.
-	- choose the cheapest selling platforms.
-
-SLEEP
-:	refer to the problem solving of *health.physiology.sleep* **<>**
-
-DISEASE
-:	refer to the problem solving of *health.physiology.diseases* **<>**
-
-~~MEDICINE~~
-:	I have to take PEP.
+IGNORANCE_EMERGENCY
+:	Under this situation, practice **REALITY PRINCIPLE**. **<4>**
+	- **Do not let perfect be the enemy of good.**
+	- I can analyze the problem systematically later when I have enough time.
 
 ~~COSTS_GREATER_THAN_BENEFITS~~
 :	a view.
 
-~~UNCLEAR~~
-:	a view.
-
-LITTLE_KNOWLEDGE
-:	[learn from others](/Philosophy/learning/main.md). **<3>**
-
-CHALLENGE
-:	learn whether the problem is solvable and deserves my effort online. **<4>**
-
-I_CHALLENGE
-:	This is a **chicken-egg** problem. 
-
-	*I have NOT tested it enough. -> reluctance -> I do not want to test it.*
-
-	**Incremental improvement**: 
-	- Initial triggers:	By firstly handling other causes, the reluctance will be reduced, then I will start to touch it.
-	- Divide and conquer: specify the process recursively, and take a small step each time. **<5>**
+WEAK_BODY
+:	[Fatigue](/Problem%20Solving/health/physiology/fatigue/fatigue.md)
 
 CONSERVATION
 :	practice an open mind by **<2>**
 	- doing 3 things that I am unwilling to do everyday.
-	- relaxation including deep breath.
 
-COST_BENEFITS_TRADEOFF
-:	==analyse this problem carefully.== **<12>**
+IGNORANCE_TESTING
+:	practice **<5>**
+	- critical thinking: testing is the best method to overcome jump and biases.
+
+~~UNCLEAR~~
+:	a view.
+
+~~BASICS~~
+:	facts.
+
+RISK
+:	manage risks in the order **<6>**
+	1. EVALUATE: evaluate the possibility of the bad things happening
+	2. LOCALIZE: if the bad things will happen, localize the affected parts.
+	3. SOLUTION: think of solutions to the effects.
+
+~~BENEFIT~~
+:	**If the benefits are low indeed compared to the costs, we choose NOT to do the thing.**
+
+LITTLE_KNOWLEDGE
+:	[learn from others](/Philosophy/learning/main.md). **<3>**
+
+IGNORANCE_SPECIFICATION
+:	remember to divide a complex topic recursively into familiar things inside our knowledge base. **<7>**
+
+IMPATIENT
+:	- have a rest to take rational thinking back. **<8>**
 
 ~~LAZINESS~~
 :	an emotion.
 
-PHONE
-:	refer to the problem solving of *health.psychology.temptation.entertainment* **<1>**
+SHORTCUTS
+:	understand [when to use shortcuts](/Problem%20Solving/health/psychology/temptation/want_to_finish_soon.md#brainstorming).
+
+IGNORANCE_ONE_TIME_INVESTMENT
+:	remember that **<9>**
+	- **one time investment: If an initial setup can save later long-lasting costs, we should take this step.**
+
+ENTERTAINMENT
+:	[Entertainment](/Problem%20Solving/health/psychology/temptation/entertainment.md) **<1>**
 
 
  ## Analysis of Solutions	
@@ -342,33 +251,39 @@ PHONE
 ### Comparison
 | Solution | Cost | Effective Duration | Side Effects & Risks |
 | --- | --- | --- | --- |
+| 4 | LOW | LONG | NO |
 | 1 | HIGH | LONG | NOT_ENOUGH |
+| - | - | - | - |
 | 2 | LOW | ? | NOT_ENOUGH |
-| 3 | MIDDLE | LONG | NOT_ENOUGH |
-| 4 | MIDDLE | LONG | NOT_ENOUGH |
-| 5 | MIDDLE | LONG | LITTLE |
-| 6 | LOW | 1~2 HOURS | LITTLE |
-| 7 | MIDDLE | 4 HOURS | FATIGUE |
-| 8 | MIDDLE | LONG | NOT_ENOUGH |
-| 9 | MIDDLE | WEEKS | NOT_ENOUGH |
-| 10 | MIDDLE | LONG | |
-| 11 | LOW | LONG | |
-| 12 | MIDDLE | LONG ||
-
-
+| 5 | MIDDLE | LONG | NO |
+| 6 | MIDDLE | LONG | NO |
+| - | - | - | - |
+| 3 | HIGH | LONG | NOT_ENOUGH |
+| 7 | MIDDLE | LONG | NO |
+| 8 | LOW | ? | WASTING: waste time on entertainment |
+| - | - | - | - |
+| 9 | LOW | LONG | NO |
 
 ### Priority & Trace
 [try from treatments to prevention based on time bound]: #
 
-- *2*
-- *5*
-- *3* 
 - *4*
+	- 21/06/2024: I repaired the bath sprinkler with glue.
 - *1*
-- **12**
-- 8
-- 10
-- 11
+- *5*
+- *6*
+	- 21/06/2024: I cleaned the wash machine bucket
+		- EVALUATE: It is raw possible that simple electronics will challenge my knowledge model. (test: It not)
+		- LOCALIZE: basics OR states
+		- SOLUTION: 
+			1. record this case
+			2. learn how to learn systematically later.
+- *2*
+- *7*
+	- for daily todo lists
+- *3*
+- *8*
+- *9*
 
 ## Thinking
 [Deduction: Lessons learned from this experience]: #

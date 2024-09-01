@@ -178,7 +178,7 @@ It is easy to summarize a complex process with a generalized phrase like a lapto
 
 In the case of analyzing problems in an unfamiliar field, steps of small sizes are better. One process then involves a subject acting on an object. The action is usually a simple physical / engineering action involving transfer of energy or information. Simple actions includes water overflowing, pressing a tape and so on. If we take a large step when we are not clear of the mechanisms, we might ignore some factors. 
 
-If we have already understanding the whole picture and mechanisms of a system, we can choose  steps of a lager size. In this case, one process involves multiple components interacting sequentially. For instance, we can group the communication from the CPU/MEM to PCI to SATA together after we know a write to the disk must go along this path.
+If we have already understood the whole picture and mechanisms of a system, we can choose  steps of a lager size. In this case, one process involves multiple components interacting sequentially. For instance, we can group the communication from the CPU/MEM to PCI to SATA together after we know a write to the disk must go along this path.
 
 Notice if a system involves a large number of components, we might get lost when trying small steps. For this types of problems which are common in engineering, a top-down approach is better. We then need to learn the system structure firstly. 
 
@@ -219,15 +219,15 @@ Notice that we **cannot** change natural rules.
 
 - System
 	- composite component
-		- any component or interface
-		- **wrong policies / configurations**
+		- body: any component
+		- mind: **wrong policies / configurations/ interfaces**
 			- the whole module is disabled
 	- leaf component
 		- body
 			- missed
-			- weak strength
 			- deformed
-			- wrong function (for units whose problems cannot be seen from out appearance likes electronic devices.)
+			- weak strength
+			- wrong function (for units whosehandling problems cannot be seen from out appearance likes electronic devices.)
 		- mind
 			- misconceptions
 				- unconsciousness
@@ -248,7 +248,7 @@ Notice that we **cannot** change natural rules.
 	- interface ~~(mainly for engineering problems)~~
 		- mismatched form factors
 			- mental: no enough examination of the object
-		- loosen or separated or disposition 
+		- loosen or separated or disposition
 			- natural aging
 			- external interruption
 		- impurity

@@ -52,9 +52,8 @@ To make the final goal achievable and manageable, **a top-down approach** is app
 Path
 : 	a path from its precondition to the goal.
 
-
 Composite Goal
-: 	a goal consisting of independent sub goals **in space** which need individual handling. For instance, a goal of loosening 5 screws can be viewed as 5 sub goals of loosening one screw. Wiping a box can be divided into wiping its 6 sides. 
+: 	a goal consisting of **independent** sub goals **in space** which need individual handling. For instance, a goal of loosening 5 screws can be viewed as 5 sub goals of loosening one screw. Wiping a box can be divided into wiping its 6 sides. 
 
 Atomic Goal
 :	a goal that can be achieved by a simple physical action as a whole like
@@ -70,11 +69,12 @@ Atomic Goal
 ### Procedure
 
 - For a composite goal, divide it into no more than 3 independent sub goals, and arrange the order of sub goals along the path based on priority and efficiency.
-- For an atomic goal, **if actuation does not match expectation in testing**:
-	1. consider, organize and compare all available methods to achieve the goal, then choose one.
-	2. if the action is unclear, specify the action with
+- For an atomic goal, 
+	1. TEST: test whether it has been achieved by comparing actuation and expectation.
+	2. ORGANIZE OPTIONS: if not achieved, then consider, organize and compare all available methods to achieve the goal, then choose one.
+	3. ACTION SPECIFICATION: if the action is unclear, specify the action with
 		- a more specific verb
-		- tool chains from humans to the object
+		- tool chains from the force source to the object
 			- tools needed
 			- interfaces between adjacent nodes 
 				- manner of the operator
@@ -83,15 +83,19 @@ Atomic Goal
 					- angle
 					- duration
 				- interfaces between tools and between tool and objects
-	3. identify needed 
+	4. SUMMARIZE PREREQUISITESl: identify needed 
 		- tools
 		- objects
-		- context
+		- context conditions
 			- when
 			- where
-	4. treat the satisfaction of these prerequisites from 2 as its intermediate goal.
+	5. PREPARE PREREQUISITES: treat the satisfaction of these prerequisites from 2 as its intermediate goals.
 		1. get
 		2. **configure**
+			- state
+			- interfaces
+
+	6. EXECUTION: execute the action to achieve the goal.
 
 Repeat this produce recursively for each goal till it is an atomic goal that is
 - achieved.

@@ -30,7 +30,7 @@ A productivity app to block unwanted sites and apps.
     - attributes
         - on/off
             - toggle
-        - app protection
+        - password protection
         - site redirection
         - account
     - functionalities
@@ -64,3 +64,13 @@ A productivity app to block unwanted sites and apps.
                 - for each app installed, there is a daily usage limit.
         - one-time
             - focus mode
+
+### Dependencies
+
+- Android Accessibility
+
+    BlockSite requires this permission to read the content of the screen.
+
+- No battery optimization
+
+    To make BlockSite always on, its battery optimization in android should be turned off to prevent the battery manager from closing the app.

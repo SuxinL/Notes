@@ -91,6 +91,11 @@ I_MISUSE_DEVICES
 						:	Neg
 							:	- I understand that each time of giving in will contribute to the accumulation of $\delta$fobs which contributes to addictions.
 
+					SELF_CONTROL_OVERESTIMATE
+					:	Evidence
+						:	Pos
+							:	- I think that I can control myself and only play 2 hours, but in fact 8 hours are wasted.
+
 				STATES
 				:	~~VIEWS~~
 
@@ -231,6 +236,9 @@ IN_PLAY
 	- external reminders **<2>**
 		- alarms
 
+SELF_CONTROL_OVERESTIMATE
+:	remember that currently my self control
+
 DEPRESSION
 :	find hope by 
 	- helping others **<3>**
@@ -243,6 +251,9 @@ ADDICTIONS
 :	- avoid stimuli by other methods
 	- drink more water **<4>**
 	- do exercises **<5>**
+
+TOO_MUCH_ENTERTAINMENT
+:	Android use time limit to constraint. **<20>**
 
 BLUED_INSTALLED
 :	uninstalled it.	**<6>**
@@ -319,6 +330,7 @@ SEDUCING_PHOTOS
 | 17 | HIGH | LONG | ? |
 | 18 | MIDDLE | 1 day | NO_ENOUGH_WILLPOWER|
 | 19 | MIDDLE | LONG | NO_SUITABLE_FIREWALL |
+| 20 | MIDDLE | LONG | NO |
 
 ### Priority & Trace
 
@@ -327,6 +339,7 @@ SEDUCING_PHOTOS
 - *13*
 - *10*
 - *11*
+- *20*
 - 19
 - 17
 - *16*

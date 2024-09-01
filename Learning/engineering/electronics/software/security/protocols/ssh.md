@@ -55,8 +55,9 @@ ssh is a protocol for a client to access a remote server securely. The client ca
         - ssh: the ssh client communicating with remote servers.
         - ssh-agent: holds identities including private keys in memory.
         - known_hosts: a file containing lists of known hosts.
-        - config: ssh config files. **A Mapping from a host nickname to a combination of host, user and identity file enables us to login to a server with different accounts by only specifying the host nickname.**
+        - config: ssh config files. 
+            - **A Mapping from a host nickname to a combination of host, user and identity file enables us to login to a server with different accounts by only specifying the host nickname.**
 
 #### ssh agent
 
-SSH enables us to encrypt identities including private keys with passphrases which however require manual typing in. To avoid this manual operation for each access, a ssh agent can be run to hold unencrypted identities in memory for a user session.
+SSH enables us to encrypt identities including private keys with passphrases for security, but this introduces an overhead that each time we need to use a private key we need to manually type in its passphrase. To avoid this tedious work, a ssh agent can be run to hold unencrypted identities in memory for a user session.
