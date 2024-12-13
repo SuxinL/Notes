@@ -1,0 +1,5 @@
+- prepare: 35 min
+    - check: 10 min
+    - walk: 5 min
+    - board: 20 min 
+- exit

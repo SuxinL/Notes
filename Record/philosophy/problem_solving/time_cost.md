@@ -1,0 +1,12 @@
+- full
+    - examination: 20min
+    - root cause analysis & solutions: 2h
+    - analysis & apply: 1h
+- short
+    - case: 10min
+    - thought
+        - solutions: 20min
+        - apply: 30min
+- only in mind
+    - think: 20min
+    - apply: 30min
