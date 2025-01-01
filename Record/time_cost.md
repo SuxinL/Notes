@@ -1,0 +1,11 @@
+- life
+    - meal: cook + eat
+        - pancake: 30 mins
+    - get up: 
+    - toilet
+        - shortest: 5 mins
+        - average: 15 mins
+    - organize clothes
+        - take in + fold: 30 mins
+    - wash
+        - veges: 10 mins

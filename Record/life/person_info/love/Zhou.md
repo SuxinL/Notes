@@ -1,2 +1,7 @@
 - birthday: (moon) May 28
-- address: 石岭塘小区,B区,2栋,1单元
+- address: 
+    - house: 石岭小区,B区,2栋,1单元
+    - home: 射埠镇, 巨渔村, 杨柳组 27°40'30.6"N 112°44'44.8"E
+- relationship
+    - first meet: 2021/11/04
+    - start the relationship: 2021/11/15
