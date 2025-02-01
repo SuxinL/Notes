@@ -1,0 +1,44 @@
+# input-remapper
+
+- env
+    - in
+        - dep
+            - energy
+                - electricity
+            - other service
+                - Linux
+        - input
+            - instruction
+            - raw material
+                - device inputs
+    - out
+        - target
+            - output
+                - remapped signals
+            - object
+                - front program
+        - waste
+- sys
+    - input remapper
+        - mind
+            - what
+                - a program to remaps inputs from devices to configured data
+            - purposes
+                - efficiency
+                    - ergonomics
+                        - avoid discomfort during using a keyword with a not standard layout.
+                    - quick combinations in gaming
+                    - productivity
+                    - accessibility
+                - security
+                    - key broken
+        - body
+            - devices
+                - profiles
+                    - isDefault
+                    - mappings
+                        - input
+                        - output
+                            - types
+                                - key
+                                - macro

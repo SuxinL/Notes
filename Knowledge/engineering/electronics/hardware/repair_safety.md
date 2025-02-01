@@ -17,7 +17,7 @@
         - wait for the ES balance
     - avoid ESD during repair
         - operators
-            - do not touch others
+            - **do not touch others**
         - FRUs
             - keep it inside the package before using
-            - avoid it touching clothes
+            - **avoid it touching clothes**
