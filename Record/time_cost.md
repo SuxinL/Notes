@@ -26,10 +26,6 @@
             - apply: 30min
 - life
     - get up: 15 mins
-    - meal: cook
-        - pancake: 15 mins
-        - dumpling: 10 mins
-        - oatmeal: 10 mins
     - poop
         - shortest: 5 mins
         - average: 15 mins
@@ -37,21 +33,31 @@
             - 2025
                 - 01
                     - 08: 20 mins
-    - organize 
-        - clothes
-            - take in + fold: 30 mins
-        - package for home: 20mins
-    - wash
-        - dishes: 30 mins
-        - veges: 10 mins
-        - clothes: 90 mins
-        - body + hair: 45mins
-    - boil water
-        - full: 10 mins
-        - for 
-            - coffee
-            - soy bean milk
-            - instant noodles
+    - food
+        - cook
+            - pancake: 15 mins
+            - dumpling
+                - boil: 10 mins
+                - steam: 45 mins
+            - oatmeal: 10 mins
+            - rice
+                - 1.5 cup: 30mins
+        - boil water
+            - full: 10 mins
+            - for 
+                - coffee
+                - soy bean milk
+                - instant noodles
+    - housing
+        - organize 
+            - clothes
+                - take in + fold: 30 mins
+            - package for home: 20mins
+        - wash
+            - dishes: 30 mins
+            - veges: 10 mins
+            - clothes: 90 mins
+            - body + hair: 45mins
     - travel
         - Shaoyang
             - bus
