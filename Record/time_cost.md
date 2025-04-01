@@ -57,7 +57,7 @@
             - dishes: 30 mins
             - veges: 10 mins
             - clothes: 90 mins
-            - body + hair: 45mins
+            - body + hair: 50mins
     - travel
         - Shaoyang
             - bus
