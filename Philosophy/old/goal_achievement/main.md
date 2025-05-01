@@ -94,7 +94,6 @@ Atomic Goal
 		2. **configure**
 			- state
 			- interfaces
-
 	6. EXECUTION: execute the action to achieve the goal.
 
 Repeat this produce recursively for each goal till it is an atomic goal that is

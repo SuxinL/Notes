@@ -40,8 +40,11 @@
                 - boil: 10 mins
                 - steam: 45 mins
             - oatmeal: 10 mins
+            - frozen dish: 10mins
             - rice
                 - 1.5 cup: 30mins
+        - support
+            - dumpling: 5h
         - boil water
             - full: 10 mins
             - for 
@@ -54,7 +57,7 @@
                 - take in + fold: 30 mins
             - package for home: 20mins
         - wash
-            - dishes: 30 mins
+            - dishes: 45 mins
             - veges: 10 mins
             - clothes: 90 mins
             - body + hair: 50mins

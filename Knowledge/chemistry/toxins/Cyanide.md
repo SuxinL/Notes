@@ -1,0 +1,14 @@
+- Cyanide
+    - main points
+        - what
+            - an extreme poison.
+        - purposes
+            - safety
+                - It can interfere with cellular respiration, and cause poisoning symptoms
+                    - acute
+                        - rapid respiration
+                        - headache
+                        - faint
+                        - vomit
+                    - chronic
+                        - neurological

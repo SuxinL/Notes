@@ -2,7 +2,7 @@
 
 ## Models
 
-### Principlev
+### Principle
 
 #### Causation
 

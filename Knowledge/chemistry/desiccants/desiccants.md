@@ -2,24 +2,20 @@
 
 # what
 
-Substances that attract water and dry surroundings.
+Substances that attract moisture and dry surroundings.
 
 # purposes
 
+- efficiency
+    - comfort: improve living comfort
 - security
-    - protect sensitive objects from being damaged by moisture and mold.
-        - foods
+    - protect sensitive objects from being damaged by moisture directly
         - electronics
+        - paper
+    - or by molds due to high humidity.
+        - foods
         - clothes
         - furniture
-
-# when
-
-- Atmosphere is wet
-
-# where
-
-- indoor
 
 # how
 

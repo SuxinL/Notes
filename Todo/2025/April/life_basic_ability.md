@@ -1,0 +1,92 @@
+- [ ] clothes
+    - [ ] clean
+        - [ ] washing machine
+            - [ ] options
+            - [x] tmp: use the top-load washing machine. 
+- [ ] foods
+    - [ ] cook
+        - [x] breakfast
+            - [x] oatmeal + soy bean milk
+                - [x] prepare
+                    - [x] buy
+                    - [x] store
+                - [x] cook
+        - [x] lunch
+            - [x] dumpling
+                - [x] prepare
+                    - [x] buy
+                        - [x] online: meituan
+                        - [x] offline: yuelinduo
+                    - [x] store
+                - [x] cook
+        - [ ] dinner
+            - [ ] staple
+                - [ ] rice
+                    - [x] options
+                    - [ ] prepare
+                        - [x] grow
+                        - [x] buy: meituan
+                        - [ ] store
+                            - [x] tmp: fridge
+                    - [x] cook
+                - [ ] pancake
+                    - [x] prepare
+                        - [x] buy: jd
+                        - [x] store: freezer
+                    - [ ] cook
+                - [ ] noodle
+                    - [ ] options
+                        - [x] tmp: wheat noodles
+                    - [ ] prepare
+                        - [ ] buy
+                        - [ ] store
+                    - [ ] cook
+            - [ ] dish
+                - [ ] veges
+                    - [ ] prepare
+                        - [x] buy: meituan
+                        - [ ] store
+                            - [x] tmp: fridge
+                    - [x] cook
+                - [ ] egg
+                    - [ ] prepare
+                        - [x] buy: meituan
+                        - [ ] store
+                            - [x] tmp: fridge
+                    - [x] cook
+                - [ ] chicken breasts
+                    - [ ] prepare
+                        - [ ] buy
+                        - [x] store: freezer
+                    - [x] cook
+    - [x] eat
+    - [ ] clean
+        - [x] tmp: directly apply dish washer to dishes
+- [ ] living
+    - [ ] work
+        - [ ] chair gas lift
+            - [x] tmp: use a baggage as the base
+        - [ ] VPN
+            - [ ] article
+                - [x] tmp: yandex + cached pages
+            - [ ] video
+                - [x] tmp: clash
+        - [ ] blocking
+            - [x] tmp: android + blocksite
+    - [ ] sleep
+        - [ ] bearing
+        - [ ] comforters
+            - [ ] clean
+    - [ ] life
+        - [ ] cockroach catcher
+            - [x] tmp: tapes
+        - [ ] organize house
+- [ ] travel
+    - [ ] transit
+        - [x] tmp: 
+            - [x] <300m: foot
+            - [x] <5km: automotive
+            - [x] city
+                - [x] large: bus + metro 
+                - [x] small: bus
+    - [ ] shuttle

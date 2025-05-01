@@ -1,0 +1,19 @@
+
+- [ ] weekly limits
+    - [ ] videos
+        - [ ] variety shows
+            - [ ] Mon
+            - [ ] Tues
+            - [ ] Win
+            - [ ] Thur
+            - [ ] Fri
+            - [ ] Sat
+            - [ ] Sun
+        - [ ] travel
+            - [ ] 1
+            - [ ] 2
+        - [ ] movie
+        - [ ] anime
+    - [ ] outdoor
+        - [ ] mall
+        - [ ] trip

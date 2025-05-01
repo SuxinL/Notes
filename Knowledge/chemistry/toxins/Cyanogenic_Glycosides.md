@@ -1,0 +1,18 @@
+- CG
+    - mind
+        - main points
+            - what
+                - Cyanogenic Glycosides, a type of plant toxins found in some common foods including
+                    - bamboo shoots
+                    - almonds
+                    - cassava
+                    - sorghum 
+            - purposes
+                - safety
+                    - protect against predators
+        - state
+            - CG -- enzymes --> HCN
+    - body
+        - features
+            - unstable under heat
+            - water soluble

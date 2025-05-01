@@ -1,5 +1,14 @@
 - Midea C22-RT22E01
     - dumpling: hotpot mode, 1300W, 10mins
     - pancake
-    - frozen bulk: hotpot mode, 1000W, 7mins
-    - dish
+    - frozen dish: hotpot mode, 800W, 10mins
+- dishes
+    - bamboo shoots
+        - blanch: 5mins
+        - parts
+            - tip & middle
+                - as dish
+                - slice
+            - root
+                - as soup
+                - cube
