@@ -1,16 +1,13 @@
 
 - [ ] Sunday Housing
     - [ ] wash clothes
-    - [ ] clean house
-        - [ ] kitchen
-            - [ ] wash dishes
-            - [ ] clean desk
-            - [ ] clean waste bucket
-        - [ ] living room
-            - [ ] clean floor
-        - [ ] bedroom
-            - [ ] organize working desk
-            - [ ] organize clothes
+    - [ ] kitchen
+        - [ ] wash dishes
+        - [ ] clean desk
+        - [ ] clean waste bucket
+    - [ ] bedroom
+        - [ ] organize working desk
+        - [ ] organize clothes
     - [ ] update
         - [ ] desiccants
             - [ ] bags
@@ -21,22 +18,34 @@
             - [ ] boxes
                 - [ ] cupboard powder
                 - [ ] closet inside clothes
+        - [ ] cockroach
+            - [ ] tapes
+                - [ ] fridge
+                - [ ] kitchen pool
+                - [ ] bed
+                - [ ] sofa
+    - [ ] living room
+        - [ ] clean floor
+        - [ ] clean waste bucket
+    - [ ] take a shower
     - [ ] prepare foods
         - [ ] buy snack
             - [ ] spicy
                 - [ ] 邬辣妈豆皮
+                - [ ] bamboo shoots
             - [ ] desserts
                 - [ ] 金佰益蛋黄酥
-                - [ ] 丽芝士
                 - [ ] 苏打饼干
+                - [ ] mimi
             - [ ] beverage
                 - [ ] 亲亲AD钙乳酸果冻
-                - [ ] 双萃
+                - [ ] sweat wine
         - [ ] buy dumplings
         - [ ] dinner
             - [ ] veges
                 - [ ] buy
                 - [ ] wash
+            - [ ] eggs
     - [ ] video call
         - [ ] Zhou
         - [ ] mom

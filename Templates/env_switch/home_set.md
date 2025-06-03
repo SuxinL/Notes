@@ -1,0 +1,19 @@
+
+- [ ] home
+    - [ ] bedroom
+        - [ ] live
+            - [ ] cup
+            - [ ] tissue paper
+            - [ ] waste bin
+        - [ ] sleep
+            - [ ] comforter
+            - [ ] bed sheet
+            - [ ] nightstand
+    - [ ] toilet
+        - [ ] body
+            - [ ] soap
+            - [ ] towel
+        - [ ] teeth
+            - [ ] toothbrush
+            - [ ] toothpaste
+            - [ ] cup

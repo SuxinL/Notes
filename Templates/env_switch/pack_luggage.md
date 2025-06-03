@@ -1,0 +1,31 @@
+- [ ] pack
+    - [ ] ID
+        - [ ] keys
+        - [ ] cards
+    - [ ] electronics
+        - [ ] laptop
+            - [ ] device
+            - [ ] charger
+            - [ ] rack
+        - [ ] phone
+            - [ ] device
+            - [ ] charger
+        - [ ] earphone
+            - [ ] device
+            - [ ] charger
+            - [ ] manual
+    - [ ] productivity
+        - [ ] earplug
+    - [ ] clear
+        - [ ] eyeglasses cloth
+        - [ ] shaver
+    - [ ] sleep
+        - [ ] eye mask
+    - [ ] foods
+        - [ ] breads
+        - [ ] coffee
+    - [ ] clothes
+        - [ ] coat
+        - [ ] jeans
+        - [ ] gloves
+        - [ ] scarf

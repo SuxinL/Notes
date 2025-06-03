@@ -1,12 +1,47 @@
-1. all other models --> the modeling model: I use the modeling model to create all other models
-2. root: how to create the modeling model?
-    - clue 1: the root of applying models is to TEST THE CURRENT SYSTEM
-        - goal orientation
-    - clue 2: Initially, I did NOT use the modeling model to create models of
-        - goal achievement
-        - problem solving
-        - learning
-3. modeling history
+# Goal
+
+To accomplish tasks efficiently.
+
+# Thought
+
+## Principle
+
+- state transfer
+- rules
+    - EACH_FOLLOW_RULE: each process runs based on certain rules
+        - natural: fixed
+            - physical
+            - chemical
+            - biological
+        - high-level
+    - DIFFERENT_THINGS_FOLLOW_DIFFERENT_LEVELS
+        - non-organisms can only follow natural rules. Their behavior is fixed under a circumstance.   
+            - water flows downwards
+        - animals 
+            - individuals can summarize simple rules, and change their behaviors slightly.
+            - develop mainly by biological evolution in body.
+        - humans
+            - early stage 
+                - develop mainly by biological evolution as a whole species like animals
+            - now
+                - the hardware of the brain is developed enough for rational thinking.
+                - individuals develop mainly by learning and thinking of high-level rules to make good choices. 
+                - the human race develops mainly by passing down properties and knowledge
+    - some high-level rules are timeless like natural ones
+        - philosophy
+- fundamental methods
+    - learning
+        - mimic
+    - thinking
+        - deduce
+
+## My Development History
+
+1. infant
+2. child
+3. teen
+3. adult
+4. modeling history
     1. 2023/05: 
         - build: 
             - based on **STATE TRANSFER**. -> 
@@ -46,3 +81,18 @@
                     - procedure -> one article for one mature model  -> quick apply
                     - thought log -> a step of a model has its article of thoughts
                         - refinement log
+
+## Current
+
+1. all other models --> the modeling model: I want to use a modeling model to create all other models
+
+    the modeling model => a model => a case
+2. root: how to create the modeling model?
+    - clue 1: the root of applying models is to TEST THE CURRENT SYSTEM
+        - goal orientation
+    - clue 2: Initially, I did NOT use the modeling model to create models of
+        - goal achievement
+        - problem solving
+        - learning
+
+## Plan

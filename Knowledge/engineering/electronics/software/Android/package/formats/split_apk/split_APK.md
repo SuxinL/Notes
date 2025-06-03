@@ -1,0 +1,32 @@
+# Split APK
+
+- main points
+    - what
+        - a new Android app delivery mechanism. An app is divided into module represented as split APKs, and splits will be delivered into a device **on demand**.
+        - a split APK is similar to a normal APK and can be installed on a device, but split APKs of an app can communicate with each other and share common resources. Therefore, we can not install an app by installing its split APKs one by one using a normal installer. **A special tool to connect these splits is needed.**
+    - purposes
+        - efficiency
+            - user
+                - smaller download size
+                    - save network data
+                    - save time
+                - smaller installation size
+                    - save storage
+- body
+    - types
+        - base
+        - config
+            - ABI
+            - Density
+            - Language
+        - feature
+    - management
+        - interaction
+            - dependency
+                - the base split is required for all platforms.
+                - the base split and each feature split have its own configuration splits.
+            - **install**
+                - initial
+                    - During the first time of installation, the base split and configuration splits for the target platform are required.
+                - extend
+                    - When we need an addon feature, we need the feature split and its corresponding configuration splits.

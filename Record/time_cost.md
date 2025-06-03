@@ -35,16 +35,17 @@
                     - 08: 20 mins
     - food
         - cook
-            - pancake: 15 mins
+            - oatmeal: 10 mins
             - dumpling
                 - boil: 10 mins
                 - steam: 45 mins
-            - oatmeal: 10 mins
-            - frozen dish: 10mins
+            - pancake: 15 mins
+            - noodle: 6mins
             - rice
                 - 1.5 cup: 30mins
+            - frozen dish: 10mins
         - support
-            - dumpling: 5h
+            - dumpling: 4h
         - boil water
             - full: 10 mins
             - for 
