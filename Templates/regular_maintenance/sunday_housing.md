@@ -24,6 +24,7 @@
                 - [ ] kitchen pool
                 - [ ] bed
                 - [ ] sofa
+                - [ ] cupboard
     - [ ] living room
         - [ ] clean floor
         - [ ] clean waste bucket
@@ -31,15 +32,12 @@
     - [ ] prepare foods
         - [ ] buy snack
             - [ ] spicy
-                - [ ] 邬辣妈豆皮
                 - [ ] bamboo shoots
             - [ ] desserts
                 - [ ] 金佰益蛋黄酥
                 - [ ] 苏打饼干
-                - [ ] mimi
             - [ ] beverage
                 - [ ] 亲亲AD钙乳酸果冻
-                - [ ] sweat wine
         - [ ] buy dumplings
         - [ ] dinner
             - [ ] veges
@@ -49,5 +47,4 @@
     - [ ] video call
         - [ ] Zhou
         - [ ] mom
-    - [ ] get packed dishes
     - [ ] charge automotive

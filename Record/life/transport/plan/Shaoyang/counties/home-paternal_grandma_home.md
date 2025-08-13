@@ -16,7 +16,7 @@
     - time: 100mins
     - departure schedule
         - 东站 -> 石下江: 10:10, 11:10, 12:25, 12:40, 15:50
-        - 石下江 -> 东站
+        - **石下江 -> 东站**: 7:00 9:20 14:00
 3. 石江镇中心小学 - 德州村
     - tricycle
     - motorcycle
@@ -27,5 +27,5 @@
     | time | 30mins | 20mins |
     | labor | little: wait | high: 1. carry the vehicle 2. drive |
     | risk | **departure schedule unstable** | |
-    | use case | 1. relax 2. bad weather 3. large load | 1. explore: I want to explore env nearby rather than only staying at the house. 2. catch the bus: hurry |
+    | use case | 1. relax 2. bad weather 3. large load | 1. explore: I want to explore env nearby rather than only staying at the house. 2. catch the return bus: hurry |
 

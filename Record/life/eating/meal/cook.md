@@ -1,0 +1,26 @@
+- Midea C22-RT22E01
+    - dumpling: hotpot mode, 1300W, 10mins
+    - pancake: pan-fry mode
+        - center: 1000W, 10s/flip
+        - edge
+    - noodle
+        - wheat: 1 thumb, boiling mode, 1300W, 6mins 
+    - frozen 
+        - dish: hotpot mode, 800W, 10mins
+        - soup: hotpot mode, 1000W, 8mins
+- dishes
+    - bamboo shoots
+        - preprocess
+            - blanch: 5mins
+            - parts
+                - tip & middle
+                    - as dish
+                    - slice
+                - root
+                    - as soup
+                    - cube
+    - noodle sauce
+        - soy sauce
+        - chicken power
+        - green onion, pepper, pig oil
+

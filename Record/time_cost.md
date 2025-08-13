@@ -35,7 +35,9 @@
                     - 08: 20 mins
     - food
         - cook
-            - oatmeal: 10 mins
+            - oatmeal: 
+                - cook: 5~10 mins
+                - eat: 15~20 mins
             - dumpling
                 - boil: 10 mins
                 - steam: 45 mins
@@ -44,8 +46,6 @@
             - rice
                 - 1.5 cup: 30mins
             - frozen dish: 10mins
-        - support
-            - dumpling: 4h
         - boil water
             - full: 10 mins
             - for 
@@ -63,7 +63,13 @@
             - clothes: 90 mins
             - body + hair: 50mins
     - travel
-        - Shaoyang
-            - bus
-                - 18: 人大路口 - 火车南站: 15mins
-                - 5: 双清区政府 - 人大路口: 15mins
+        - visit
+            - mall: 3h
+        - transport
+            - Changsha
+                - automotive
+                    - lankawei - haoxianglai: 10 ~ 20mins
+            - Shaoyang
+                - bus
+                    - 18: 人大路口 - 火车南站: 15mins
+                    - 5: 双清区政府 - 人大路口: 15mins
