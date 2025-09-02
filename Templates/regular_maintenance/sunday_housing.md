@@ -31,19 +31,18 @@
     - [ ] take a shower
     - [ ] prepare foods
         - [ ] buy snack
-            - [ ] spicy
-                - [ ] bamboo shoots
-            - [ ] desserts
-                - [ ] 金佰益蛋黄酥
-                - [ ] 苏打饼干
-            - [ ] beverage
-                - [ ] 亲亲AD钙乳酸果冻
+            - [ ] fruits
+                - [ ] peaches
         - [ ] buy dumplings
         - [ ] dinner
-            - [ ] veges
-                - [ ] buy
-                - [ ] wash
-            - [ ] eggs
+            - [ ] staple
+                - [ ] noodles
+            - [ ] ingredients
+                - [ ] veges
+                    - [ ] buy
+                    - [ ] wash
+                - [ ] eggs
+                - [ ] green onion
     - [ ] video call
         - [ ] Zhou
         - [ ] mom

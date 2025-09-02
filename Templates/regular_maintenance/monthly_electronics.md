@@ -23,3 +23,10 @@
             - [ ] security
                 - [ ] Bitwarden
                 - [ ] Cloud189
+    - [ ] clean
+        - [ ] phone
+            - [ ] media
+                - [ ] pic
+                - [ ] video
+            - [ ] app packages
+            - [ ] system

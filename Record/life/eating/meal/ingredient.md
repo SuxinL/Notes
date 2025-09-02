@@ -27,7 +27,8 @@
 ## Procedure
 
 1. T: if I need it now,   
-    - S: 悦邻多 for staple/eggs
-    - V: 优尔嘉 for veges
+    - S(staple/eggs): 悦邻多
+    - V(veges/fruits): 优尔嘉
 2. O: else choose online stores
-    - 多多买菜
+    - F(fresh): 多多买菜
+    - P(processed): jd

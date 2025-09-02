@@ -1,9 +1,4 @@
 - takeout
-    - home delivery (red pocket)
-        - noodles
-            - 常德米粉, 炒粉: 5.6 yuan
-            - 向东街, 木耳肉丝粉
-    - self pick (pinhaofan)
-        - 食湘缘, 辣椒炒肉煲仔饭: 2.9 ~ 3.9 yuan
-        - 里手馄饨, 鲜肉馄饨小碗: 1.9 yuan
-- dine-in
+    - home delivery: 美团->收藏->商户
+    - self pick: 美团->拼好饭->收藏
+- dine-in: 美团->收藏->团购

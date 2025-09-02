@@ -1,19 +1,30 @@
 
 - [ ] weekly limits
-    - [ ] videos
-        - [ ] variety shows
-            - [ ] Mon
-            - [ ] Tues
-            - [ ] Win
-            - [ ] Thur
-            - [ ] Fri
-            - [ ] Sat
-            - [ ] Sun
-        - [ ] travel
+    - [ ] entertainment 
+        - [ ] videos
+            - [ ] variety shows
+                - [ ] Mon
+                - [ ] Tues
+                - [ ] Win
+                - [ ] Thur
+                - [ ] Fri
+                - [ ] Sat
+                - [ ] Sun
+            - [ ] travel/eating
+                - [ ] 1
+                - [ ] 2
+            - [ ] movie
+            - [ ] anime
+        - [ ] outdoor
+            - [ ] mall
+            - [ ] trip
+    - [ ] buy foods
+        - [ ] meals
             - [ ] 1
             - [ ] 2
-        - [ ] movie
-        - [ ] anime
-    - [ ] outdoor
-        - [ ] mall
-        - [ ] trip
+            - [ ] 3
+            - [ ] 4
+        - [ ] beverages
+            - [ ] 1
+            - [ ] 2
+            - [ ] 3

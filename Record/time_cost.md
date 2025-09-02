@@ -61,13 +61,13 @@
             - dishes: 45 mins
             - veges: 10 mins
             - clothes: 90 mins
-            - body + hair: 50mins
+            - bath: 30mins
     - travel
         - visit
             - mall: 3h
         - transport
             - Changsha
-                - automotive
+                - motorcycle
                     - lankawei - haoxianglai: 10 ~ 20mins
             - Shaoyang
                 - bus
