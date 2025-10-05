@@ -1,0 +1,26 @@
+- C: clean
+    - clothing
+        - clothes: 1week
+            - PRE
+                - W: dry
+        - shoes
+    - foods
+        - bowls: 1week
+            - PRE
+                - W: rinse
+        - cooking desk: 1week
+    - living
+        - waste bin: 1week
+            - PRE
+                - F: move food remains to toilet or outside
+        - floor: 1week
+        - bed: Mar, June, Oct, Dec
+        - A/C: June
+    - travel
+    - work
+        - phone: 1month
+- B: backup
+    - photos: 1d
+    - project
+- U: update
+    - app: 1month

@@ -1,0 +1,2 @@
+- [ ] apply the bamboo sheet
+- [ ] clean the A/C filter

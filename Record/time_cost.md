@@ -25,7 +25,9 @@
             - think: 20min
             - apply: 30min
 - life
-    - get up: 15 mins
+    - sleep
+        - get up: 15 mins
+        - nap: 1.5~2h
     - poop
         - shortest: 5 mins
         - average: 15 mins
@@ -35,33 +37,43 @@
                     - 08: 20 mins
     - food
         - cook
-            - oatmeal: 
+            - oatmeal
                 - cook: 5~10 mins
                 - eat: 15~20 mins
             - dumpling
                 - boil: 10 mins
                 - steam: 45 mins
             - pancake: 15 mins
-            - noodle: 6mins
+            - noodle
+                - cook: 20mins
             - rice
-                - 1.5 cup: 30mins
-            - frozen dish: 10mins
-        - boil water
-            - full: 10 mins
-            - for 
-                - coffee
-                - soy bean milk
-                - instant noodles
+                - 1.5 cup
+                    - cook: 30mins
+            - frozen dish
+                - cook: 4mins
+            - water
+                - full: 10 mins
+                - for 
+                    - coffee
+                    - soy bean milk
+                    - instant noodles
+        - buy
+            - shixiangyuan
+                - take: 10 mins
+                - eat: 20 mins
     - housing
         - organize 
             - clothes
                 - take in + fold: 30 mins
             - package for home: 20mins
-        - wash
-            - dishes: 45 mins
-            - veges: 10 mins
+        - clean
+            - all dishes: 30 mins
+            - kitchen: ~30 mins
             - clothes: 90 mins
             - bath: 30mins
+        - set
+            - desiccant: 30mins
+        - buy groceries: 1h
     - travel
         - visit
             - mall: 3h

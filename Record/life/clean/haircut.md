@@ -1,5 +1,5 @@
 - 10-yuan haircut shops near LanKaWei
-    - 捷剪
+    - **捷剪**
         - 通程佳惠: 9:30-21:00
         - 保利
     - 靓剪

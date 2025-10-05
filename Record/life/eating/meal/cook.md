@@ -6,11 +6,12 @@
             - edge
         - noodle
             - wheat: 1 thumb, boiling mode, 1300W, 6mins
-    - dish 
+    - dish
         - frozen 
-            - dish: hotpot mode, 800W, 10mins
-            - soup: hotpot mode, 1000W, 8mins
-        - pan-fry egg: pan-fry mode, 1000W, 2mins
+            - dish: hotpot mode, 800W, 5mins
+            - soup: hotpot mode, 1000W, 4mins
+        - lettuce: stir-fry mode, 1000W, 40s
+        - egg: pan-fry mode, 1000W, 1min/side
 - prepare
     - bamboo shoots
         - preprocess

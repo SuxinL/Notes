@@ -4,6 +4,7 @@
     - [ ] kitchen
         - [ ] wash dishes
         - [ ] clean desk
+        - [ ] clean floor
         - [ ] clean waste bucket
     - [ ] bedroom
         - [ ] organize working desk
@@ -32,18 +33,16 @@
     - [ ] prepare foods
         - [ ] buy snack
             - [ ] fruits
-                - [ ] peaches
+            - [ ] nuts
         - [ ] buy dumplings
         - [ ] dinner
             - [ ] staple
                 - [ ] noodles
             - [ ] ingredients
                 - [ ] veges
-                    - [ ] buy
-                    - [ ] wash
                 - [ ] eggs
                 - [ ] green onion
     - [ ] video call
         - [ ] Zhou
         - [ ] mom
-    - [ ] charge automotive
+    - [ ] charge motorcycle
