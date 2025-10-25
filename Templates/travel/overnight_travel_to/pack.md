@@ -1,0 +1,63 @@
+
+    - [ ] pack
+        - [ ] ID
+            - [ ] keys
+            - [ ] cards
+        - [ ] electronics
+            - [ ] phone
+                - [ ] device
+                - [ ] charger
+            - [ ] earphone
+            - [ ] if >= 3 days
+                - [ ] laptop
+                    - [ ] device
+                    - [ ] charger
+                    - [ ] rack
+                    - [ ] adapter
+        - [ ] task tools
+        - [ ] sleep
+            - [ ] eye mask 
+            - [ ] earplug
+            - [ ] if rural
+                - [ ] camp
+        - [ ] eating
+            - [ ] utensil
+                - [ ] cup
+                - [ ] spoon
+            - [ ] food
+                - [ ] breakfast
+                    - [ ] breads
+                    - [ ] oatmeal
+                    - [ ] soy bean powder
+                    - [ ] sugar
+                - [ ] coffee            
+                - [ ] if long transport
+                    - [ ] water
+                    - [ ] sandwich
+                - [ ] if rural
+                    - [ ] water
+                    - [ ] instant foods
+        - [ ] clothes
+            - [ ] if >= 3 days
+                - [ ] t-shirts
+                - [ ] underwear
+                - [ ] socks
+            - [ ] weather
+        - [ ] clear
+            - [ ] tissue paper (on transport)
+            - [ ] snippers
+            - [ ] eyeglasses cloth
+            - [ ] hair
+                - [ ] shampoo
+            - [ ] face
+                - [ ] shaver
+            - [ ] body
+                - [ ] soap
+                - [ ] towel
+            - [ ] teeth
+                - [ ] toothbrush
+                - [ ] toothpaste
+                - [ ] cup
+            - [ ] if rural
+                - [ ] cleaning alcohol
+        - [ ] specialty

@@ -1,4 +1,9 @@
-- takeout
-    - home delivery: 美团->收藏->商户
-    - self pick: 美团->拼好饭->收藏
-- dine-in: 美团->收藏->团购
+- mainland China
+    - takeout
+        - home delivery: 美团->收藏->商户
+        - self pick: 美团->拼好饭->收藏
+    - dine-in: 美团->收藏->团购
+- HK
+    - takeout
+        - self pick
+            - 户户餸

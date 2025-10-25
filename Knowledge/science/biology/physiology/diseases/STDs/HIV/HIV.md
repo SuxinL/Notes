@@ -76,7 +76,7 @@ The flu-like symptoms in the acute infection stage:
 
 - high risks
     - sharing injection tools
-    - morth-to-child
+    - mother-to-child
     - sex without protections
         - vaginal sex
         - anal sex

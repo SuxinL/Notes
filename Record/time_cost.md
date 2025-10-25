@@ -41,8 +41,8 @@
                 - cook: 5~10 mins
                 - eat: 15~20 mins
             - dumpling
-                - boil: 10 mins
-                - steam: 45 mins
+                - cook: 15 mins
+                - eat: 25 mins
             - pancake: 15 mins
             - noodle
                 - cook: 20mins
@@ -61,11 +61,12 @@
             - shixiangyuan
                 - take: 10 mins
                 - eat: 20 mins
+            - yueguixiang
+                - take: 15 mins
     - housing
         - organize 
             - clothes
                 - take in + fold: 30 mins
-            - package for home: 20mins
         - clean
             - all dishes: 30 mins
             - kitchen: ~30 mins
@@ -74,14 +75,34 @@
         - set
             - desiccant: 30mins
         - buy groceries: 1h
+        - monthly electronics: 2h
     - travel
-        - visit
-            - mall: 3h
+        - prepare
+            - plan: >= 4h
+            - pack
+                - basic: 1h
+                - task tools: 1h
+            - store: 30 mins
+
         - transport
             - Changsha
                 - motorcycle
                     - lankawei - haoxianglai: 10 ~ 20mins
             - Shaoyang
-                - bus
-                    - 18: 人大路口 - 火车南站: 15mins
-                    - 5: 双清区政府 - 人大路口: 15mins
+                - intercity
+                    - maternal grandma's home
+                        - public transport: 3h
+                        - self drive: 1.5h
+                - city
+                    - bus
+                        - 5: 双清区政府 - 人大路口: 15mins
+                        - 18: 人大路口 - 火车南站: 15mins
+- entertainment
+    - sex: 2h
+        - chat
+        - wait
+        - sex
+    - watch videos
+        - short: 1.5h
+    - visit
+        - mall: 3h

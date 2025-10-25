@@ -2,19 +2,19 @@
 - [ ] weekly limits
     - [ ] entertainment 
         - [ ] videos
-            - [ ] variety shows
-                - [ ] Mon
-                - [ ] Tues
-                - [ ] Win
-                - [ ] Thur
-                - [ ] Fri
-                - [ ] Sat
-                - [ ] Sun
-            - [ ] travel/eating
-                - [ ] 1
-                - [ ] 2
-            - [ ] movie
-            - [ ] anime
+            - [ ] long
+                - [ ] travel/eating
+                    - [ ] 1
+                    - [ ] 2
+                - [ ] race
+                - [ ] talk
+                    - [ ] 1
+                    - [ ] 2
+                - [ ] conspiracy theory
+                    - [ ] 1
+                    - [ ] 2
+                - [ ] movie
+                - [ ] anime
         - [ ] outdoor
             - [ ] mall
             - [ ] trip

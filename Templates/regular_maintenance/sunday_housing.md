@@ -9,6 +9,8 @@
     - [ ] bedroom
         - [ ] organize working desk
         - [ ] organize clothes
+            - [ ] public balcony
+            - [ ] my balcony
     - [ ] update
         - [ ] desiccants
             - [ ] bags

@@ -7,3 +7,4 @@
 - Xiangtan - Zhou's home
     - 大巴: 湘潭汽车站 - 射埠镇
     - 小巴: 射埠镇 - 巨鱼村
+        - time:

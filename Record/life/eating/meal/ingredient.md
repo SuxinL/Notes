@@ -32,3 +32,14 @@
 2. O: else choose online stores
     - F(fresh): 多多买菜
     - P(processed): jd
+
+## record
+
+- offline
+    - CS
+        - lankawei
+            - S
+                - 悦邻多
+                    - dumpling
+                        - 大牧情
+            - V: 优尔嘉

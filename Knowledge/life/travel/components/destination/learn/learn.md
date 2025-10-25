@@ -1,0 +1,191 @@
+# Learn
+
+- CASE
+    - HAIYANGMINGZHU:
+        - clothes
+            - washing machine
+        - eat
+            - ingredient stores
+            - rice cooker
+            - range hood
+            - fridge
+        - live
+            - AC
+            - table lamp
+            - hot bath machine
+        - transport
+            - **intercity**
+                - changsha - shaoyang
+            - intracity
+                - home - shaoyang railway station
+                - home - Shaoyang No.1 people hospital
+                - home - grandma care home
+    - PATERNAL_GRANDMA_HOME: 
+        - eat: The house is in a remote village where there is no grocery store nearby. I need to buy fresh in town.
+            - ingredient store
+        - live: learn to use
+            - AC
+            - hot bath machine
+        - transport: learn how to
+            - go to the house
+            - come from the house
+    - GUILIN/YUNNAN: trip
+        - eat
+            - restaurants
+            - snack stores
+        - live
+            - **hotel**
+            - WIFI
+            - AC
+            - hot bath machine
+        - transport
+            - intercity
+                - guilin
+                    - changsha - guilin: train
+                    - guilin - xingping: bus
+                    - xingping - yangshu: bus
+                - yunnan
+                    - changsha - kunming: airplane
+                    - kunming - dali: train
+                    - dali - lijiang: train
+                    - lijiang - shanggelila: bus
+            - intracity
+                - guilin
+                    - guilin
+                        - hotel -(motorcycle) mount xiangbi -(bus) 2 rivers 4 lakes
+                - yunnan
+                    - kunming
+                        - airport -(metro) hotel -(bus) F&V market -(**taxi**) bar -(bus) walking street -(**taxi**) hotel
+                        - hotel -(bus) Yunan university -(walk) cuihu park -(walk) kunming old street -(**taxi**) hotel
+                        - hotel -(**taxi**) kunming railway station
+                    - dali
+                        - dali railway station
+                        - -> dali ancient town: bus
+                        - -> Mount cang: motorcycle
+                        - -> xizhou: motorcycle
+                        - -> shuanglang: motorcycle
+                        - -> dali railway station: motorcycle
+                    - lijiang
+                        - inside lijiang ancient town: walk
+    - SZ: visit
+        - clothes
+            - washing machine
+        - eat
+            - meal
+                - cook
+                    - ingredient stores
+                    - e pot
+                    - kettle
+                    - rice cooker
+                    - fridge
+                - buy
+                    - restaurants
+            - snack
+                - snack stores
+        - live
+            - WIFI
+            - AC
+            - hot bath machine
+        - transport
+            - intercity
+                - changsha - shenzhen
+            - intracity
+                - shenzhen E station - Zhou's room
+                - room - luohu port
+    - HK: visit
+        - **go abroad**
+            - visa
+            - currency exchange
+        - eat
+            - restaurants
+            - snack stores
+        - live
+            - hotel
+            - AC
+            - hot bath machine
+            - door
+            - WIFI
+        - transport
+            - metro
+            - **network**
+    - US: study
+        - go abroad
+            - visa
+            - currency
+        - clothes
+            - stores
+            - washing machine
+        - eat
+            - meals
+                - cook
+                    - ingredient stores
+                    - appliance
+                        - rice cooker
+                        - microwave oven
+                        - stove
+                        - range hood
+                        - fridge
+                - buy
+                    - restaurants
+            - snacks
+                - snack stores
+        - live
+            - **rental house**
+            - appliances
+                - AC
+                - fans
+        - transport
+            - taxi
+            - bus
+    - BJ: work
+        - clothes
+            - stores
+            - washing machine
+        - eat
+            - meals
+                - cook
+                    - ingredient stores
+                    - range hood
+                    - kettle
+                    - e boiler
+                    - fridge
+                - buy
+                    - restaurants
+            - snacks
+                - snack stores
+        - live
+            - rental house
+            - appliance
+                - gate lock
+                - AC
+                - hot bath machine
+                - WIFI
+        - transport
+            - bus
+            - metro
+- THOUGHT
+    - CONDITION
+        - NEW_ENV: travel to a new env.
+    - PURPOSE
+        - EFFICIENCY
+            - COST: reduce the cost of repeat failing and trying
+            - REALTIME_COMFORT: avoid the discomfort that I am unclear of sth when I am about to use it.
+        - SAFETY
+    - PRINCIPLE
+        - for COST
+            - ONE_TIME_INVESTMENT
+                - LEARN_BEFORE_USE: learn systematically to reuse the knowledge to cases.
+        - for REALTIME_COMFORT
+            - OUTSIDE
+                - LEARN_BEFORE_ARRIVE: get familiar with env outside the house before arriving at the place.
+                    - transport
+                    - stores
+            - INSIDE
+                - CASE_SPECIFY: get familiar with a specific home appliance by specifying my general knowledge for the case.
+    - PROCEDURE
+        1. O: learn knowledge outside the house BEFORE **departure**
+            1. C: if going to another country
+            2. T: transport
+            3. H: house
+            4. S: stores near the chosen house
+        2. I: learn appliance inside ONCE **arriving at the house**

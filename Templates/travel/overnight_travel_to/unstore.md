@@ -1,0 +1,17 @@
+
+    - [ ] unstore
+        - [ ] live
+            - [ ] cup
+            - [ ] tissue paper
+            - [ ] waste bin
+        - [ ] sleep
+            - [ ] comforter
+            - [ ] bed sheet
+            - [ ] nightstand
+        - [ ] eating
+            - [ ] water
+            - [ ] if >= 3 days
+                - [ ] chilled foods
+                    - [ ] fresh
+                    - [ ] cooked
+                - [ ] utensils

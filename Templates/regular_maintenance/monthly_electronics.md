@@ -28,7 +28,10 @@
             - [ ] media
                 - [ ] pic
                 - [ ] video
+                - [ ] audio
             - [ ] doc
             - [ ] app
                 - [ ] packages
                 - [ ] data
+                    - [ ] log
+                    - [ ] cache
