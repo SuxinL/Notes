@@ -24,6 +24,7 @@
             - [ ] utensil
                 - [ ] cup
                 - [ ] spoon
+                - [ ] kettle
             - [ ] food
                 - [ ] breakfast
                     - [ ] breads
@@ -44,7 +45,7 @@
                 - [ ] socks
             - [ ] weather
         - [ ] clear
-            - [ ] tissue paper (on transport)
+            - [ ] tissue paper
             - [ ] snippers
             - [ ] eyeglasses cloth
             - [ ] hair
