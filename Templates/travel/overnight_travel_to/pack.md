@@ -26,6 +26,7 @@
                 - [ ] spoon
                 - [ ] kettle
             - [ ] food
+                - [ ] water
                 - [ ] breakfast
                     - [ ] breads
                     - [ ] oatmeal
@@ -33,7 +34,6 @@
                     - [ ] sugar
                 - [ ] coffee            
                 - [ ] if long transport
-                    - [ ] water
                     - [ ] sandwich
                 - [ ] if rural
                     - [ ] water

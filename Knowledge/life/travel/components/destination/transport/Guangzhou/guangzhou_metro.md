@@ -12,6 +12,7 @@
                 - 公共交通乘车码
                     - official APP
                         - 广州地铁
+                        - 羊城通
                     - mini program
                         - 微信
                         - 支付宝
@@ -22,6 +23,7 @@
                 - segment charging: https://appmsg.gzmtr.cn/DNSFile/newshtml/8deab1f8-7fdc-43d5-b65f-f2861c3e4ba0.html
             - discount
                 - official
-                    - threshold: https://www.gz.gov.cn/zwfw/zxfw/jtfw/content/post_9178409.html
+                    - **discount on accumulated spending**: https://www.gz.gov.cn/zwfw/zxfw/jtfw/content/post_9178409.html
                 - Unipay
                     - daily random discount: https://content.cup.com.cn/UCIWeb/outputWeb/coupon/coupon.html#/couponDetail?couponId=2102025092902063
+        - priority people
