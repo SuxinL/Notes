@@ -1,15 +1,15 @@
 # Bag V.S Box
 
-To store and transfer a large number of belongings, we need containers like bags or boxes.
-
 | Aspect | Bag | Box |
 | --- | --- | --- |
-| volume | can be very large | can be large (71cm-51cm-42cm)|
-| waterproof | yes | yes |
-| strike protection | elasticity -> weak | hard walls -> strong |
-| stack storage | no | yes |
-| space saving when not used | yes, foldable | less |
-| portability | handlers -> costing energy | wheels -> easy |
-| price | low | high |
-| material | cloth/plastic | plastic/paper |
-| use cases | things resisting to strikes: clothes, comforters, shoes | fragile things: electronics, books, handicrafts, bottles |
+| material | plastic, cloth | paper, plastic, wood |
+| property | thin & soft | thick & hard |
+| money | LOW | HIGH |
+| pack time | ~ | ~ |
+| move labor | HIGH: I need to pick a bag up by the thin handle. | LOW: many boxes have soft handles and wheels. |
+| **capacity** | various | various |
+| strength | WEAK: heavy items will tear bags. | STRONG |
+| space efficient | LOW | HIGH: boxes can be stacked up. |
+| anti-shock | LOW | HIGH |
+| anti-sharp | LOW | HIGH |
+| use case | other normal cases | For the object: 1. Important: electronics, documents, jewelry 2. Fragile: glass, ceramic, dishes, handicraft 3. Sharp: needles, knives, mechanical units. For context: 1. little space to Store: table, small room 5. heavy to Transport |

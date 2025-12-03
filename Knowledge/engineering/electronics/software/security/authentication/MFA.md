@@ -66,8 +66,25 @@ Multiple Factor Authentication is a kind of authentication process in which more
 | Possession | stable | vulnerable to phishing, snuffing, stealing and MIIM attacks |
 | Behavior | no operations needed from user side | large resources needed |
 
-	
-		
+## Recovery Codes
+
+- mind
+	- main points
+		- what
+			- codes to use when the second authentication method is unavailable.
+		- purpose
+			- safety
+				- to avoid an account being locked.
+	- state
+		```mermaid
+		flowchart LR
+		V(valid)
+		I(invalid)
+
+		V -->|use| I
+		V -->|generate new codes| I
+		V -->|turn off then on 2FA| I
+		```	
 		 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTA1NzI4ODYxM119

@@ -21,7 +21,7 @@
 - sys
     - main points
         - what
-            - a system to inform the user something about an APP from outside the APP.
+            - a system to inform the user something about an APP **when the APP is not at foreground.**
         - purpose
             - efficiency
                 - keep updated
@@ -31,7 +31,6 @@
         - components
             - APP
             - OS
-            - notification presentation
         - management
             - interaction
                 - interface
@@ -42,18 +41,44 @@
                     A(APP)
                     O(OS)
 
-                    A -->|notification request| O --> N[/notification presentation/]
+                    A -->|notification request| O
                     ```
                 - mode
                     - whole process
-                        1. EVENT_OCCUR: An event occurs inside an APP.
-                        2. APP_CHECK: If notification is enabled for this type of event, then the APP send a notification request to the OS.
-                        1. CHANNEL_CHECK: The OS decides which presentations are enabled for this request.
-                        2. MODE_CHECK: The OS checks the current system mode for additional filters.
-                        3. DISPLAY: The finally allowed presentations are displayed.
+                        1. Event: An event occurs inside an APP.
+                        2. App check: The APP checks if the notification is enabled for this type of event
+                        3. Send: if enabled then the APP sends a notification request to the OS.
+                        4. Os check: The OS checks the presentation config for this request.
+                        5. Display: The finally notification is displayed.
+
+- APP
+    - channels
+        - event types
+- OS
+    - body
+        - components
+            - notification presentation
+            - configs
+                - APPs
+                    - channels
+            - system mode
+        - management
+            - data transfer
+                ```mermaid
+                flowchart LR
+                subgraph I
+                    C(channel config)
+                    M(system mode)
+
+                    C---|intersection|M
+                end
+                P(final presentation)
+
+                I -->|determine| P
+                ```
 - notification presentation
     - body
-        - types
+        - component
             - vision
                 - notification drawer
                 - status bar
@@ -63,43 +88,37 @@
             - hearing
                 - sound
                 - vibration
-- APP
-    - channels
-        - event types
-- OS
-    - body
-        - components
-            - APPs config
-                - channels config
         - management
-            - OS modes
-                - normal
-                - DND
-                - silent
-                
-                | Aspect | DND | silent |
-                | --- | --- | --- |
-                | Purpose | not to disturb the device user itself | not to disturb others |
-                | config labor | high | low |
-                | config grain level | APP | system |
-                | enable different profiles | Y | N |
-                | use cases | 1. work 2. sleep | in public space |
-            - channel config modes
-                - off
-                - silent
-                - snooze
-                - normal
-                - private
-                - important
+            - interaction
+                - modes                
+                    - off
+                    - silent
+                    - snooze
+                    - normal
+                    - private
+                    - important
 
-                | mode | target channels | enabled presentation types|
-                | --- | --- | --- |
-                | off | 1. no value 2. distractions | no |
-                | silent | 1. not important 2. while using the device like notifications from VPNs or games | vision |
-                | snooze | when there are more important things | the notification displays later. |
-                | normal | normal | vision + hearing |
-                | private | 1. message 2. finance | not display the notification details on the lock screen |
-                | important | 1. message ||
+                    | mode | target channels | enabled presentation types|
+                    | --- | --- | --- |
+                    | off | 1. no value 2. distractions | no |
+                    | silent | 1. not important 2. while using the device like notifications from VPNs or games | vision |
+                    | snooze | when there are more important things | the notification displays later. |
+                    | normal | normal | vision + hearing |
+                    | private | 1. message 2. finance | not display the notification details on the lock screen |
+                    | important | 1. message ||
+- system mode
+    - normal
+    - DND
+    - silent
+    
+    | Aspect | DND | silent |
+    | --- | --- | --- |
+    | Purpose | not to disturb the device user itself | not to disturb others |
+    | config labor | high | low |
+    | config grain level | APP | system |
+    | enable different profiles | Y | N |
+    | enabled presentation component | notification drawer | vision |
+    | use cases | 1. work 2. sleep | in public space |
 - DND
     - main points
         - what
@@ -112,11 +131,10 @@
                     - meeting
                     - sleep
     - body
-        - components
-            - **affected** APPs
         - management
             - interaction
                 - exception
+                    - certain APPs
                     - starred contacts
                     - repeated calls
         - types
@@ -159,5 +177,3 @@
             ON -->|turn off manually| OFF
             ON -->|the duration ends| OFF
             ```
-- silent mode
-    - The hearing presentations are muted for almost all APPs.

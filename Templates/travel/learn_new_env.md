@@ -16,9 +16,15 @@
             - [ ] hotel
             - [ ] rental
         - [ ] S: stores near the house
-            - [ ] restaurant
-            - [ ] snack
+            - [ ] foods
+                - [ ] restaurant
+                - [ ] snack shop
+                - [ ] F&V market
             - [ ] grocery
+                - [ ] offline
+                - [ ] self-pick points
+            - [ ] life
+                - [ ] haircut shop
     - [ ] I: learn appliance inside ONCE **arriving at the house**
         - [ ] safety
             - [ ] door lock

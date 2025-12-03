@@ -1,10 +1,16 @@
-- 10-yuan haircut shops near LanKaWei
-    - **捷剪**
-        - 通程佳惠: 9:30-21:00
-        - 保利
-    - 靓剪
-        - 新蓝湾: 9:00-21:00
-    - 德艺快剪
-        - 老鸦冲: 10:00-21:00
-            - work: good
-            - attitude: bad
+- CS
+    - LanKaWei
+        - 10-yuan haircut shops
+            - **捷剪**
+                - 通程佳惠: 9:30-21:00
+                - 保利
+            - 靓剪
+                - 新蓝湾: 9:00-21:00
+            - 德艺快剪
+                - 老鸦冲: 10:00-21:00
+                    - work: good
+                    - attitude: bad
+- SZ
+    - HengLingTang
+        - 10-yuan
+            - 美丽100
