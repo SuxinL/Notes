@@ -1,0 +1,11 @@
+- env
+- clothes
+- B: hot bag
+- windows
+- W: water
+- clean
+- N: scarf
+- eyeglasses
+- W: water
+- water
+- B: hot bag

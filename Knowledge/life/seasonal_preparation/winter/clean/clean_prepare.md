@@ -1,0 +1,34 @@
+# Winter Clean Stuff Preparation
+
+- CASE
+    - BRUSH_TEETH: mouth feels uncomfortable.
+    - WASH_HANDS: tap water is very cold.
+    - BATH: hot water is a must.
+- THOUGHT
+    - CONDITION
+        - WINTER
+    - PURPOSE
+        - EFFICIENCY
+            - COST
+                - M: save money
+                - T: I want instant hot water when using.
+                - L: not need to boil each time when using.
+            - COMFORT
+        - SAFETY
+            - AVOID_COLD
+    - PRINCIPLE
+        - setup hot water
+            - for M
+                - STABLE
+                    - BOIL_THEN_OFF: boil once, then turn off the device and let the tub reduce heat loss.
+            - for T, L
+                - KEEP_WARM: keep the water always warm.
+            - for BOIL_THEN_OFF V.S KEEP_WARM
+                - BALANCE
+                    - LOW_ENERGY_STATE: keep the water heater at warming state with a low energy level.
+            - for COMFORT, AVOID_COLD
+                - USE_HOT_WATER: do not use cold water directly. 
+    - PROCEDURE
+        - Procedure
+            - hot water
+                - H: keep the water heater at a low-energy warming state 

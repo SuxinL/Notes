@@ -15,3 +15,10 @@
         - snack
             - peach: 1h
             - nuts: 1h
+    - house
+        - clean
+            - moisture
+                - CaCl2 bag
+                    - summer: 1w
+                    - winter: 3w
+                - silica gel

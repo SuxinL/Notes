@@ -1,0 +1,101 @@
+# Winter live prepare
+
+- CASE
+    - BODY
+        - COTTON_COAT: I feel warm enough wearing it.
+    - FEET
+        - COTTON_BOOT: always wear them in winter.
+        - THICK_COTTON_SOCKS_IF_NEEDED: I change to thick cotton socks if normal ones are not enough.
+        - HOT_FAN_IN_THE_LAST: I use a hot fan if my feet still feel cold. 
+    - HAND
+        - GLOVES_AFFECT_TYPING: gloves warm my hands, but hinder my typing.
+        - HOT_BOTTLE: Sometimes I grab a cup of hot drinks, but caution is needed.
+        - HOT_WATER_BAG: I usually use an electric hot water bag which can work for hours.
+    - NECK
+        - AIR_COLD: My neck feels cold in the air.
+        - SCARF: The scarf keeps my neck warm well.
+    - AC_IN_EXTREME_COLD: as the last resort.
+- THOUGHT
+    - CONDITION
+        - COLD
+        - INSIDE
+    - PURPOSE
+        - EFFICIENCY
+            - COST
+                - M: low
+                - T: instant use
+                - L: easy setup
+            - COMFORT
+            - ELE_WORKING
+                - TOUCH_UI
+                    - KEYBOARD
+                    - SCREEN
+        - SAFETY
+            - WARMTH
+            - ELECTRICITY
+    - PRINCIPLE
+        - principle specification
+            - for WARMTH
+                - HEAT-TRANSFER
+            - for M & ELECTRICITY
+                - REUSE
+                    - GENERAL
+                        - ONE-TIME-INVESTMENT
+                            - TOOL
+                                - STABLE
+                                    - ELECTRICITY_LAST: use tools without energy support first. tools to preserve heat.
+            - for COMFORT
+                - CLEAN_BEFORE_USE
+                - REALITY
+                    - SPACE
+                        - SPECTRUM
+                            - BALANCE
+                                - TIE: tie not too tightly.
+            - for ELE_WORKING
+                - REALITY
+                    - SPACE
+                        - INFINITE_DIVISION
+                            - DEPTH
+                                - DIVIDE&CONQUER
+                                    - TOUCH_POINT: sensitivity
+                                    - OTHER_PART: warmth
+        - BODY
+            - UPPER_BODY
+                - Cotton_coat
+                - Sweater
+            - LEG
+                - Cotton_pants
+                - Hot_fan
+        - HAND
+            - Hot_water_bag
+            - ~~Gloves~~
+                - ELE_WORKING
+        - NECK
+            - Scarf
+        - FEET
+            - Cotton_boats
+            - Thick_socks
+        - Problem solving: cold hands
+            - ROOM
+                - Ac
+            - NARROW_VESSEL
+                - Hot drinks
+                    - think as designer
+                        - Thermal_bottle
+    - PROCEDURE
+        - B: body
+            - U: upper body
+                - wear cotton coat
+                - wear sweater
+            - L: leg
+                - wear cotton pants
+                - use hot_fan
+        - N: neck
+            - wear scarf
+        - H: hand
+            - use hot water bag
+            - use AC
+            - use thermal bottle
+        - F: feet
+            - wear cotton boats
+            - wear thick socks

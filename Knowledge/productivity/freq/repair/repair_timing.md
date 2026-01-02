@@ -155,10 +155,11 @@
 
 ### PROCEDURE
 
-1. LC_HI: if low repair cost OR high idle harm accumulation
+1. **LC**_HI: if low repair cost OR high idle harm accumulation
     - N: repair now. 
 2. M: I can get multiple copies,
-    - B: repair as a batch in the end.
+    - A: repair all as a batch in the end.
 3. LU: if low use harm accumulation
     - R: repair after multi-reuse
-4. F: repair when free before reusing
+4. O: others
+    - F: repair when free before reusing

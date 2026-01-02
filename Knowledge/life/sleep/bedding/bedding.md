@@ -1,0 +1,24 @@
+# bedding
+
+- main points
+    - what
+        - a furniture for sleep.
+    - purpose
+        - efficiency
+            - comfort
+        - safety
+            - warmth
+- body
+    - components
+        - bed
+            - bed frame
+            - mattress
+            - pad
+        - cover
+    - management
+        - interaction
+            - interface
+                - body-bed
+                    - bed sheet
+                - head-bed
+                    - pillow

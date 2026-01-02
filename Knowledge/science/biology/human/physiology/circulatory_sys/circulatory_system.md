@@ -1,0 +1,42 @@
+# Circulatory System
+
+- env
+    - in
+        - dep
+        - input
+            - instruction
+            - raw material
+                - O2
+                    - interface
+                        - lung
+                            - capillary
+                            - sac
+                - nutrients
+                    - interface
+                        - small intestine
+                            - glucose, amino acids, water-soluble vitamines, minerals
+                                - capillary
+                            - fatty acids, fat-soluble vitamines
+                                - lymphatic vessel   
+    - out
+        - target
+            - output
+                - O2
+                - nutrients
+            - object
+                - tissues
+                    - interface
+                        - capillary
+                        - membrane
+        - waste
+            - waste, extra water
+                - interface
+                    - kidney
+                        - nephron
+                            - glomerulus
+                            - tubule
+            - CO2
+                - interface
+                    - lung
+                        - capillary
+                        - sac

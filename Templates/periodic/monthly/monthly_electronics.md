@@ -1,0 +1,41 @@
+
+- [ ] monthly maintenance
+    - [ ] electronics
+        - [ ] backup
+            - [ ] note
+            - [ ] password
+            - [ ] bookmark
+        - [ ] update
+            - [ ] laptop
+                - [ ] apps
+                    - [ ] VSCode
+                    - [ ] Chrome
+                - [ ] extensions
+            - [ ] phone
+                - [ ] util
+                    - [ ] Chrome
+                    - [ ] shopping
+                        - [ ] jd
+                        - [ ] pinduoduo
+                        - [ ] taobao
+                        - [ ] meituan
+                - [ ] productivity
+                    - [ ] BlockSite
+                - [ ] security
+                    - [ ] Bitwarden
+                    - [ ] Cloud189
+        - [ ] clean
+            - [ ] phone
+                - [ ] media
+                    - [ ] pic
+                    - [ ] video
+                    - [ ] audio
+                - [ ] doc
+                - [ ] app
+                    - [ ] packages
+                    - [ ] data
+                        - [ ] log
+                        - [ ] cache
+    - [ ] life
+        - [ ] wash floor
+        - [ ] cut hair

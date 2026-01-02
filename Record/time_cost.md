@@ -28,6 +28,7 @@
     - sleep
         - get up: 15 mins
         - nap: 1.5~2h
+        - resume an interrupted sleep: 4h
     - poop
         - shortest: 5 mins
         - average: 15 mins
@@ -63,7 +64,7 @@
                 - eat: 20 mins
             - yueguixiang
                 - take: 15 mins
-    - housing
+    - house
         - organize 
             - clothes
                 - take in + fold: 30 mins

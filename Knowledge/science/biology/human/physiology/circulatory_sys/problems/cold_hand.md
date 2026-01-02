@@ -1,0 +1,38 @@
+- cold hand <-
+    - more lose <-
+        - cold env
+    - less gain <- less metabolism <-
+        - sys 
+            - hand problem
+        - env
+            - less raw material <- less circulation
+                - sys
+                    - weak heart
+                    - narrow vessel <-
+                        - sys
+                            - high blood pressure
+                            - PAD
+                        - env
+                            - muscle constrict <- reaction
+                                - sys
+                                    - hand sensor
+                                        - oversensitive <-
+                                            - Lupus
+                                        - wrong sensation <-
+                                            - diabetes
+                                - env
+                                    - cold
+                            - smoking
+                    - poor red blood cell
+                        - quantity <- lose
+                            - woulds
+                        - quality <- 
+                            - env
+                                - iron deficiency
+                                - vb-12 deficiency
+                - env
+                    - less raw material 
+            - less control
+                - less hormone <-
+                    - env
+                        - time: aging

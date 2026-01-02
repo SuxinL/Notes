@@ -1,0 +1,25 @@
+
+- [ ] practice
+    - [ ] self control
+        - [ ] anatomy
+            - [ ] cook
+            - [ ] travel
+        - [ ] no temptation
+            - [ ] phone
+                - [ ] getup
+                - [ ] meal
+                - [ ] toilet
+            - [ ] entertainment
+                - [ ] game
+                - [ ] outside
+            - [ ] attractive guy
+        - [ ] be patient
+            - [ ] options before choice
+            - [ ] learn before using
+                - [ ] device
+                - [ ] place
+            - [ ] test & clean
+            - [ ] self guide
+    - [ ] one more step
+        - [ ] last chores
+    - [ ] open mind

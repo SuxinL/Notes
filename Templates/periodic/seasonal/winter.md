@@ -1,0 +1,26 @@
+
+- [ ] winter setup
+    - [ ] sleep
+        - [ ] cotton mattress pad
+        - [ ] wool bed sheet
+        - [ ] comforter
+        - [ ] cotton quilt
+    - [ ] live
+        - [ ] B: body
+            - [ ] U: upper body
+                - [ ] cotton coat
+                - [ ] sweater
+            - [ ] L: leg
+                - [ ] cotton pants
+                - [ ] hot_fan
+        - [ ] N: neck
+            - [ ] scarf
+        - [ ] H: hand
+            - [ ] hot water bag
+            - [ ] thermal bottle
+            - [ ] AC
+        - [ ] F: feet
+            - [ ] cotton boats
+            - [ ] thick socks
+    - [ ] clean
+        - [ ] water heater

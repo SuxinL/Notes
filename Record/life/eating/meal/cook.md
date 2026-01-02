@@ -10,7 +10,9 @@
         - frozen 
             - dish: hotpot mode, 800W, 5mins
             - soup: hotpot mode, 1000W, 4mins
-        - lettuce: stir-fry mode, 1000W, 40s
+        - veges
+            - lettuce: stir-fry mode, 1000W, 40s
+            - cabbage: stir-fry, 1300W, 2m
         - egg: pan-fry mode, 1000W, 1min/side
 - prepare
     - bamboo shoots
