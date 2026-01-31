@@ -1,0 +1,10 @@
+- work
+- personal
+    - id
+        - NOTES.personal_info
+- life
+    - store
+        - 美团>我的>收藏
+        - 美团>拼好饭>我的>我的收藏
+        - NOTES.closed_stores
+- entertainment

@@ -1,0 +1,3 @@
+- R: ride
+- S: spot
+- M: mall

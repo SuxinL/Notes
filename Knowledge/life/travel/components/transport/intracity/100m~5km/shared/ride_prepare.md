@@ -1,0 +1,23 @@
+# Ride Prepare
+
+- CASE
+    - ALARM: without alarms, I always forget to lock on time, then I am charged.
+- THOUGHT
+    - CONDITION
+        - BEFORE_RIDE: before starting to ride
+    - PURPOSE
+        - EFFICIENCY
+            - COST
+                - M: avoid additional charges
+            - MIND_PEACE: not to worry about when to lock the bike continually during riding.
+        - SAFETY
+    - PRINCIPLE
+        - for M
+            - LOCK_ON_TIME: lock within 1h
+        - for MIND_PEACE
+            - NO_THINK_TIME_DURING_RIDE: enjoy the ride and do not consider the time limit during ring.
+        - for LOCK_ON_TIME v.s NO_THINK_TIME_DURING_RIDE
+            - PREVENTION
+                - ALARM_AHEAD: set an alarm before each ride.
+    - PROCEDURE
+        - T: alarm

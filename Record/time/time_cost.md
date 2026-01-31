@@ -45,8 +45,9 @@
                 - cook: 15 mins
                 - eat: 25 mins
             - pancake: 15 mins
-            - noodle
-                - cook: 20mins
+            - mixed noodle
+                - cook: 25mins
+                - eat: 15mins
             - rice
                 - 1.5 cup
                     - cook: 30mins
@@ -64,19 +65,22 @@
                 - eat: 20 mins
             - yueguixiang
                 - take: 15 mins
-    - house
-        - organize 
-            - clothes
-                - take in + fold: 30 mins
-        - clean
-            - all dishes: 30 mins
-            - kitchen: ~30 mins
-            - clothes: 90 mins
-            - bath: 30mins
-        - set
-            - desiccant: 30mins
-        - buy groceries: 1h
+    - housekeeping
+        - weekly: 3h
+            - organize 
+                - clothes
+                    - take in + fold: 30 mins
+            - clean
+                - all dishes: 30 mins
+                - kitchen: ~30 mins
+                - clothes: 90 mins
+                - bath: 30mins
+            - setup
+                - desiccant: 30mins
+            - buy groceries: 1h
         - monthly electronics: 2h
+    - live
+        - hot bag charging: 8min
     - travel
         - prepare
             - plan: >= 4h
@@ -84,17 +88,25 @@
                 - basic: 1h
                 - task tools: 1h
             - store: 30 mins
-
         - transport
             - Changsha
-                - motorcycle
-                    - lankawei - haoxianglai: 10 ~ 20mins
+                - lankawei 
+                    - > xinmin rd cross
+                        - meituan e-bike: 15min at least
+                    - > haoxianglai
+                        - motorcycle: 10 ~ 20mins
+                    - > time square
+                        - meituan e-bike: 15min
+                    - > 51 square
+                        - meituan e-bike: 20min
+                - 鱼吃饼(蔡鄂北路店) - 贡茶 - KFC(乐和城店)
+                    - meituan e-bike: 10min
             - Shaoyang
                 - intercity
                     - maternal grandma's home
                         - public transport: 3h
                         - self drive: 1.5h
-                - city
+                - intracity
                     - bus
                         - 5: 双清区政府 - 人大路口: 15mins
                         - 18: 人大路口 - 火车南站: 15mins

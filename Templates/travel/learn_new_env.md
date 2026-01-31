@@ -8,9 +8,16 @@
         - [ ] T: transport
             - [ ] intercity
                 - [ ] ways
+                    - [ ] train
+                    - [ ] bus
             - [ ] intracity
                 - [ ] city layout
                 - [ ] ways
+                    - [ ] metro
+                    - [ ] bus
+                    - [ ] shared
+                        - [ ] e-bike
+                        - [ ] bike
         - [ ] H: house
             - [ ] existing
             - [ ] hotel

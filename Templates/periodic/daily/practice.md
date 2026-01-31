@@ -12,14 +12,24 @@
             - [ ] entertainment
                 - [ ] game
                 - [ ] outside
-            - [ ] attractive guy
-        - [ ] be patient
-            - [ ] options before choice
-            - [ ] learn before using
-                - [ ] device
-                - [ ] place
-            - [ ] test & clean
-            - [ ] self guide
+            - [ ] sex
+                - [ ] attractive guy
+        - [ ] patient
+            - [ ] task management
+                - [ ] self guide
+            - [ ] goal achievement
+                - [ ] option
+                    - [ ] options before choice
+                - [ ] prepare & act
+                    - [ ] learn before using
+                        - [ ] device
+                        - [ ] place
+                - [ ] test & clean
+            - [ ] learning
+                - [ ] learn
+                    - [ ] final test
+                        - [ ] check base
+                - [ ] recall
     - [ ] one more step
         - [ ] last chores
     - [ ] open mind

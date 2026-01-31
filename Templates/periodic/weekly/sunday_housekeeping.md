@@ -1,5 +1,5 @@
 
-- [ ] Sunday Housing
+- [ ] Sunday Housekeeping
     - [ ] wash clothes
     - [ ] kitchen
         - [ ] wash dishes
@@ -9,8 +9,8 @@
     - [ ] bedroom
         - [ ] organize working desk
         - [ ] organize clothes
-            - [ ] public balcony
-            - [ ] my balcony
+            - [ ] clothes
+            - [ ] socks & underwear
     - [ ] update
         - [ ] desiccants
             - [ ] bags
@@ -34,8 +34,9 @@
     - [ ] take a shower
     - [ ] prepare foods
         - [ ] buy snack
-            - [ ] fruits
             - [ ] nuts
+            - [ ] breads
+            - [ ] fruits
         - [ ] buy dumplings
         - [ ] dinner
             - [ ] staple

@@ -12,7 +12,7 @@
             - soup: hotpot mode, 1000W, 4mins
         - veges
             - lettuce: stir-fry mode, 1000W, 40s
-            - cabbage: stir-fry, 1300W, 2m
+            - cabbage: stir-fry mode, 1000W, 2m
         - egg: pan-fry mode, 1000W, 1min/side
 - prepare
     - bamboo shoots
