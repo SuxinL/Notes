@@ -1,0 +1,32 @@
+# Gauze Application
+
+- CASE
+    - SHORT_TAPE_LOOSE: The gauze is easy to detach if the tape used is too short.
+    - FLIP_BEFORE_APPLY: flip over the upper gauze to make the untouched and clear side face the anus.
+    - SIT_APPLY_LOOSE: If I apply gauze under a sitting posture, then it is easy to be loose.
+    - FULL_CONTACT_DISCOMFORT: it is very discomfortable to stand or sit if the gauze is attached to the anus fully.
+- THOUGHT
+    - CONDITION
+        - COVER_ANUS
+    - PURPOSE
+        - EFFICIENCY
+            - COMFORT: I feel comfortable in daily life.
+        - SAFETY
+            - HYGIENE: the gauze is not contaminated when being handled.
+            - DURABLE: The gauze does not detach easily.
+    - PRINCIPLE
+        - for COMFORT
+            - NOT_TOO_TIGHT
+        - for HYGIENE
+            - MINIMAL_EXPOSURE: flip the upper gauze right before attaching it.
+        - for DURABLE
+            - LONG_TAPE
+            - NOT_TOO_LOOSE
+        - for NOT_TIGHT v.s NOT_LOOSE
+            - BALANCE
+                - SQUAT_BUT_FLAT: attach the gauze when squatting, but keep it flat during being applied to reserve a space between it and the butt gap.
+    - PROCEDURE
+        - S: squat
+        - L: long tape
+        - F: flip
+        - F: flat

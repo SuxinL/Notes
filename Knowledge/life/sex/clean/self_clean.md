@@ -1,0 +1,18 @@
+- CASE
+    - LIQUID_REMAINS_ON_PUBIC_HAIR: liquid from the other remains on my pubic hair.
+    - SALIVA_ODOR: saliva from the other in my mouth.
+- THOUGHT
+    - CONDITION
+        - AFTER_SEX
+    - PURPOSE
+        - EFFICIENCY
+            - REMOVE_ODOR
+        - SAFETY
+            - REMOVE_STD_GERM
+    - PRINCIPLE
+        - for REMOVE_ODOR, REMOVE_STD_GERM
+            - PENIS
+            - MOUTH
+    - PROCEDURE
+        - P: penis
+        - M: mouth

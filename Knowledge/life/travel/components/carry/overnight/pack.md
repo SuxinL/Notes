@@ -31,7 +31,7 @@
                         - SPECIALTY: souvenir
     - PROCEDURE
         1. B: back
-            1. N: needed
+            1. P: personal
         2. N: not back
             1. A: all carried
             2. A: additional

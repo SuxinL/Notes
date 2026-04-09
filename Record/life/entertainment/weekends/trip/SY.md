@@ -1,0 +1,68 @@
+- [ ] SY trip
+    - [ ] nature
+        - [ ] mountain
+            - [ ] 城南公园
+            - [ ] 紫薇公园
+            - [ ] 佘湖山
+            - [ ] 无底洞
+        - [ ] water
+            - [ ] 资江
+            - [ ] 邵水河
+    - [ ] history
+        - [ ] building
+            - [ ] park
+                - [ ] 东塔
+                - [ ] 宝庆古城
+                - [ ] 北塔
+            - [ ] church
+                - [ ] 水府庙
+                - [ ] 育婴堂
+                - [ ] 清真东寺
+        - [ ] district
+    - [ ] modern
+        - [ ] 西湖桥
+        - [ ] 博物馆
+        - [ ] mall
+            - [x] 大汉
+            - [ ] 有阿
+            - [ ] 步步高新天地
+            - [ ] 地下街
+    - [ ] memory
+        - [ ] building
+            - [ ] school
+                - [ ] 机关幼儿园
+                - [ ] xxx小学
+                - [ ] 工人文化宫
+                - [ ] piano school
+                - [ ] 偕进小学
+                - [ ] 五中
+            - [ ] home
+                - [ ] 肉联厂
+                - [ ] 第一人民医院
+                - [ ] 海洋明珠
+            - [ ] store
+                - [ ] bookstore
+                    - [ ] 新华书店
+                - [ ] mall
+                    - [ ] 佳惠
+                    - [ ] 步步高
+                - [ ] restaurant
+                    - [ ] 金龙饭庄
+                    - [ ] 湘里人家
+                    - [ ] 江北龙虾
+                    - [ ] 百威
+                    - [ ] 银笛
+                    - [ ] 九贝香辣蟹
+                    - [ ] 红辣椒
+        - [ ] district
+            - [x] 塔北路
+                - [x] community
+                - [ ] old home
+                    - [ ] my friend
+                    - [ ] my aunt
+                    - [ ] the grandpa Li running a grocery store
+            - [x] port
+            - [ ] 三眼井
+            - [ ] 广场
+            - [ ] 通横街
+            - [ ] 青龙桥

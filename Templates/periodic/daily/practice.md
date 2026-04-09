@@ -15,21 +15,38 @@
             - [ ] sex
                 - [ ] attractive guy
         - [ ] patient
-            - [ ] task management
-                - [ ] self guide
-            - [ ] goal achievement
-                - [ ] option
-                    - [ ] options before choice
-                - [ ] prepare & act
-                    - [ ] learn before using
-                        - [ ] device
-                        - [ ] place
-                - [ ] test & clean
-            - [ ] learning
-                - [ ] learn
-                    - [ ] final test
-                        - [ ] check base
-                - [ ] recall
+            - [ ] defer
+            - [ ] think before doing
+            - [ ] gadget
+                - [ ] search
+                    - [ ] scope
+                        - [ ] cache before store
+                    - [ ] layer
+                        - [ ] structure before ask
+            - [ ] specific
+                - [ ] task management
+                    - [ ] routine
+                        - [ ] explore before handle
+                        - [ ] daily handle
+                    - [ ] self guide
+                - [ ] goal achievement
+                    - [ ] option
+                        - [ ] options before choice
+                    - [ ] prepare & act
+                        - [ ] learn before using
+                            - [ ] device
+                            - [ ] place
+                    - [ ] test & clean
+                - [ ] learning
+                    - [ ] learn
+                        - [ ] final test
+                            - [ ] check base
+                    - [ ] recall
+                - [ ] issue handle
+                    - [ ] proof
+                        - [ ] atomic
+                            - [ ] others
+                                - [ ] authority before 3rd party
     - [ ] one more step
         - [ ] last chores
     - [ ] open mind

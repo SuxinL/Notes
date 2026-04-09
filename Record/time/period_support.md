@@ -1,17 +1,22 @@
 - life
     - eating
         - meal
-            - oatmeal + bread: 3h
+            - oatmeal
+                - + bread: 3h
+                - of 3 cups only: 1.5h
             - dumpling
-                - 20~24ps: 4h
+                - 20: 4h
+                - 25: 5h
             - noodles
                 - mixed noodles: 5h
                 - ChangDe stir-fry noodles: 4h
                 - spicy chicken noodles at TeTe noodle shop: 7h
                 - instant noodles: 4h
+                - Shaoyang rice noodles: 5h
             - rice
                 - ShiXiangYuan pot rice: 5h
                 - YueGuiXiang: 4.5h
+                - Sanxi meat roll rice: 8h
         - snack
             - peach: 1h
             - nuts: 1h

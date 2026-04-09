@@ -79,15 +79,16 @@
             - PRIORITY
                 - PACK_BEFORE_STORE: before leaving a place, pack needed then store the place.
     - PROCEDURE
-        1. PERSONAL: for personal stuff
-            1. CARRY
-        2. IMPERSONAL: for impersonal
-            1. AVAILABLE: if available
-                1. REUSE
-            2. FRESH: for fresh foods
-                1. BUY
-            3. OTHERS
-                1. CITY
-                    1. BUY
-                2. RURAL
-                    1. CARRY
+        - Procedure
+            1. P: for personal stuff
+                1. carry
+            2. N: for impersonal
+                1. AVAILABLE: if available
+                    1. R: reuse
+                2. OTHERS: 
+                    1. Buy: buy, including foods and additional tools
+        - Buy        
+            1. C: if city
+                1. A: buy after arrival 
+            2. R: if rural
+                1. B: buy before arrival

@@ -3,6 +3,7 @@
         - [ ] ID
             - [ ] keys
             - [ ] cards
+        - [ ] task tools
         - [ ] electronics
             - [ ] phone
                 - [ ] device
@@ -14,12 +15,12 @@
                     - [ ] charger
                     - [ ] rack
                     - [ ] adapter
-        - [ ] task tools
-        - [ ] sleep
-            - [ ] eye mask 
-            - [ ] earplug
-            - [ ] if rural
-                - [ ] camp
+        - [ ] clothes
+            - [ ] if >= 3 days
+                - [ ] t-shirts
+                - [ ] underwear
+                - [ ] socks
+            - [ ] weather
         - [ ] eating
             - [ ] utensil
                 - [ ] cup
@@ -38,13 +39,12 @@
                 - [ ] if rural
                     - [ ] water
                     - [ ] instant foods
-        - [ ] clothes
-            - [ ] if >= 3 days
-                - [ ] t-shirts
-                - [ ] underwear
-                - [ ] socks
-            - [ ] weather
-        - [ ] clear
+        - [ ] sleep
+            - [ ] eye mask 
+            - [ ] earplug
+            - [ ] if rural
+                - [ ] camp
+        - [ ] clean
             - [ ] tissue paper
             - [ ] snippers
             - [ ] eyeglasses cloth

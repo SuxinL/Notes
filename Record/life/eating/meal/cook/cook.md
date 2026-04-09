@@ -12,8 +12,18 @@
             - soup: hotpot mode, 1000W, 4mins
         - veges
             - lettuce: stir-fry mode, 1000W, 40s
-            - cabbage: stir-fry mode, 1000W, 2m
-        - egg: pan-fry mode, 1000W, 1min/side
+            - cabbage: stir-fry mode, 1000W, 3mins
+        - egg: pan-fry mode, 1000W, 3mins
+            - white: edge
+            - yellow: center
+- home stove
+    - staple
+        - dumpling: level 5, 6mins
+        - noodle: level 5, 4mins
+    - dish
+        - veges
+            - lettuce: level 3, 2mins
+        - egg: level 1, 1 mins
 - prepare
     - bamboo shoots
         - preprocess
@@ -26,7 +36,12 @@
                     - as soup
                     - cube
     - noodle sauce
+        - pig oil
         - soy sauce
+            - 千禾金标生抽
+                - 3/4 spoon
+            - 李锦记味极鲜特级生抽
+                - 1 spoon 
         - chicken power
-        - green onion, pepper, pig oil
+        - white pepper
 

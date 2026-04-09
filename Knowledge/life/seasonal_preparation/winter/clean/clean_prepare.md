@@ -31,4 +31,4 @@
     - PROCEDURE
         - Procedure
             - hot water
-                - H: keep the water heater at a low-energy warming state 
+                - W: keep the water heater at a low-energy warming state 

@@ -1,0 +1,39 @@
+# Post Surgery Treatment
+
+- CASE
+    - BATH
+        - NOT_CLEAN_STOOL_WELL: bath itself can not clean stool remaining well.
+    - IR: Infrared treatment helps to heal the cut quickly.
+    - DRESS: main treatment
+- THOUGHT
+    - CONDITION
+        - DAILY: daily treatment
+    - PURPOSE
+        - EFFICIENCY
+            - COST
+                - L: reduced labor
+            - QUICK_RECOVER: recover quickly
+        - SAFETY
+            - CLEAN_CUT: ensure that the cut is clean.
+    - PRINCIPLE
+        - for L
+            - REUSE
+                - REUSE_RESULT
+                    - POOP_THEN_TREATMENT: I need to clean my anus after pooping and before the treatment, then arrange the 2 tasks together to clean only once.
+        - for QUICK_RECOVER
+            - IR
+        - for CLEAN_CUT
+            - REALITY
+                - SPACE
+                    - INFINITE_DIVISION
+                        - DEPTH
+                            - DIVIDE&CONQUER
+                                - SHOWER: when bath can not clean stool remaining well, I shower after pooping.
+    - PROCEDURE
+        - B: bath
+            - -> S: shower
+                - -> P: poop
+            - -> M: make bath liquid
+                - -> W: boil water
+        - F: infrared
+        - D: dress

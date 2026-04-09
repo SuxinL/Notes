@@ -1,0 +1,58 @@
+# Rental Notice
+
+- Check
+    - Tool
+        - CASE
+            - ONLINE: firstly pass out candidates missing tools based on their online introduction. 
+                - NO_KITCHEN_TOOLS
+                - NO_WASHING_MACHINE
+                - NO_WORKING_TABLE_CHAIR
+            - OFFLINE: rank final candidates based on the result of offline checking
+                - SHAKING_TABLE: The table in the first house is shaking, not good for working.
+                - NO_STOVE: There is no stove in the second house.
+                - NO_FRIDGE: No fridge and stove in the third house, but the landlord can supply.
+        - THOUGHT
+            - CONDITION
+                - CHECK_CANDIDATE_TOOLS: when checking provided tools of a candidate rental house.
+            - PURPOSE
+                - EFFICIENCY
+                    - COST
+                        - L: little labor
+                    - CHECK_MATCH_DEGREE: find out how much a tool meets my specific needs. 
+                - SAFETY
+                    - NO_MISS_OUT
+                    - FIND_ABSENT: find out tools that are included in the introduction but not present.
+                    - FIND_BROKEN: find out which tools are not working.
+            - PRINCIPLE
+                - for NO_MISS_OUT
+                    - STRUCTURE: organized all items to be check by structure
+                    - NOTE
+                        - CHECK_PROGRESS: write down to check progress.
+                - for L
+                    - NOTE
+                        - OFF_MIND: write down.
+                    - REUSE
+                        - SAME_GOAL: the same goal for all candidates.
+                - for FIND_ABSENT
+                    - SEARCH: search for the tool.
+                - for FIND_BROKEN
+                    - LEARNING
+                        - INITIAL_TEST
+                - for CHECK_MATCH_DEGREE
+                    - REALITY
+                        - SPACE
+                            - INFINITE_DIVISION
+                                - USE_LEVEL: specify my requirements of a tool
+                    - TEST
+                        - EXPECTATION & ACTUATION
+            - PROCEDURE
+                - ON: online
+                    - check existence
+                        - S: search the page
+                - OFF: offline
+                    - verify existence
+                        - S: search the house
+                    - check working
+                        - L: learn the tool
+                    - check match degree
+                        - C: compare expectation with actuation

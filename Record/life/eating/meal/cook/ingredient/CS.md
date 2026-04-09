@@ -34,10 +34,10 @@
                 - grocery
                     - [2040g/提 14卷/提 | 维达超韧4层加厚无芯卷纸](https://mobile.yangkeduo.com/ywgnpxpt.html?should_forward_type=1&shareable=true&store_id=3318196015175&share_act_type=1&recall_goods_sn=%5BEAI7-D1CXYDrLCyMwr-OQthB%5D&arugula_token=1769169531241-9f4ab8df8fb98be0&goods_sn=EAJS81V4z8BqaNdkyQifeNoB&_s_source=goods_share_top&refer_share_exp=default&title_type=-1&title_scene=share&sku_sn_list=EALRyQp9QaBKnZ2H3okiNKze&with_share_ticket=false&share_src=mall_list&_x_pic_style=spike&_oc_user_role=user&_x_goods_img_exp_for_share=optimize_share_pic_text&_x_cid=app_goods_card_share_user&_p_page=vgt_downgrade_share_landing&share_xcx_query=&share_source_page_name=fresh_goods&share_h5_land_img_key=mc%3Ash%3Ahash%3A632167770309%3A-515747906&refer_share_id=d684d033f4e74a28911ab00483e586d9&refer_share_uin=DBVM47W2DRTHH6XBATU2LCREG4_GEXDA&refer_share_channel=copy_link)
             - self-pick points
-                | Aspect | 乡村小厨 | 智美美客 | 湘豫印象 | 银州米粉 | 美宜佳 | 多多驿站 |
-                | --- | --- | --- |--- |--- |--- | --- |
-                | motorcycle route length | | 800m | 300m |  | 500m | 750m |
-                | open time || 10~22 | 10~14, 16(30)~24(1) || 10~22 | 9:30~21 |
-                | freezing support || Y | Y | **H: poor** | N | Y |
-                | attitude || | bad | | good | middle |
-                | use case ||| no frozen || / | frozen |
+                | Aspect | 乡村小厨 | 智美美客 | 湘豫印象 | 银州米粉 | 美宜佳 | 多多驿站 | 利众特价超市 |
+                | --- | --- | --- |--- |--- |--- | --- | --- |
+                | motorcycle route length | | 800m | 300m |  | 500m | 750m | 500m | 
+                | open time || 10~22 | 10~14, 16(30)~24(1) || 10~22 | 9:30~21 | |
+                | freezing support || Y | Y | **H: poor** | N | Y | N |
+                | attitude || | bad | | good | middle | good |
+                | use case ||| no frozen || / | frozen | / |

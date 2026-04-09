@@ -1,15 +1,13 @@
 
 - [ ] weekly limits
-    - [ ] entertainment 
-        - [ ] videos
+    - [ ] fun 
+        - [ ] video
             - [ ] long
                 - [ ] travel/eating
                     - [ ] 1
                     - [ ] 2
                 - [ ] race
                 - [ ] talk
-                    - [ ] 1
-                    - [ ] 2
                 - [ ] conspiracy theory
                     - [ ] 1
                     - [ ] 2
@@ -18,6 +16,9 @@
         - [ ] outdoor
             - [ ] mall
             - [ ] trip
+        - [ ] sex
+            - [ ] 1
+            - [ ] 2
     - [ ] buy foods
         - [ ] meals
             - [ ] 1
@@ -28,3 +29,7 @@
             - [ ] 1
             - [ ] 2
             - [ ] 3
+    - [ ] travel
+        - [ ] 1
+        - [ ] 2
+        - [ ] 3

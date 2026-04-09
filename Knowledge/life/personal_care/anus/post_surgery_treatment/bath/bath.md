@@ -1,0 +1,47 @@
+# Bath Treatment
+
+- CASE
+    - SIT_CLOSE_ANUS: The anus closes tightly when I sit in the basin, then it does not contact enough with the medicine.
+    - SQUAT_TIRED: If I squat the anus remains open, but it is easy to get tired.
+- THOUGHT
+    - CONDITION
+        - BATH_TREATMENT
+    - PURPOSE
+        - EFFICIENCY# Bath Treatment
+
+- CASE
+    - SIT_CLOSE_ANUS: The anus closes tightly when I sit in the basin, then it does not contact enough with the medicine.
+    - SQUAT_TIRED: If I squat the anus remains open, but it is easy to get tired.
+- THOUGHT
+    - CONDITION
+        - BATH_TREATMENT
+    - PURPOSE
+        - EFFICIENCY
+            - COST
+                - L: minimal labor
+            - LARGE_CONTACT: large contact between the anus and medicine.
+        - SAFETY
+    - PRINCIPLE
+        - for L
+            - PRESSURE_ON_BUTT: Do not use legs to support the body. Sit in the basin with the butt.
+        - for LARGE_CONTACT
+            - BEND_OPEN_LEG: bend and open legs to make the anus open.
+    - PROCEDURE
+        - labor
+            - S: sit
+        - contact
+            - BO:bend and open legs
+            - COST
+                - L: minimal labor
+            - LARGE_CONTACT: large contact between the anus and medicine.
+        - SAFETY
+    - PRINCIPLE
+        - for L
+            - PRESSURE_ON_BUTT: Do not use legs to support the body. Sit in the basin with the butt.
+        - for LARGE_CONTACT
+            - BEND_OPEN_LEG: bend and open legs to make the anus open.
+    - PROCEDURE
+        - labor
+            - S: sit
+        - contact
+            - BO:bend and open legs

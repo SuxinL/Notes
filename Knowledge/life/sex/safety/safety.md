@@ -1,0 +1,25 @@
+# Sex Safety
+
+- CASE
+    - CONDOM: a must to prevent STD
+    - BED_STAIN: my bed sheet will get stained if a cover is not used.
+- THOUGHT
+    - CONDITION
+        - ANAL_SEX
+    - PURPOSE
+        - EFFICIENCY
+        - SAFETY
+            - STD: prevent STDs
+            - BED_SHEET: avoid staining my bed sheet.
+    - PRINCIPLE
+        - for STD
+            - CUT_FLOW
+                - CONDOM: use a condom for every anal sex.
+        - for BED_SHEET
+            - CUT_FLOW
+                - COVER: use a cover on the bed.
+    - PROCEDURE
+        - std
+            - C: condom
+        - bed sheet
+            - C: cover

@@ -1,17 +1,55 @@
 
     - [ ] unstore
         - [ ] live
+            - [ ] water: **buy for the first day**
             - [ ] cup
             - [ ] tissue paper
             - [ ] waste bin
+        - [ ] env
+            - [ ] floor
         - [ ] sleep
-            - [ ] comforter
+            - [ ] cover
             - [ ] bed sheet
             - [ ] nightstand
-        - [ ] eating
-            - [ ] water
+        - [ ] work
             - [ ] if >= 3 days
-                - [ ] chilled foods
-                    - [ ] fresh
-                    - [ ] cooked
-                - [ ] utensils
+                - [ ] desk
+                - [ ] chair
+        - [ ] eating
+            - [ ] meal
+                - [ ] if >= 3 days
+                    - [ ] foods: buy
+                        - [ ] lunch
+                            - [ ] dumplings
+                        - [ ] dinner
+                            - [ ] staple
+                                - [ ] noodles
+                            - [ ] ingredient
+                                - [ ] egg
+                                - [ ] veges
+                            - [ ] condiment
+                                - [ ] oil
+                                - [ ] pig oil
+                                - [ ] salt
+                                - [ ] soy sauce
+                                - [ ] chicken powder
+                                - [ ] white pepper
+                    - [ ] utensils
+                        - [ ] cook
+                            - [ ] kettle
+                            - [ ] stove
+                            - [ ] pan
+                            - [ ] specular
+                            - [ ] range hood
+                        - [ ] eat
+                            - [ ] bowl
+                            - [ ] chopstick
+                            - [ ] spoon    
+                        - [ ] clean
+                            - [ ] washing gloves
+                            - [ ] washing sponge
+                            - [ ] dish washer
+                            - [ ] pool
+            - [ ] snack: buy
+                - [ ] bread
+                - [ ] fruit

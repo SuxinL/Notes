@@ -75,6 +75,7 @@
                 - kitchen: ~30 mins
                 - clothes: 90 mins
                 - bath: 30mins
+                - wash floor: 30mins
             - setup
                 - desiccant: 30mins
             - buy groceries: 1h
@@ -90,7 +91,7 @@
             - store: 30 mins
         - transport
             - Changsha
-                - lankawei 
+                - lankawei
                     - > xinmin rd cross
                         - meituan e-bike: 15min at least
                     - > haoxianglai
@@ -101,15 +102,19 @@
                         - meituan e-bike: 20min
                 - 鱼吃饼(蔡鄂北路店) - 贡茶 - KFC(乐和城店)
                     - meituan e-bike: 10min
+                - CS south railway station - lankawei: 1h
             - Shaoyang
                 - intercity
-                    - maternal grandma's home
+                - intracity
+                    - home - SY railway station: 40mins
+                    - home - maternal grandma's home
                         - public transport: 3h
                         - self drive: 1.5h
-                - intracity
                     - bus
                         - 5: 双清区政府 - 人大路口: 15mins
                         - 18: 人大路口 - 火车南站: 15mins
+    - health
+        - hemorrhoids post-surgery treatment: 90mins
 - entertainment
     - sex: 2h
         - chat

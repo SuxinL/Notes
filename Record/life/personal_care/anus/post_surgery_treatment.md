@@ -1,0 +1,6 @@
+- boil water
+    - volume of boiling: half the kettle
+- make bath liquid
+    - cold:hot = 2:1
+- dress
+    - tape:gauze = 3:1

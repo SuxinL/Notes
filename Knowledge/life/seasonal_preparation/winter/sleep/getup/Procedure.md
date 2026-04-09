@@ -1,5 +1,7 @@
+- F: hot fan on
 - env
 - clothes
+- F: hot fan off
 - B: hot bag
 - windows
 - W: water
