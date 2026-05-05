@@ -1,0 +1,30 @@
+# living
+
+- CASE
+    - WORKING_MAT: it frees my feet from the floor and shoes.
+- THOUGHT
+    - CONDITION
+        - FROM_SPRING
+    - PURPOSE
+        - EFFICIENCY
+            - COST
+                - L: minimal labor
+            - COMFORT
+        - SAFETY
+            - NO_COLD
+    - PRINCIPLE
+        - feet
+            - for L
+                - REUSE
+                    - ONE_TIME_INVESTMENT: set only once at start
+            - for COMFORT
+                - NO_SHOE_WHEN_WORK: not wear shoes when siting in chair, then I can switch my position freely.
+            - for NO_COLD
+                - BLOCKER
+                    - FEET_NOT_TOUCH_BARE_FLOOR
+            - for NO_SHOE_WHEN_WORK v.s FEET_NOT_TOUCH_BARE_FLOOR
+                - BLOCKER
+                    - MAT
+    - PROCEDURE
+        - feet
+            - mat

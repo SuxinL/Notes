@@ -1,0 +1,37 @@
+# get up
+
+- CASE
+    - ENV_MESS_IF_NO_ORGANIZE: The env will be messy if I do not organize well.
+    - CLOTHES: I still need to wear clothes.
+    - NO_NEED
+        - VENTILATION
+        - PERSONAL_CLEAN
+        - EYEGLASS_CLEAN
+        - WATER
+- THOUGHT
+    - CONDITION
+        - AFTER_NAP
+    - PURPOSE
+        - EFFICIENCY
+            - COST
+                - L: minimal labor
+            - QUICK_SEARCH
+        - SAFETY
+            - NO_COLD: not catch a cold
+    - PRINCIPLE
+        - for L
+            - REUSE
+                - SLEEP_GETUP: available result from the getup procedure of the previous sleep.
+                    - VENTILATION
+                    - PERSONAL_CLEAN
+                    - EYEGLASSES_CLEAN
+                    - WATER
+        - for QUICK_SEARCH
+            - STRUCTURE
+                - ENV_STRUCTURE: restore the structure of the env
+        - for NO_COLD
+            - WEAR_CLOTHES
+    - PROCEDURE
+        - procedure
+            - E: env
+            - C: clothes

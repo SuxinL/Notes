@@ -1,4 +1,8 @@
 - good
+    - fruit
+        - banana
+            - 广西高山
+                - 拼多多
     - bakery
         - bread
             - 两口子 黑巧牛乳厚吐司
@@ -31,3 +35,6 @@
     - drink
         - liquid
             - 书亦烧仙草 仙草麻薯奶绿
+    - candy
+        - fruit
+            - 不二家 果味棒棒糖

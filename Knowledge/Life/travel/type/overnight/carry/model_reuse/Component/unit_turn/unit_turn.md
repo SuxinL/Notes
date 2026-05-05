@@ -1,0 +1,31 @@
+# Unit Turn
+
+- CASE
+    - LEAVE: leave these for the current env
+        - STICKY_NOTE
+    - TAKE: take additional for the destination env
+        - TREATMENT
+        - GADGET
+        - HOSPITAL_BOND
+- THOUGHT
+    - CONDITION
+        - NP: not back pack
+    - PURPOSE
+        - EFFICIENCY
+        - SAFETY
+            - CURRENT_NEEDED: do not forget to leave these for current
+            - ADDITIONAL_DES_NEEDED: do not forget to take these additional for des
+    - PRINCIPLE
+        - for CURRENT_NEEDED, ADDITIONAL_DES_NEEDED
+            - STRUCTURE: keep item organized
+            - for CURRENT_NEEDED
+                - MOVE: move these items from Pack to Store
+            - for ADDITIONAL_DES_NEEDED
+                - NOTE: add these item to avoid forgetting
+    - PROCEDURE
+        - Procedure
+            - C: if the item is to leave for the current env
+                - M: move it from pack to store
+            - D: else the item is to bring for the destination
+                - N: if the item is not here
+                    - A: add it.

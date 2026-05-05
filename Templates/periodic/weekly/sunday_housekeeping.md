@@ -34,9 +34,9 @@
     - [ ] take a shower
     - [ ] prepare foods
         - [ ] buy snack
-            - [ ] nuts
             - [ ] breads
             - [ ] fruits
+            - [ ] nuts
         - [ ] buy dumplings
         - [ ] dinner
             - [ ] staple

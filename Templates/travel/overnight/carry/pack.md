@@ -1,0 +1,64 @@
+
+        - [ ] pack
+            - [ ] ID
+                - [ ] keys
+                - [ ] cards
+            - [ ] task tools
+            - [ ] electronics
+                - [ ] phone
+                    - [ ] device
+                    - [ ] charger
+                - [ ] earphone
+                - [ ] if >= 3 days
+                    - [ ] laptop
+                        - [ ] device
+                        - [ ] charger
+                        - [ ] rack
+                        - [ ] adapter
+            - [ ] clothes
+                - [ ] if >= 3 days
+                    - [ ] t-shirts
+                    - [ ] underwear
+                    - [ ] socks
+                - [ ] weather
+            - [ ] eating
+                - [ ] utensil
+                    - [ ] cup
+                    - [ ] spoon
+                    - [ ] kettle
+                - [ ] food
+                    - [ ] water
+                    - [ ] breakfast
+                        - [ ] breads
+                        - [ ] oatmeal
+                        - [ ] soy bean powder
+                        - [ ] sugar
+                    - [ ] coffee            
+                    - [ ] if long transport
+                        - [ ] sandwich
+                    - [ ] if rural
+                        - [ ] water
+                        - [ ] instant foods
+            - [ ] sleep
+                - [ ] eye mask 
+                - [ ] earplug
+                - [ ] if rural
+                    - [ ] camp
+            - [ ] clean
+                - [ ] tissue paper
+                - [ ] snippers
+                - [ ] eyeglasses cloth
+                - [ ] hair
+                    - [ ] shampoo
+                - [ ] face
+                    - [ ] shaver
+                - [ ] body
+                    - [ ] soap
+                    - [ ] towel
+                - [ ] teeth
+                    - [ ] toothbrush
+                    - [ ] toothpaste
+                    - [ ] cup
+                - [ ] if rural
+                    - [ ] cleaning alcohol
+            - [ ] specialty

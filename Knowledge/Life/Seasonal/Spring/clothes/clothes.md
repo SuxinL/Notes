@@ -1,0 +1,36 @@
+# clothes
+
+- CASE
+    - UP
+        - DOWN_JACKET_TOO_HOT
+        - T-SHIRT_TOO_COLD
+    - FEET
+        - THICK_SOCK_TOO_HOT
+        - COLD_IF_ANKLE_EXPOSED
+- THOUGHT
+    - CONDITION
+        - SPRING
+    - PURPOSE
+        - EFFICIENCY
+            - COMFORT
+                - COOL
+        - SAFETY
+            - WARMTH
+    - PRINCIPLE
+        - up
+            - for COOL v.s WARMTH
+                - BALANCE
+                    - JACKET
+        - feet
+            - for COOL v.s WARMTH
+                - BALANCE
+                    - MEDIUM_THICKNESS_SOCKS
+        - ankle
+            - for WARMTH
+                - BLOCKER
+                    - LONG_SOCKS
+    - PROCEDURE
+        - up
+            - jacket
+        - feet
+            - long medium-thickness socks

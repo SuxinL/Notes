@@ -48,5 +48,8 @@
                             - [ ] others
                                 - [ ] authority before 3rd party
     - [ ] one more step
-        - [ ] last chores
+        - [ ] no reluctance
+            - [ ] last chores
+        - [ ] no jump
     - [ ] open mind
+        - [ ] no bias

@@ -1,0 +1,40 @@
+# clothes
+
+- CASE
+    - UP
+        - DOWN_JACKET_WITH_HAT: normal clothes can not provide enough warmth.
+        - TOO_HOT: if wearing a down jacket.
+            - SCARF: no scarf needed
+            - SWEATER: no sweater needed
+    - FEET
+        - THICK_SOCKS: thick wool socks are a must.
+        - WOOL_INSOLE: add wool insole for additional warmth.
+- THOUGHT
+    - CONDITION
+        - WINTER
+    - PURPOSE
+        - EFFICIENCY
+            - COST
+            - COMFORT
+                - NOT_TOO_HOT
+        - SAFETY
+            - WARMTH
+                - UP
+                - FEET
+    - PRINCIPLE
+        - for UP
+            - DOWN_JACKET_WITH_HAT
+        - for FEET
+            - DIVIDE & CONQUER
+                - THICK_SOCK
+                - WOOL_INSOLE
+        - for DOWN_JACKET_WITH_HAT v.s NOT_TOO_HOT
+            - BALANCE
+                - NO_SCARF
+                - NO_SWEATER
+    - PROCEDURE
+        - up
+            - down jacket with hat
+        - feet
+            - thick socks
+            - wool insoles

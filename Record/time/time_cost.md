@@ -93,9 +93,9 @@
             - Changsha
                 - lankawei
                     - > xinmin rd cross
-                        - meituan e-bike: 15min at least
+                        - meituan e-bike: 15min
                     - > haoxianglai
-                        - motorcycle: 10 ~ 20mins
+                        - motorcycle: 10mins
                     - > time square
                         - meituan e-bike: 15min
                     - > 51 square
@@ -103,10 +103,17 @@
                 - 鱼吃饼(蔡鄂北路店) - 贡茶 - KFC(乐和城店)
                     - meituan e-bike: 10min
                 - CS south railway station - lankawei: 1h
+                    - lankawei - Guanshaling metro station exit 2: 10mins
+                    - Guanshaling metro station: exit 2 - board: 5mins
+                    - Guanshaling metro station - CS south railway station: 40mins
+                - Hongshan temple - bridge - opposite of temple
+                    - meituan bike: 1h
             - Shaoyang
                 - intercity
                 - intracity
-                    - home - SY railway station: 40mins
+                    - home - SY railway station
+                        - daytime: 40mins
+                        - evening: 50mins
                     - home - maternal grandma's home
                         - public transport: 3h
                         - self drive: 1.5h
@@ -120,7 +127,8 @@
         - chat
         - wait
         - sex
-    - watch videos
+    - videos
         - short: 1.5h
-    - visit
+    - gomoku: >3h
+    - travel
         - mall: 3h

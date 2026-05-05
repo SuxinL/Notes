@@ -1,0 +1,79 @@
+# sleep
+
+- CASE
+    - TOO_HOT
+        - WOOL_BED_SHEET
+        - COMFORTER
+    - TOO_COLD
+        - NO_SOCKS
+        - NOT_COVER_LEGS
+    - NO_PAD_THEN_DISCOMFORT: The mattress feels very tough if without a pad.
+- THOUGHT
+    - CONDITION
+        - SPRING_COME
+    - PURPOSE
+        - EFFICIENCY
+            - COST
+                - L: minimal labor
+            - COMFORT
+                - WHOLE_NOT_HOT: not feel hot
+                - BACK
+                    - BACK_NOT_HOT
+                    - BACK_NOT_TOUGH
+                - FEET
+                    - FEET_NOT_HOT
+                    - FEET_NOT_COLD
+                - LEG_NOT_COLD
+        - SAFETY
+            - AVOID_DIRTY_MATTRESS
+            - SAFETY_FEELING: a safety feeling to relax
+    - PRINCIPLE
+        - for L
+            - REUSE
+                - DEFAULT_FROM_WINTER: use left from winter unless otherwise specified 
+        - for WHOLE_NOT_HOT
+            - NO_COMFORTER: comforters are too hot during Spring.
+        - for BACK_NOT_HOT
+            - NO_WOOL_BED_SHEET
+        - for BACK_NOT_TOUGH
+            - BED_PAD
+        - for BACK_NOT_HOT v.s BED_PAD
+            - BALANCE
+                - THIN_BED_PAD
+        - for FEET_NOT_HOT v.s FEET_NOT_COLD
+            - BALANCE
+                - MEDIUM_SOCKS
+        - for LEG_NOT_COLD v.s NO_COMFORTER
+            - BALANCE
+                - THICK_QUILT
+        - for AVOID_DIRTY_MATTRESS
+            - BED_SHEET
+        - for BED_SHEET v.s NO_WOOL_BED_SHEET
+            - BALANCE
+                - COTTON_BED_SHEET
+        - for SAFETY_FEELING
+            - REALITY
+                - SPACE
+                    - INFINITE_DIVISION
+                        - DEPTH
+                            - DIVIDE&CONQUER
+                                - COVER_FOR_HEAD
+        - for COVER_FOR_HEAD v.s NO_COMFORTER
+            - BALANCE
+                - THIN_QUILT_FOR_HEAD
+    - PROCEDURE
+        - procedure
+            - bedding
+                - bed
+                    - bed pad
+                        - thin bed pad
+                    - bed sheet
+                        - cotton bed sheet
+                - cover
+                    - for body
+                        - thick quilt
+                    - for head
+                        - thin quilt
+            - wearing
+                - socks
+                    - medium socks

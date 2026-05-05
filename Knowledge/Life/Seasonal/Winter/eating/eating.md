@@ -1,0 +1,37 @@
+# eating
+
+- CASE
+    - SNACK
+        - FRUIT_COLD: It is too cold to eat fruits in winter.
+        - NUT: a good alternative source of fibers.
+- THOUGHT
+    - CONDITION
+        - SNACK_IN_WINTER: snacks in cold winter.
+    - PURPOSE
+        - EFFICIENCY
+            - COST
+                - M: cheap
+            - NUTRIENT
+                - FIBER: rich in fibers
+            - TASTE
+                - FLAVOR: not bad
+        - SAFETY
+            - WARMTH: keep my body warm in the cold winter.
+    - PRINCIPLE
+        - for M
+            - BUY_COMMON_ONLINE: buy common products online.
+        - for FIBER
+            - NUT_FRUIT
+        - for WARMTH
+            - NO_FRUIT
+        - for NUT_FRUIT v.s NO_FRUIT
+            - NUT
+        - for FLAVOR v.s NUT
+            - REALITY
+                - SPACE
+                    - INFINITE_DIVISION
+                        - DEPTH
+                            - DIVIDE&CONQUER
+                                - FLAVOR_PART: mixed the major less tasty part with a small tasty part
+    - PROCEDURE
+        - nut

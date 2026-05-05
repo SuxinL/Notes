@@ -1,0 +1,22 @@
+
+    - [ ] spring
+        - [ ] sleep
+            - [ ] bedding
+                - [ ] bed
+                    - [ ] bed pad
+                        - [ ] thin bed pad
+                    - [ ] bed sheet
+                        - [ ] cotton bed sheet
+                - [ ] cover
+                    - [ ] for body
+                        - [ ] thick quilt
+                    - [ ] for head
+                        - [ ] thin quilt
+        - [ ] clothes    
+            - [ ] up
+                - [ ] jacket
+            - [ ] feet
+                - [ ] long medium-thickness socks
+        - [ ] living
+            - [ ] feet
+                - [ ] mat

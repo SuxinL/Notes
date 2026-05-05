@@ -7,6 +7,7 @@
             - dumpling
                 - 20: 4h
                 - 25: 5h
+            - wanton: 4h
             - noodles
                 - mixed noodles: 5h
                 - ChangDe stir-fry noodles: 4h
