@@ -1,0 +1,5 @@
+- make
+    - milk tea: 4 spoons, 300ml
+- buy
+    - sugar: full
+    - ice: no

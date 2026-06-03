@@ -100,6 +100,8 @@
                         - meituan e-bike: 15min
                     - > 51 square
                         - meituan e-bike: 20min
+                    - DDMC - busy for you - shixiangyuan - lankawei
+                        - meituan e-bike: 15min 
                 - 鱼吃饼(蔡鄂北路店) - 贡茶 - KFC(乐和城店)
                     - meituan e-bike: 10min
                 - CS south railway station - lankawei: 1h

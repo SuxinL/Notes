@@ -1,5 +1,5 @@
 - LanKaWei
-    - offline shops
+    - offline
         - Price Comparison
             | Product | 多多买菜 | 悦邻多 | 优尔嘉 | 天恒 |
             | --- | --- | --- | --- | --- |
@@ -15,13 +15,15 @@
                 - 优尔嘉
             - else
                 - 悦邻多
-        - close time
+        - stores
             - 悦邻多
-                - summer
-                    - 10pm
-                - winter
-                    - 10/08
-                    - 9:30pm
+                - closing time
+                    - summer
+                        - 05/01: 10pm
+                    - winter
+                        - 10/08: 9:30pm
+                - items
+                    - 大牧情 猪肉香菇水饺
     - online 
         - 多多买菜 
             - good items

@@ -1,23 +1,67 @@
-- Asia
-    - CN
-        - 谢晋
-            - 天云山传奇
-            - [x] 牧马人
-            - [x] 芙蓉镇
-            - 老人与狗
-            - 最后的贵族
-            - 清凉寺钟声
-        - 张艺谋
-        - 冯小刚
-            - 天下无贼
-    - HK
-        - 徐克
-        - 周星驰
-        - 刘伟强
-    - TW
-    - JP
-        - 宫崎骏
-- West
-    - US
-        - James Cameron
-        - Steven Burger
+- director
+    - Asia
+        - CN
+            - 谢晋
+                - [ ] 天云山传奇
+                - [x] 牧马人
+                - [x] 芙蓉镇
+                - [ ] 老人与狗
+                - [ ] 最后的贵族
+                - [ ] 清凉寺钟声
+                - [ ] 鸦片战争
+            - 张艺谋
+                - [ ] 红高粱
+                - [ ] 菊豆
+                - [ ] 大红灯笼高高挂
+                - [ ] 秋菊打官司
+                - [ ] 活着
+                - [ ] 有话好好说
+                - [ ] 山楂树之恋
+            - 冯小刚
+                - [ ] 甲方乙方
+                - [ ] 没完没了
+                - [ ] 天下无贼
+                - [ ] 集结号
+                - [ ] 芳华
+                - [ ] 一九四二
+                - [ ] 大腕
+            - 陈凯歌
+            - 贾樟柯
+            - 娄烨
+        - HK
+            - 周星驰
+            - 徐克
+            - 刘伟强
+            - 吴宇森
+            - 王家卫
+            - 尔东升
+            - 陈可辛
+        - TW
+            - 邱
+        - JP
+            - 宫崎骏
+            - 黑泽明
+    - West
+        - US
+            - James Cameron
+            - Steven Burger
+            - Christina Nolan
+- genre
+    - action
+    - crime
+        - Mission Impossible
+    - romance
+    - comedy
+    - sci-fi
+        - [ ] the exposure day
+    - horror
+    - drama
+        - [x] the devil wears prada 2
+        - [ ] 老井
+        - [ ] 给阿嬷的情书
+    - history
+        - [ ] Odyssey
+        - [ ] list
+    - suspense
+    - biography
+        - [x] michael
