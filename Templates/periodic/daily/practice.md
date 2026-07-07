@@ -47,6 +47,8 @@
                         - [ ] atomic
                             - [ ] others
                                 - [ ] authority before 3rd party
+                                - [ ] 3rd
+                                    - [ ] rule of 3
     - [ ] one more step
         - [ ] no reluctance
             - [ ] daily handle

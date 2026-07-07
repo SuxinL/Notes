@@ -1,2 +1,0 @@
-- meituan
-    - e-bike: at most 5km in 15min

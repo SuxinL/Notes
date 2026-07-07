@@ -1,0 +1,4 @@
+- meituan
+    - e-bike
+        - 15min: 5km
+        - 20min: 7.5km

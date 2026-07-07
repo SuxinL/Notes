@@ -1,0 +1,32 @@
+# Thermos
+
+- env
+- sys
+    - thermos
+        - main points
+            - what
+                - a bottle to keep drink inside hot or cold for long
+            - purpose
+                - efficiency
+                    - + thermal insulation
+                        - conduction
+                        - convection
+                        - radiation
+        - body
+            - components
+                - vacuum flask
+                - sealing lid
+    - vacuum flask
+        - purpose
+            - efficiency
+                - reduce conduction
+                - reflect radiation
+        - body
+            - components
+                - outer flask
+                - inner flask
+            - management
+                - advanced
+                    - interface
+                        - vacuum in between
+                        - connected at the neck

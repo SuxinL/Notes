@@ -23,11 +23,10 @@
                 - [ ] closet inside clothes
         - [ ] cockroach
             - [ ] tapes
+                - [ ] kitchen cupboard
                 - [ ] fridge
-                - [ ] kitchen pool
                 - [ ] bed
                 - [ ] sofa
-                - [ ] cupboard
     - [ ] living room
         - [ ] clean floor
         - [ ] clean waste bucket

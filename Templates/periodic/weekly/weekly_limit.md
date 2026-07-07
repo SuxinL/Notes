@@ -3,11 +3,12 @@
     - [ ] fun 
         - [ ] video
             - [ ] long
-                - [ ] travel/eating
-                    - [ ] 1
-                    - [ ] 2
-                - [ ] race
-                - [ ] talk
+                - [ ] variety show
+                    - [ ] travel/eating
+                        - [ ] 1
+                        - [ ] 2
+                    - [ ] race
+                    - [ ] talk
                 - [ ] conspiracy theory
                     - [ ] 1
                     - [ ] 2

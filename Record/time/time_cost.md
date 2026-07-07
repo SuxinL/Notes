@@ -133,4 +133,5 @@
         - short: 1.5h
     - gomoku: >3h
     - travel
+        - ride: 3h
         - mall: 3h
